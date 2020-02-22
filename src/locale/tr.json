@@ -1,0 +1,317 @@
+{
+	"language": {
+		"_title": "Türk dili",
+		"langs": [
+			{
+				"name": "English",
+				"subName": "Language",
+				"introduce": "英文",
+				"tag": "en"
+			},
+			{
+				"name": "한국어",
+				"subName": "Language",
+				"introduce": "韩文",
+				"tag": "ko"
+			},
+			{
+				"name": "русский",
+				"subName": "Language",
+				"introduce": "俄语",
+				"tag": "ru"
+			},
+			{
+				"name": "বাংলা ভাষার",
+				"subName": "Language",
+				"introduce": "孟加拉语",
+				"tag": "bd"
+			},
+			{
+				"name": "日本語",
+				"subName": "Language",
+				"introduce": "日本语",
+				"tag": "jp"
+			},
+			{
+				"name": "Türk dili",
+				"subName": "Language",
+				"introduce": "土耳其语",
+				"tag": "tr"
+			},
+			{
+				"name": "اردو",
+				"subName": "Language",
+				"introduce": "乌尔都语",
+				"tag": "wu"
+			},
+			{
+				"name": "lingua italiana",
+				"subName": "Language",
+				"introduce": "意大利语",
+				"tag": "it"
+			},
+			{
+				"name": "Orang indonesia",
+				"subName": "Language",
+				"introduce": "印尼语",
+				"tag": "ins"
+			},
+			{
+				"name": "Tiếng việt nam",
+				"subName": "Language",
+				"introduce": "越南语",
+				"tag": "vn"
+			},
+			{
+				"name": "中文简体",
+				"subName": "Language",
+				"tag": "zh"
+			}
+		]
+	},
+	"nav": [
+		{
+			"name": "Ev",
+			"subName": "Homepage",
+			"path": "top"
+		},
+		{
+			"name": "Geliştirici",
+			"subName": "Developer",
+			"path": "https://github.com/marcopoloprotocol"
+		},
+		{
+			"name": "Teknik İnceleme",
+			"subName": "White Paper",
+			"path": "m-footer"
+		},
+		{
+			"name": "Cüzdan Uygulamasını İndir",
+			"subName": "Download",
+			"path": "http://www.marcopolopay.org/download"
+		}
+	],
+	"home": {
+		"banner": {
+			"_title": "Yeni Bir Eşler Arası Elektronik Nakit Sisteminin Temel Bilgileri",
+			"desc": [
+				"MarcoPolo Protokolü (MAP), mevcut halka açık zincirlerle TPS paylaşımını gerçekleştiren ve eşler arası elektronik nakit sistemlerinin uygulanmasını sağlayan çeşitli kamu zincirleri arasındaki işlemleri akıllı bir şekilde gönderen yeni bir eşler arası elektronik nakit sistemi altyapısı olan Softbank'ta stratejik bir yatırımdır. TPS'nin sınırsız genişlemesinin ve tüm blockchain ağının en iyi GAS'ının keyfini çıkarabilirsiniz. "
+			]
+		},
+		"chainInfo": [
+			{
+				"title": "Zincirler Arası Paylaşım",
+				"desc": [
+					"Birden fazla halka açık zincir arasında tps paylaşımı ve işlem planlaması elde etmek için brpc protokolü üzerinden diğer halka açık zincirlerle etkileşim"
+				]
+			},
+			{
+				"title": "Yüksek ölçeklenebilirlik",
+				"desc": [
+					"Mtp protokolü ile çoklu işbirliği zincirleri ve kıyaslama zincirleri arasındaki mesaj iletişimi, işlemlerin gerçekleştirilmesi"
+				]
+			},
+			{
+				"title": "Yerinden yönetim",
+				"desc": [
+					"Zincir dışı varlıkların katılmasına izin veren APoS konsensüs mekanizması daha merkezi ve güvenlidir"
+				]
+			},
+			{
+				"title": "Kullanımı kolay çerçeve",
+				"desc": [
+					"Gerekli fonksiyonel modüllerin rahatça geliştirilmesi için gerekli blockchain Delta dilini hızlı bir şekilde oluşturmak için MATE çerçevesine dayanmaktadır"
+				]
+			},
+			{
+				"title": "Zincirleme yönetişim",
+				"desc": [
+					"Tamamen açık bir zincirleme yönetişim sistemi ve teşvik mekanizması, MarcoPolo'nun gelişimini teşvik etmek ve teşvik etmek için topluluk tarafından yönlendiriliyor"
+				]
+			},
+			{
+				"title": "Asla Çatal",
+				"desc": [
+					"SMART sistemine dayanan MarcoPolo, çatalsız adaptif yükseltme yapabilir"
+				]
+			}
+		],
+		"pointsInfo": {
+			"title": "Eşler Arası Elektronik Nakit Sistemi Uygulaması Altyapısı",
+			"leftDescList": [
+				"Yerel çoklu para birimi desteği, bir hesap tüm para birimi adreslerini destekler.",
+				"Eşler arası ödemelerin hızlı ve düşük maliyetli uygulanmasını sağlamak için en iyi kamu zincirini seçin."
+			],
+			"centerDescList": [
+				"wasm sözleşme desteği btc gibi dijital para birimlerine sözleşme desteği getiriyor.",
+				"Yeni Delta akıllı sözleşme dili elektronik nakit senaryoları için sınırsız olanaklar sunuyor."
+			],
+			"rightDescList": [
+				"Zincirler arası tps paylaşımı, yüksek hızlı işlemler ve derin işlem paylaşımı sağlayan brpc ve mtp ile elde edilir."
+			]
+		},
+		"impareInfo": {
+			"title": "Topluluk Teşvikleri",
+			"list": [
+				{
+					"name": "PoB teşviki",
+					"desc": "PoB yapımı yoluyla topluluk inşaatını teşvik edin",
+					"icon": "pop"
+				},
+				{
+					"name": "Ekolojik Teşvik",
+					"desc": "Zincirleme yönetişim yoluyla uygulama geliştirmeyi teşvik edin",
+					"icon": "globe"
+				},
+				{
+					"name": "Teknik Teşvik",
+					"desc": "Zincirleme yönetişim ve teşviklerle küresel geliştiricilerin katılımını çekin",
+					"icon": "dev"
+				}
+			]
+		},
+		"roadmap": {
+			"_title": "Yol Haritası",
+			"mcont": [
+				{
+					"stage": "Birinci Aşama 2019.Q1",
+					"intr": "Gravity:",
+					"desc": [
+						"Birlikte çalışabilirlik bileşeninin Gravity geliştirilmesi tamamlandı. Gravity, BTC, ETH ve diğer fikir birliği dijital para birimlerini kullanarak üçüncü nesil yüksek performanslı kamu zincirleri ile kullanılabilir birlikte çalışabilirlik elde etmek, hesaplama gücünü ve performansını paylaşmak ve kademeli olarak genişletmek için kullanacak. Daha yüksek performanslı halka açık zincirler. "
+					]
+				},
+				{
+					"stage": "İkinci Aşama 2019.Ç3",
+					"intr": "Electromagnet:",
+					"desc": [
+						"Eşler arası perakende ödeme DApp Marco Pay yayınlanıyor",
+						"Pob topluluk yönetişimi dapp çevrimiçi."
+					]
+				},
+				{
+					"stage": "Üçüncü aşama 2020.Q4",
+					"intr": "Interaction:",
+					"desc": [
+						"APP, zincirleme yönetişim ve InteractChain mimari tasarımını mümkün kılan MarcoPolo'nun ana ağı StandardChain'in bağımsız araştırması ve geliştirilmesi başlatıldı."
+					]
+				},
+				{
+					"stage": "Dördüncü Aşama 2022.Q2",
+					"intr": " Grand Unification:",
+					"desc": [
+						"Heterojen çapraz zincir çalışabilirliği uygulayın ve zincirler arasında kaynak paylaşımını gerçekleştirin."
+					]
+				}
+			]
+		},
+		"partnerInfo": {
+			"title": "Ortak",
+			"list": [
+				{
+					"img": "softBank",
+					"link": "https://www.softbank.jp"
+				},
+				{
+					"img": "kuCoin",
+					"link": "https://trade.kucoin.com/spot"
+				},
+				{
+					"img": "yahoo",
+					"link": "https://news.yahoo.com/news/why-join-marcopolo-protocol-131500994.html"
+				},
+				{
+					"img": "coinMarket",
+					"link": "https://coinmarketcap.com/currencies/marcopolo-protocol/"
+				},
+				{
+					"img": "coinGecko",
+					"link": "https://www.coingecko.com/en/coins/marcopolo-protocol"
+				},
+				{
+					"img": "feiXiaoHao",
+					"link": "http://www.feixiaohao.com/currencies/marcopoloprotocol%20/"
+				},
+				{
+					"img": "crypto",
+					"link": "https://www.cryptocompare.com/coins/map/overview"
+				},
+				{
+					"img": "haoDeLian",
+					"link": "https://www.mytokencap.com/currency/map/821733067"
+				},
+				{
+					"img": "kSher",
+					"link": "https://www.ksher.com/"
+				},
+				{
+					"img": "kidd",
+					"link": "http://www.kidd.co.kr/news/213087"
+				},
+				{
+					"img": "zametki",
+					"link": "https://cryptorussia.ru/zametki/pochemu-stoit-prisoedinitsya-k-protokolu-marcopolo"
+				}
+			]
+		}
+	},
+	"footer": {
+		"_title": "Bizi takip et",
+		"mSupport": {
+			"copyright": "2019 MarcoPolo Network Foundation,All Rights Reseved",
+			"list": [
+				{
+					"name": "Geliştirici Desteği: developers@MarcoPolo.link",
+					"link": "developers@MarcoPolo.link"
+				},
+				{
+					"name": "Bize ulaşın: cooperation@MarcoPolo.link",
+					"link": "cooperation@MarcoPolo.link"
+				}
+			]
+		},
+		"fun": [
+			{
+				"name": "Çin Beyaz Kitabı",
+				"link": "https://files.marcopolo.link/pdf/marcopolo_whitePater_cn.pdf"
+			},
+			{
+				"name": "Ekonomik Model",
+				"link": "https://files.marcopolo.link/pdf/marcopolo_economic_cn.pdf"
+			}
+		],
+		"icon":  [
+			{
+				"i": "telegram",
+				"link": "https://t.me/MarcoPoloMAP"
+			},
+			{
+				"i": "twitter",
+				"link": "https://twitter.com/MarcoPoloGlobal"
+			},
+			{
+				"i": "facebook",
+				"link": "https://www.facebook.com/MarcoPolo-Protocol-107054464162905"
+			},
+			{
+				"i": "bitcointalk",
+				"link": "https://bitcointalk.org/index.php?topic=5215440.new#new"
+			},
+			{
+				"i": "naver",
+				"link": "https://blog.naver.com/marcopoloprotocol"
+			},
+			{
+				"i": "medium",
+				"link": "https://medium.com/@marcopoloprotocol"
+			},
+			{
+				"i": "kakao",
+				"link": "https://open.kakao.com/o/gI5fPXSb"
+			}
+		],
+		"download": {
+			"_title": "Uygulamayı şimdi indir",
+			"link": "http://www.marcopolopay.org/download"
+		}
+	}
+}

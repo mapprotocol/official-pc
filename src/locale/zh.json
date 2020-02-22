@@ -1,0 +1,317 @@
+  {
+    "language": {
+      "_title": "简体中文",
+      "langs": [
+        {
+          "name": "English",
+          "subName": "Language",
+          "introduce": "英文",
+          "tag": "en"
+        },
+        {
+          "name": "한국어",
+          "subName": "Language",
+          "introduce": "韩文",
+          "tag": "ko"
+        },
+        {
+          "name": "русский",
+          "subName": "Language",
+          "introduce": "俄语",
+          "tag": "ru"
+        },
+        {
+          "name": "বাংলা ভাষার",
+          "subName": "Language",
+          "introduce": "孟加拉语",
+          "tag": "bd"
+        },
+        {
+          "name": "日本語",
+          "subName": "Language",
+          "introduce": "日本语",
+          "tag": "jp"
+        },
+        {
+          "name": "Türk dili",
+          "subName": "Language",
+          "introduce": "土耳其语",
+          "tag": "tr"
+        },
+        {
+          "name": "اردو",
+          "subName": "Language",
+          "introduce": "乌尔都语",
+          "tag": "wu"
+        },
+        {
+          "name": "lingua italiana",
+          "subName": "Language",
+          "introduce": "意大利语",
+          "tag": "it"
+        },
+        {
+          "name": "Orang indonesia",
+          "subName": "Language",
+          "introduce": "印尼语",
+          "tag": "ins"
+        },
+        {
+          "name": "Tiếng việt nam",
+          "subName": "Language",
+          "introduce": "越南语",
+          "tag": "vn"
+        },
+        {
+          "name": "中文简体",
+          "subName": "Language",
+          "tag": "zh"
+        }
+      ]
+    },
+    "nav": [
+      {
+        "name": "首页",
+        "subName": "Homepage",
+        "path": "top"
+      },
+      {
+        "name": "开发者",
+        "subName": "Developer",
+        "path": "https://github.com/marcopoloprotocol"
+      },
+      {
+        "name": "白皮书",
+        "subName": "White Paper",
+        "path": "m-footer"
+      },
+      {
+        "name": "下载钱包App",
+        "subName": "Download",
+        "path": "http://www.marcopolopay.org/download"
+      }
+    ],
+    "home": {
+      "banner": {
+        "_title": "一种新型的点对点电子现金系统基础信息",
+        "desc": [
+          "MarcoPolo Protocol（MAP）由软银战略投资的，一个新型的点对点电子现金系统基础设施，实现与现有公链的TPS共享，通过交易在多种公链间的智能调度，使得点对点电子现金系统应用可以享受无限扩容的TPS和整个区块链网络最优GAS。"
+        ]
+      },
+      "chainInfo": [
+        {
+          "title": "链间共享",
+          "desc": [
+            "通过BRPC协议实现与其他公链交互实现在多个公链间的TPS共享与交易调度"
+          ]
+        },
+        {
+          "title": "高扩展性",
+          "desc": [
+            "通过MTP协议实现多个协同链与基准链的消息通讯，实现交易"
+          ]
+        },
+        {
+          "title": "去中心化",
+          "desc": [
+            "允许链外资产参与的APoS共识机制更加去中心化&安全"
+          ]
+        },
+        {
+          "title": "易用框架",
+          "desc": [
+            "基于MATE框架快速构建所需区块链Delta语言便捷开发所需功能模块"
+          ]
+        },
+        {
+          "title": "链上治理",
+          "desc": [
+            "完全开放的链上治理系统与激励机制由社区驱动激励并推动MarcoPolo的发展"
+          ]
+        },
+        {
+          "title": "永不分叉",
+          "desc": [
+            "基于SMART系统MarcoPolo可以实现自适应升级而不需要分叉"
+          ]
+        }
+      ],
+      "pointsInfo": {
+        "title": "点对点电子现金系统应用的基础设施",
+        "leftDescList": [
+          "原生多币种支持，一个账户支持所有币种地址。",
+          "选择最优公链，确保点对点支付快速低成本实现。"
+        ],
+        "centerDescList": [
+          "WASM合约支持，为BTC等数字货币带来合约化支持。",
+          "新型Delta智能合约语言，为电子现金场景提供无限可能。"
+        ],
+        "rightDescList": [
+          "通过BRPC与MTP实现链间TPS共享，提供高速交易与交易深度共享。"
+        ]
+      },
+      "impareInfo": {
+        "title": "社区激励机制",
+        "list": [
+          {
+            "name": "PoB激励",
+            "desc": "通过PoB建设激励社区共建",
+            "icon": "pop"
+          },
+          {
+            "name": "生态激励",
+            "desc": "通过链上治理机制鼓励应用发展",
+            "icon": "globe"
+          },
+          {
+            "name": "技术激励",
+            "desc": "通过链上治理与激励措施吸引全球开发者共同参与",
+            "icon": "dev"
+          }
+        ]
+      },
+      "roadmap": {
+        "_title": "路线图",
+        "mcont": [
+          {
+            "stage": "第一阶段 2019.Q1",
+            "intr": "Gravity:",
+            "desc": [
+              "互操作性组件Gravity开发完成，Gravity将BTC、ETH等共识强大的数字货币，与第三代高性能公链实现可用的互操作，共享算力和性能，后期逐步通过互操作性方式扩展至更多高性能公有链。"
+            ]
+          },
+          {
+            "stage": "第二阶段 2019.Q3",
+            "intr": "Electromagnet:",
+            "desc": [
+              "点对点零售支付DApp  Marco Pay上线",
+              "POB社区治理DAPP上线。"
+            ]
+          },
+          {
+            "stage": "第三阶段 2020.Q4",
+            "intr": "Interaction:",
+            "desc": [
+              "自主研发MarcoPolo主网StandardChain上线，实现APOS、链上治理、InteractChain等架构设计。"
+            ]
+          },
+          {
+            "stage": "第四阶段 2022.Q2",
+            "intr": " Grand Unification:",
+            "desc": [
+              "实现异构跨链可操作性，实现链间资源共享。"
+            ]
+          }
+        ]
+      },
+      "partnerInfo": {
+        "title": "合作伙伴和投资机构",
+        "list": [
+          {
+            "img": "softBank",
+            "link": "https://www.softbank.jp"
+          },
+          {
+            "img": "kuCoin",
+            "link": "https://trade.kucoin.com/spot"
+          },
+          {
+            "img": "yahoo",
+            "link": "https://news.yahoo.com/news/why-join-marcopolo-protocol-131500994.html"
+          },
+          {
+            "img": "coinMarket",
+            "link": "https://coinmarketcap.com/currencies/marcopolo-protocol/"
+          },
+          {
+            "img": "coinGecko",
+            "link": "https://www.coingecko.com/en/coins/marcopolo-protocol"
+          },
+          {
+            "img": "feiXiaoHao",
+            "link": "http://www.feixiaohao.com/currencies/marcopoloprotocol%20/"
+          },
+          {
+            "img": "crypto",
+            "link": "https://www.cryptocompare.com/coins/map/overview"
+          },
+          {
+            "img": "haoDeLian",
+            "link": "https://www.mytokencap.com/currency/map/821733067"
+          },
+          {
+            "img": "kSher",
+            "link": "https://www.ksher.com/"
+          },
+          {
+            "img": "kidd",
+            "link": "http://www.kidd.co.kr/news/213087"
+          },
+          {
+            "img": "zametki",
+            "link": "https://cryptorussia.ru/zametki/pochemu-stoit-prisoedinitsya-k-protokolu-marcopolo"
+          }
+        ]
+      }
+    },
+    "footer": {
+      "_title": "关注我们",
+      "mSupport": {
+        "copyright": "2019 MarcoPolo Network Foundation,All Rights Reseved",
+        "list": [
+          {
+            "name": "开发者支持：developers@MarcoPolo.link",
+            "link": "developers@MarcoPolo.link"
+          },
+          {
+            "name": "联系我们：cooperation@MarcoPolo.link",
+            "link": "cooperation@MarcoPolo.link"
+          }
+        ]
+      },
+      "fun": [
+        {
+          "name": "中文白皮书",
+          "link": "https://files.marcopolo.link/pdf/marcopolo_whitePater_cn.pdf"
+        },
+        {
+          "name": "经济模型",
+          "link": "https://files.marcopolo.link/pdf/marcopolo_economic_cn.pdf"
+        }
+      ],
+      "icon": [
+        {
+          "i": "telegram",
+          "link": "https://t.me/MarcoPoloMAP"
+        },
+        {
+          "i": "twitter",
+          "link": "https://twitter.com/MarcoPoloGlobal"
+        },
+        {
+          "i": "facebook",
+          "link": "https://www.facebook.com/MarcoPolo-Protocol-107054464162905"
+        },
+        {
+          "i": "bitcointalk",
+          "link": "https://bitcointalk.org/index.php?topic=5215440.new#new"
+        },
+        {
+          "i": "naver",
+          "link": "https://blog.naver.com/marcopoloprotocol"
+        },
+        {
+          "i": "medium",
+          "link": "https://medium.com/@marcopoloprotocol"
+        },
+        {
+          "i": "kakao",
+          "link": "https://open.kakao.com/o/gI5fPXSb"
+        }
+      ],
+      "download":{
+        "_title":"立即下载 App",
+        "link": "http://www.marcopolopay.org/download"
+      }
+    }
+  }

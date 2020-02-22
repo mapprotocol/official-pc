@@ -1,0 +1,317 @@
+{
+	"language": {
+		"_title": "lingua italiana",
+		"langs": [
+			{
+				"name": "English",
+				"subName": "Language",
+				"introduce": "英文",
+				"tag": "en"
+			},
+			{
+				"name": "한국어",
+				"subName": "Language",
+				"introduce": "韩文",
+				"tag": "ko"
+			},
+			{
+				"name": "русский",
+				"subName": "Language",
+				"introduce": "俄语",
+				"tag": "ru"
+			},
+			{
+				"name": "বাংলা ভাষার",
+				"subName": "Language",
+				"introduce": "孟加拉语",
+				"tag": "bd"
+			},
+			{
+				"name": "日本語",
+				"subName": "Language",
+				"introduce": "日本语",
+				"tag": "jp"
+			},
+			{
+				"name": "Türk dili",
+				"subName": "Language",
+				"introduce": "土耳其语",
+				"tag": "tr"
+			},
+			{
+				"name": "اردو",
+				"subName": "Language",
+				"introduce": "乌尔都语",
+				"tag": "wu"
+			},
+			{
+				"name": "lingua italiana",
+				"subName": "Language",
+				"introduce": "意大利语",
+				"tag": "it"
+			},
+			{
+				"name": "Orang indonesia",
+				"subName": "Language",
+				"introduce": "印尼语",
+				"tag": "ins"
+			},
+			{
+				"name": "Tiếng việt nam",
+				"subName": "Language",
+				"introduce": "越南语",
+				"tag": "vn"
+			},
+			{
+				"name": "中文简体",
+				"subName": "Language",
+				"tag": "zh"
+			}
+		]
+	},
+	"nav": [
+		{
+			"name": "Home",
+			"subName": "Homepage",
+			"path": "top"
+		},
+		{
+			"name": "Developer",
+			"subName": "Developer",
+			"path": "https://github.com/marcopoloprotocol"
+		},
+		{
+			"name": "White Paper",
+			"subName": "White Paper",
+			"path": "m-footer"
+		},
+		{
+			"name": "Scarica l'app Wallet",
+			"subName": "Download",
+			"path": "http://www.marcopolopay.org/download"
+		}
+	],
+	"home": {
+		"banner": {
+			"_title": "Informazioni di base su un nuovo sistema di cassa elettronico peer-to-peer",
+			"desc": [
+				"Il protocollo MarcoPolo (MAP) è un investimento strategico in Softbank, un nuovo tipo di infrastruttura di sistema di cassa elettronica peer-to-peer, che realizza la condivisione del TPS con catene pubbliche esistenti e invia in modo intelligente transazioni tra varie catene pubbliche attraverso transazioni, consentendo l'applicazione di sistemi di cassa elettronici peer-to-peer. Puoi goderti l'espansione illimitata di TPS e il GAS ottimale dell'intera rete blockchain."
+			]
+		},
+		"chainInfo": [
+			{
+				"title": "Interchain Sharing",
+				"desc": [
+					"Interazione con altre catene pubbliche attraverso il protocollo brpc per ottenere la condivisione dei tps e la pianificazione delle transazioni tra più catene pubbliche"
+				]
+			},
+			{
+				"title": "Alta scalabilità",
+				"desc": [
+					"Comunicazione dei messaggi tra più catene di collaborazione e catene di riferimento attraverso il protocollo mtp, realizzando transazioni"
+				]
+			},
+			{
+				"title": "Decentralization",
+				"desc": [
+					"Il meccanismo di consenso APoS che consente la partecipazione di risorse fuori catena è più decentralizzato e sicuro"
+				]
+			},
+			{
+				"title": "Framework di facile utilizzo",
+				"desc": [
+					"Basato sul framework MATE per creare rapidamente il linguaggio Delta blockchain richiesto per un comodo sviluppo dei moduli funzionali richiesti"
+				]
+			},
+			{
+				"title": "Governance su catena",
+				"desc": [
+					"Un sistema di governance on-chain completamente aperto e un meccanismo di incentivazione è guidato dalla comunità per stimolare e promuovere lo sviluppo di MarcoPolo"
+				]
+			},
+			{
+				"title": "Never Fork",
+				"desc": [
+					"MarcoPolo basato sul sistema SMART può ottenere un aggiornamento adattivo senza fork"
+				]
+			}
+		],
+		"pointsInfo": {
+			"title": "Infrastruttura per l'applicazione del sistema di cassa elettronica peer-to-peer",
+			"leftDescList": [
+				"Supporto multi-valuta nativo, un account supporta tutti gli indirizzi di valuta.",
+				"Scegli la migliore catena pubblica per garantire un'implementazione rapida ea basso costo dei pagamenti peer-to-peer."
+			],
+			"centerDescList": [
+				"il supporto del contratto wasm porta supporto contrattuale alle valute digitali come btc.",
+				"Il nuovo linguaggio del contratto intelligente Delta offre possibilità illimitate per scenari di contanti elettronici."
+			],
+			"rightDescList": [
+				"La condivisione tps inter-catena è ottenuta attraverso brpc e mtp, fornendo transazioni ad alta velocità e una profonda condivisione delle transazioni."
+			]
+		},
+		"impareInfo": {
+			"title": "Incentivi comunitari",
+			"list": [
+				{
+					"name": "incentivo PoB",
+					"desc": "Incentivare la costruzione di comunità attraverso la costruzione di PoB",
+					"icon": "pop"
+				},
+				{
+					"name": "Incentivo ecologico",
+					"desc": "Incoraggiare lo sviluppo di applicazioni attraverso la governance on-chain",
+					"icon": "globe"
+				},
+				{
+					"name": "Incentivo tecnico",
+					"desc": "Attrarre la partecipazione degli sviluppatori globali attraverso la governance e gli incentivi on-chain",
+					"icon": "dev"
+				}
+			]
+		},
+		"roadmap": {
+			"_title": "Roadmap",
+			"mcont": [
+				{
+					"stage": "First Stage 2019.Q1",
+					"intr": "Gravity:",
+					"desc": [
+						"Lo sviluppo della componente di interoperabilità Gravity è completato. Gravity utilizzerà BTC, ETH e altre valute digitali di consenso per raggiungere l'interoperabilità utilizzabile con la catena pubblica ad alte prestazioni di terza generazione, condividendo la potenza e le prestazioni di elaborazione e espandendosi gradualmente all'interoperabilità nelle fasi successive. Più catene pubbliche ad alte prestazioni."
+					]
+				},
+				{
+					"stage": "Second Stage 2019.Q3",
+					"intr": "Electromagnet:",
+					"desc": [
+						"Pagamento al dettaglio peer-to-peer DApp Marco Pay diventa attivo",
+						"Pob community governance dapp è online."
+					]
+				},
+				{
+					"stage": "Il terzo stadio 2020.Q4",
+					"intr": "Interaction:",
+					"desc": [
+						"La ricerca e lo sviluppo indipendenti della mainnet di MarcoPolo, StandardChain, sono stati lanciati, consentendo APOS, governance on-chain e progettazione dell'architettura InteractChain."
+					]
+				},
+				{
+					"stage": "Quarto stage 2022.Q2",
+					"intr": " Grand Unification:",
+					"desc": [
+						"Implementare l'operatività cross-chain eterogenea e realizzare la condivisione delle risorse tra catene."
+					]
+				}
+			]
+		},
+		"partnerInfo": {
+			"title": "Partner",
+			"list": [
+				{
+					"img": "softBank",
+					"link": "https://www.softbank.jp"
+				},
+				{
+					"img": "kuCoin",
+					"link": "https://trade.kucoin.com/spot"
+				},
+				{
+					"img": "yahoo",
+					"link": "https://news.yahoo.com/news/why-join-marcopolo-protocol-131500994.html"
+				},
+				{
+					"img": "coinMarket",
+					"link": "https://coinmarketcap.com/currencies/marcopolo-protocol/"
+				},
+				{
+					"img": "coinGecko",
+					"link": "https://www.coingecko.com/en/coins/marcopolo-protocol"
+				},
+				{
+					"img": "feiXiaoHao",
+					"link": "http://www.feixiaohao.com/currencies/marcopoloprotocol%20/"
+				},
+				{
+					"img": "crypto",
+					"link": "https://www.cryptocompare.com/coins/map/overview"
+				},
+				{
+					"img": "haoDeLian",
+					"link": "https://www.mytokencap.com/currency/map/821733067"
+				},
+				{
+					"img": "kSher",
+					"link": "https://www.ksher.com/"
+				},
+				{
+					"img": "kidd",
+					"link": "http://www.kidd.co.kr/news/213087"
+				},
+				{
+					"img": "zametki",
+					"link": "https://cryptorussia.ru/zametki/pochemu-stoit-prisoedinitsya-k-protokolu-marcopolo"
+				}
+			]
+		}
+	},
+	"footer": {
+		"_title": "Seguici",
+		"mSupport": {
+			"copyright": "2019 MarcoPolo Network Foundation,All Rights Reseved",
+			"list": [
+				{
+					"name": "Supporto per gli sviluppatori: developers@MarcoPolo.link",
+					"link": "developers@MarcoPolo.link"
+				},
+				{
+					"name": "Contattaci: cooperation@MarcoPolo.link",
+					"link": "cooperation@MarcoPolo.link"
+				}
+			]
+		},
+		"fun": [
+			{
+				"name": "Libro bianco cinese",
+				"link": "https://files.marcopolo.link/pdf/marcopolo_whitePater_cn.pdf"
+			},
+			{
+				"name": "Modello economico",
+				"link": "https://files.marcopolo.link/pdf/marcopolo_economic_cn.pdf"
+			}
+		],
+		"icon":  [
+			{
+				"i": "telegram",
+				"link": "https://t.me/MarcoPoloMAP"
+			},
+			{
+				"i": "twitter",
+				"link": "https://twitter.com/MarcoPoloGlobal"
+			},
+			{
+				"i": "facebook",
+				"link": "https://www.facebook.com/MarcoPolo-Protocol-107054464162905"
+			},
+			{
+				"i": "bitcointalk",
+				"link": "https://bitcointalk.org/index.php?topic=5215440.new#new"
+			},
+			{
+				"i": "naver",
+				"link": "https://blog.naver.com/marcopoloprotocol"
+			},
+			{
+				"i": "medium",
+				"link": "https://medium.com/@marcopoloprotocol"
+			},
+			{
+				"i": "kakao",
+				"link": "https://open.kakao.com/o/gI5fPXSb"
+			}
+		],
+		"download":{
+			"_title": "Scarica l'app ora",
+			"link": "http://www.marcopolopay.org/download"
+		}
+	}
+}

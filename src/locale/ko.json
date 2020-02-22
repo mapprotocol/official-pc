@@ -1,0 +1,315 @@
+{
+  "language": {
+    "_title": "한국어",
+    "langs": [
+      {
+        "name": "English",
+        "subName": "Language",
+        "introduce": "英文",
+        "tag": "en"
+      },
+      {
+        "name": "한국어",
+        "subName": "Language",
+        "introduce": "韩文",
+        "tag": "ko"
+      },
+      {
+        "name": "русский",
+        "subName": "Language",
+        "introduce": "俄语",
+        "tag": "ru"
+      },
+      {
+        "name": "বাংলা ভাষার",
+        "subName": "Language",
+        "introduce": "孟加拉语",
+        "tag": "bd"
+      },
+      {
+        "name": "日本語",
+        "subName": "Language",
+        "introduce": "日本语",
+        "tag": "jp"
+      },
+      {
+        "name": "Türk dili",
+        "subName": "Language",
+        "introduce": "土耳其语",
+        "tag": "tr"
+      },
+      {
+        "name": "اردو",
+        "subName": "Language",
+        "introduce": "乌尔都语",
+        "tag": "wu"
+      },
+      {
+        "name": "lingua italiana",
+        "subName": "Language",
+        "introduce": "意大利语",
+        "tag": "it"
+      },
+      {
+        "name": "Orang indonesia",
+        "subName": "Language",
+        "introduce": "印尼语",
+        "tag": "ins"
+      },
+      {
+        "name": "Tiếng việt nam",
+        "subName": "Language",
+        "introduce": "越南语",
+        "tag": "vn"
+      },
+      {
+        "name": "中文简体",
+        "subName": "Language",
+        "tag": "zh"
+      }
+    ]
+  },
+  "nav": [
+    {
+      "name": "홈페이지",
+      "subName": "Homepage",
+      "path": "top"
+    },
+    {
+      "name": "개발자",
+      "subName": "Developer",
+      "path": "https://github.com/marcopoloprotocol"
+    },
+    {
+      "name": "백서",
+      "subName": "White Paper",
+      "path": "m-footer"
+    },
+    {
+      "name": "다운로드",
+      "subName": "Download",
+      "path": "http://www.marcopolopay.org/download"
+    }
+  ],
+  "home": {
+    "banner": {
+      "_title": "새로운 유형의 피어 투 피어 전자 현금 시스템",
+      "desc": ["MarcoPolo 프로토콜 (MAP)은 Softbank가 전략적으로 투자한 새로운 유형의 피어 투 피어 전자 현금 시스템 인프라입니다. 이는 기존 퍼블릭 체인의 TPS공유를 실현하여 여러 퍼블릭 체인에서 트랜잭션을 지능적으로 스케줄링하여 피어 투 피어 전자 현금 시스템의 애플리케이션이 전체 블록 체인 네트워크에서 무제한 확장한 TPS 및 최적의 GAS를 이용할수 있습니다."]
+    },
+    "chainInfo": [
+      {
+        "title": "체인간 공유",
+        "desc": [
+          "BRPC 프로토콜을 통해 다른 퍼블릭 체인과의 인터랙션을 실현하고 여러 퍼블릭 체인 간의 TPS 공유 및 트랜잭션 스케줄링을 실현"
+        ]
+      },
+      {
+        "title": "높은 확장성",
+        "desc": [
+          "MTP프로토콜을 통해 여러 시너 체인(SynerChain)과 스텐더드체인(StandardChain) 간의 메시지 통신을 실현."
+        ]
+      },
+      {
+        "title": "탈중앙화",
+        "desc": [
+          "체인외부 자산의 참여를 허락하는 APoS 합의 메커니즘은 보다 분산되고 안전하다"
+        ]
+      },
+      {
+        "title": "간편사용 프레임",
+        "desc": [
+          "MATE 프레임 워크를 기반으로 필요한 블록 체인을 신속하게 구축하고 Delta 언어로 필요한 기능 모듈을 개발한다"
+        ]
+      },
+      {
+        "title": "체인 거버넌스",
+        "desc": [
+          "완전 오픈한 체인 거버넌스 시스템과 인센티브 메커니즘, 커뮤니티로 주도되고 추진한 MarcoPolo의 발전"
+        ]
+      },
+      {
+        "title": "포크하지 않다",
+        "desc": [
+          "SMART 시스템을 기반으로, 포크없이 MarcoPolo를 자체적응 업그레이드 할 수 있습니다."
+        ]
+      }
+    ],
+    "pointsInfo": {
+      "title": "피어 투 피어 전자 현금 시스템 응용 프로그램의 인프라",
+      "leftDescList": [
+        "기본 다중 통화를 지원하며,계정 하나로 모든 통화 주소를 지원한다",
+        "성능 최고의 퍼블륵 체인을 선택하여 피어 투 피어 결제를 빠르고 저렴하게 완성함을 보장한다."
+      ],
+      "centerDescList": [
+        "WASM 계약을 통하여 BTC와 같은 디지털 통화에 계약적인 지원을 한다.",
+        "New Delta 스마트 계약 언어로 전자 현금 시나리오에게 무한한 가능성을 제공한다."
+      ],
+      "rightDescList": [
+        "BRPC 및 MTP를 통한 체인 간 TPS공유로 고속 거래 및 딥 트랜잭션 공유를 제공한다."
+      ]
+    },
+    "impareInfo": {
+      "title": "커뮤니티 인센티브 메커니즘",
+      "list": [
+        {
+          "name": "PoB 인센티브",
+          "desc": "PoB구축을 통하여 커뮤니 티의 공동건설을 추진한다",
+          "icon": "pop"
+        },
+        {
+          "name": "생태 인센티브",
+          "desc": "체인을 통해 메커니즘을 관리하여 응용 발전을 장려하다",
+          "icon": "globe"
+        },
+        {
+          "name": "기술 인센티브",
+          "desc": "체인 거버넌스 및 인센티브를 통해 글로벌 개발자의 공동참여를 이끈다",
+          "icon": "dev"
+        }
+      ]
+    },
+    "roadmap": {
+      "_title": "프로젝트 로드맵",
+      "mcont": [
+        {
+          "stage": "첫 단계 2019.Q1",
+          "intr": "Gravity:",
+          "desc": [
+            "상호 운용성 모듈 Gravity의 개발이 완성되었고 Gravity는 BTC 및 ETH와 같은 합의가 강한 디지털 통화와 세대 고성능 퍼블릭 체인과 상호 운용성을 구현하여 컴퓨팅 파어과 성능을 공유하며 향후 상호 운용성을 통해 점차 더 많은 고성능 퍼블릭 체인으로 확장될 것입니다."
+          ]
+        },
+        {
+          "stage": "두 번째 단계 2019.Q3",
+          "intr": "Electromagnet:",
+          "desc": [
+            "소매 지불 애플리케인션 Marco Pay출시 ",
+            "POB 커뮤니티 거버넌스 DAPP."
+          ]
+        },
+        {
+          "stage": "세 번째 단계 2020.Q4",
+          "intr": "Interaction:",
+          "desc": [
+            "독립적으로 개발한 Marcopolo메인넷 StandardChain이 출시하여  APOS, 체인 관리, InteractChain 아키텍처 디자인을 실현한다."
+          ]
+        },
+        {
+          "stage": "네 번째 단계 2022.Q2",
+          "intr": "Grand Unification:",
+          "desc": [
+            "이구(异构) 크로스 체인 운영성을 실현하고 체인 간 리소스 공유를 실한다."
+          ]
+        }
+      ]
+    },
+    "partnerInfo": {
+      "title": "파트너",
+      "list": [
+        {
+          "img": "softBank",
+          "link": "https://www.softbank.jp"
+        },
+        {
+          "img": "kuCoin",
+          "link": "https://trade.kucoin.com/spot"
+        },
+        {
+          "img": "yahoo",
+          "link": "https://news.yahoo.com/news/why-join-marcopolo-protocol-131500994.html"
+        },
+        {
+          "img": "coinMarket",
+          "link": "https://coinmarketcap.com/currencies/marcopolo-protocol/"
+        },
+        {
+          "img": "coinGecko",
+          "link": "https://www.coingecko.com/en/coins/marcopolo-protocol"
+        },
+        {
+          "img": "feiXiaoHao",
+          "link": "http://www.feixiaohao.com/currencies/marcopoloprotocol%20/"
+        },
+        {
+          "img": "crypto",
+          "link": "https://www.cryptocompare.com/coins/map/overview"
+        },
+        {
+          "img": "haoDeLian",
+          "link": "https://www.mytokencap.com/currency/map/821733067"
+        },
+        {
+          "img": "kSher",
+          "link": "https://www.ksher.com/"
+        },
+        {
+          "img": "kidd",
+          "link": "http://www.kidd.co.kr/news/213087"
+        },
+        {
+          "img": "zametki",
+          "link": "https://cryptorussia.ru/zametki/pochemu-stoit-prisoedinitsya-k-protokolu-marcopolo"
+        }
+      ]
+    }
+  },
+  "footer": {
+    "_title": "",
+    "mSupport": {
+      "copyright": "2019 MarcoPolo Network Foundation,All Rights Reseved",
+      "list": [
+        {
+          "name": "개발자서포트:  developers@MarcoPolo.link",
+          "link": "developers@MarcoPolo.link"
+        },
+        {
+          "name": "비지니스 개발: cooperation@MarcoPolo.link",
+          "link": "cooperation@MarcoPolo.link"
+        }
+      ]
+    },
+    "fun": [
+      {
+        "name": "중국어 백서",
+        "link": "https://files.marcopolo.link/pdf/marcopolo_whitePater_en.pdf"
+      },
+      {
+        "name": "경제 모드",
+        "link": "https://files.marcopolo.link/pdf/marcopolo_economic_kr.pdf"
+      }
+    ],
+    "icon":  [
+      {
+        "i": "telegram",
+        "link": "https://t.me/MarcoPoloMAP"
+      },
+      {
+        "i": "twitter",
+        "link": "https://twitter.com/MarcoPoloGlobal"
+      },
+      {
+        "i": "facebook",
+        "link": "https://www.facebook.com/MarcoPolo-Protocol-107054464162905"
+      },
+      {
+        "i": "bitcointalk",
+        "link": "https://bitcointalk.org/index.php?topic=5215440.new#new"
+      },
+      {
+        "i": "naver",
+        "link": "https://blog.naver.com/marcopoloprotocol"
+      },
+      {
+        "i": "medium",
+        "link": "https://medium.com/@marcopoloprotocol"
+      },
+      {
+        "i": "kakao",
+        "link": "https://open.kakao.com/o/gI5fPXSb"
+      }
+    ],
+    "download":{
+      "_title":"앱 다운로드",
+      "link": "http://www.marcopolopay.org/download"
+    }
+  }
+}

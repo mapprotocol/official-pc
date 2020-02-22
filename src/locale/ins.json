@@ -1,0 +1,317 @@
+{
+	"language": {
+		"_title": "Orang indonesia",
+		"langs": [
+			{
+				"name": "English",
+				"subName": "Language",
+				"introduce": "英文",
+				"tag": "en"
+			},
+			{
+				"name": "한국어",
+				"subName": "Language",
+				"introduce": "韩文",
+				"tag": "ko"
+			},
+			{
+				"name": "русский",
+				"subName": "Language",
+				"introduce": "俄语",
+				"tag": "ru"
+			},
+			{
+				"name": "বাংলা ভাষার",
+				"subName": "Language",
+				"introduce": "孟加拉语",
+				"tag": "bd"
+			},
+			{
+				"name": "日本語",
+				"subName": "Language",
+				"introduce": "日本语",
+				"tag": "jp"
+			},
+			{
+				"name": "Türk dili",
+				"subName": "Language",
+				"introduce": "土耳其语",
+				"tag": "tr"
+			},
+			{
+				"name": "اردو",
+				"subName": "Language",
+				"introduce": "乌尔都语",
+				"tag": "wu"
+			},
+			{
+				"name": "lingua italiana",
+				"subName": "Language",
+				"introduce": "意大利语",
+				"tag": "it"
+			},
+			{
+				"name": "Orang indonesia",
+				"subName": "Language",
+				"introduce": "印尼语",
+				"tag": "ins"
+			},
+			{
+				"name": "Tiếng việt nam",
+				"subName": "Language",
+				"introduce": "越南语",
+				"tag": "vn"
+			},
+			{
+				"name": "中文简体",
+				"subName": "Language",
+				"tag": "zh"
+			}
+		]
+	},
+	"nav": [
+		{
+			"name": "Home",
+			"subName": "Homepage",
+			"path": "top"
+		},
+		{
+			"name": "Developer",
+			"subName": "Developer",
+			"path": "https://github.com/marcopoloprotocol"
+		},
+		{
+			"name": "White Paper",
+			"subName": "White Paper",
+			"path": "m-footer"
+		},
+		{
+			"name": "Unduh Aplikasi Dompet",
+			"subName": "Download",
+			"path": "http://www.marcopolopay.org/download"
+		}
+	],
+	"home": {
+		"banner": {
+			"_title": "Informasi Dasar Sistem Uang Elektronik Peer-to-Peer Baru",
+			"desc": [
+				"MarcoPolo Protocol (MAP) adalah investasi strategis di Softbank, jenis baru dari infrastruktur sistem kas elektronik peer-to-peer, yang mewujudkan pembagian TPS dengan rantai publik yang ada, dan secara cerdas mengirimkan transaksi antara berbagai rantai publik melalui transaksi, memungkinkan penerapan sistem tunai elektronik peer-to-peer. Anda dapat menikmati perluasan TPS tanpa batas dan GAS optimal dari seluruh jaringan blockchain. "
+			]
+		},
+		"chainInfo": [
+			{
+				"title": "Berbagi Interchain",
+				"desc": [
+					"Interaksi dengan rantai publik lainnya melalui protokol brpc untuk mencapai pembagian tps dan penjadwalan transaksi antara banyak rantai publik"
+				]
+			},
+			{
+				"title": "Skalabilitas tinggi",
+				"desc": [
+					"Komunikasi pesan antara beberapa rantai kolaborasi dan rantai benchmark melalui protokol mtp, mewujudkan transaksi"
+				]
+			},
+			{
+				"title": "Desentralisasi",
+				"desc": [
+					"Mekanisme konsensus APoS yang memungkinkan aset off-chain untuk berpartisipasi lebih terdesentralisasi & aman"
+				]
+			},
+			{
+				"title": "Kerangka kerja yang mudah digunakan",
+				"desc": [
+					"Berdasarkan kerangka MATE untuk dengan cepat membangun bahasa Delta blockchain yang diperlukan untuk pengembangan modul fungsional yang diperlukan dengan mudah"
+				]
+			},
+			{
+				"title": "Pemerintahan dalam rantai",
+				"desc": [
+					"Sistem tata kelola yang sepenuhnya terbuka dan mekanisme insentif didorong oleh masyarakat untuk merangsang dan mempromosikan pengembangan MarcoPolo"
+				]
+			},
+			{
+				"title": "Never Fork",
+				"desc": [
+					"MarcoPolo berdasarkan sistem SMART dapat mencapai peningkatan adaptif tanpa garpu"
+				]
+			}
+		],
+		"pointsInfo": {
+			"title": "Infrastruktur untuk Aplikasi Sistem Uang Elektronik Peer-to-Peer",
+			"leftDescList": [
+				"Dukungan multi-mata uang asli, satu akun mendukung semua alamat mata uang.",
+				"Pilih rantai publik terbaik untuk memastikan implementasi pembayaran peer-to-peer yang cepat dan murah."
+			],
+			"centerDescList": [
+				"Dukungan kontrak wasm membawa dukungan kontraktual ke mata uang digital seperti btc.",
+				"Bahasa kontrak pintar Delta yang baru menyediakan kemungkinan tak terbatas untuk skenario kas elektronik."
+			],
+			"rightDescList": [
+				"Berbagi tps antar-rantai dicapai melalui brpc dan mtp, menyediakan transaksi kecepatan tinggi dan berbagi transaksi yang mendalam."
+			]
+		},
+		"impareInfo": {
+			"title": "Insentif Komunitas",
+			"list": [
+				{
+					"name": "Insentif PoB",
+					"desc": "Beri insentif konstruksi komunitas melalui konstruksi PoB",
+					"icon": "pop"
+				},
+				{
+					"name": "Insentif Ekologis",
+					"desc": "Dorong pengembangan aplikasi melalui on-chain governance",
+					"icon": "globe"
+				},
+				{
+					"name": "Insentif Teknis",
+					"desc": "Menarik partisipasi pengembang global melalui tata kelola dan insentif on-chain",
+					"icon": "dev"
+				}
+			]
+		},
+		"roadmap": {
+			"_title": "Roadmap",
+			"mcont": [
+				{
+					"stage": "Tahap Pertama 2019.Q1",
+					"intr": "Gravity:",
+					"desc": [
+						"Pengembangan komponen interoperabilitas Gravity selesai. Gravity akan menggunakan BTC, ETH dan mata uang digital konsensus lainnya untuk mencapai interoperabilitas yang dapat digunakan dengan generasi ketiga rantai publik berkinerja tinggi, berbagi daya dan kinerja komputasi, dan secara bertahap berkembang ke Lebih banyak rantai publik berkinerja tinggi. "
+					]
+				},
+				{
+					"stage": "Tahap Kedua 2019.Q3",
+					"intr": "Electromagnet:",
+					"desc": [
+						"Pembayaran eceran peer-to-peer DApp Marco Pay ditayangkan",
+						"Tata kelola komunitas Pob dapp sedang online."
+					]
+				},
+				{
+					"stage": "Tahap ketiga 2020.Q4",
+					"intr": "Interaction:",
+					"desc": [
+						"Penelitian independen dan pengembangan mainnet MarcoPolo, StandardChain, diluncurkan, memungkinkan APOS, tata kelola on-chain, dan desain arsitektur InteractChain."
+					]
+				},
+				{
+					"stage": "Tahap Keempat 2022.Q2",
+					"intr": " Grand Unification:",
+					"desc": [
+						"Menerapkan operabilitas lintas rantai yang heterogen dan mewujudkan pembagian sumber daya antar rantai."
+					]
+				}
+			]
+		},
+		"partnerInfo": {
+			"title": "Mitra",
+			"list": [
+				{
+					"img": "softBank",
+					"link": "https://www.softbank.jp"
+				},
+				{
+					"img": "kuCoin",
+					"link": "https://trade.kucoin.com/spot"
+				},
+				{
+					"img": "yahoo",
+					"link": "https://news.yahoo.com/news/why-join-marcopolo-protocol-131500994.html"
+				},
+				{
+					"img": "coinMarket",
+					"link": "https://coinmarketcap.com/currencies/marcopolo-protocol/"
+				},
+				{
+					"img": "coinGecko",
+					"link": "https://www.coingecko.com/en/coins/marcopolo-protocol"
+				},
+				{
+					"img": "feiXiaoHao",
+					"link": "http://www.feixiaohao.com/currencies/marcopoloprotocol%20/"
+				},
+				{
+					"img": "crypto",
+					"link": "https://www.cryptocompare.com/coins/map/overview"
+				},
+				{
+					"img": "haoDeLian",
+					"link": "https://www.mytokencap.com/currency/map/821733067"
+				},
+				{
+					"img": "kSher",
+					"link": "https://www.ksher.com/"
+				},
+				{
+					"img": "kidd",
+					"link": "http://www.kidd.co.kr/news/213087"
+				},
+				{
+					"img": "zametki",
+					"link": "https://cryptorussia.ru/zametki/pochemu-stoit-prisoedinitsya-k-protokolu-marcopolo"
+				}
+			]
+		}
+	},
+	"footer": {
+		"_title": "Ikuti kami",
+		"mSupport": {
+			"copyright": "2019 MarcoPolo Network Foundation,All Rights Reseved",
+			"list": [
+				{
+					"name": "Dukungan Pengembang: developers@MarcoPolo.link",
+					"link": "developers@MarcoPolo.link"
+				},
+				{
+					"name": "Hubungi kami: cooperation@MarcoPolo.link",
+					"link": "cooperation@MarcoPolo.link"
+				}
+			]
+		},
+		"fun": [
+			{
+				"name": "Buku Putih Cina",
+				"link": "https://files.marcopolo.link/pdf/marcopolo_whitePater_cn.pdf"
+			},
+			{
+				"name": "Model Ekonomi",
+				"link": "https://files.marcopolo.link/pdf/marcopolo_economic_cn.pdf"
+			}
+		],
+		"icon":  [
+			{
+				"i": "telegram",
+				"link": "https://t.me/MarcoPoloMAP"
+			},
+			{
+				"i": "twitter",
+				"link": "https://twitter.com/MarcoPoloGlobal"
+			},
+			{
+				"i": "facebook",
+				"link": "https://www.facebook.com/MarcoPolo-Protocol-107054464162905"
+			},
+			{
+				"i": "bitcointalk",
+				"link": "https://bitcointalk.org/index.php?topic=5215440.new#new"
+			},
+			{
+				"i": "naver",
+				"link": "https://blog.naver.com/marcopoloprotocol"
+			},
+			{
+				"i": "medium",
+				"link": "https://medium.com/@marcopoloprotocol"
+			},
+			{
+				"i": "kakao",
+				"link": "https://open.kakao.com/o/gI5fPXSb"
+			}
+		],
+		"download": {
+			"_title": "Unduh aplikasi sekarang",
+			"link": "http://www.marcopolopay.org/download"
+		}
+	}
+}

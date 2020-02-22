@@ -1,0 +1,317 @@
+{
+	"language": {
+		"_title": "Tiếng việt nam",
+		"langs": [
+			{
+				"name": "English",
+				"subName": "Language",
+				"introduce": "英文",
+				"tag": "en"
+			},
+			{
+				"name": "한국어",
+				"subName": "Language",
+				"introduce": "韩文",
+				"tag": "ko"
+			},
+			{
+				"name": "русский",
+				"subName": "Language",
+				"introduce": "俄语",
+				"tag": "ru"
+			},
+			{
+				"name": "বাংলা ভাষার",
+				"subName": "Language",
+				"introduce": "孟加拉语",
+				"tag": "bd"
+			},
+			{
+				"name": "日本語",
+				"subName": "Language",
+				"introduce": "日本语",
+				"tag": "jp"
+			},
+			{
+				"name": "Türk dili",
+				"subName": "Language",
+				"introduce": "土耳其语",
+				"tag": "tr"
+			},
+			{
+				"name": "اردو",
+				"subName": "Language",
+				"introduce": "乌尔都语",
+				"tag": "wu"
+			},
+			{
+				"name": "lingua italiana",
+				"subName": "Language",
+				"introduce": "意大利语",
+				"tag": "it"
+			},
+			{
+				"name": "Orang indonesia",
+				"subName": "Language",
+				"introduce": "印尼语",
+				"tag": "ins"
+			},
+			{
+				"name": "Tiếng việt nam",
+				"subName": "Language",
+				"introduce": "越南语",
+				"tag": "vn"
+			},
+			{
+				"name": "中文简体",
+				"subName": "Language",
+				"tag": "zh"
+			}
+		]
+	},
+	"nav": [
+		{
+			"name": "Nhà",
+			"subName": "Homepage",
+			"path": "top"
+		},
+		{
+			"name": "Nhà phát triển",
+			"subName": "Developer",
+			"path": "https://github.com/marcopoloprotocol"
+		},
+		{
+			"name": "Sách trắng",
+			"subName": "White Paper",
+			"path": "m-footer"
+		},
+		{
+			"name": "Tải xuống ứng dụng ví",
+			"subName": "Download",
+			"path": "http://www.marcopolopay.org/download"
+		}
+	],
+	"home": {
+		"banner": {
+			"_title": "Thông tin cơ bản của hệ thống tiền mặt điện tử ngang hàng mới",
+			"desc": [
+				"Giao thức MarcoPolo (MAP) là một khoản đầu tư chiến lược vào Softbank, một loại cơ sở hạ tầng hệ thống tiền điện tử ngang hàng mới, thực hiện chia sẻ TPS với các chuỗi công khai hiện có và gửi giao dịch giữa các chuỗi công khai thông qua các giao dịch, cho phép ứng dụng hệ thống tiền điện tử ngang hàng Bạn có thể tận hưởng việc mở rộng không giới hạn TPS và GAS tối ưu của toàn bộ mạng blockchain. "
+			]
+		},
+		"chainInfo": [
+			{
+				"title": "Chia sẻ liên kết",
+				"desc":  [
+					"Tương tác với các chuỗi công khai khác thông qua giao thức brpc để đạt được chia sẻ tps và lập lịch giao dịch giữa nhiều chuỗi công khai"
+				]
+			},
+			{
+				"title":  "Khả năng mở rộng cao",
+				"desc": [
+					"Giao tiếp tin nhắn giữa nhiều chuỗi cộng tác và chuỗi điểm chuẩn thông qua giao thức mtp, thực hiện các giao dịch"
+				]
+			},
+			{
+				"title":  "Phân cấp",
+				"desc": [
+					"Cơ chế đồng thuận APoS cho phép các tài sản ngoài chuỗi tham gia được phân cấp và bảo mật hơn"
+				]
+			},
+			{
+				"title": "Khung dễ sử dụng",
+				"desc": [
+					"Dựa trên khung MATE để nhanh chóng xây dựng ngôn ngữ Delta blockchain cần thiết để phát triển thuận tiện các mô-đun chức năng cần thiết"
+				]
+			},
+			{
+				"title":  "Quản trị theo chuỗi",
+				"desc": [
+					"Một hệ thống quản trị và cơ chế khuyến khích hoàn toàn mở được thúc đẩy bởi cộng đồng nhằm kích thích và thúc đẩy sự phát triển của MarcoPolo"
+				]
+			},
+			{
+				"title": "Không bao giờ rẽ nhánh",
+				"desc": [
+					"MarcoPolo dựa trên hệ thống SMART có thể đạt được nâng cấp thích ứng mà không cần rẽ nhánh"
+				]
+			}
+		],
+		"pointsInfo": {
+			"title": "Cơ sở hạ tầng cho ứng dụng hệ thống tiền mặt điện tử ngang hàng",
+			"leftDescList": [
+				"Hỗ trợ đa tiền tệ bản địa, một tài khoản hỗ trợ tất cả các địa chỉ tiền tệ.",
+				"Chọn chuỗi công khai tốt nhất để đảm bảo thực hiện nhanh chóng và chi phí thấp cho thanh toán ngang hàng."
+			],
+			"centerDescList": [
+				"Hỗ trợ hợp đồng wasm mang lại hỗ trợ theo hợp đồng cho các loại tiền kỹ thuật số như btc.",
+				"Ngôn ngữ hợp đồng thông minh Delta mới cung cấp khả năng không giới hạn cho các kịch bản tiền điện tử."
+			],
+			"rightDescList": [
+				"Chia sẻ tps liên chuỗi đạt được thông qua brpc và mtp, cung cấp các giao dịch tốc độ cao và chia sẻ sâu các giao dịch."
+			]
+		},
+		"impareInfo": {
+			"title": "Ưu đãi cộng đồng",
+			"list": [
+				{
+					"name": "Ưu đãi PoB",
+					"desc": "Khuyến khích xây dựng cộng đồng thông qua xây dựng PoB",
+					"icon": "pop"
+				},
+				{
+					"name": "Khuyến khích sinh thái",
+					"desc": "Khuyến khích phát triển ứng dụng thông qua quản trị theo chuỗi",
+					"icon": "globe"
+				},
+				{
+					"name": "Ưu đãi kỹ thuật",
+					"desc": "Thu hút sự tham gia của các nhà phát triển toàn cầu thông qua quản trị và khuyến khích trên chuỗi",
+					"icon": "dev"
+				}
+			]
+		},
+		"roadmap": {
+			"_title": "Lộ trình",
+			"mcont": [
+				{
+					"stage": "Giai đoạn đầu tiên 2019.Q1",
+					"intr": "Gravity:",
+					"desc": [
+						"Quá trình phát triển thành phần tương tác Gravity đã hoàn tất. Gravity sẽ sử dụng BTC, ETH và các loại tiền kỹ thuật số đồng thuận khác để đạt được khả năng tương tác có thể sử dụng với thế hệ thứ ba của chuỗi công khai hiệu suất cao, chia sẻ sức mạnh và hiệu suất tính toán, và dần dần mở rộng sang Nhiều chuỗi công cộng hiệu suất cao. "
+					]
+				},
+				{
+					"stage": "Giai đoạn thứ hai 2019.Q3",
+					"intr": "Electromagnet:",
+					"desc": [
+						"Thanh toán bán lẻ ngang hàng DApp Marco Pay đi vào hoạt động",
+						"Dapp quản trị cộng đồng dapp là trực tuyến."
+					]
+				},
+				{
+					"stage": "Giai đoạn thứ ba 2020.Q4",
+					"intr": "Interaction:",
+					"desc": [
+						"Nghiên cứu và phát triển độc lập của mainnet của MarcoPolo, StandardChain, đã được đưa ra, cho phép APOS, quản trị trên chuỗi và thiết kế kiến ​​trúc InteractChain."
+					]
+				},
+				{
+					"stage": "Giai đoạn thứ tư 2022.Q2",
+					"intr": " Grand Unification:",
+					"desc": [
+						"Thực hiện khả năng hoạt động chuỗi chéo không đồng nhất và nhận ra việc chia sẻ tài nguyên giữa các chuỗi."
+					]
+				}
+			]
+		},
+		"partnerInfo": {
+			"title": "Đối tác",
+			"list": [
+				{
+					"img": "softBank",
+					"link": "https://www.softbank.jp"
+				},
+				{
+					"img": "kuCoin",
+					"link": "https://trade.kucoin.com/spot"
+				},
+				{
+					"img": "yahoo",
+					"link": "https://news.yahoo.com/news/why-join-marcopolo-protocol-131500994.html"
+				},
+				{
+					"img": "coinMarket",
+					"link": "https://coinmarketcap.com/currencies/marcopolo-protocol/"
+				},
+				{
+					"img": "coinGecko",
+					"link": "https://www.coingecko.com/en/coins/marcopolo-protocol"
+				},
+				{
+					"img": "feiXiaoHao",
+					"link": "http://www.feixiaohao.com/currencies/marcopoloprotocol%20/"
+				},
+				{
+					"img": "crypto",
+					"link": "https://www.cryptocompare.com/coins/map/overview"
+				},
+				{
+					"img": "haoDeLian",
+					"link": "https://www.mytokencap.com/currency/map/821733067"
+				},
+				{
+					"img": "kSher",
+					"link": "https://www.ksher.com/"
+				},
+				{
+					"img": "kidd",
+					"link": "http://www.kidd.co.kr/news/213087"
+				},
+				{
+					"img": "zametki",
+					"link": "https://cryptorussia.ru/zametki/pochemu-stoit-prisoedinitsya-k-protokolu-marcopolo"
+				}
+			]
+		}
+	},
+	"footer": {
+		"_title": "Theo dõi chúng tôi",
+		"mSupport": {
+			"copyright": "2019 MarcoPolo Network Foundation,All Rights Reseved",
+			"list": [
+				{
+					"name": "Hỗ trợ nhà phát triển: developers@MarcoPolo.link",
+					"link": "developers@MarcoPolo.link"
+				},
+				{
+					"name": "Liên hệ với chúng tôi: cooperation@MarcoPolo.link",
+					"link": "cooperation@MarcoPolo.link"
+				}
+			]
+		},
+		"fun": [
+			{
+				"name": "Sách trắng Trung Quốc",
+				"link": "https://files.marcopolo.link/pdf/marcopolo_whitePater_cn.pdf"
+			},
+			{
+				"name": "Mô hình kinh tế",
+				"link": "https://files.marcopolo.link/pdf/marcopolo_economic_cn.pdf"
+			}
+		],
+		"icon":  [
+			{
+				"i": "telegram",
+				"link": "https://t.me/MarcoPoloMAP"
+			},
+			{
+				"i": "twitter",
+				"link": "https://twitter.com/MarcoPoloGlobal"
+			},
+			{
+				"i": "facebook",
+				"link": "https://www.facebook.com/MarcoPolo-Protocol-107054464162905"
+			},
+			{
+				"i": "bitcointalk",
+				"link": "https://bitcointalk.org/index.php?topic=5215440.new#new"
+			},
+			{
+				"i": "naver",
+				"link": "https://blog.naver.com/marcopoloprotocol"
+			},
+			{
+				"i": "medium",
+				"link": "https://medium.com/@marcopoloprotocol"
+			},
+			{
+				"i": "kakao",
+				"link": "https://open.kakao.com/o/gI5fPXSb"
+			}
+		],
+		"download":{
+			"_title": "Tải xuống ứng dụng ngay bây giờ",
+			"link": "http://www.marcopolopay.org/download"
+		}
+	}
+}

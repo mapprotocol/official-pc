@@ -1,0 +1,317 @@
+  {
+    "language": {
+      "_title": "اردو",
+      "langs": [
+        {
+          "name": "English",
+          "subName": "Language",
+          "introduce": "英文",
+          "tag": "en"
+        },
+        {
+          "name": "한국어",
+          "subName": "Language",
+          "introduce": "韩文",
+          "tag": "ko"
+        },
+        {
+          "name": "русский",
+          "subName": "Language",
+          "introduce": "俄语",
+          "tag": "ru"
+        },
+        {
+          "name": "বাংলা ভাষার",
+          "subName": "Language",
+          "introduce": "孟加拉语",
+          "tag": "bd"
+        },
+        {
+          "name": "日本語",
+          "subName": "Language",
+          "introduce": "日本语",
+          "tag": "jp"
+        },
+        {
+          "name": "Türk dili",
+          "subName": "Language",
+          "introduce": "土耳其语",
+          "tag": "tr"
+        },
+        {
+          "name": "اردو",
+          "subName": "Language",
+          "introduce": "乌尔都语",
+          "tag": "wu"
+        },
+        {
+          "name": "lingua italiana",
+          "subName": "Language",
+          "introduce": "意大利语",
+          "tag": "it"
+        },
+        {
+          "name": "Orang indonesia",
+          "subName": "Language",
+          "introduce": "印尼语",
+          "tag": "ins"
+        },
+        {
+          "name": "Tiếng việt nam",
+          "subName": "Language",
+          "introduce": "越南语",
+          "tag": "vn"
+        },
+        {
+          "name": "中文简体",
+          "subName": "Language",
+          "tag": "zh"
+        }
+      ]
+    },
+    "nav": [
+      {
+        "name": "گھر",
+        "subName": "Homepage",
+        "path": "top"
+      },
+      {
+        "name": "ڈویلپر",
+        "subName": "Developer",
+        "path": "https://github.com/marcopoloprotocol"
+      },
+      {
+        "name": "وائٹ پیپر",
+        "subName": "White Paper",
+        "path": "m-footer"
+      },
+      {
+        "name": "والیٹ ایپ ڈاؤن لوڈ کریں",
+        "subName": "Download",
+        "path": "http://www.marcopolopay.org/download"
+      }
+    ],
+    "home": {
+      "banner": {
+        "_title": "پیر پیر ٹو پیر الیکٹرانک کیش سسٹم کی بنیادی معلومات",
+        "desc": [
+          "مارکوپولو پروٹوکول (MAP) سافٹ بینک میں ایک اسٹریٹجک سرمایہ کاری ہے ، جو ایک نئی قسم کا پیر ٹو پیر الیکٹرانک کیش سسٹم انفراسٹرکچر ہے ، جو موجودہ عوامی زنجیروں کے ساتھ ٹی پی ایس کی شراکت کا احساس کرتا ہے ، اور مختلف عوامی زنجیروں کے درمیان لین دین کے ذریعہ لین دین بھیجتا ہے ، جس سے پیر ٹو پیر پیر الیکٹرانک کیش سسٹم کا اطلاق ممکن ہوتا ہے۔ آپ ٹی پی ایس کی لامحدود توسیع اور پورے بلاکچین نیٹ ورک کی بہترین GAS سے لطف اندوز ہوسکتے ہیں۔ "
+        ]
+      },
+      "chainInfo": [
+        {
+          "title": "انٹرچین شیئرنگ",
+          "desc": [
+            "متعدد عوامی زنجیروں کے درمیان ٹی پی ایس شیئرنگ اور لین دین کا شیڈولنگ حاصل کرنے کے لئے بی آر پی سی پروٹوکول کے ذریعہ دیگر عوامی زنجیروں کے ساتھ تعامل"
+          ]
+        },
+        {
+          "title": "اعلی اسکیل ایبلٹیٹی",
+          "desc": [
+            "ٹرانزیکشن کو بھانپتے ہوئے ، ایم ٹی پی پروٹوکول کے ذریعے متعدد تعاون چین اور بینچ مارک چینز کے مابین پیغام کی بات چیت"
+          ]
+        },
+        {
+          "title": "وکندریقرن",
+          "desc": [
+            "اے پی او ایس اتفاق رائے کا طریقہ کار جس سے آف چین اثاثوں کو حصہ لینے کی اجازت دی جارہی ہے وہ زیادہ وکندریقرت اور محفوظ ہے۔"
+          ]
+        },
+        {
+          "title": "استعمال میں آسان فریم ورک",
+          "desc": [
+            "میٹ فریم ورک کی بنیاد پر مطلوبہ فنکشنل ماڈیولز کی آسانی سے نشونما کے ل the مطلوبہ بلاکچین ڈیلٹا زبان کو تیزی سے تعمیر کرنے کے لئے"
+          ]
+        },
+        {
+          "title": "آن چین گورننس",
+          "desc": [
+            "مارکو پولو کی ترقی کو فروغ دینے اور اس کے فروغ کے لئے کمیونٹی کے ذریعہ ایک مکمل کھلا آن لائن گورننس نظام اور ترغیبی طریقہ کار کارفرما ہے"
+          ]
+        },
+        {
+          "title": "کبھی نہیں کانٹا",
+          "desc": [
+            "سمارٹ سسٹم پر مبنی مارکوپولو کانٹے کے بغیر انکولی اپ گریڈ حاصل کرسکتا ہے"
+          ]
+        }
+      ],
+      "pointsInfo": {
+        "title": "پیر ٹو پیر پیر الیکٹرانک کیش سسٹم ایپلی کیشن کا بنیادی ڈھانچہ",
+        "leftDescList": [
+          "مقامی کثیر کرنسی کی حمایت ، ایک اکاؤنٹ تمام کرنسی پتوں کی حمایت کرتا ہے۔",
+          "ہم مرتبہ سے ہم مرتبہ ادائیگیوں پر تیز اور کم لاگت کے نفاذ کو یقینی بنانے کے لئے بہترین عوامی سلسلہ کا انتخاب کریں۔"
+        ],
+        "centerDescList": [
+          "وایم کنٹریکٹ سپورٹ ڈیجیٹل کرنسیوں جیسے معاہدوں کی حمایت میں معاہدہ کرتا ہے جیسے بی ٹی سی۔",
+          "نئی ڈیلٹا اسمارٹ معاہدہ زبان الیکٹرانک نقد منظرناموں کے لامحدود امکانات فراہم کرتی ہے۔"
+        ],
+        "rightDescList": [
+          "بین زنجیر ٹی پی ایس شیئرنگ کو بی آر پی سی اور ایم ٹی پی کے ذریعہ حاصل کیا جاتا ہے ، جس سے تیز رفتار لین دین ہوتا ہے اور لین دین میں گہری شراکت ہوتی ہے۔"
+        ]
+      },
+      "impareInfo": {
+        "title": "برادری کی ترغیبات",
+        "list": [
+          {
+            "name": "PoB ترغیب",
+            "desc": "پی او بی کی تعمیر کے ذریعے کمیونٹی کی تعمیر کو فروغ دیں",
+            "icon": "pop"
+          },
+          {
+            "name": "ماحولیاتی ترغیب",
+            "desc": "آن لائن گورننس کے ذریعہ ایپلیکیشن ڈویلپمنٹ کی حوصلہ افزائی کریں",
+            "icon": "globe"
+          },
+          {
+            "name": "تکنیکی ترغیبی",
+            "desc": "آن لائن گورننس اور مراعات کے ذریعے عالمی ڈویلپرز کی شرکت کو راغب کریں",
+            "icon": "dev"
+          }
+        ]
+      },
+      "roadmap": {
+        "_title": "روڈ میپ",
+        "mcont": [
+          {
+            "stage": "پہلا مرحلہ 2019.Q1",
+            "intr": "Gravity:",
+            "desc": [
+              "انٹرآپریبلٹی جزو کشش ثقل کی ترقی مکمل ہوچکی ہے۔ کشش ثقل تیسری نسل کے اعلی کارکردگی والے عوامی سلسلہ کے ساتھ قابل استعمال انٹرآپریبلٹی کے حصول کے لئے بی ٹی سی ، ای ٹی ایچ اور دیگر متفقہ ڈیجیٹل کرنسیوں کا استعمال کرے گی ، کمپیوٹنگ طاقت اور کارکردگی کو شیئر کرے گی ، اور آہستہ آہستہ بعد کے مراحل میں انٹرآپریبلٹی میں توسیع کرے گی۔ زیادہ اعلی کارکردگی والے عوامی سلسلہ۔ "
+            ]
+          },
+          {
+            "stage": "دوسرا مرحلہ 2019.Q3",
+            "intr": "Electromagnet:",
+            "desc": [
+              "پیر ٹو پیر پیر خوردہ ادائیگی ڈی ای پی مارکو پے رواں دواں",
+              "پوب کمیونٹی گورننس ڈپ آن لائن ہے۔"
+            ]
+          },
+          {
+            "stage": "تیسرا مرحلہ 2020.Q4",
+            "intr": "Interaction:",
+            "desc": [
+              "مارکوپولو کے مینیٹ ، اسٹینڈرچین کی آزاد تحقیق اور ترقی کا آغاز کیا گیا ، جس سے اے پی او ایس ، آن چین گورننس ، اور انٹرایکٹچائن فن تعمیراتی ڈیزائن کو قابل بنایا گیا۔"
+            ]
+          },
+          {
+            "stage": "چوتھا مرحلہ 2022.Q2",
+            "intr": " Grand Unification:",
+            "desc": [
+              "متفاوت کراس چین آپریبلٹی کو نافذ کریں اور زنجیروں کے درمیان وسائل کے اشتراک کا احساس کریں۔"
+            ]
+          }
+        ]
+      },
+      "partnerInfo": {
+        "title": "شراکت دار",
+        "list": [
+          {
+            "img": "softBank",
+            "link": "https://www.softbank.jp"
+          },
+          {
+            "img": "kuCoin",
+            "link": "https://trade.kucoin.com/spot"
+          },
+          {
+            "img": "yahoo",
+            "link": "https://news.yahoo.com/news/why-join-marcopolo-protocol-131500994.html"
+          },
+          {
+            "img": "coinMarket",
+            "link": "https://coinmarketcap.com/currencies/marcopolo-protocol/"
+          },
+          {
+            "img": "coinGecko",
+            "link": "https://www.coingecko.com/en/coins/marcopolo-protocol"
+          },
+          {
+            "img": "feiXiaoHao",
+            "link": "http://www.feixiaohao.com/currencies/marcopoloprotocol%20/"
+          },
+          {
+            "img": "crypto",
+            "link": "https://www.cryptocompare.com/coins/map/overview"
+          },
+          {
+            "img": "haoDeLian",
+            "link": "https://www.mytokencap.com/currency/map/821733067"
+          },
+          {
+            "img": "kSher",
+            "link": "https://www.ksher.com/"
+          },
+          {
+            "img": "kidd",
+            "link": "http://www.kidd.co.kr/news/213087"
+          },
+          {
+            "img": "zametki",
+            "link": "https://cryptorussia.ru/zametki/pochemu-stoit-prisoedinitsya-k-protokolu-marcopolo"
+          }
+        ]
+      }
+    },
+    "footer": {
+      "_title": "ہمارے ساتھ چلیے",
+      "mSupport": {
+        "copyright": "2019 MarcoPolo Network Foundation,All Rights Reseved",
+        "list": [
+          {
+            "name": "ڈیولپر کی معاونت: developers@MarcoPolo.link",
+            "link": "developers@MarcoPolo.link"
+          },
+          {
+            "name": "ہم سے رابطہ کریں: cooperation@MarcoPolo.link",
+            "link": "cooperation@MarcoPolo.link"
+          }
+        ]
+      },
+      "fun": [
+        {
+          "name": "چینی وائٹ پیپر",
+          "link": "https://files.marcopolo.link/pdf/marcopolo_whitePater_cn.pdf"
+        },
+        {
+          "name": "اقتصادی ماڈل",
+          "link": "https://files.marcopolo.link/pdf/marcopolo_economic_cn.pdf"
+        }
+      ],
+      "icon":  [
+        {
+          "i": "telegram",
+          "link": "https://t.me/MarcoPoloMAP"
+        },
+        {
+          "i": "twitter",
+          "link": "https://twitter.com/MarcoPoloGlobal"
+        },
+        {
+          "i": "facebook",
+          "link": "https://www.facebook.com/MarcoPolo-Protocol-107054464162905"
+        },
+        {
+          "i": "bitcointalk",
+          "link": "https://bitcointalk.org/index.php?topic=5215440.new#new"
+        },
+        {
+          "i": "naver",
+          "link": "https://blog.naver.com/marcopoloprotocol"
+        },
+        {
+          "i": "medium",
+          "link": "https://medium.com/@marcopoloprotocol"
+        },
+        {
+          "i": "kakao",
+          "link": "https://open.kakao.com/o/gI5fPXSb"
+        }
+      ],
+      "download":{
+        "_title":"ابھی ایپ ڈاؤن لوڈ کریں",
+        "link": "http://www.marcopolopay.org/download"
+      }
+    }
+  }
