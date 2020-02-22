@@ -174,14 +174,14 @@
 			"_title": "Road map",
 			"mcont": [
 				{
-					"stage": "The first stage 2019.Q1",
+					"stage": "The First Stage 2019.Q1",
 					"intr": "Gravity:",
 					"desc": [
 						"The interoperability module Gravity has been developed, which realized useable interoperability between third-generation public chain and high consensus digital currency such as BTC and ETH, will share computing power and performance gradually expand to more high-performance public chain through interoperability."
 					]
 				},
 				{
-					"stage": "second stage 2019.Q3",
+					"stage": "The Second Stage 2019.Q3",
 					"intr": "Electromagnet:",
 					"desc": [
 						"Online retail payment application - Marco Pay",
@@ -189,14 +189,14 @@
 					]
 				},
 				{
-					"stage": "The third phase 2020.Q4",
+					"stage": "The Third Stage 2020.Q4",
 					"intr": "Interaction:",
 					"desc": [
 						"Independently developed MarcoPolo main Network StandardChain will be launched, achieving APoS, On chain governance, Architecture design of InteractChain."
 					]
 				},
 				{
-					"stage": "Fourth stage 2022.Q2",
+					"stage": "The Fourth Stage 2022.Q2",
 					"intr": "Grand Unification:",
 					"desc": [
 						"The realization of heterogeneous cross - chain operability, resource sharing between chains."
