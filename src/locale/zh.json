@@ -89,6 +89,11 @@
         "name": "下载钱包App",
         "subName": "Download",
         "path": "http://www.marcopolopay.org/download"
+      },
+      {
+        "name": "人才招聘",
+        "subName": "We are hiring developers",
+        "path": "https://www.indeedjobs.com/marcopolo-protocol/_hl/en_CA"
       }
     ],
     "home": {
