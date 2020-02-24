@@ -14,10 +14,10 @@ const router = new Router({
       component: () => import('@/views/Home.vue')
     }
   ]
-});
+})
 router.beforeEach((to, from, next) => {
-  setTitle();
+  setTitle()
   next()
-});
+})
 
 export default router
