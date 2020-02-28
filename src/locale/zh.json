@@ -276,12 +276,12 @@
       },
       "fun": [
         {
-          "name": "中文白皮书",
-          "link": "https://files.marcopolo.link/pdf/marcopolo_whitePater_cn.pdf"
+          "name": "白皮书",
+          "link": "https://files.marcopolo.link/pdf/marcopolo_whitePater_en.pdf"
         },
         {
           "name": "经济模型",
-          "link": "https://files.marcopolo.link/pdf/marcopolo_economic_cn.pdf"
+          "link": "https://files.marcopolo.link/pdf/marcopolo_economic_en.pdf"
         }
       ],
       "icon": [

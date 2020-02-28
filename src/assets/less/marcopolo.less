@@ -1238,6 +1238,46 @@ section.line-map {
   }
 }
 
+/*产品广告*/
+section.product-media {
+  width: @baseWidth;
+  min-width: max-content;
+  min-width: -moz-max-content;
+  background-color: rgba(244,245,247);
+  border-top: 4px solid #ffffff;
+  text-align: center;
+  .ctx-main {
+    width: @ctx1200Width;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  .map-title {
+    text-align: center;
+    font-size: @fontSize40;
+    font-family: @fontBase;
+    font-weight: 500;
+    color: @partnerColor;
+    padding-top: 64px;
+  }
+  .video_box {
+    width: 1199px;
+    margin: 62px auto 53px auto;
+  }
+  .video_box video {
+    width: 100%;
+  }
+}
+@media screen and (max-width:1024px){
+  section.product-media {
+    .ctx-main {
+      width: @ctx959Width;
+      margin: 0 auto;
+    }
+    .video_box {
+      width: 917px;
+    }
+  }
+}
 /*合作伙伴*/
 section.partner {
   width: @baseWidth;

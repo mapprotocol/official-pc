@@ -64,6 +64,8 @@
     <impare-mod></impare-mod>
     <!-- 路线图 -->
     <map-china></map-china>
+    <!-- 产品宣传 -->
+    <product-media></product-media>
     <!-- 合作伙伴 -->
     <partner-mod></partner-mod>
     <!-- 底部 -->
@@ -83,6 +85,7 @@ import SysFooter from '@/components/SysFooter'
 import AnimateBg from '@/components/AnimateBg'
 import ImpareMod from '@/components/ImpareMod'
 import MapChina from '@/components/MapChina'
+import ProductMedia from '@/components/ProductMedia'
 import PartnerMod from '@/components/PartnerMod'
 export default {
   name: 'home',
@@ -92,6 +95,7 @@ export default {
     AnimateBg,
     ImpareMod,
     MapChina,
+    ProductMedia,
     PartnerMod
   },
   data () {
