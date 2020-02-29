@@ -100,7 +100,7 @@
 		"banner": {
 			"_title": "A New Peer-to-Peer Electronic Cash System",
 			"desc": [
-				"The MarcoPolo Protocol (MAP) is a new peer-to-peer electronic cash system infrastructure that is strategically invested by Softbank. It aims to achieve public chain TPS sharing and intelligent scheduling through multiple public chains and enable the peer-to-peer cash system enjoy unlimited expansion of TPS and optimal GAS fee among the entire blockchain network."
+				"The MarcoPolo Protocol (MAP) is a new peer-to-peer electronic cash system infrastructure that is strategically invested by Softbank. It aims to achieve public chain TPS sharing and intelligent scheduling through multiple public chains and enable the peer-to-peer cash system to enjoy the unlimited expansions of TPS and optimal GAS fee among the entire blockchain network."
 			]
 		},
 		"chainInfo": [
@@ -111,52 +111,52 @@
 				]
 			},
 			{
-				"title": "High  scalability",
+				"title": "High  Scalability",
 				"desc": [
-					"Communicate with multiple SynerChain and StandardChain through MTP protocol, and realize transaction."
+					"Communicate with multiple SynerChain and StandardChain through MTP protocol, and realize transactions."
 				]
 			},
 			{
 				"title": "Decentralization",
 				"desc": [
-					"APoS consensus mechanism that allows for the participation of extra-chain assets, which is more decentralized and secure."
+					"Adopt APoS consensus mechanism that allows participation of extra-chain assets and makes the system more decentralized and secure."
 				]
 			},
 			{
-				"title": "Simple framework",
+				"title": "Simple Framework",
 				"desc": [
-					"Build required blockchain based on the MATE framework with high speed, and develop required functional modules with Delta language."
+					"Build required blockchain based on the MATE framework with high speed and develop required functional modules with Delta language."
 				]
 			},
 			{
-				"title": "On-chain governance",
+				"title": "On-chain Governance",
 				"desc": [
-					"Based on the SMART system, MarcoPolo can self-adaptively upgrade without the need for forks."
+					"Based on the SMART system, MarcoPolo can achieve self-adaptively upgrades without fork."
 				]
 			},
 			{
-				"title": "Never fork",
+				"title": "Never Fork",
 				"desc": [
 					"A completely open on-chain governance system and incentive mechanism, driven by community incentive and promote the development of MarcoPolo."
 				]
 			}
 		],
 		"pointsInfo": {
-			"title": "Peer-to-Peer Electronic Cash System infrastructure",
+			"title": "Peer-to-Peer Electronic Cash System Infrastructure",
 			"leftDescList": [
-				"Support multiple currencies, one account supports all currency addresses",
-				"Choose the best public chain to ensure fast and low-cost realization of peer-to-peer payment"
+				"Support multiple tokens, one account supports all tokens' addresses",
+				"Choose the best public chain to ensure the fast and low-cost realization of peer-to-peer payment"
 			],
 			"centerDescList": [
-				"WASM contract support, brings digital currencies such as BTC with contracted support for New Delta smart contract language",
-				"provide unlimited possibilities for electronic cash scenarios"
+				"WASM contract support brings contractual support to digital currencies such as BTC",
+				"New smart contract language Delta which provides unlimited possibilities for electronic cash scenarios."
 			],
 			"rightDescList": [
 				"Inter-chain TPS sharing through BRPC and MTP, provide high-speed trading and deep transaction sharing"
 			]
 		},
 		"impareInfo": {
-			"title": "Community incentive mechanism",
+			"title": "Community Incentive Mechanism",
 			"list": [
 				{
 					"name": "PoB Incentive",
@@ -165,7 +165,7 @@
 				},
 				{
 					"name": "Eco-system Incentive",
-					"desc": "Encourage on-chain governance mechanism on-chain governance mechanism",
+					"desc": "Encourage on-chain governance mechanism",
 					"icon": "globe"
 				},
 				{
@@ -182,35 +182,35 @@
 					"stage": "The First Stage 2019.Q1",
 					"intr": "Gravity:",
 					"desc": [
-						"The interoperability module Gravity has been developed, which realized useable interoperability between third-generation public chain and high consensus digital currency such as BTC and ETH, will share computing power and performance gradually expand to more high-performance public chain through interoperability."
+						"The interoperability module Gravity has been developed, which realized useable interoperability between third-generation public chains and high consensus digital currency such as BTC and ETH, will share computing power and performance gradually expand to a more high-performance public chain through interoperability."
 					]
 				},
 				{
 					"stage": "The Second Stage 2019.Q3",
 					"intr": "Electromagnet:",
 					"desc": [
-						"Online retail payment application - Marco Pay",
-						"POB Community Governance DAPP."
+						"Launch online retail payment application - MarcoPay",
+						"Launch community governance POB  DAPP	."
 					]
 				},
 				{
 					"stage": "The Third Stage 2020.Q4",
 					"intr": "Interaction:",
 					"desc": [
-						"Independently developed MarcoPolo main Network StandardChain will be launched, achieving APoS, On chain governance, Architecture design of InteractChain."
+						"Independently developed MarcoPolo's mainnet; Launch StandardChain; achieve APoS, on-chain governance, and architecture design of InteractChain"
 					]
 				},
 				{
 					"stage": "The Fourth Stage 2022.Q2",
 					"intr": "Grand Unification:",
 					"desc": [
-						"The realization of heterogeneous cross - chain operability, resource sharing between chains."
+						"The realization of heterogeneous cross-chain operability and resource sharing between chains"
 					]
 				}
 			]
 		},
 		"partnerInfo": {
-			"title": "Our Partners and Investors",
+			"title": "Partners and Investors",
 			"list": [
 				{
 					"img": "softBank",
@@ -262,7 +262,7 @@
 	"footer": {
 		"_title": "Follow us",
 		"mSupport": {
-			"copyright": "2019 MarcoPolo Network Foundation,All Rights Reseved",
+			"copyright": "2019 MarcoPolo Network Foundation, All Rights Reseved",
 			"list": [
 				{
 					"name": "Developer support: developers@MarcoPolo.link",
@@ -276,11 +276,11 @@
 		},
 		"fun": [
 			{
-				"name": "English white paper",
+				"name": "Whitepaper",
 				"link": "https://files.marcopolo.link/pdf/marcopolo_whitePater_en.pdf"
 			},
 			{
-				"name": "Economic model",
+				"name": "Economic Model",
 				"link": "https://files.marcopolo.link/pdf/marcopolo_economic_en.pdf"
 			}
 		],
@@ -292,10 +292,6 @@
 			{
 				"i": "twitter",
 				"link": "https://twitter.com/MarcoPoloGlobal"
-			},
-			{
-				"i": "facebook",
-				"link": "https://www.facebook.com/MarcoPolo-Protocol-107054464162905"
 			},
 			{
 				"i": "bitcointalk",
