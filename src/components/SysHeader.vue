@@ -26,7 +26,7 @@
 </template>
 
 <script>
-import { setStore, getStore } from '@/libs/util'
+import { setStore, getStore, setTitle } from '@/libs/util'
 export default {
   name: 'SysHeader',
   data () {
@@ -52,6 +52,7 @@ export default {
       this.selectLang.name = item.name
       this.selectLang.subName = item.subName
       this.selectLang.tag = item.tag
+      setTitle()
     }
   },
   created () {
