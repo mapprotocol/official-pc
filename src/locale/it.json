@@ -257,7 +257,7 @@
 	"footer": {
 		"_title": "Seguici",
 		"mSupport": {
-			"copyright": "2019 MarcoPolo Network Foundation,All Rights Reseved",
+			"copyright": "2020 MarcoPolo Network Foundation,All Rights Reseved",
 			"list": [
 				{
 					"name": "Supporto per gli sviluppatori: developers@MarcoPolo.link",
@@ -302,7 +302,7 @@
 			},
 			{
 				"i": "medium",
-				"link": "https://medium.com/@marcopoloprotocol"
+				"link": "https://medium.com/marcopolo-protocol"
 			},
 			{
 				"i": "kakao",
