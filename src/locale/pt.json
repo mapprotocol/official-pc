@@ -76,146 +76,146 @@
     },
     "nav": [
       {
-        "name": "首页",
+        "name": "Página Principal",
         "subName": "Homepage",
         "path": "top"
       },
       {
-        "name": "开发者",
+        "name": "Desenvolvedor",
         "subName": "Developer",
         "path": "https://github.com/marcopoloprotocol"
       },
       {
-        "name": "白皮书",
+        "name": "White Paper",
         "subName": "White Paper",
         "path": "m-footer"
       },
       {
-        "name": "下载钱包App",
+        "name": "Baixar",
         "subName": "Download",
         "path": "http://www.marcopolopay.org/download"
       },
       {
-        "name": "人才招聘",
+        "name": "Contratação",
         "subName": "We are hiring developers",
         "path": "https://www.indeedjobs.com/marcopolo-protocol/_hl/en_CA"
       }
     ],
     "home": {
       "banner": {
-        "_title": "一种新型的点对点电子现金系统基础信息",
+        "_title": "Dinheiro eletrônico ponto a ponto em nova INFRA-ESTRUTURA DE SISTEMA",
         "desc": [
-          "MarcoPolo Protocol（MAP）由软银战略投资的，一个新型的点对点电子现金系统基础设施，实现与现有公链的TPS共享，通过交易在多种公链间的智能调度，使得点对点电子现金系统应用可以享受无限扩容的TPS和整个区块链网络最优GAS。"
+          "O Protocolo MarcoPolo (MAP) é uma nova infra-estrutura de sistema de dinheiro eletrônico ponto a ponto, estrategicamente investida pela Softbank, que visa alcançar o compartilhamento de TPS em cadeia pública e agendamento inteligente através de várias cadeias públicas, habilitando o sistema de dinheiro ponto a ponto para aproveitar as expansões ilimitadas do TPS e a taxa ideal de GAS entre toda a rede blockchain."
         ]
       },
       "chainInfo": [
         {
-          "title": "链间共享",
+          "title": "Compartilhamento Inter-Cadeia",
           "desc": [
-            "通过BRPC协议实现与其他公链交互实现在多个公链间的TPS共享与交易调度"
+            "Interaja com outras cadeias públicas por meio do protocolo BRPC, realizando o compartilhamento de TPS e agendamento de transações entre várias cadeias públicas."
           ]
         },
         {
-          "title": "高扩展性",
+          "title": "Alta Escalabilidade",
           "desc": [
-            "通过MTP协议实现多个协同链与基准链的消息通讯，实现交易"
+            "Comunique-se com vários SynerChain e StandardChain através do protocolo MTP e realize transações."
           ]
         },
         {
-          "title": "去中心化",
+          "title": "Descentralização",
           "desc": [
-            "允许链外资产参与的APoS共识机制更加去中心化&安全"
+            "Adote o mecanismo de consenso APoS que permite a participação de ativos extra-cadeia e torna o sistema mais descentralizado e seguro."
           ]
         },
         {
-          "title": "易用框架",
+          "title": "Estrutura Simples",
           "desc": [
-            "基于MATE框架快速构建所需区块链Delta语言便捷开发所需功能模块"
+            "Crie blockchain necessário com base na estrutura MATE com alta velocidade e desenvolva os módulos funcionais necessários com a linguagem Delta."
           ]
         },
         {
-          "title": "链上治理",
+          "title": "Governança em Cadeia",
           "desc": [
-            "完全开放的链上治理系统与激励机制由社区驱动激励并推动MarcoPolo的发展"
+            "Baseado no sistema SMART, o MarcoPolo pode obter atualizações auto-adaptáveis sem fork."
           ]
         },
         {
-          "title": "永不分叉",
+          "title": "Nunca Fork",
           "desc": [
-            "基于SMART系统MarcoPolo可以实现自适应升级而不需要分叉"
+            "Um sistema de governança e mecanismo de incentivo completamente aberto, em cadeia, impulsionado pelo incentivo da comunidade e promovendo o desenvolvimento do Protocolo MarcoPolo."
           ]
         }
       ],
       "pointsInfo": {
-        "title": "点对点电子现金系统应用的基础设施",
+        "title": "Infra-Estrutura de Sistema para Dinheiro Eletrônico Ponto a Ponto",
         "leftDescList": [
-          "原生多币种支持，一个账户支持所有币种地址。",
-          "选择最优公链，确保点对点支付快速低成本实现。"
+          "Suporta múltiplos tokens, uma conta suporta todos os endereços de tokens",
+          "Escolha a melhor cadeia pública para garantir a realização rápida e de baixo custo do pagamento ponto a ponto"
         ],
         "centerDescList": [
-          "WASM合约支持，为BTC等数字货币带来合约化支持。",
-          "新型Delta智能合约语言，为电子现金场景提供无限可能。"
+          "O suporte ao contrato WASM oferece suporte contratual de moedas digitais como o BTC",
+          "Nova linguagem de contrato inteligente Delta, que oferece possibilidades ilimitadas para cenários de dinheiro eletrônico."
         ],
         "rightDescList": [
-          "通过BRPC与MTP实现链间TPS共享，提供高速交易与交易深度共享。"
+          "O compartilhamento de TPS entre cadeias por meio de BRPC e MTP, fornece negociação em alta velocidade e compartilhamento profundo de transações"
         ]
       },
       "impareInfo": {
-        "title": "社区激励机制",
+        "title": "Mecanismo de Incentivo à Comunidade",
         "list": [
           {
-            "name": "PoB激励",
-            "desc": "通过PoB建设激励社区共建",
+            "name": "Incentivo PoB",
+            "desc": "Incentiva a criação da comunidade através da construção PoB",
             "icon": "pop"
           },
           {
-            "name": "生态激励",
-            "desc": "通过链上治理机制鼓励应用发展",
+            "name": "Incentivo do Ecosistema",
+            "desc": "Incentivar o mecanismo de governança em cadeia",
             "icon": "globe"
           },
           {
-            "name": "技术激励",
-            "desc": "通过链上治理与激励措施吸引全球开发者共同参与",
+            "name": "Incentivo de Tecnologia",
+            "desc": "Atrai desenvolvedores de todo o mundo por meio de governança e incentivos em cadeia",
             "icon": "dev"
           }
         ]
       },
       "roadmap": {
-        "_title": "路线图",
+        "_title": "Roadmap",
         "mcont": [
           {
-            "stage": "第一阶段 2019.Q1",
-            "intr": "Gravity:",
+            "stage": "Primeira Fase - 1° Trimestre 2019",
+            "intr": "Gravidade:",
             "desc": [
-              "互操作性组件Gravity开发完成，Gravity将BTC、ETH等共识强大的数字货币，与第三代高性能公链实现可用的互操作，共享算力和性能，后期逐步通过互操作性方式扩展至更多高性能公有链。"
+              "O módulo de interoperabilidade Gravity foi desenvolvido, obtendo interoperabilidade utilizável entre cadeias públicas de terceira geração e moeda digital de alto consenso, como BTC e ETH, compartilhará o poder da computação e o desempenho expande gradualmente para uma cadeia pública de maior desempenho por meio da interoperabilidade."
             ]
           },
           {
-            "stage": "第二阶段 2019.Q3",
-            "intr": "Electromagnet:",
+            "stage": "Segunda Fase - 3° Trimestre 2019",
+            "intr": "Eletroímã:",
             "desc": [
-              "点对点零售支付DApp  Marco Pay上线",
-              "POB社区治理DAPP上线。"
+              "Lançamento do aplicativo de pagamento online - Marco Pay",
+              "Lançamento do DAAP POB de governança da comunidade."
             ]
           },
           {
-            "stage": "第三阶段 2020.Q4",
-            "intr": "Interaction:",
+            "stage": "Terceira Fase - 4° Trimestre 2020",
+            "intr": "Interação:",
             "desc": [
-              "自主研发MarcoPolo主网StandardChain上线，实现APOS、链上治理、InteractChain等架构设计。"
+              "Desenvolvimento independentemente da rede principal MarcoPolo; Lançamento da StandardChain; atingir APoS, governança em cadeia e design de arquitetura do InteractChain."
             ]
           },
           {
-            "stage": "第四阶段 2022.Q2",
-            "intr": " Grand Unification:",
+            "stage": "Quarta Fase - 2° Trimestre 2022",
+            "intr": " Grande Unificação:",
             "desc": [
-              "实现异构跨链可操作性，实现链间资源共享。"
+              "A realização de operabilidade heterogênea entre cadeias e compartilhamento de recursos entre cadeias."
             ]
           }
         ]
       },
       "partnerInfo": {
-        "title": "合作伙伴和投资机构",
+        "title": "Parceiros e Investidores",
         "list": [
           {
             "img": "softBank",
@@ -265,27 +265,27 @@
       }
     },
     "footer": {
-      "_title": "关注我们",
+      "_title": "Siga-nos",
       "mSupport": {
         "copyright": "© 2019 MarcoPolo Network Foundation, Todos os Direitos Reservados",
         "list": [
           {
-            "name": "开发者支持：developers@MarcoPolo.link",
+            "name": "Suporte ao Desenvolvedor: developers@MarcoPolo.link",
             "link": "developers@MarcoPolo.link"
           },
           {
-            "name": "联系我们：cooperation@MarcoPolo.link",
+            "name": "Contate-Nos: cooperation@MarcoPolo.link",
             "link": "cooperation@MarcoPolo.link"
           }
         ]
       },
       "fun": [
         {
-          "name": "白皮书",
+          "name": "White Paper",
           "link": "https://files.marcopolo.link/pdf/marcopolo_whitePater_en.pdf"
         },
         {
-          "name": "经济模型",
+          "name": "Modelo Econômico",
           "link": "https://files.marcopolo.link/pdf/marcopolo_economic_en.pdf"
         }
       ],
@@ -320,7 +320,7 @@
         }
       ],
       "download":{
-        "_title":"立即下载 App",
+        "_title":"Baixar",
         "link": "http://www.marcopolopay.org/download"
       }
     }

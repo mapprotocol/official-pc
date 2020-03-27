@@ -13,6 +13,7 @@ import wu from './wu.json'
 import it from './it.json'
 import ins from './ins.json'
 import vn from './vn.json'
+import pt from './pt.json'
 
 Vue.use(VueI18n)
 
@@ -32,7 +33,8 @@ const i18n = new VueI18n({
     wu,
     it,
     ins,
-    vn
+    vn,
+    pt
   }
 })
 

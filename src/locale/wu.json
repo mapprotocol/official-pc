@@ -66,6 +66,11 @@
           "name": "中文简体",
           "subName": "Language",
           "tag": "zh"
+        },
+        {
+          "name": "Português",
+          "subName": "Language",
+          "tag": "pt"
         }
       ]
     },

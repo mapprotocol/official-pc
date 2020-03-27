@@ -52,7 +52,8 @@ header {
     margin: 32px 0.38% 22px 0;
     li {
       display: inline-block;
-      min-width: 80px;
+      /*min-width: 80px;*/
+      min-width: 76px;
       font-size: @fontSizeBase;
       font-family: @fontYaHei;
       font-weight: 400;
@@ -60,7 +61,8 @@ header {
       line-height: 50px;
       margin-left: 25px;
       &:last-child {
-        min-width: 130px;
+        /*min-width: 130px;*/
+        min-width: 105px;
       }
       p {
         line-height: 24px;
@@ -86,7 +88,7 @@ header {
       .lang-list {
         position: absolute;
         width: 130px;
-        height: 414px;
+        height: 438px;
         background: #D3E0FF;
         border: 1px solid #D3E0FF;
         z-index: 999;
@@ -122,6 +124,11 @@ header {
     .ctx-main {
       width: @ctx959Width;
       margin: 0 auto;
+    }
+    .header-menu {
+      li {
+        margin-left: 20px;
+      }
     }
   }
 }
@@ -519,7 +526,6 @@ section.nav {
       -webkit-animation-name: moveFive;
     }
   }
-
   section.nav .layout-main .layout-chain {
     text-align: center;
     left: 2%;
@@ -551,6 +557,13 @@ section.nav {
       .layout-main .layout-chain{
         li {
           min-height: 335px;
+        }
+      }
+    }
+    section.nav.nav-pt {
+      .layout-main .layout-chain{
+        li {
+          min-height: 358px;
         }
       }
     }
@@ -704,6 +717,9 @@ section.points {
       .title-left, .title-right {
         width: 0;
       }
+      &.points-pt {
+        padding-top: 860px;
+      }
     }
   }
 }
@@ -854,6 +870,16 @@ section.impare {
         padding: 15px 7.8% 0 7.8%;
         text-align: left;
         width: auto;
+      }
+    }
+  }
+  section.impare.impare-pt {
+    .layout-impare {
+      li {
+        height: 305px;
+        .border-absoute {
+          height: 305px;
+        }
       }
     }
   }
@@ -1211,6 +1237,12 @@ section.line-map {
         }
       }
     }
+    &.line-map-pt {
+      height: 1180px;
+      .level1 .map-level-yuan {
+        left: 397px;
+      }
+    }
   }
   .map-level-end {
     margin-left: 35.9%;
@@ -1233,6 +1265,9 @@ section.line-map {
       }
       &.line-map-tr {
         height: 1200px;
+      }
+      &.line-map-pt {
+        height: 1260px;
       }
     }
   }
