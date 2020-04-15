@@ -1,327 +1,305 @@
-  {
-    "language": {
-      "_title": "简体中文",
-      "langs": [
+{
+  "language": {
+    "_title": "English",
+    "langs": [
+      {
+        "name": "English",
+        "subName": "Language",
+        "introduce": "英文",
+        "tag": "en"
+      },
+      {
+        "name": "한국어",
+        "subName": "Language",
+        "introduce": "韩文",
+        "tag": "ko"
+      },
+      {
+        "name": "Türk dili",
+        "subName": "Language",
+        "introduce": "土耳其语",
+        "tag": "tr"
+      },
+      {
+        "name": "русский",
+        "subName": "Language",
+        "introduce": "俄语",
+        "tag": "ru"
+      },
+      {
+        "name": "Tiếng việt nam",
+        "subName": "Language",
+        "introduce": "越南语",
+        "tag": "vn"
+      },
+      {
+        "name": "Português",
+        "subName": "Language",
+        "tag": "pt"
+      },
+      {
+        "name": "Orang indonesia",
+        "subName": "Language",
+        "introduce": "印尼语",
+        "tag": "ins"
+      },
+      {
+        "name": "日本語",
+        "subName": "Language",
+        "introduce": "日本语",
+        "tag": "jp"
+      },
+      {
+        "name": "中文简体",
+        "subName": "Language",
+        "tag": "zh"
+      }
+    ]
+  },
+  "nav": [
+    {
+      "name": "Homepage",
+      "subName": "Homepage",
+      "path": "top"
+    },
+    {
+      "name": "Developer",
+      "subName": "Developer",
+      "path": "https://github.com/marcopoloprotocol"
+    },
+    {
+      "name": "White Paper",
+      "subName": "White Paper",
+      "path": "m-footer"
+    },
+    {
+      "name": "Download",
+      "subName": "Download",
+      "path": "http://www.marcopolopay.org/download"
+    },
+    {
+      "name": "Hiring",
+      "subName": "We are hiring developers",
+      "path": "https://www.indeedjobs.com/marcopolo-protocol/_hl/en_CA"
+    }
+  ],
+  "home": {
+    "banner": {
+      "_title": "MarcoPolo Protocol: Chain-to-chain Interoperation Protocol",
+      "desc": [
+        "MarcoPolo Protocol is an open, fully decentralized, chain-to-chain interoperation protocol that enables the interoperability of multiple independently verifiable consensus blockchains without a relay chain. MarcoPolo Protocol expects to construct a future inter-chain-net, which is interoperable and chain-to-chain based. The ecosystem built on MarcoPolo Protocol can provide a solid infrastructure for finance, AI, IoT, traceability, and governance filed by cross-chain communication, privacy computation, shared storage, etc..."
+      ]
+    },
+    "chainInfo": [
+      {
+        "title": "Super Light Cross-chain Verification Algorithm",
+        "desc": [
+          "Provides the ability of one chain to validate the state of another chain under low bandwidth and low storage."
+        ]
+      },
+      {
+        "title": "Composable Smart Contract Rule",
+        "desc": [
+          "A rule for multiple composable trigger condition smart contracts."
+        ]
+      },
+      {
+        "title": "Standardized Peer Discovery and Communication P2P Protocol",
+        "desc": [
+          "A protocol under which the peer under different blockchain systems can discover and communicate with each other."
+        ]
+      },
+      {
+        "title": "High-efficiency Block Transport Channel",
+        "desc": [
+          "A block transportation channel based on IBLT which can compress the block size when relaying blocks."
+        ]
+      },
+      {
+        "title": "APOS Consensus Protocol",
+        "desc": [
+          "Asset Proof of Staking consensus based on verifiable random function."
+        ]
+      },
+      {
+        "title": "MarcoPolo Application Tool Environment",
+        "desc": [
+          "A toolkit built on Sustainable MAP RunTime which can help developers to construct their own interoperable blockchains."
+        ]
+      }
+    ],
+    "pointsInfo": {
+      "title": "Peer-to-Peer Electronic Cash System Infrastructure",
+      "leftDescList": [
+        "Support multiple tokens, one account supports all tokens' addresses",
+        "Choose the best public chain to ensure the fast and low-cost realization of peer-to-peer payment"
+      ],
+      "centerDescList": [
+        "WASM contract support brings contractual support to digital currencies such as BTC",
+        "New smart contract language Delta which provides unlimited possibilities for electronic cash scenarios."
+      ],
+      "rightDescList": [
+        "Inter-chain TPS sharing through BRPC and MTP, provide high-speed trading and deep transaction sharing"
+      ]
+    },
+    "impareInfo": {
+      "title": "Community Incentive Mechanism",
+      "list": [
         {
-          "name": "English",
-          "subName": "Language",
-          "introduce": "英文",
-          "tag": "en"
+          "name": "PoB Incentive",
+          "desc": "Encourage community construction through PoB construction",
+          "icon": "pop"
         },
         {
-          "name": "한국어",
-          "subName": "Language",
-          "introduce": "韩文",
-          "tag": "ko"
+          "name": "Eco-system Incentive",
+          "desc": "Encourage on-chain governance mechanism",
+          "icon": "globe"
         },
         {
-          "name": "русский",
-          "subName": "Language",
-          "introduce": "俄语",
-          "tag": "ru"
-        },
-        {
-          "name": "বাংলা ভাষার",
-          "subName": "Language",
-          "introduce": "孟加拉语",
-          "tag": "bd"
-        },
-        {
-          "name": "日本語",
-          "subName": "Language",
-          "introduce": "日本语",
-          "tag": "jp"
-        },
-        {
-          "name": "Türk dili",
-          "subName": "Language",
-          "introduce": "土耳其语",
-          "tag": "tr"
-        },
-        {
-          "name": "اردو",
-          "subName": "Language",
-          "introduce": "乌尔都语",
-          "tag": "wu"
-        },
-        {
-          "name": "lingua italiana",
-          "subName": "Language",
-          "introduce": "意大利语",
-          "tag": "it"
-        },
-        {
-          "name": "Orang indonesia",
-          "subName": "Language",
-          "introduce": "印尼语",
-          "tag": "ins"
-        },
-        {
-          "name": "Tiếng việt nam",
-          "subName": "Language",
-          "introduce": "越南语",
-          "tag": "vn"
-        },
-        {
-          "name": "中文简体",
-          "subName": "Language",
-          "tag": "zh"
-        },
-        {
-          "name": "Português",
-          "subName": "Language",
-          "tag": "pt"
+          "name": "Technology Incentive",
+          "desc": "Attracting global developers through on-chain governance and incentives",
+          "icon": "dev"
         }
       ]
     },
-    "nav": [
+    "roadmap": {
+      "_title": "Road map",
+      "mcont": [
+        {
+          "stage": "The First Stage 2019.Q1",
+          "intr": "Gravity:",
+          "desc": [
+            "The interoperability module Gravity has been developed, which realized useable interoperability between third-generation public chains and high consensus digital currency such as BTC and ETH, will share computing power and performance gradually expand to a more high-performance public chain through interoperability."
+          ]
+        },
+        {
+          "stage": "The Second Stage 2019.Q3",
+          "intr": "Electromagnet:",
+          "desc": [
+            "Launch online retail payment application - MarcoPay",
+            "Launch community governance POB  DAPP."
+          ]
+        },
+        {
+          "stage": "The Third Stage 2020.Q4",
+          "intr": "Interaction:",
+          "desc": [
+            "Independently developed MarcoPolo's mainnet; Launch StandardChain; achieve APoS, on-chain governance, and architecture design of InteractChain"
+          ]
+        },
+        {
+          "stage": "The Fourth Stage 2022.Q2",
+          "intr": "Grand Unification:",
+          "desc": [
+            "The realization of heterogeneous cross-chain operability and resource sharing between chains"
+          ]
+        }
+      ]
+    },
+    "partnerInfo": {
+      "title": "Partners and Investors",
+      "list": [
+        {
+          "img": "softBank",
+          "link": "https://www.softbank.jp"
+        },
+        {
+          "img": "kuCoin",
+          "link": "https://trade.kucoin.com/spot"
+        },
+        {
+          "img": "yahoo",
+          "link": "https://news.yahoo.com/news/why-join-marcopolo-protocol-131500994.html"
+        },
+        {
+          "img": "coinMarket",
+          "link": "https://coinmarketcap.com/currencies/marcopolo-protocol/"
+        },
+        {
+          "img": "coinGecko",
+          "link": "https://www.coingecko.com/en/coins/marcopolo-protocol"
+        },
+        {
+          "img": "feiXiaoHao",
+          "link": "http://www.feixiaohao.com/currencies/marcopoloprotocol%20/"
+        },
+        {
+          "img": "crypto",
+          "link": "https://www.cryptocompare.com/coins/map/overview"
+        },
+        {
+          "img": "haoDeLian",
+          "link": "https://www.mytokencap.com/currency/map/821733067"
+        },
+        {
+          "img": "kSher",
+          "link": "https://www.ksher.com/"
+        },
+        {
+          "img": "kidd",
+          "link": "http://www.kidd.co.kr/news/213087"
+        },
+        {
+          "img": "zametki",
+          "link": "https://cryptorussia.ru/zametki/pochemu-stoit-prisoedinitsya-k-protokolu-marcopolo"
+        }
+      ]
+    }
+  },
+  "footer": {
+    "_title": "Follow us",
+    "mSupport": {
+      "copyright": "2020 MarcoPolo Network Foundation, All Rights Reseved",
+      "list": [
+        {
+          "name": "Developer support: developers@MarcoPolo.link",
+          "link": "developers@MarcoPolo.link"
+        },
+        {
+          "name": "Contact Us: cooperation@MarcoPolo.link",
+          "link": "cooperation@MarcoPolo.link"
+        }
+      ]
+    },
+    "fun": [
       {
-        "name": "Página Principal",
-        "subName": "Homepage",
-        "path": "top"
+        "name": "Whitepaper",
+        "link": "https://files.marcopolo.link/pdf/marcopolo_whitePater_en.pdf"
       },
       {
-        "name": "Desenvolvedor",
-        "subName": "Developer",
-        "path": "https://github.com/marcopoloprotocol"
-      },
-      {
-        "name": "White Paper",
-        "subName": "White Paper",
-        "path": "m-footer"
-      },
-      {
-        "name": "Baixar",
-        "subName": "Download",
-        "path": "http://www.marcopolopay.org/download"
-      },
-      {
-        "name": "Contratação",
-        "subName": "We are hiring developers",
-        "path": "https://www.indeedjobs.com/marcopolo-protocol/_hl/en_CA"
+        "name": "Economic Model",
+        "link": "https://files.marcopolo.link/pdf/marcopolo_economic_en.pdf"
       }
     ],
-    "home": {
-      "banner": {
-        "_title": "Dinheiro eletrônico ponto a ponto em nova INFRA-ESTRUTURA DE SISTEMA",
-        "desc": [
-          "O Protocolo MarcoPolo (MAP) é uma nova infra-estrutura de sistema de dinheiro eletrônico ponto a ponto, estrategicamente investida pela Softbank, que visa alcançar o compartilhamento de TPS em cadeia pública e agendamento inteligente através de várias cadeias públicas, habilitando o sistema de dinheiro ponto a ponto para aproveitar as expansões ilimitadas do TPS e a taxa ideal de GAS entre toda a rede blockchain."
-        ]
+    "icon": [
+      {
+        "i": "telegram",
+        "link": "https://t.me/MarcoPoloMAP"
       },
-      "chainInfo": [
-        {
-          "title": "Compartilhamento Inter-Cadeia",
-          "desc": [
-            "Interaja com outras cadeias públicas por meio do protocolo BRPC, realizando o compartilhamento de TPS e agendamento de transações entre várias cadeias públicas."
-          ]
-        },
-        {
-          "title": "Alta Escalabilidade",
-          "desc": [
-            "Comunique-se com vários SynerChain e StandardChain através do protocolo MTP e realize transações."
-          ]
-        },
-        {
-          "title": "Descentralização",
-          "desc": [
-            "Adote o mecanismo de consenso APoS que permite a participação de ativos extra-cadeia e torna o sistema mais descentralizado e seguro."
-          ]
-        },
-        {
-          "title": "Estrutura Simples",
-          "desc": [
-            "Crie blockchain necessário com base na estrutura MATE com alta velocidade e desenvolva os módulos funcionais necessários com a linguagem Delta."
-          ]
-        },
-        {
-          "title": "Governança em Cadeia",
-          "desc": [
-            "Baseado no sistema SMART, o MarcoPolo pode obter atualizações auto-adaptáveis sem fork."
-          ]
-        },
-        {
-          "title": "Nunca Fork",
-          "desc": [
-            "Um sistema de governança e mecanismo de incentivo completamente aberto, em cadeia, impulsionado pelo incentivo da comunidade e promovendo o desenvolvimento do Protocolo MarcoPolo."
-          ]
-        }
-      ],
-      "pointsInfo": {
-        "title": "Infra-Estrutura de Sistema para Dinheiro Eletrônico Ponto a Ponto",
-        "leftDescList": [
-          "Suporta múltiplos tokens, uma conta suporta todos os endereços de tokens",
-          "Escolha a melhor cadeia pública para garantir a realização rápida e de baixo custo do pagamento ponto a ponto"
-        ],
-        "centerDescList": [
-          "O suporte ao contrato WASM oferece suporte contratual de moedas digitais como o BTC",
-          "Nova linguagem de contrato inteligente Delta, que oferece possibilidades ilimitadas para cenários de dinheiro eletrônico."
-        ],
-        "rightDescList": [
-          "O compartilhamento de TPS entre cadeias por meio de BRPC e MTP, fornece negociação em alta velocidade e compartilhamento profundo de transações"
-        ]
+      {
+        "i": "twitter",
+        "link": "https://twitter.com/MarcoPoloGlobal"
       },
-      "impareInfo": {
-        "title": "Mecanismo de Incentivo à Comunidade",
-        "list": [
-          {
-            "name": "Incentivo PoB",
-            "desc": "Incentiva a criação da comunidade através da construção PoB",
-            "icon": "pop"
-          },
-          {
-            "name": "Incentivo do Ecosistema",
-            "desc": "Incentivar o mecanismo de governança em cadeia",
-            "icon": "globe"
-          },
-          {
-            "name": "Incentivo de Tecnologia",
-            "desc": "Atrai desenvolvedores de todo o mundo por meio de governança e incentivos em cadeia",
-            "icon": "dev"
-          }
-        ]
+      {
+        "i": "bitcointalk",
+        "link": "https://bitcointalk.org/index.php?topic=5215440.new#new"
       },
-      "roadmap": {
-        "_title": "Roadmap",
-        "mcont": [
-          {
-            "stage": "Primeira Fase - 1° Trimestre 2019",
-            "intr": "Gravidade:",
-            "desc": [
-              "O módulo de interoperabilidade Gravity foi desenvolvido, obtendo interoperabilidade utilizável entre cadeias públicas de terceira geração e moeda digital de alto consenso, como BTC e ETH, compartilhará o poder da computação e o desempenho expande gradualmente para uma cadeia pública de maior desempenho por meio da interoperabilidade."
-            ]
-          },
-          {
-            "stage": "Segunda Fase - 3° Trimestre 2019",
-            "intr": "Eletroímã:",
-            "desc": [
-              "Lançamento do aplicativo de pagamento online - Marco Pay",
-              "Lançamento do DAAP POB de governança da comunidade."
-            ]
-          },
-          {
-            "stage": "Terceira Fase - 4° Trimestre 2020",
-            "intr": "Interação:",
-            "desc": [
-              "Desenvolvimento independentemente da rede principal MarcoPolo; Lançamento da StandardChain; atingir APoS, governança em cadeia e design de arquitetura do InteractChain."
-            ]
-          },
-          {
-            "stage": "Quarta Fase - 2° Trimestre 2022",
-            "intr": " Grande Unificação:",
-            "desc": [
-              "A realização de operabilidade heterogênea entre cadeias e compartilhamento de recursos entre cadeias."
-            ]
-          }
-        ]
+      {
+        "i": "naver",
+        "link": "https://blog.naver.com/marcopoloprotocol"
       },
-      "partnerInfo": {
-        "title": "Parceiros e Investidores",
-        "list": [
-          {
-            "img": "softBank",
-            "link": "https://www.softbank.jp"
-          },
-          {
-            "img": "kuCoin",
-            "link": "https://trade.kucoin.com/spot"
-          },
-          {
-            "img": "yahoo",
-            "link": "https://news.yahoo.com/news/why-join-marcopolo-protocol-131500994.html"
-          },
-          {
-            "img": "coinMarket",
-            "link": "https://coinmarketcap.com/currencies/marcopolo-protocol/"
-          },
-          {
-            "img": "coinGecko",
-            "link": "https://www.coingecko.com/en/coins/marcopolo-protocol"
-          },
-          {
-            "img": "feiXiaoHao",
-            "link": "http://www.feixiaohao.com/currencies/marcopoloprotocol%20/"
-          },
-          {
-            "img": "crypto",
-            "link": "https://www.cryptocompare.com/coins/map/overview"
-          },
-          {
-            "img": "haoDeLian",
-            "link": "https://www.mytokencap.com/currency/map/821733067"
-          },
-          {
-            "img": "kSher",
-            "link": "https://www.ksher.com/"
-          },
-          {
-            "img": "kidd",
-            "link": "http://www.kidd.co.kr/news/213087"
-          },
-          {
-            "img": "zametki",
-            "link": "https://cryptorussia.ru/zametki/pochemu-stoit-prisoedinitsya-k-protokolu-marcopolo"
-          }
-        ]
+      {
+        "i": "medium",
+        "link": "https://medium.com/marcopolo-protocol"
+      },
+      {
+        "i": "kakao",
+        "link": "https://open.kakao.com/o/gI5fPXSb"
       }
-    },
-    "footer": {
-      "_title": "Siga-nos",
-      "mSupport": {
-        "copyright": "2020 MarcoPolo Network Foundation, Todos os Direitos Reservados",
-        "list": [
-          {
-            "name": "Suporte ao Desenvolvedor: developers@MarcoPolo.link",
-            "link": "developers@MarcoPolo.link"
-          },
-          {
-            "name": "Contate-Nos: cooperation@MarcoPolo.link",
-            "link": "cooperation@MarcoPolo.link"
-          }
-        ]
-      },
-      "fun": [
-        {
-          "name": "White Paper",
-          "link": "https://files.marcopolo.link/pdf/marcopolo_whitePater_en.pdf"
-        },
-        {
-          "name": "Modelo Econômico",
-          "link": "https://files.marcopolo.link/pdf/marcopolo_economic_en.pdf"
-        }
-      ],
-      "icon": [
-        {
-          "i": "telegram",
-          "link": "https://t.me/MarcoPoloMAP"
-        },
-        {
-          "i": "twitter",
-          "link": "https://twitter.com/MarcoPoloGlobal"
-        },
-        {
-          "i": "facebook",
-          "link": "https://www.facebook.com/MarcoPolo-Protocol-107054464162905"
-        },
-        {
-          "i": "bitcointalk",
-          "link": "https://bitcointalk.org/index.php?topic=5215440.new#new"
-        },
-        {
-          "i": "naver",
-          "link": "https://blog.naver.com/marcopoloprotocol"
-        },
-        {
-          "i": "medium",
-          "link": "https://medium.com/marcopolo-protocol"
-        },
-        {
-          "i": "kakao",
-          "link": "https://open.kakao.com/o/gI5fPXSb"
-        }
-      ],
-      "download":{
-        "_title":"Baixar",
-        "link": "http://www.marcopolopay.org/download"
-      }
+    ],
+    "download": {
+      "_title": "Download App now",
+      "link": "http://www.marcopolopay.org/download"
     }
   }
+}

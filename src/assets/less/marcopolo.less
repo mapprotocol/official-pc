@@ -88,7 +88,8 @@ header {
       .lang-list {
         position: absolute;
         width: 130px;
-        height: 438px;
+        height: 330px;
+        /*height: 438px;*/
         background: #D3E0FF;
         border: 1px solid #D3E0FF;
         z-index: 999;
@@ -311,48 +312,48 @@ section.nav {
       /*background: url('../images/banner_text.png') no-repeat;
       background-size: 100% 100%;*/
       position: absolute;
-      width: 634px;
-      height: 144px;
-      left: 20px;
-      top: 138px;
+      width: 499px;
+      height: 98px;
+      left: 40px;
+      top: 103px;
       z-index: 10;
       img {
-        width: 634px;
-        height: 144px;
+        width: 499px;
+        height: 98px;
       }
     }
     .layout-banner-title-en{
      /* background: url('../images/banner_text_en.png') no-repeat;
       background-size: 100% 100%;*/
       position: absolute;
-      width: 644px;
-      height: 117px;
-      left: 20px;
-      top: 138px;
+      width: 514px;
+      height: 109px;
+      left: 40px;
+      top: 88px;
       z-index: 10;
       img {
-        width: 644px;
-        height: 117px;
+        width: 514px;
+        height: 109px;
       }
     }
     .layout-banner-title-ko{
      /* background: url('../images/banner_text_ko.png') no-repeat;
       background-size: 100% 100%;*/
       position: absolute;
-      width: 626px;
+      width: 606px;
       height: 133px;
-      left: 20px;
-      top: 138px;
+      left: 40px;
+      top: 88px;
       z-index: 10;
       img {
-        width: 626px;
-        height: 138px;
+        width: 606px;
+        height: 133px;
       }
     }
     .layout-banner-remark {
       position: absolute;
       left: 40px;
-      top: 282px;
+      top: 212px;
       z-index: 66;
       width: 601px;
       min-height: 100px;
@@ -374,16 +375,17 @@ section.nav {
         display: inline-block;
         vertical-align: top;
         width: 14.5%;
-        min-height: 388px;
+        min-height: 502px;
+       /* min-height: 388px;*/
         margin-right: 1.58%;
         border-radius: 12px;
         box-shadow: 0 20px 20px -20px @colorChainLiShadow;
         background-color: @chainLiBackground;
       }
       h1 {
-        width: 100%;
+        width: calc(100% - 10px);
         text-align: center;
-        padding: 23px 0;
+        padding: 23px 5px;
         font-size: @fontSize22;
         font-family: @fontYaHei;
         font-weight: 400;
@@ -409,6 +411,13 @@ section.nav {
 }
 /*英文版排版*/
 .language-en {
+  section.nav .layout-main .layout-banner-remark {
+    top: 240px;
+    text-indent: unset;
+  }
+  section.nav.nav-ko .layout-main .layout-banner-remark {
+    top: 248px;
+  }
   section.nav .layout-main .layout-chain {
     width: @ctx1200Width;
     left: 5%;
@@ -660,7 +669,10 @@ section.points {
 /*英文版排版*/
 .language-en {
   section.points {
+    padding-top: 610px;
+    /*
     padding-top: 754px;
+    */
     .points-title span {
       display: inline-block;
       vertical-align: middle;

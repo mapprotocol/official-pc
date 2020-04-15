@@ -4,23 +4,23 @@ const setTitle = title => {
     if (lang) {
       switch (lang) {
         case 'zh':
-          title = '马可波罗（MAP）：一种新型的点对点电子现金系统'
+          title = 'MarcoPolo Protocol: 自由互链协议'
           break
         case 'en':
           title =
-            'MarcoPolo Protocol(MAP)：A New Peer-to-Peer Electronic Cash System'
+            'MarcoPolo Protocol: Chain-to-chain Interoperation Protocol'
           break
         case 'ko':
-          title = '마르코 폴로MarcoPolo(MAP)：새로운 피어 투 피어 전자 현금 시스템'
+          title = 'MarcoPolo Protocol: Chain-to-chain 상호운영 가능한 프로토콜'
           break
         default:
           title =
-            'MarcoPolo Protocol(MAP)：A New Peer-to-Peer Electronic Cash System'
+            'MarcoPolo Protocol: Chain-to-chain Interoperation Protocol'
           break
       }
     } else {
       title =
-        title || 'MarcoPolo Protocol(MAP)：A New Peer-to-Peer Electronic Cash System'
+        title || 'MarcoPolo Protocol: Chain-to-chain Interoperation Protocol'
     }
   } catch (e) {}
   window.document.title = title

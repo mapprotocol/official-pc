@@ -5,15 +5,15 @@ import { getStore } from '../libs/util'
 import zh from './zh.json'
 import en from './en.json'
 import ko from './ko.json'
-import ru from './ru.json'
-/*import bd from './bd.json'*/
+/*import ru from './ru.json'
+import bd from './bd.json'
 import jp from './jp.json'
 import tr from './tr.json'
-/*import wu from './wu.json'
-import it from './it.json'*/
+import wu from './wu.json'
+import it from './it.json'
 import ins from './ins.json'
 import vn from './vn.json'
-import pt from './pt.json'
+import pt from './pt.json'*/
 
 Vue.use(VueI18n)
 
@@ -24,15 +24,9 @@ const i18n = new VueI18n({
   locale: getStore('marcoLang') || 'en',
   messages: {
     en,
-    ko,
-    tr,
-    ru,
-    vn,
-    pt,
-    ins,
-    jp,
-    zh
+    zh,
+    ko
   }
-});
+}) // ,ru, bd, jp, tr, wu, it, ins, vn, pt
 
 export default i18n

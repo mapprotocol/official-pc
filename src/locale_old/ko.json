@@ -15,41 +15,6 @@
         "tag": "ko"
       },
       {
-        "name": "Türk dili",
-        "subName": "Language",
-        "introduce": "土耳其语",
-        "tag": "tr"
-      },
-      {
-        "name": "русский",
-        "subName": "Language",
-        "introduce": "俄语",
-        "tag": "ru"
-      },
-      {
-        "name": "Tiếng việt nam",
-        "subName": "Language",
-        "introduce": "越南语",
-        "tag": "vn"
-      },
-      {
-        "name": "Português",
-        "subName": "Language",
-        "tag": "pt"
-      },
-      {
-        "name": "Orang indonesia",
-        "subName": "Language",
-        "introduce": "印尼语",
-        "tag": "ins"
-      },
-      {
-        "name": "日本語",
-        "subName": "Language",
-        "introduce": "日本语",
-        "tag": "jp"
-      },
-      {
         "name": "中文简体",
         "subName": "Language",
         "tag": "zh"

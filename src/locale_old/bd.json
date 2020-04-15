@@ -1,0 +1,322 @@
+{
+	"language": {
+		"_title": "বাংলা ভাষার",
+		"langs": [
+			{
+				"name": "English",
+				"subName": "Language",
+				"introduce": "英文",
+				"tag": "en"
+			},
+			{
+				"name": "한국어",
+				"subName": "Language",
+				"introduce": "韩文",
+				"tag": "ko"
+			},
+			{
+				"name": "русский",
+				"subName": "Language",
+				"introduce": "俄语",
+				"tag": "ru"
+			},
+			{
+				"name": "বাংলা ভাষার",
+				"subName": "Language",
+				"introduce": "孟加拉语",
+				"tag": "bd"
+			},
+			{
+				"name": "日本語",
+				"subName": "Language",
+				"introduce": "日本语",
+				"tag": "jp"
+			},
+			{
+				"name": "Türk dili",
+				"subName": "Language",
+				"introduce": "土耳其语",
+				"tag": "tr"
+			},
+			{
+				"name": "اردو",
+				"subName": "Language",
+				"introduce": "乌尔都语",
+				"tag": "wu"
+			},
+			{
+				"name": "lingua italiana",
+				"subName": "Language",
+				"introduce": "意大利语",
+				"tag": "it"
+			},
+			{
+				"name": "Orang indonesia",
+				"subName": "Language",
+				"introduce": "印尼语",
+				"tag": "ins"
+			},
+			{
+				"name": "Tiếng việt nam",
+				"subName": "Language",
+				"introduce": "越南语",
+				"tag": "vn"
+			},
+			{
+				"name": "中文简体",
+				"subName": "Language",
+				"tag": "zh"
+			},
+			{
+				"name": "Português",
+				"subName": "Language",
+				"tag": "pt"
+			}
+		]
+	},
+	"nav": [
+		{
+			"name": "হোম",
+			"subName": "Homepage",
+			"path": "top"
+		},
+		{
+			"name": "বিকাশকারী",
+			"subName": "Developer",
+			"path": "https://github.com/marcopoloprotocol"
+		},
+		{
+			"name": "হোয়াইট পেপার",
+			"subName": "White Paper",
+			"path": "m-footer"
+		},
+		{
+			"name": "ওয়ালেট অ্যাপ ডাউনলোড করুন",
+			"subName": "Download",
+			"path": "http://www.marcopolopay.org/download"
+		}
+	],
+	"home": {
+		"banner": {
+			"_title": "নতুন পিয়ার-থেকে-পিয়ার বৈদ্যুতিন নগদ সিস্টেমের প্রাথমিক তথ্য",
+			"desc": [
+				"মার্কোপোলো প্রোটোকল (MAP) হ'ল সফটব্যাঙ্কে একটি কৌশলগত বিনিয়োগ, একটি নতুন ধরণের পিয়ার-টু-পিয়ার ইলেকট্রনিক নগদ ব্যবস্থা অবকাঠামো, যা বিদ্যমান পাবলিক চেইনের সাথে টিপিএস ভাগ করে নেওয়ার বিষয়টি উপলব্ধি করে এবং লেনদেনের মাধ্যমে বিভিন্ন পাবলিক চেইনের মধ্যে বুদ্ধিমানভাবে লেনদেন প্রেরণ করে, পিয়ার-টু-পিয়ার ইলেকট্রনিক নগদ সিস্টেমের প্রয়োগকে সক্ষম করে আপনি টিপিএসের সীমাহীন সম্প্রসারণ এবং পুরো ব্লকচেইন নেটওয়ার্কের সর্বোত্তম জিএএস উপভোগ করতে পারবেন।"
+			]
+		},
+		"chainInfo": [
+			{
+				"title": "ইন্টারচেইন শেয়ারিং",
+				"desc": [
+					"একাধিক পাবলিক চেইনের মধ্যে টিপিএস শেয়ারিং এবং লেনদেনের সময়সূচী অর্জনের জন্য বিআরপিসি প্রোটোকলের মাধ্যমে অন্যান্য পাবলিক চেইনের সাথে মিথস্ক্রিয়া"
+				]
+			},
+			{
+				"title": "উচ্চ স্কেলিবিলিটি",
+				"desc": [
+					"লেনদেন বুঝতে পেরে এমটিপি প্রোটোকলের মাধ্যমে একাধিক সহযোগীতা চেইন এবং বেঞ্চমার্ক চেইনের মধ্যে বার্তা যোগাযোগ"
+				]
+			},
+			{
+				"title": "বিকেন্দ্রীকরণ",
+				"desc": [
+					"অফ-চেইন সম্পদগুলিকে অংশ নিতে মঞ্জুরি দেয় এমন এপিওএস conক্যমত্য প্রক্রিয়া আরও বিকেন্দ্রীভূত এবং সুরক্ষিত"
+				]
+			},
+			{
+				"title": "সহজেই ব্যবহারযোগ্য কাঠামো",
+				"desc": [
+					"প্রয়োজনীয় কার্যকরী মডিউলগুলির সুবিধাজনক বিকাশের জন্য প্রয়োজনীয় ব্লকচেন ডেল্টা ভাষা দ্রুত তৈরি করতে মেট কাঠামোর ভিত্তিতে"
+				]
+			},
+			{
+				"title": "অন-চেইন গভর্নেন্স",
+				"desc": [
+					"একটি সম্পূর্ণ উন্মুক্ত অন-চেইন গভর্নমেন্ট সিস্টেম এবং প্রণোদনা ব্যবস্থা সম্প্রদায় দ্বারা পরিচালিত হয় মার্কোপোলোর বিকাশকে উত্সাহিত ও প্রচার করতে"
+				]
+			},
+			{
+				"title": "কখনই কাঁটাচামচ",
+				"desc": [
+					"স্মার্ট সিস্টেমের উপর ভিত্তি করে মার্কোপোলো কাঁটাচামচ ছাড়াই অভিযোজিত আপগ্রেড অর্জন করতে পারে"
+				]
+			}
+		],
+		"pointsInfo": {
+			"title": "পিয়ার-টু-পিয়ার বৈদ্যুতিন ক্যাশ সিস্টেম অ্যাপ্লিকেশনটির জন্য অবকাঠামো",
+			"leftDescList": [
+				"স্থানীয় বহু-মুদ্রা সমর্থন, একটি অ্যাকাউন্ট সমস্ত মুদ্রার ঠিকানা সমর্থন করে",
+				"পিয়ার-টু-পিয়ার পেমেন্টের দ্রুত এবং কম খরচে বাস্তবায়ন নিশ্চিত করার জন্য সেরা সর্বজনীন চেইন চয়ন করুন।"
+			],
+			"centerDescList": [
+				"জঞ্জাল চুক্তি সমর্থন বিটিসির মতো ডিজিটাল মুদ্রায় চুক্তিবদ্ধ সহায়তা নিয়ে আসে",
+				"নতুন ডেল্টা স্মার্ট কন্ট্রাক্ট ল্যাঙ্গুয়েজ ইলেকট্রনিক নগদ পরিস্থিতিগুলির জন্য সীমাহীন সম্ভাবনা সরবরাহ করে।"
+			],
+			"rightDescList": [
+				"উচ্চ-গতির লেনদেন এবং লেনদেনের গভীর অংশীদারি সরবরাহ করে, বিআরপিসি এবং এমটিপি-র মাধ্যমে আন্ত-চেইন টিপিএস শেয়ারিং অর্জন করা হয়।"
+			]
+		},
+		"impareInfo": {
+			"title": "সম্প্রদায় উত্সাহ",
+			"list": [
+				{
+					"name": "পিওবি ইনসেনটিভ",
+					"desc": "পিওবি নির্মাণের মাধ্যমে সম্প্রদায় নির্মাণকে উত্সাহিত করুন",
+					"icon": "pop"
+				},
+				{
+					"name": "পরিবেশগত উত্সাহ",
+					"desc": "অন-চেইন প্রশাসনের মাধ্যমে অ্যাপ্লিকেশন বিকাশকে উত্সাহিত করুন",
+					"icon": "globe"
+				},
+				{
+					"name": "প্রযুক্তিগত উদ্দীপনা",
+					"desc": "অন-চেইন গভর্নেন্স এবং ইনসেনটিভের মাধ্যমে বিশ্ব বিকাশকারীদের অংশগ্রহণকে আকর্ষণ করুন",
+					"icon": "dev"
+				}
+			]
+		},
+		"roadmap": {
+			"_title": "রোডম্যাপ",
+			"mcont": [
+				{
+					"stage": "প্রথম পর্যায় 2019.Q1",
+					"intr": "Gravity:",
+					"desc": [
+						"আন্তঃব্যবহারযোগ্য উপাদান মহাকর্ষের বিকাশ সম্পন্ন হয়েছে। মাধ্যাকর্ষণ বিটিসি, ইটিএইচ এবং অন্যান্য sensক্যমত্য ডিজিটাল মুদ্রাগুলি উচ্চ-পারফরম্যান্স পাবলিক চেইনের তৃতীয় প্রজন্মের সাথে ব্যবহারের যোগ্য আন্তঃব্যবহারযোগ্যতা অর্জনের জন্য, কম্পিউটিং শক্তি এবং কর্মক্ষমতা ভাগ করে নেওয়ার জন্য এবং ধীরে ধীরে প্রসারিত করবে আরও উচ্চ-সম্পাদনকারী পাবলিক চেইন "
+					]
+				},
+				{
+					"stage": "দ্বিতীয় পর্যায় 2019.Q3",
+					"intr": "Electromagnet:",
+					"desc": [
+						"পিয়ার-টু-পিয়ার রিটেইল পেমেন্ট ডিপাই মার্কো পে লাইভ হয়",
+						"পব কমিউনিটি গভর্নেন্স ডিপ অনলাইন হয়।"
+					]
+				},
+				{
+					"stage": "তৃতীয় স্তর 2020.Q4",
+					"intr": "Interaction:",
+					"desc": [
+						"মার্কোপোলোর মূল নেট স্ট্যান্ডার্ডচেইনের স্বাধীন গবেষণা ও বিকাশ চালু করা হয়েছিল, এটি এপিওএস, অন-চেইন গভর্নেন্স এবং ইন্টারেক্ট্রেট চেইন আর্কিটেকচার ডিজাইন সক্ষম করে।"
+					]
+				},
+				{
+					"stage": "চতুর্থ পর্যায় 2022.Q2",
+					"intr": " Grand Unification:",
+					"desc": [
+						"ভিন্নজাতীয় ক্রস-চেইন অপার্যাবিলিটি বাস্তবায়ন করুন এবং চেইনের মধ্যে সংস্থানগুলি ভাগ করে নেওয়ার বিষয়টি উপলব্ধি করুন"
+					]
+				}
+			]
+		},
+		"partnerInfo": {
+			"title": "অংশীদার",
+			"list": [
+				{
+					"img": "softBank",
+					"link": "https://www.softbank.jp"
+				},
+				{
+					"img": "kuCoin",
+					"link": "https://trade.kucoin.com/spot"
+				},
+				{
+					"img": "yahoo",
+					"link": "https://news.yahoo.com/news/why-join-marcopolo-protocol-131500994.html"
+				},
+				{
+					"img": "coinMarket",
+					"link": "https://coinmarketcap.com/currencies/marcopolo-protocol/"
+				},
+				{
+					"img": "coinGecko",
+					"link": "https://www.coingecko.com/en/coins/marcopolo-protocol"
+				},
+				{
+					"img": "feiXiaoHao",
+					"link": "http://www.feixiaohao.com/currencies/marcopoloprotocol%20/"
+				},
+				{
+					"img": "crypto",
+					"link": "https://www.cryptocompare.com/coins/map/overview"
+				},
+				{
+					"img": "haoDeLian",
+					"link": "https://www.mytokencap.com/currency/map/821733067"
+				},
+				{
+					"img": "kSher",
+					"link": "https://www.ksher.com/"
+				},
+				{
+					"img": "kidd",
+					"link": "http://www.kidd.co.kr/news/213087"
+				},
+				{
+					"img": "zametki",
+					"link": "https://cryptorussia.ru/zametki/pochemu-stoit-prisoedinitsya-k-protokolu-marcopolo"
+				}
+			]
+		}
+	},
+	"footer": {
+		"_title": "আমাদের অনুসরণ করুন",
+		"mSupport": {
+			"copyright": "2020 MarcoPolo Network Foundation,All Rights Reseved",
+			"list": [
+				{
+					"name": "বিকাশকারী সহায়তা: developers@MarcoPolo.link",
+					"link": "developers@MarcoPolo.link"
+				},
+				{
+					"name": "আমাদের সাথে যোগাযোগ করুন: cooperation@MarcoPolo.link",
+					"link": "cooperation@MarcoPolo.link"
+				}
+			]
+		},
+		"fun": [
+			{
+				"name": "চাইনিজ হোয়াইট পেপার",
+				"link": "https://files.marcopolo.link/pdf/marcopolo_whitePater_en.pdf"
+			},
+			{
+				"name": "অর্থনৈতিক মডেল",
+				"link": "https://files.marcopolo.link/pdf/marcopolo_economic_en.pdf"
+			}
+		],
+		"icon":  [
+			{
+				"i": "telegram",
+				"link": "https://t.me/MarcoPoloMAP"
+			},
+			{
+				"i": "twitter",
+				"link": "https://twitter.com/MarcoPoloGlobal"
+			},
+			{
+				"i": "facebook",
+				"link": "https://www.facebook.com/MarcoPolo-Protocol-107054464162905"
+			},
+			{
+				"i": "bitcointalk",
+				"link": "https://bitcointalk.org/index.php?topic=5215440.new#new"
+			},
+			{
+				"i": "naver",
+				"link": "https://blog.naver.com/marcopoloprotocol"
+			},
+			{
+				"i": "medium",
+				"link": "https://medium.com/marcopolo-protocol"
+			},
+			{
+				"i": "kakao",
+				"link": "https://open.kakao.com/o/gI5fPXSb"
+			}
+		],
+		"download": {
+			"_title": "এখনই অ্যাপ্লিকেশনটি ডাউনলোড করুন",
+			"link": "http://www.marcopolopay.org/download"
+		}
+	}
+}

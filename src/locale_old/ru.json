@@ -1,0 +1,322 @@
+{
+	"language": {
+		"_title": "русский",
+		"langs": [
+			{
+				"name": "English",
+				"subName": "Language",
+				"introduce": "英文",
+				"tag": "en"
+			},
+			{
+				"name": "한국어",
+				"subName": "Language",
+				"introduce": "韩文",
+				"tag": "ko"
+			},
+			{
+				"name": "русский",
+				"subName": "Language",
+				"introduce": "俄语",
+				"tag": "ru"
+			},
+			{
+				"name": "বাংলা ভাষার",
+				"subName": "Language",
+				"introduce": "孟加拉语",
+				"tag": "bd"
+			},
+			{
+				"name": "日本語",
+				"subName": "Language",
+				"introduce": "日本语",
+				"tag": "jp"
+			},
+			{
+				"name": "Türk dili",
+				"subName": "Language",
+				"introduce": "土耳其语",
+				"tag": "tr"
+			},
+			{
+				"name": "اردو",
+				"subName": "Language",
+				"introduce": "乌尔都语",
+				"tag": "wu"
+			},
+			{
+				"name": "lingua italiana",
+				"subName": "Language",
+				"introduce": "意大利语",
+				"tag": "it"
+			},
+			{
+				"name": "Orang indonesia",
+				"subName": "Language",
+				"introduce": "印尼语",
+				"tag": "ins"
+			},
+			{
+				"name": "Tiếng việt nam",
+				"subName": "Language",
+				"introduce": "越南语",
+				"tag": "vn"
+			},
+			{
+				"name": "中文简体",
+				"subName": "Language",
+				"tag": "zh"
+			},
+			{
+				"name": "Português",
+				"subName": "Language",
+				"tag": "pt"
+			}
+		]
+	},
+	"nav": [
+		{
+			"name": "Дом",
+			"subName": "Homepage",
+			"path": "top"
+		},
+		{
+			"name": "Разработчик",
+			"subName": "Developer",
+			"path": "https://github.com/marcopoloprotocol"
+		},
+		{
+			"name": "Белая книга",
+			"subName": "White Paper",
+			"path": "m-footer"
+		},
+		{
+			"name": "Скачать приложение кошелька",
+			"subName": "Download",
+			"path": "http://www.marcopolopay.org/download"
+		}
+	],
+	"home": {
+		"banner": {
+			"_title": "Базовая информация о новой одноранговой электронной кассовой системе",
+			"desc": [
+				"Протокол MarcoPolo (MAP) - это стратегическая инвестиция в Softbank, новый тип инфраструктуры одноранговой электронной кассовой системы, которая реализует совместное использование TPS с существующими публичными цепями и интеллектуально распределяет транзакции между различными публичными цепями посредством транзакций, позволяя применять одноранговые системы электронных наличных денег. Вы можете наслаждаться неограниченным расширением TPS и оптимальным GAS всей сети блокчейнов ."
+			]
+		},
+		"chainInfo": [
+			{
+				"title": "Межсетевой обмен",
+				"desc": [
+					"Взаимодействие с другими общедоступными цепочками через протокол brpc для обеспечения совместного использования tps и планирования транзакций между несколькими общедоступными цепочками"
+				]
+			},
+			{
+				"title": "Высокая масштабируемость",
+				"desc": [
+					"Обмен сообщениями между несколькими цепочками совместной работы и цепочками тестов через протокол mtp, реализация транзакций"
+				]
+			},
+			{
+				"title": "Децентрализация",
+				"desc": [
+					"Механизм консенсуса APoS, позволяющий участвовать внецепным активам, является более децентрализованным и безопасным"
+				]
+			},
+			{
+				"title": "Простой в использовании фреймворк",
+				"desc": [
+					"На основе инфраструктуры MATE для быстрой сборки необходимого языка Delta блокчейна для удобной разработки необходимых функциональных модулей"
+				]
+			},
+			{
+				"title": "Управление по цепочке",
+				"desc": [
+					"Полностью открытая система управления и механизм стимулирования сообщества стимулируются и стимулируют развитие MarcoPolo"
+				]
+			},
+			{
+				"title": "Никогда не раскошелиться",
+				"desc": [
+					"MarcoPolo на основе системы SMART может достичь адаптивного обновления без разветвления"
+				]
+			}
+		],
+		"pointsInfo": {
+			"title": "Инфраструктура для применения электронных денежных систем в одноранговой сети",
+			"leftDescList": [
+				"Нативная мультивалютная поддержка, один аккаунт поддерживает все адреса валют.",
+				"Выберите лучшую государственную сеть, чтобы обеспечить быстрое и недорогое внедрение одноранговых платежей."
+			],
+			"centerDescList": [
+				"Поддержка контрактов wasm обеспечивает контрактную поддержку цифровых валют, таких как BTC.",
+				"Новый язык интеллектуальных контрактов Delta предоставляет неограниченные возможности для сценариев электронных денежных средств."
+			],
+			"rightDescList": [
+				"Межсетевой обмен tps достигается с помощью brpc и mtp, обеспечивая высокоскоростные транзакции и глубокий обмен транзакциями."
+			]
+		},
+		"impareInfo": {
+			"title": "Стимулы сообщества",
+			"list": [
+				{
+					"name": "PoB стимул",
+					"desc": "Стимулировать общественное строительство через PoB construction",
+					"icon": "pop"
+				},
+				{
+					"name": "Экологический стимул",
+					"desc": "Поощрять разработку приложений с помощью управления по цепочке",
+					"icon": "globe"
+				},
+				{
+					"name": "Технический стимул",
+					"desc": "Привлечь участие глобальных разработчиков через управление и стимулы на цепочке",
+					"icon": "dev"
+				}
+			]
+		},
+		"roadmap": {
+			"_title": "Дорожная карта",
+			"mcont": [
+				{
+					"stage": "Первый этап 2019.Q1",
+					"intr": "Gravity:",
+					"desc": [
+						"Разработка компонента взаимодействия Gravity завершена. Gravity будет использовать BTC, ETH и другие согласованные цифровые валюты для достижения практической совместимости с высокопроизводительной общедоступной цепью третьего поколения, совместного использования вычислительной мощности и производительности и постепенного перехода к взаимодействию на более поздних этапах». Более высокопроизводительные публичные сети."
+					]
+				},
+				{
+					"stage": "Второй этап 2019.Q3",
+					"intr": "Electromagnet:",
+					"desc": [
+						"Одноранговый розничный платеж DApp Marco Pay выходит в эфир",
+						"PAP сообщества управления dapp онлайн."
+					]
+				},
+				{
+					"stage": "Третий этап 2020.Q4",
+					"intr": "Interaction:",
+					"desc": [
+						"Началось независимое исследование и разработка основной сети MarcoPolo, StandardChain, что позволило APOS, управлению в цепочке и проектированию архитектуры InteractChain."
+					]
+				},
+				{
+					"stage": "Четвертый этап 2022.Q2",
+					"intr": " Grand Unification:",
+					"desc": [
+						"Внедрить гетерогенную работоспособность между цепями и обеспечить совместное использование ресурсов между цепями."
+					]
+				}
+			]
+		},
+		"partnerInfo": {
+			"title": "Партнеры и инвестиционные агентства",
+			"list": [
+				{
+					"img": "softBank",
+					"link": "https://www.softbank.jp"
+				},
+				{
+					"img": "kuCoin",
+					"link": "https://trade.kucoin.com/spot"
+				},
+				{
+					"img": "yahoo",
+					"link": "https://news.yahoo.com/news/why-join-marcopolo-protocol-131500994.html"
+				},
+				{
+					"img": "coinMarket",
+					"link": "https://coinmarketcap.com/currencies/marcopolo-protocol/"
+				},
+				{
+					"img": "coinGecko",
+					"link": "https://www.coingecko.com/en/coins/marcopolo-protocol"
+				},
+				{
+					"img": "feiXiaoHao",
+					"link": "http://www.feixiaohao.com/currencies/marcopoloprotocol%20/"
+				},
+				{
+					"img": "crypto",
+					"link": "https://www.cryptocompare.com/coins/map/overview"
+				},
+				{
+					"img": "haoDeLian",
+					"link": "https://www.mytokencap.com/currency/map/821733067"
+				},
+				{
+					"img": "kSher",
+					"link": "https://www.ksher.com/"
+				},
+				{
+					"img": "kidd",
+					"link": "http://www.kidd.co.kr/news/213087"
+				},
+				{
+					"img": "zametki",
+					"link": "https://cryptorussia.ru/zametki/pochemu-stoit-prisoedinitsya-k-protokolu-marcopolo"
+				}
+			]
+		}
+	},
+	"footer": {
+		"_title": "Следуй за нами",
+		"mSupport": {
+			"copyright": "2020 MarcoPolo Network Foundation,All Rights Reseved",
+			"list": [
+				{
+					"name": "Поддержка разработчиков: developers@MarcoPolo.link",
+					"link": "developers@MarcoPolo.link"
+				},
+				{
+					"name": "Свяжитесь с нами: cooperation@MarcoPolo.link",
+					"link": "cooperation@MarcoPolo.link"
+				}
+			]
+		},
+		"fun": [
+			{
+				"name": "Китайская Белая Книга",
+				"link": "https://files.marcopolo.link/pdf/marcopolo_whitePater_en.pdf"
+			},
+			{
+				"name": "Экономическая модель",
+				"link": "https://files.marcopolo.link/pdf/marcopolo_economic_en.pdf"
+			}
+		],
+		"icon":  [
+			{
+				"i": "telegram",
+				"link": "https://t.me/MarcoPoloMAP"
+			},
+			{
+				"i": "twitter",
+				"link": "https://twitter.com/MarcoPoloGlobal"
+			},
+			{
+				"i": "facebook",
+				"link": "https://www.facebook.com/MarcoPolo-Protocol-107054464162905"
+			},
+			{
+				"i": "bitcointalk",
+				"link": "https://bitcointalk.org/index.php?topic=5215440.new#new"
+			},
+			{
+				"i": "naver",
+				"link": "https://blog.naver.com/marcopoloprotocol"
+			},
+			{
+				"i": "medium",
+				"link": "https://medium.com/marcopolo-protocol"
+			},
+			{
+				"i": "kakao",
+				"link": "https://open.kakao.com/o/gI5fPXSb"
+			}
+		],
+		"download":{
+			"_title":"Скачать приложение сейчас",
+			"link": "http://www.marcopolopay.org/download"
+		}
+	}
+}

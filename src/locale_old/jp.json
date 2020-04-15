@@ -1,0 +1,322 @@
+{
+	"language": {
+		"_title": "日本语",
+		"langs": [
+			{
+				"name": "English",
+				"subName": "Language",
+				"introduce": "英文",
+				"tag": "en"
+			},
+			{
+				"name": "한국어",
+				"subName": "Language",
+				"introduce": "韩文",
+				"tag": "ko"
+			},
+			{
+				"name": "русский",
+				"subName": "Language",
+				"introduce": "俄语",
+				"tag": "ru"
+			},
+			{
+				"name": "বাংলা ভাষার",
+				"subName": "Language",
+				"introduce": "孟加拉语",
+				"tag": "bd"
+			},
+			{
+				"name": "日本語",
+				"subName": "Language",
+				"introduce": "日本语",
+				"tag": "jp"
+			},
+			{
+				"name": "Türk dili",
+				"subName": "Language",
+				"introduce": "土耳其语",
+				"tag": "tr"
+			},
+			{
+				"name": "اردو",
+				"subName": "Language",
+				"introduce": "乌尔都语",
+				"tag": "wu"
+			},
+			{
+				"name": "lingua italiana",
+				"subName": "Language",
+				"introduce": "意大利语",
+				"tag": "it"
+			},
+			{
+				"name": "Orang indonesia",
+				"subName": "Language",
+				"introduce": "印尼语",
+				"tag": "ins"
+			},
+			{
+				"name": "Tiếng việt nam",
+				"subName": "Language",
+				"introduce": "越南语",
+				"tag": "vn"
+			},
+			{
+				"name": "中文简体",
+				"subName": "Language",
+				"tag": "zh"
+			},
+			{
+				"name": "Português",
+				"subName": "Language",
+				"tag": "pt"
+			}
+		]
+	},
+	"nav": [
+		{
+			"name": "ホーム",
+			"subName": "Homepage",
+			"path": "top"
+		},
+		{
+			"name": "開発者",
+			"subName": "Developer",
+			"path": "https://github.com/marcopoloprotocol"
+		},
+		{
+			"name": "ホワイトペーパー",
+			"subName": "White Paper",
+			"path": "m-footer"
+		},
+		{
+			"name": "ウォレットアプリのダウンロード",
+			"subName": "Download",
+			"path": "http://www.marcopolopay.org/download"
+		}
+	],
+	"home": {
+		"banner": {
+			"_title": "新しいピアツーピア電子キャッシュシステムの基本情報",
+			"desc": [
+				"マルコポーロプロトコル（MAP）は、既存のパブリックチェーンとのTPS共有を実現する新しいタイプのピアツーピア電子キャッシュシステムインフラストラクチャであるソフトバンクへの戦略的投資であり、トランザクションを介してさまざまなパブリックチェーン間でトランザクションをインテリジェントにディスパッチし、ピアツーピア電子キャッシュシステムの適用を可能にします。 TPSの無制限の拡張と、ブロックチェーンネットワーク全体の最適なGASを楽しむことができます。"
+			]
+		},
+		"chainInfo": [
+			{
+				"title": "チェーン間共有",
+				"desc": [
+					"複数のパブリックチェーン間でTPS共有とトランザクションスケジューリングを実現するbrpcプロトコルを介した他のパブリックチェーンとの対話"
+				]
+			},
+			{
+				"title": "高いスケーラビリティ",
+				"desc": [
+					"トランザクションを実現する、MTPプロトコルを介した複数のコラボレーションチェーンとベンチマークチェーン間のメッセージ通信"
+				]
+			},
+			{
+				"title": "分散化",
+				"desc": [
+					"オフチェーン資産の参加を許可するAPoSコンセンサスメカニズムは、より分散され安全です"
+				]
+			},
+			{
+				"title": "使いやすいフレームワーク",
+				"desc": [
+					"MATEフレームワークに基づいて、必要な機能モジュールの便利な開発のために必要なブロックチェーンデルタ言語を迅速に構築します"
+				]
+			},
+			{
+				"title": "オンチェーンガバナンス",
+				"desc": [
+					"完全にオープンなオンチェーンガバナンスシステムとインセンティブメカニズムは、コミュニティによって推進され、MarcoPoloの開発を刺激および促進します"
+				]
+			},
+			{
+				"title": "Never Fork",
+				"desc": [
+					"SMARTシステムに基づくMarcoPoloは、フォークなしで適応アップグレードを実現できます"
+				]
+			}
+		],
+		"pointsInfo": {
+			"title": "ピアツーピア電子キャッシュシステムアプリケーションのインフラストラクチャ",
+			"leftDescList": [
+				"ネイティブの多通貨サポート、1つのアカウントがすべての通貨住所をサポートします。",
+				"ピアツーピア支払いの高速かつ低コストの実装を保証するために、最高のパブリックチェーンを選択してください。"
+			],
+			"centerDescList": [
+				"wasm契約サポートは、btcなどのデジタル通貨に契約サポートをもたらします。",
+				"新しいデルタスマートコントラクト言語は、電子現金シナリオに無限の可能性を提供します。"
+			],
+			"rightDescList": [
+				"チェーン間TPS共有はbrpcとmtpによって実現され、高速トランザクションとトランザクションの深い共有を提供します。"
+			]
+		},
+		"impareInfo": {
+			"title": "コミュニティインセンティブ",
+			"list": [
+				{
+					"name": "PoBインセンティブ",
+					"desc": "PoB構築によるコミュニティ構築のインセンティブ",
+					"icon": "pop"
+				},
+				{
+					"name": "エコロジーインセンティブ",
+					"desc": "オンチェーンガバナンスによるアプリケーション開発の促進",
+					"icon": "globe"
+				},
+				{
+					"name": "技術的インセンティブ",
+					"desc": "オンチェーンガバナンスとインセンティブを介してグローバルな開発者の参加を引き付ける",
+					"icon": "dev"
+				}
+			]
+		},
+		"roadmap": {
+			"_title": "ロードマップ",
+			"mcont": [
+				{
+					"stage": "First Stage 2019.Q1",
+					"intr": "Gravity:",
+					"desc": [
+						"相互運用性コンポーネントGravityの開発が完了しました。GravityはBTC、ETH、およびその他のコンセンサスデジタル通貨を使用して、第3世代の高性能パブリックチェーンとの有用な相互運用性を実現し、コンピューティングパワーとパフォーマンスを共有し、徐々に拡張しますより高性能なパブリックチェーン。"
+					]
+				},
+				{
+					"stage": "Second Stage 2019.Q3",
+					"intr": "Electromagnet:",
+					"desc": [
+						"ピアツーピアの小売支払いDApp Marco Payが公開されます",
+						"仕事コミュニティガバナンスdappはオンラインです。"
+					]
+				},
+				{
+					"stage": "3番目のステージ2020.Q4",
+					"intr": "Interaction:",
+					"desc": [
+						"MarcoPoloのメインネットであるStandardChainの独立した研究開発が開始され、APOS、オンチェーンガバナンス、およびInteractChainアーキテクチャ設計が可能になりました。"
+					]
+				},
+				{
+					"stage": "第4ステージ2022.Q2",
+					"intr": " Grand Unification:",
+					"desc": [
+						"異種クロスチェーンの操作性を実装し、チェーン間のリソース共有を実現します。"
+					]
+				}
+			]
+		},
+		"partnerInfo": {
+			"title": "パートナー",
+			"list": [
+				{
+					"img": "softBank",
+					"link": "https://www.softbank.jp"
+				},
+				{
+					"img": "kuCoin",
+					"link": "https://trade.kucoin.com/spot"
+				},
+				{
+					"img": "yahoo",
+					"link": "https://news.yahoo.com/news/why-join-marcopolo-protocol-131500994.html"
+				},
+				{
+					"img": "coinMarket",
+					"link": "https://coinmarketcap.com/currencies/marcopolo-protocol/"
+				},
+				{
+					"img": "coinGecko",
+					"link": "https://www.coingecko.com/en/coins/marcopolo-protocol"
+				},
+				{
+					"img": "feiXiaoHao",
+					"link": "http://www.feixiaohao.com/currencies/marcopoloprotocol%20/"
+				},
+				{
+					"img": "crypto",
+					"link": "https://www.cryptocompare.com/coins/map/overview"
+				},
+				{
+					"img": "haoDeLian",
+					"link": "https://www.mytokencap.com/currency/map/821733067"
+				},
+				{
+					"img": "kSher",
+					"link": "https://www.ksher.com/"
+				},
+				{
+					"img": "kidd",
+					"link": "http://www.kidd.co.kr/news/213087"
+				},
+				{
+					"img": "zametki",
+					"link": "https://cryptorussia.ru/zametki/pochemu-stoit-prisoedinitsya-k-protokolu-marcopolo"
+				}
+			]
+		}
+	},
+	"footer": {
+		"_title": "フォローしてください",
+		"mSupport": {
+			"copyright": "2020 MarcoPolo Network Foundation,All Rights Reseved",
+			"list": [
+				{
+					"name": "開発者サポート：developers@MarcoPolo.link",
+					"link": "developers@MarcoPolo.link"
+				},
+				{
+					"name": "お問い合わせ：cooperation@MarcoPolo.link",
+					"link": "cooperation@MarcoPolo.link"
+				}
+			]
+		},
+		"fun": [
+			{
+				"name": "白書",
+				"link": "https://files.marcopolo.link/pdf/marcopolo_whitePater_en.pdf"
+			},
+			{
+				"name": "経済モデル",
+				"link": "https://files.marcopolo.link/pdf/marcopolo_economic_en.pdf"
+			}
+		],
+		"icon":  [
+			{
+				"i": "telegram",
+				"link": "https://t.me/MarcoPoloMAP"
+			},
+			{
+				"i": "twitter",
+				"link": "https://twitter.com/MarcoPoloGlobal"
+			},
+			{
+				"i": "facebook",
+				"link": "https://www.facebook.com/MarcoPolo-Protocol-107054464162905"
+			},
+			{
+				"i": "bitcointalk",
+				"link": "https://bitcointalk.org/index.php?topic=5215440.new#new"
+			},
+			{
+				"i": "naver",
+				"link": "https://blog.naver.com/marcopoloprotocol"
+			},
+			{
+				"i": "medium",
+				"link": "https://medium.com/marcopolo-protocol"
+			},
+			{
+				"i": "kakao",
+				"link": "https://open.kakao.com/o/gI5fPXSb"
+			}
+		],
+		"download":{
+			"_title":"今すぐアプリをダウンロード",
+			"link": "http://www.marcopolopay.org/download"
+		}
+	}
+}
