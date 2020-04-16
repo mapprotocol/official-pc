@@ -53,20 +53,20 @@ const setMeta = (keyword, description, description2) => {
           keyword =
             '马可波罗,marcopolo ,MAP,marcopolo protocol,blockchain,区块链,以太坊,,BTC支付,区块链支付,Marcopay'
           description =
-            'MarcoPoloProtocol马可波罗协议（MAP）由软银战略投资的，一个新型的点对点电子现金系统基础设施，旨在通过一系列技术机制，实现区块链世界公有链TPS共享和智能调度，成为整个区块链世界的交易调度平台，点对点电子现金系统应用可以享受无限扩容的TPS和整个区块链网络最优GAS。'
+            'MarcoPolo Protocol 是一种开放的、完全去中心化的链间交互协议，在独立自验证的共识机制下，链与链之间可以实现轻量级地任意交互而不需要任何中继链。MarcoPolo Protocol 期望构建一个点对点的、具有大量可互操作的未来互链网，通过各链间TPS、隐私计算、存储、安全等资源或能力互操作，为金融、AI、物联网、溯源、治理等领域应用提供坚实的区块链底层基础设施。'
           description2 = ''
           break
         case 'ko':
           keyword = '크립토 지불. ,비트코인 지불,MAP'
           description =
-            '마르코폴로 프로토콜 (MarcoPolo Protocol)은 새로운 P2P 전자 현금 시스템 인프라로, SoftBank와 같은 유명한 투자 기관의 투자를 받았습니다. 프로젝트는 일련의 기술 메커니즘을 통해 블록 체인 세계 퍼블릭 체인 TPS 공유 및 지능형 스케줄링을 달성하는 것을 목표로합니다. 전체 블록 체인 세계의 거래 플랫폼 인 P2P 전자 현금 시스템 애플리케이션은 무제한TPS확장 및 전체 블록 체인 네트워크 최적의 GAS를 이용할수 있습니다.'
+            '마르코폴로 프로토콜은 개방적이고 완전히 분산된 체인 간 상호운용 프로토콜로, 독립적으로 검증 가능한 여러 컨센서스 블록체인의 상호운용성을 가능하게 합니다. MarcoPolo Protocol은 상호운용 가능하고 체인 투 체인 기반의 미래 인터 체인 네트워크를 구축할 것입니다. 마르코폴로 프로토콜에 구축된 이 생태계는 크로스체인 통신, 프라이버시 계산, 공유 스토리지 등에 의해 금융, AI, IOT, 추적성 및 거버넌스를 위한 탄탄한 인프라를 제공합니다.'
           description2 = ''
           break
         default:
           keyword =
             'marcopolo ,marcopolo protocol,blockchain,Ethereum,cryptocurrency,Pay,Crypto payment,bitcoin payment,payment,map,bitcoin,truechain,Magellan protocol, peer-to-peer cash system,defi,dex,Gravity,Marcopay,MarcoPolo pay,MarcoPolo,peer-to-peer Electronic cash system'
           description =
-            'MarcoPolo Protocol (MAP) is a new peer-to-peer electronic cash system infrastructure, which is invested by SoftBank. It aims to achieve blockchain world public chain TPS sharing and intelligent scheduling through a series of technical mechanisms. As the trading platform of the entire blockchain world, the peer-to-peer electronic cash system application can enjoy the unlimited expansion of TPS and optimal GAS fee among the entire blockchain network.'
+            'MarcoPolo Protocol is an open, fully decentralized, chain-to-chain interoperation protocol that enables the interoperability of multiple independently verifiable consensus blockchains without a relay chain. MarcoPolo Protocol expects to construct a future inter-chain-net, which is interoperable and chain-to-chain based. The ecosystem built on MarcoPolo Protocol can provide a solid infrastructure for finance, AI, IoT, traceability, and governance filed by cross-chain communication, privacy computation, shared storage, etc...'
           description2 =
             ''
           break
@@ -75,7 +75,7 @@ const setMeta = (keyword, description, description2) => {
       keyword =
         'marcopolo ,marcopolo protocol,blockchain,Ethereum,cryptocurrency,Pay,Crypto payment,bitcoin payment,payment,map,bitcoin,truechain,Magellan protocol, peer-to-peer cash system,defi,dex,Gravity,Marcopay,MarcoPolo pay,MarcoPolo,peer-to-peer Electronic cash system'
       description =
-        'MarcoPolo Protocol (MAP) is a new peer-to-peer electronic cash system infrastructure, which is invested by SoftBank. It aims to achieve blockchain world public chain TPS sharing and intelligent scheduling through a series of technical mechanisms. As the trading platform of the entire blockchain world, the peer-to-peer electronic cash system application can enjoy the unlimited expansion of TPS and optimal GAS fee among the entire blockchain network.'
+        'MarcoPolo Protocol is an open, fully decentralized, chain-to-chain interoperation protocol that enables the interoperability of multiple independently verifiable consensus blockchains without a relay chain. MarcoPolo Protocol expects to construct a future inter-chain-net, which is interoperable and chain-to-chain based. The ecosystem built on MarcoPolo Protocol can provide a solid infrastructure for finance, AI, IoT, traceability, and governance filed by cross-chain communication, privacy computation, shared storage, etc...'
       description2 =
         ''
     }
