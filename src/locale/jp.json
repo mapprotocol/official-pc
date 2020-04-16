@@ -1,6 +1,6 @@
 {
 	"language": {
-		"_title": "English",
+		"_title": "日本语",
 		"langs": [
 			{
 				"name": "English",
@@ -58,146 +58,141 @@
 	},
 	"nav": [
 		{
-			"name": "Homepage",
+			"name": "ホーム",
 			"subName": "Homepage",
 			"path": "top"
 		},
 		{
-			"name": "Developer",
+			"name": "開発者",
 			"subName": "Developer",
 			"path": "https://github.com/marcopoloprotocol"
 		},
 		{
-			"name": "White Paper",
+			"name": "ホワイトペーパー",
 			"subName": "White Paper",
 			"path": "m-footer"
 		},
 		{
-			"name": "Download",
+			"name": "ウォレットアプリのダウンロード",
 			"subName": "Download",
 			"path": "http://www.marcopolopay.org/download"
-		},
-		{
-			"name": "Hiring",
-			"subName": "We are hiring developers",
-			"path": "https://www.indeedjobs.com/marcopolo-protocol/_hl/en_CA"
 		}
 	],
 	"home": {
 		"banner": {
-			"_title": "MarcoPolo Protocol: Chain-to-chain Interoperation Protocol",
+			"_title": "MarcoPolo Protocol: チェーン間相互運用プロトコル ",
 			"desc": [
-				"MarcoPolo Protocol is an open, fully decentralized, chain-to-chain interoperation protocol that enables the interoperability of multiple independently verifiable consensus blockchains without a relay chain. MarcoPolo Protocol expects to construct a future inter-chain-net, which is interoperable and chain-to-chain based. The ecosystem built on MarcoPolo Protocol can provide a solid infrastructure for finance, AI, IoT, traceability, and governance filed by cross-chain communication, privacy computation, shared storage, etc..."
+				"MarcoPoloプロトコルは、オープンで完全に分散されたチェーン間相互運用プロトコルであり、リレーチェーンなしで複数の独立して検証可能なコンセンサスブロックチェーンの相互運用を可能にします。 MarcoPoloプロトコルは、相互運用可能でチェーン間をベースとする将来のチェーン間ネットの構築を期待しています。 MarcoPoloプロトコル上に構築されたエコシステムは、クロスチェーン通信、プライバシー計算、共有ストレージなどによって提出される金融、AI、IoT、トレーサビリティ、およびガバナンスのための強固なインフラストラクチャを提供できます。"
 			]
 		},
 		"chainInfo": [
 			{
-				"title": "Super Light Cross-chain Verification Algorithm",
+				"title": "超軽量クロスチェーン検証アルゴリズム",
 				"desc": [
-					"Provides the ability of one chain to validate the state of another chain under low bandwidth and low storage."
+					"1つのチェーンが低帯域幅および低ストレージで別のチェーンの状態を検証する機能を提供します。"
 				]
 			},
 			{
-				"title": "Composable Smart Contract Rule",
+				"title": "構成可能なスマート契約ルール",
 				"desc": [
-					"A rule for multiple composable trigger condition smart contracts."
+					"複数の構成可能なトリガー条件スマートコントラクトのルール。"
 				]
 			},
 			{
-				"title": "Standardized Peer Discovery and Communication P2P Protocol",
+				"title": "標準化されたピアの発見と通信のP2Pプロトコル",
 				"desc": [
-					"A protocol under which the peer under different blockchain systems can discover and communicate with each other."
+					"異なるブロックチェーンシステムのピアが相互に検出および通信できるプロトコル。"
 				]
 			},
 			{
-				"title": "High-efficiency Block Transport Channel",
+				"title": "高効率ブロックトランスポートチャネル",
 				"desc": [
-					"A block transportation channel based on IBLT which can compress the block size when relaying blocks."
+					"ブロックをリレーするときにブロックサイズを圧縮できるIBLTに基づくブロック転送チャネル。"
 				]
 			},
 			{
-				"title": "APOS Consensus Protocol",
+				"title": "APOSコンセンサスプロトコル",
 				"desc": [
-					"Asset Proof of Staking consensus based on verifiable random function."
+					"検証可能なランダム関数に基づくステーキングの資産証明コンセンサス。"
 				]
 			},
 			{
-				"title": "MarcoPolo Application Tool Environment",
+				"title": "MarcoPoloアプリケーションツール環境",
 				"desc": [
-					"A toolkit built on Sustainable MAP RunTime which can help developers to construct their own interoperable blockchains."
+					"開発者が独自の相互運用可能なブロックチェーンを構築するのに役立つ、持続可能なMAP RunTimeに基づいて構築されたツールキット。"
 				]
 			}
 		],
 		"pointsInfo": {
-			"title": "Peer-to-Peer Electronic Cash System Infrastructure",
+			"title": "ピアツーピア電子キャッシュシステムアプリケーションのインフラストラクチャ",
 			"leftDescList": [
-				"Support multiple tokens, one account supports all tokens' addresses",
-				"Choose the best public chain to ensure the fast and low-cost realization of peer-to-peer payment"
+				"ネイティブの多通貨サポート、1つのアカウントがすべての通貨住所をサポートします。",
+				"ピアツーピア支払いの高速かつ低コストの実装を保証するために、最高のパブリックチェーンを選択してください。"
 			],
 			"centerDescList": [
-				"WASM contract support brings contractual support to digital currencies such as BTC",
-				"New smart contract language Delta which provides unlimited possibilities for electronic cash scenarios."
+				"wasm契約サポートは、btcなどのデジタル通貨に契約サポートをもたらします。",
+				"新しいデルタスマートコントラクト言語は、電子現金シナリオに無限の可能性を提供します。"
 			],
 			"rightDescList": [
-				"Inter-chain TPS sharing through BRPC and MTP, provide high-speed trading and deep transaction sharing"
+				"チェーン間TPS共有はbrpcとmtpによって実現され、高速トランザクションとトランザクションの深い共有を提供します。"
 			]
 		},
 		"impareInfo": {
-			"title": "Community Incentive Mechanism",
+			"title": "コミュニティインセンティブ",
 			"list": [
 				{
-					"name": "PoB Incentive",
-					"desc": "Encourage community construction through PoB construction",
+					"name": "PoBインセンティブ",
+					"desc": "PoB構築によるコミュニティ構築のインセンティブ",
 					"icon": "pop"
 				},
 				{
-					"name": "Eco-system Incentive",
-					"desc": "Encourage on-chain governance mechanism",
+					"name": "エコロジーインセンティブ",
+					"desc": "オンチェーンガバナンスによるアプリケーション開発の促進",
 					"icon": "globe"
 				},
 				{
-					"name": "Technology Incentive",
-					"desc": "Attracting global developers through on-chain governance and incentives",
+					"name": "技術的インセンティブ",
+					"desc": "オンチェーンガバナンスとインセンティブを介してグローバルな開発者の参加を引き付ける",
 					"icon": "dev"
 				}
 			]
 		},
 		"roadmap": {
-			"_title": "Road map",
+			"_title": "ロードマップ",
 			"mcont": [
 				{
-					"stage": "The First Stage 2019.Q1",
+					"stage": "First Stage 2019.Q1",
 					"intr": "Gravity:",
 					"desc": [
-						"The interoperability module Gravity has been developed, which realized useable interoperability between third-generation public chains and high consensus digital currency such as BTC and ETH, will share computing power and performance gradually expand to a more high-performance public chain through interoperability."
+						"相互運用性コンポーネントGravityの開発が完了しました。GravityはBTC、ETH、およびその他のコンセンサスデジタル通貨を使用して、第3世代の高性能パブリックチェーンとの有用な相互運用性を実現し、コンピューティングパワーとパフォーマンスを共有し、徐々に拡張しますより高性能なパブリックチェーン。"
 					]
 				},
 				{
-					"stage": "The Second Stage 2019.Q3",
+					"stage": "Second Stage 2019.Q3",
 					"intr": "Electromagnet:",
 					"desc": [
-						"Launch online retail payment application - MarcoPay",
-						"Launch community governance POB  DAPP."
+						"ピアツーピアの小売支払いDApp Marco Payが公開されます",
+						"仕事コミュニティガバナンスdappはオンラインです。"
 					]
 				},
 				{
-					"stage": "The Third Stage 2020.Q4",
+					"stage": "3番目のステージ2020.Q4",
 					"intr": "Interaction:",
 					"desc": [
-						"Independently developed MarcoPolo's mainnet; Launch StandardChain; achieve APoS, on-chain governance, and architecture design of InteractChain"
+						"MarcoPoloのメインネットであるStandardChainの独立した研究開発が開始され、APOS、オンチェーンガバナンス、およびInteractChainアーキテクチャ設計が可能になりました。"
 					]
 				},
 				{
-					"stage": "The Fourth Stage 2022.Q2",
-					"intr": "Grand Unification:",
+					"stage": "第4ステージ2022.Q2",
+					"intr": " Grand Unification:",
 					"desc": [
-						"The realization of heterogeneous cross-chain operability and resource sharing between chains"
+						"異種クロスチェーンの操作性を実装し、チェーン間のリソース共有を実現します。"
 					]
 				}
 			]
 		},
 		"partnerInfo": {
-			"title": "Partners and Investors",
+			"title": "パートナー",
 			"list": [
 				{
 					"img": "softBank",
@@ -247,31 +242,31 @@
 		}
 	},
 	"footer": {
-		"_title": "Follow us",
+		"_title": "フォローしてください",
 		"mSupport": {
-			"copyright": "2020 MarcoPolo Network Foundation, All Rights Reseved",
+			"copyright": "2020 MarcoPolo Network Foundation,All Rights Reseved",
 			"list": [
 				{
-					"name": "Developer support: developers@MarcoPolo.link",
+					"name": "開発者サポート：developers@MarcoPolo.link",
 					"link": "developers@MarcoPolo.link"
 				},
 				{
-					"name": "Contact Us: cooperation@MarcoPolo.link",
+					"name": "お問い合わせ：cooperation@MarcoPolo.link",
 					"link": "cooperation@MarcoPolo.link"
 				}
 			]
 		},
 		"fun": [
 			{
-				"name": "Whitepaper",
+				"name": "白書",
 				"link": "https://files.marcopolo.link/pdf/marcopolo_whitePater_en.pdf"
 			},
 			{
-				"name": "Economic Model",
+				"name": "経済モデル",
 				"link": "https://files.marcopolo.link/pdf/marcopolo_economic_en.pdf"
 			}
 		],
-		"icon": [
+		"icon":  [
 			{
 				"i": "telegram",
 				"link": "https://t.me/MarcoPoloMAP"
@@ -279,6 +274,10 @@
 			{
 				"i": "twitter",
 				"link": "https://twitter.com/MarcoPoloGlobal"
+			},
+			{
+				"i": "facebook",
+				"link": "https://www.facebook.com/MarcoPolo-Protocol-107054464162905"
 			},
 			{
 				"i": "bitcointalk",
@@ -297,8 +296,8 @@
 				"link": "https://open.kakao.com/o/gI5fPXSb"
 			}
 		],
-		"download": {
-			"_title": "Download App now",
+		"download":{
+			"_title":"今すぐアプリをダウンロード",
 			"link": "http://www.marcopolopay.org/download"
 		}
 	}

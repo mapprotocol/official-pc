@@ -1,6 +1,6 @@
 {
 	"language": {
-		"_title": "English",
+		"_title": "Orang indonesia",
 		"langs": [
 			{
 				"name": "English",
@@ -58,7 +58,7 @@
 	},
 	"nav": [
 		{
-			"name": "Homepage",
+			"name": "Home",
 			"subName": "Homepage",
 			"path": "top"
 		},
@@ -73,131 +73,126 @@
 			"path": "m-footer"
 		},
 		{
-			"name": "Download",
+			"name": "Unduh Aplikasi Dompet",
 			"subName": "Download",
 			"path": "http://www.marcopolopay.org/download"
-		},
-		{
-			"name": "Hiring",
-			"subName": "We are hiring developers",
-			"path": "https://www.indeedjobs.com/marcopolo-protocol/_hl/en_CA"
 		}
 	],
 	"home": {
 		"banner": {
-			"_title": "MarcoPolo Protocol: Chain-to-chain Interoperation Protocol",
+			"_title": "MarcoPolo Protocol: Protokol Interoperasi rantai-ke-rantai",
 			"desc": [
-				"MarcoPolo Protocol is an open, fully decentralized, chain-to-chain interoperation protocol that enables the interoperability of multiple independently verifiable consensus blockchains without a relay chain. MarcoPolo Protocol expects to construct a future inter-chain-net, which is interoperable and chain-to-chain based. The ecosystem built on MarcoPolo Protocol can provide a solid infrastructure for finance, AI, IoT, traceability, and governance filed by cross-chain communication, privacy computation, shared storage, etc..."
+				"MarcoPolo Protocol adalah protokol interoperasi rantai-ke-rantai yang terbuka, sepenuhnya terdesentralisasi, yang memungkinkan interoperabilitas beberapa blokir konsensus yang dapat diverifikasi secara independen tanpa rantai relai. MarcoPolo Protocol mengharapkan untuk membangun jaringan antar-jaringan di masa depan, yang interoperable dan berbasis rantai-ke-rantai. Ekosistem yang dibangun di atas MarcoPolo Protocol dapat menyediakan infrastruktur yang kokoh untuk keuangan, AI, IoT, ketertelusuran, dan tata kelola yang diajukan oleh komunikasi lintas rantai, penghitungan privasi, penyimpanan bersama, dll ..."
 			]
 		},
 		"chainInfo": [
 			{
-				"title": "Super Light Cross-chain Verification Algorithm",
+				"title": "Algoritma Verifikasi Silang Super Ringan",
 				"desc": [
-					"Provides the ability of one chain to validate the state of another chain under low bandwidth and low storage."
+					"Memberikan kemampuan satu rantai untuk memvalidasi keadaan rantai lainnya di bawah bandwidth rendah dan penyimpanan rendah."
 				]
 			},
 			{
-				"title": "Composable Smart Contract Rule",
+				"title": "Peraturan Kontrak Cerdas yang Kompos",
 				"desc": [
-					"A rule for multiple composable trigger condition smart contracts."
+					"Aturan untuk beberapa kontrak cerdas yang dapat memicu kondisi pemicu."
 				]
 			},
 			{
-				"title": "Standardized Peer Discovery and Communication P2P Protocol",
+				"title": "Penemuan Peer Standar dan Protokol komunikasi P2P",
 				"desc": [
-					"A protocol under which the peer under different blockchain systems can discover and communicate with each other."
+					"Protokol di mana rekan di bawah sistem blockchain yang berbeda dapat menemukan dan berkomunikasi satu sama lain."
 				]
 			},
 			{
-				"title": "High-efficiency Block Transport Channel",
+				"title": "Saluran Transportasi Blok efisiensi tinggi",
 				"desc": [
-					"A block transportation channel based on IBLT which can compress the block size when relaying blocks."
+					"Saluran transportasi blok berdasarkan IBLT yang dapat mengompres ukuran blok saat merelayasi blok."
 				]
 			},
 			{
-				"title": "APOS Consensus Protocol",
+				"title": "Protokol Konsensus APOS",
 				"desc": [
-					"Asset Proof of Staking consensus based on verifiable random function."
+					"Bukti Aset untuk mempertaruhkan konsensus berdasarkan fungsi acak yang dapat diverifikasi"
 				]
 			},
 			{
-				"title": "MarcoPolo Application Tool Environment",
+				"title": "Lingkungan Alat Aplikasi MarcoPolo",
 				"desc": [
-					"A toolkit built on Sustainable MAP RunTime which can help developers to construct their own interoperable blockchains."
+					"Toolkit yang dibangun di atas Sustainable MAP RunTime yang dapat membantu pengembang untuk membangun blockchain sendiri yang dapat dioperasikan."
 				]
 			}
 		],
 		"pointsInfo": {
-			"title": "Peer-to-Peer Electronic Cash System Infrastructure",
+			"title": "Infrastruktur untuk Aplikasi Sistem Uang Elektronik Peer-to-Peer",
 			"leftDescList": [
-				"Support multiple tokens, one account supports all tokens' addresses",
-				"Choose the best public chain to ensure the fast and low-cost realization of peer-to-peer payment"
+				"Dukungan multi-mata uang asli, satu akun mendukung semua alamat mata uang.",
+				"Pilih rantai publik terbaik untuk memastikan implementasi pembayaran peer-to-peer yang cepat dan murah."
 			],
 			"centerDescList": [
-				"WASM contract support brings contractual support to digital currencies such as BTC",
-				"New smart contract language Delta which provides unlimited possibilities for electronic cash scenarios."
+				"Dukungan kontrak wasm membawa dukungan kontraktual ke mata uang digital seperti btc.",
+				"Bahasa kontrak pintar Delta yang baru menyediakan kemungkinan tak terbatas untuk skenario kas elektronik."
 			],
 			"rightDescList": [
-				"Inter-chain TPS sharing through BRPC and MTP, provide high-speed trading and deep transaction sharing"
+				"Berbagi tps antar-rantai dicapai melalui brpc dan mtp, menyediakan transaksi kecepatan tinggi dan berbagi transaksi yang mendalam."
 			]
 		},
 		"impareInfo": {
-			"title": "Community Incentive Mechanism",
+			"title": "Insentif Komunitas",
 			"list": [
 				{
-					"name": "PoB Incentive",
-					"desc": "Encourage community construction through PoB construction",
+					"name": "Insentif PoB",
+					"desc": "Beri insentif konstruksi komunitas melalui konstruksi PoB",
 					"icon": "pop"
 				},
 				{
-					"name": "Eco-system Incentive",
-					"desc": "Encourage on-chain governance mechanism",
+					"name": "Insentif Ekologis",
+					"desc": "Dorong pengembangan aplikasi melalui on-chain governance",
 					"icon": "globe"
 				},
 				{
-					"name": "Technology Incentive",
-					"desc": "Attracting global developers through on-chain governance and incentives",
+					"name": "Insentif Teknis",
+					"desc": "Menarik partisipasi pengembang global melalui tata kelola dan insentif on-chain",
 					"icon": "dev"
 				}
 			]
 		},
 		"roadmap": {
-			"_title": "Road map",
+			"_title": "Roadmap",
 			"mcont": [
 				{
-					"stage": "The First Stage 2019.Q1",
+					"stage": "Tahap Pertama 2019.Q1",
 					"intr": "Gravity:",
 					"desc": [
-						"The interoperability module Gravity has been developed, which realized useable interoperability between third-generation public chains and high consensus digital currency such as BTC and ETH, will share computing power and performance gradually expand to a more high-performance public chain through interoperability."
+						"Pengembangan komponen interoperabilitas Gravity selesai. Gravity akan menggunakan BTC, ETH dan mata uang digital konsensus lainnya untuk mencapai interoperabilitas yang dapat digunakan dengan generasi ketiga rantai publik berkinerja tinggi, berbagi daya dan kinerja komputasi, dan secara bertahap berkembang ke Lebih banyak rantai publik berkinerja tinggi. "
 					]
 				},
 				{
-					"stage": "The Second Stage 2019.Q3",
+					"stage": "Tahap Kedua 2019.Q3",
 					"intr": "Electromagnet:",
 					"desc": [
-						"Launch online retail payment application - MarcoPay",
-						"Launch community governance POB  DAPP."
+						"Pembayaran eceran peer-to-peer DApp Marco Pay ditayangkan",
+						"Tata kelola komunitas Pob dapp sedang online."
 					]
 				},
 				{
-					"stage": "The Third Stage 2020.Q4",
+					"stage": "Tahap ketiga 2020.Q4",
 					"intr": "Interaction:",
 					"desc": [
-						"Independently developed MarcoPolo's mainnet; Launch StandardChain; achieve APoS, on-chain governance, and architecture design of InteractChain"
+						"Penelitian independen dan pengembangan mainnet MarcoPolo, StandardChain, diluncurkan, memungkinkan APOS, tata kelola on-chain, dan desain arsitektur InteractChain."
 					]
 				},
 				{
-					"stage": "The Fourth Stage 2022.Q2",
-					"intr": "Grand Unification:",
+					"stage": "Tahap Keempat 2022.Q2",
+					"intr": " Grand Unification:",
 					"desc": [
-						"The realization of heterogeneous cross-chain operability and resource sharing between chains"
+						"Menerapkan operabilitas lintas rantai yang heterogen dan mewujudkan pembagian sumber daya antar rantai."
 					]
 				}
 			]
 		},
 		"partnerInfo": {
-			"title": "Partners and Investors",
+			"title": "Mitra",
 			"list": [
 				{
 					"img": "softBank",
@@ -247,31 +242,31 @@
 		}
 	},
 	"footer": {
-		"_title": "Follow us",
+		"_title": "Ikuti kami",
 		"mSupport": {
-			"copyright": "2020 MarcoPolo Network Foundation, All Rights Reseved",
+			"copyright": "2020 MarcoPolo Network Foundation,All Rights Reseved",
 			"list": [
 				{
-					"name": "Developer support: developers@MarcoPolo.link",
+					"name": "Dukungan Pengembang: developers@MarcoPolo.link",
 					"link": "developers@MarcoPolo.link"
 				},
 				{
-					"name": "Contact Us: cooperation@MarcoPolo.link",
+					"name": "Hubungi kami: cooperation@MarcoPolo.link",
 					"link": "cooperation@MarcoPolo.link"
 				}
 			]
 		},
 		"fun": [
 			{
-				"name": "Whitepaper",
+				"name": "Buku Putih Cina",
 				"link": "https://files.marcopolo.link/pdf/marcopolo_whitePater_en.pdf"
 			},
 			{
-				"name": "Economic Model",
+				"name": "Model Ekonomi",
 				"link": "https://files.marcopolo.link/pdf/marcopolo_economic_en.pdf"
 			}
 		],
-		"icon": [
+		"icon":  [
 			{
 				"i": "telegram",
 				"link": "https://t.me/MarcoPoloMAP"
@@ -279,6 +274,10 @@
 			{
 				"i": "twitter",
 				"link": "https://twitter.com/MarcoPoloGlobal"
+			},
+			{
+				"i": "facebook",
+				"link": "https://www.facebook.com/MarcoPolo-Protocol-107054464162905"
 			},
 			{
 				"i": "bitcointalk",
@@ -298,7 +297,7 @@
 			}
 		],
 		"download": {
-			"_title": "Download App now",
+			"_title": "Unduh aplikasi sekarang",
 			"link": "http://www.marcopolopay.org/download"
 		}
 	}

@@ -1,6 +1,6 @@
 {
 	"language": {
-		"_title": "English",
+		"_title": "Türk dili",
 		"langs": [
 			{
 				"name": "English",
@@ -58,146 +58,141 @@
 	},
 	"nav": [
 		{
-			"name": "Homepage",
+			"name": "Ev",
 			"subName": "Homepage",
 			"path": "top"
 		},
 		{
-			"name": "Developer",
+			"name": "Geliştirici",
 			"subName": "Developer",
 			"path": "https://github.com/marcopoloprotocol"
 		},
 		{
-			"name": "White Paper",
+			"name": "Teknik İnceleme",
 			"subName": "White Paper",
 			"path": "m-footer"
 		},
 		{
-			"name": "Download",
+			"name": "Cüzdan Uygulamasını İndir",
 			"subName": "Download",
 			"path": "http://www.marcopolopay.org/download"
-		},
-		{
-			"name": "Hiring",
-			"subName": "We are hiring developers",
-			"path": "https://www.indeedjobs.com/marcopolo-protocol/_hl/en_CA"
 		}
 	],
 	"home": {
 		"banner": {
-			"_title": "MarcoPolo Protocol: Chain-to-chain Interoperation Protocol",
+			"_title": "MarcoPolo Protocol: Zincir-Zincir Birlikte Çalışma Protokolü",
 			"desc": [
-				"MarcoPolo Protocol is an open, fully decentralized, chain-to-chain interoperation protocol that enables the interoperability of multiple independently verifiable consensus blockchains without a relay chain. MarcoPolo Protocol expects to construct a future inter-chain-net, which is interoperable and chain-to-chain based. The ecosystem built on MarcoPolo Protocol can provide a solid infrastructure for finance, AI, IoT, traceability, and governance filed by cross-chain communication, privacy computation, shared storage, etc..."
+				"MarcoPolo Protokolü, bir röle zinciri olmadan bağımsız olarak doğrulanabilir çoklu konsensüs blok zincirlerinin birlikte çalışabilirliğini sağlayan açık, tamamen merkezi olmayan, zincirden zincire birlikte çalışma protokolüdür. MarcoPolo Protokolü, birlikte çalışabilir ve zincirler arası temelli bir gelecek zincirler arası ağ oluşturmayı beklemektedir. MarcoPolo Protokolü üzerine kurulan ekosistem, zincirler arası iletişim, gizlilik hesaplama, paylaşılan depolama alanı vb. Tarafından finanse edilen finans, AI, IoT, izlenebilirlik ve yönetişim için sağlam bir altyapı sağlayabilir. "
 			]
 		},
 		"chainInfo": [
 			{
-				"title": "Super Light Cross-chain Verification Algorithm",
+				"title": "Süper Hafif Çapraz Zincir Doğrulama Algoritması",
 				"desc": [
-					"Provides the ability of one chain to validate the state of another chain under low bandwidth and low storage."
+					"Bir zincirin düşük bant genişliği ve düşük depolama altında başka bir zincirin durumunu doğrulama yeteneği sağlar."
 				]
 			},
 			{
-				"title": "Composable Smart Contract Rule",
+				"title": "Bileşilebilir Akıllı Sözleşme Kuralı",
 				"desc": [
-					"A rule for multiple composable trigger condition smart contracts."
+					"Birden fazla birleştirilebilir tetikleyici koşulu akıllı sözleşmeleri için bir kural."
 				]
 			},
 			{
-				"title": "Standardized Peer Discovery and Communication P2P Protocol",
+				"title": "Standartlaştırılmış Eş Bulma ve İletişim P2P Protokolü",
 				"desc": [
-					"A protocol under which the peer under different blockchain systems can discover and communicate with each other."
+					"Farklı blockchain sistemleri altındaki eşin birbirini keşfedebileceği ve iletişim kurabileceği bir protokol."
 				]
 			},
 			{
-				"title": "High-efficiency Block Transport Channel",
+				"title": "Yüksek Verimli Blok Taşıma Kanalı",
 				"desc": [
-					"A block transportation channel based on IBLT which can compress the block size when relaying blocks."
+					"Blokları geçirirken blok boyutunu sıkıştırabilen IBLT'ye dayalı bir blok taşıma kanalı."
 				]
 			},
 			{
-				"title": "APOS Consensus Protocol",
+				"title": "APOS Konsensüs Protokolü",
 				"desc": [
-					"Asset Proof of Staking consensus based on verifiable random function."
+					"Doğrulanabilir rasgele fonksiyona dayanan İstifleme konsensüsünün varlık kanıtı."
 				]
 			},
 			{
-				"title": "MarcoPolo Application Tool Environment",
+				"title": "MarcoPolo Uygulama Aracı Ortamı",
 				"desc": [
-					"A toolkit built on Sustainable MAP RunTime which can help developers to construct their own interoperable blockchains."
+					"Sürdürülebilir MAP RunTime üzerine kurulmuş, geliştiricilerin kendi birlikte çalışabilir blok zincirlerini oluşturmalarına yardımcı olabilecek bir araç seti."
 				]
 			}
 		],
 		"pointsInfo": {
-			"title": "Peer-to-Peer Electronic Cash System Infrastructure",
+			"title": "Eşler Arası Elektronik Nakit Sistemi Uygulaması Altyapısı",
 			"leftDescList": [
-				"Support multiple tokens, one account supports all tokens' addresses",
-				"Choose the best public chain to ensure the fast and low-cost realization of peer-to-peer payment"
+				"Yerel çoklu para birimi desteği, bir hesap tüm para birimi adreslerini destekler.",
+				"Eşler arası ödemelerin hızlı ve düşük maliyetli uygulanmasını sağlamak için en iyi kamu zincirini seçin."
 			],
 			"centerDescList": [
-				"WASM contract support brings contractual support to digital currencies such as BTC",
-				"New smart contract language Delta which provides unlimited possibilities for electronic cash scenarios."
+				"wasm sözleşme desteği btc gibi dijital para birimlerine sözleşme desteği getiriyor.",
+				"Yeni Delta akıllı sözleşme dili elektronik nakit senaryoları için sınırsız olanaklar sunuyor."
 			],
 			"rightDescList": [
-				"Inter-chain TPS sharing through BRPC and MTP, provide high-speed trading and deep transaction sharing"
+				"Zincirler arası tps paylaşımı, yüksek hızlı işlemler ve derin işlem paylaşımı sağlayan brpc ve mtp ile elde edilir."
 			]
 		},
 		"impareInfo": {
-			"title": "Community Incentive Mechanism",
+			"title": "Topluluk Teşvikleri",
 			"list": [
 				{
-					"name": "PoB Incentive",
-					"desc": "Encourage community construction through PoB construction",
+					"name": "PoB teşviki",
+					"desc": "PoB yapımı yoluyla topluluk inşaatını teşvik edin",
 					"icon": "pop"
 				},
 				{
-					"name": "Eco-system Incentive",
-					"desc": "Encourage on-chain governance mechanism",
+					"name": "Ekolojik Teşvik",
+					"desc": "Zincirleme yönetişim yoluyla uygulama geliştirmeyi teşvik edin",
 					"icon": "globe"
 				},
 				{
-					"name": "Technology Incentive",
-					"desc": "Attracting global developers through on-chain governance and incentives",
+					"name": "Teknik Teşvik",
+					"desc": "Zincirleme yönetişim ve teşviklerle küresel geliştiricilerin katılımını çekin",
 					"icon": "dev"
 				}
 			]
 		},
 		"roadmap": {
-			"_title": "Road map",
+			"_title": "Yol Haritası",
 			"mcont": [
 				{
-					"stage": "The First Stage 2019.Q1",
+					"stage": "Birinci Aşama 2019.Q1",
 					"intr": "Gravity:",
 					"desc": [
-						"The interoperability module Gravity has been developed, which realized useable interoperability between third-generation public chains and high consensus digital currency such as BTC and ETH, will share computing power and performance gradually expand to a more high-performance public chain through interoperability."
+						"Birlikte çalışabilirlik bileşeninin Gravity geliştirilmesi tamamlandı. Gravity, BTC, ETH ve diğer fikir birliği dijital para birimlerini kullanarak üçüncü nesil yüksek performanslı kamu zincirleri ile kullanılabilir birlikte çalışabilirlik elde etmek, hesaplama gücünü ve performansını paylaşmak ve kademeli olarak genişletmek için kullanacak. Daha yüksek performanslı halka açık zincirler. "
 					]
 				},
 				{
-					"stage": "The Second Stage 2019.Q3",
+					"stage": "İkinci Aşama 2019.Ç3",
 					"intr": "Electromagnet:",
 					"desc": [
-						"Launch online retail payment application - MarcoPay",
-						"Launch community governance POB  DAPP."
+						"Eşler arası perakende ödeme DApp Marco Pay yayınlanıyor",
+						"Pob topluluk yönetişimi dapp çevrimiçi."
 					]
 				},
 				{
-					"stage": "The Third Stage 2020.Q4",
+					"stage": "Üçüncü aşama 2020.Q4",
 					"intr": "Interaction:",
 					"desc": [
-						"Independently developed MarcoPolo's mainnet; Launch StandardChain; achieve APoS, on-chain governance, and architecture design of InteractChain"
+						"APP, zincirleme yönetişim ve InteractChain mimari tasarımını mümkün kılan MarcoPolo'nun ana ağı StandardChain'in bağımsız araştırması ve geliştirilmesi başlatıldı."
 					]
 				},
 				{
-					"stage": "The Fourth Stage 2022.Q2",
-					"intr": "Grand Unification:",
+					"stage": "Dördüncü Aşama 2022.Q2",
+					"intr": " Grand Unification:",
 					"desc": [
-						"The realization of heterogeneous cross-chain operability and resource sharing between chains"
+						"Heterojen çapraz zincir çalışabilirliği uygulayın ve zincirler arasında kaynak paylaşımını gerçekleştirin."
 					]
 				}
 			]
 		},
 		"partnerInfo": {
-			"title": "Partners and Investors",
+			"title": "Ortak",
 			"list": [
 				{
 					"img": "softBank",
@@ -247,31 +242,31 @@
 		}
 	},
 	"footer": {
-		"_title": "Follow us",
+		"_title": "Bizi takip et",
 		"mSupport": {
-			"copyright": "2020 MarcoPolo Network Foundation, All Rights Reseved",
+			"copyright": "2020 MarcoPolo Network Foundation,All Rights Reseved",
 			"list": [
 				{
-					"name": "Developer support: developers@MarcoPolo.link",
+					"name": "Geliştirici Desteği: developers@MarcoPolo.link",
 					"link": "developers@MarcoPolo.link"
 				},
 				{
-					"name": "Contact Us: cooperation@MarcoPolo.link",
+					"name": "Bize ulaşın: cooperation@MarcoPolo.link",
 					"link": "cooperation@MarcoPolo.link"
 				}
 			]
 		},
 		"fun": [
 			{
-				"name": "Whitepaper",
+				"name": "Çin Beyaz Kitabı",
 				"link": "https://files.marcopolo.link/pdf/marcopolo_whitePater_en.pdf"
 			},
 			{
-				"name": "Economic Model",
+				"name": "Ekonomik Model",
 				"link": "https://files.marcopolo.link/pdf/marcopolo_economic_en.pdf"
 			}
 		],
-		"icon": [
+		"icon":  [
 			{
 				"i": "telegram",
 				"link": "https://t.me/MarcoPoloMAP"
@@ -279,6 +274,10 @@
 			{
 				"i": "twitter",
 				"link": "https://twitter.com/MarcoPoloGlobal"
+			},
+			{
+				"i": "facebook",
+				"link": "https://www.facebook.com/MarcoPolo-Protocol-107054464162905"
 			},
 			{
 				"i": "bitcointalk",
@@ -298,7 +297,7 @@
 			}
 		],
 		"download": {
-			"_title": "Download App now",
+			"_title": "Uygulamayı şimdi indir",
 			"link": "http://www.marcopolopay.org/download"
 		}
 	}

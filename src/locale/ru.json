@@ -1,6 +1,6 @@
 {
 	"language": {
-		"_title": "English",
+		"_title": "русский",
 		"langs": [
 			{
 				"name": "English",
@@ -58,146 +58,141 @@
 	},
 	"nav": [
 		{
-			"name": "Homepage",
+			"name": "Дом",
 			"subName": "Homepage",
 			"path": "top"
 		},
 		{
-			"name": "Developer",
+			"name": "Разработчик",
 			"subName": "Developer",
 			"path": "https://github.com/marcopoloprotocol"
 		},
 		{
-			"name": "White Paper",
+			"name": "Белая книга",
 			"subName": "White Paper",
 			"path": "m-footer"
 		},
 		{
-			"name": "Download",
+			"name": "Скачать приложение кошелька",
 			"subName": "Download",
 			"path": "http://www.marcopolopay.org/download"
-		},
-		{
-			"name": "Hiring",
-			"subName": "We are hiring developers",
-			"path": "https://www.indeedjobs.com/marcopolo-protocol/_hl/en_CA"
 		}
 	],
 	"home": {
 		"banner": {
-			"_title": "MarcoPolo Protocol: Chain-to-chain Interoperation Protocol",
+			"_title": "MarcoPolo Protocol: Протокол взаимодействия Chain-to-chain",
 			"desc": [
-				"MarcoPolo Protocol is an open, fully decentralized, chain-to-chain interoperation protocol that enables the interoperability of multiple independently verifiable consensus blockchains without a relay chain. MarcoPolo Protocol expects to construct a future inter-chain-net, which is interoperable and chain-to-chain based. The ecosystem built on MarcoPolo Protocol can provide a solid infrastructure for finance, AI, IoT, traceability, and governance filed by cross-chain communication, privacy computation, shared storage, etc..."
+				"Протокол MarcoPolo - это открытый, полностью децентрализованный протокол взаимодействия между цепочками, который обеспечивает взаимодействие нескольких независимо проверяемых согласованных блокчейнов без цепочки реле. Протокол MarcoPolo рассчитывает построить будущую межсетевую сеть, которая будет совместима и основана на цепочке. Экосистема, построенная на протоколе MarcoPolo, может обеспечить надежную инфраструктуру для финансов, искусственного интеллекта, Интернета вещей, отслеживания и управления, основанную на перекрестных связях, вычислениях конфиденциальности, общем хранилище и т. Д."
 			]
 		},
 		"chainInfo": [
 			{
-				"title": "Super Light Cross-chain Verification Algorithm",
+				"title": "Суперлегкий алгоритм проверки перекрестных цепей",
 				"desc": [
-					"Provides the ability of one chain to validate the state of another chain under low bandwidth and low storage."
+					"Обеспечивает способность одной цепочки проверять состояние другой цепочки при низкой пропускной способности и малом объеме хранилища."
 				]
 			},
 			{
-				"title": "Composable Smart Contract Rule",
+				"title": "Правило составного смарт-контракта",
 				"desc": [
-					"A rule for multiple composable trigger condition smart contracts."
+					"Правило для умных контрактов с несколькими составными условиями триггера."
 				]
 			},
 			{
-				"title": "Standardized Peer Discovery and Communication P2P Protocol",
+				"title": "Стандартизированный P2P протокол обнаружения и обмена данными",
 				"desc": [
-					"A protocol under which the peer under different blockchain systems can discover and communicate with each other."
+					"Протокол, в соответствии с которым одноранговый узел в разных системах цепочки блоков может обнаруживать и связываться друг с другом."
 				]
 			},
 			{
-				"title": "High-efficiency Block Transport Channel",
+				"title": "Высокоэффективный блочный транспортный канал",
 				"desc": [
-					"A block transportation channel based on IBLT which can compress the block size when relaying blocks."
+					"Канал транспортировки блоков на основе IBLT, который может сжимать размер блока при ретрансляции блоков."
 				]
 			},
 			{
-				"title": "APOS Consensus Protocol",
+				"title": "APOS Консенсусный протокол",
 				"desc": [
-					"Asset Proof of Staking consensus based on verifiable random function."
+					"Актив Доказательство консенсуса по ставкам на основе проверяемой случайной функции."
 				]
 			},
 			{
-				"title": "MarcoPolo Application Tool Environment",
+				"title": "Среда прикладного инструмента MarcoPolo",
 				"desc": [
-					"A toolkit built on Sustainable MAP RunTime which can help developers to construct their own interoperable blockchains."
+					"Инструментарий, основанный на Sustainable MAP RunTime, который может помочь разработчикам создавать свои собственные совместимые блокчейны."
 				]
 			}
 		],
 		"pointsInfo": {
-			"title": "Peer-to-Peer Electronic Cash System Infrastructure",
+			"title": "Инфраструктура для применения электронных денежных систем в одноранговой сети",
 			"leftDescList": [
-				"Support multiple tokens, one account supports all tokens' addresses",
-				"Choose the best public chain to ensure the fast and low-cost realization of peer-to-peer payment"
+				"Нативная мультивалютная поддержка, один аккаунт поддерживает все адреса валют.",
+				"Выберите лучшую государственную сеть, чтобы обеспечить быстрое и недорогое внедрение одноранговых платежей."
 			],
 			"centerDescList": [
-				"WASM contract support brings contractual support to digital currencies such as BTC",
-				"New smart contract language Delta which provides unlimited possibilities for electronic cash scenarios."
+				"Поддержка контрактов wasm обеспечивает контрактную поддержку цифровых валют, таких как BTC.",
+				"Новый язык интеллектуальных контрактов Delta предоставляет неограниченные возможности для сценариев электронных денежных средств."
 			],
 			"rightDescList": [
-				"Inter-chain TPS sharing through BRPC and MTP, provide high-speed trading and deep transaction sharing"
+				"Межсетевой обмен tps достигается с помощью brpc и mtp, обеспечивая высокоскоростные транзакции и глубокий обмен транзакциями."
 			]
 		},
 		"impareInfo": {
-			"title": "Community Incentive Mechanism",
+			"title": "Стимулы сообщества",
 			"list": [
 				{
-					"name": "PoB Incentive",
-					"desc": "Encourage community construction through PoB construction",
+					"name": "PoB стимул",
+					"desc": "Стимулировать общественное строительство через PoB construction",
 					"icon": "pop"
 				},
 				{
-					"name": "Eco-system Incentive",
-					"desc": "Encourage on-chain governance mechanism",
+					"name": "Экологический стимул",
+					"desc": "Поощрять разработку приложений с помощью управления по цепочке",
 					"icon": "globe"
 				},
 				{
-					"name": "Technology Incentive",
-					"desc": "Attracting global developers through on-chain governance and incentives",
+					"name": "Технический стимул",
+					"desc": "Привлечь участие глобальных разработчиков через управление и стимулы на цепочке",
 					"icon": "dev"
 				}
 			]
 		},
 		"roadmap": {
-			"_title": "Road map",
+			"_title": "Дорожная карта",
 			"mcont": [
 				{
-					"stage": "The First Stage 2019.Q1",
+					"stage": "Первый этап 2019.Q1",
 					"intr": "Gravity:",
 					"desc": [
-						"The interoperability module Gravity has been developed, which realized useable interoperability between third-generation public chains and high consensus digital currency such as BTC and ETH, will share computing power and performance gradually expand to a more high-performance public chain through interoperability."
+						"Разработка компонента взаимодействия Gravity завершена. Gravity будет использовать BTC, ETH и другие согласованные цифровые валюты для достижения практической совместимости с высокопроизводительной общедоступной цепью третьего поколения, совместного использования вычислительной мощности и производительности и постепенного перехода к взаимодействию на более поздних этапах». Более высокопроизводительные публичные сети."
 					]
 				},
 				{
-					"stage": "The Second Stage 2019.Q3",
+					"stage": "Второй этап 2019.Q3",
 					"intr": "Electromagnet:",
 					"desc": [
-						"Launch online retail payment application - MarcoPay",
-						"Launch community governance POB  DAPP."
+						"Одноранговый розничный платеж DApp Marco Pay выходит в эфир",
+						"PAP сообщества управления dapp онлайн."
 					]
 				},
 				{
-					"stage": "The Third Stage 2020.Q4",
+					"stage": "Третий этап 2020.Q4",
 					"intr": "Interaction:",
 					"desc": [
-						"Independently developed MarcoPolo's mainnet; Launch StandardChain; achieve APoS, on-chain governance, and architecture design of InteractChain"
+						"Началось независимое исследование и разработка основной сети MarcoPolo, StandardChain, что позволило APOS, управлению в цепочке и проектированию архитектуры InteractChain."
 					]
 				},
 				{
-					"stage": "The Fourth Stage 2022.Q2",
-					"intr": "Grand Unification:",
+					"stage": "Четвертый этап 2022.Q2",
+					"intr": " Grand Unification:",
 					"desc": [
-						"The realization of heterogeneous cross-chain operability and resource sharing between chains"
+						"Внедрить гетерогенную работоспособность между цепями и обеспечить совместное использование ресурсов между цепями."
 					]
 				}
 			]
 		},
 		"partnerInfo": {
-			"title": "Partners and Investors",
+			"title": "Партнеры и инвестиционные агентства",
 			"list": [
 				{
 					"img": "softBank",
@@ -247,31 +242,31 @@
 		}
 	},
 	"footer": {
-		"_title": "Follow us",
+		"_title": "Следуй за нами",
 		"mSupport": {
-			"copyright": "2020 MarcoPolo Network Foundation, All Rights Reseved",
+			"copyright": "2020 MarcoPolo Network Foundation,All Rights Reseved",
 			"list": [
 				{
-					"name": "Developer support: developers@MarcoPolo.link",
+					"name": "Поддержка разработчиков: developers@MarcoPolo.link",
 					"link": "developers@MarcoPolo.link"
 				},
 				{
-					"name": "Contact Us: cooperation@MarcoPolo.link",
+					"name": "Свяжитесь с нами: cooperation@MarcoPolo.link",
 					"link": "cooperation@MarcoPolo.link"
 				}
 			]
 		},
 		"fun": [
 			{
-				"name": "Whitepaper",
+				"name": "Китайская Белая Книга",
 				"link": "https://files.marcopolo.link/pdf/marcopolo_whitePater_en.pdf"
 			},
 			{
-				"name": "Economic Model",
+				"name": "Экономическая модель",
 				"link": "https://files.marcopolo.link/pdf/marcopolo_economic_en.pdf"
 			}
 		],
-		"icon": [
+		"icon":  [
 			{
 				"i": "telegram",
 				"link": "https://t.me/MarcoPoloMAP"
@@ -279,6 +274,10 @@
 			{
 				"i": "twitter",
 				"link": "https://twitter.com/MarcoPoloGlobal"
+			},
+			{
+				"i": "facebook",
+				"link": "https://www.facebook.com/MarcoPolo-Protocol-107054464162905"
 			},
 			{
 				"i": "bitcointalk",
@@ -297,8 +296,8 @@
 				"link": "https://open.kakao.com/o/gI5fPXSb"
 			}
 		],
-		"download": {
-			"_title": "Download App now",
+		"download":{
+			"_title":"Скачать приложение сейчас",
 			"link": "http://www.marcopolopay.org/download"
 		}
 	}

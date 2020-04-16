@@ -13,6 +13,24 @@ const setTitle = title => {
         case 'ko':
           title = 'MarcoPolo Protocol: Chain-to-chain 상호운영 가능한 프로토콜'
           break
+        case 'tr':
+          title = 'MarcoPolo Protocol: Zincir-Zincir Birlikte Çalışma Protokolü'
+          break
+        case 'ru':
+          title = 'MarcoPolo Protocol: Протокол взаимодействия Chain-to-chain'
+          break
+        case 'vn':
+          title = 'MarcoPolo Protocol: Giao THức Chéo Chuỗi-sang-Chuỗi'
+          break
+        case 'pt':
+          title = 'MarcoPolo Protocol: Protocolo de interoperação de cadeia a cadeia'
+          break
+        case 'ins':
+          title = 'MarcoPolo Protocol: Protokol Interoperasi rantai-ke-rantai'
+          break
+        case 'jp':
+          title = 'MarcoPolo Protocol: チェーン間相互運用プロトコル '
+          break
         default:
           title =
             'MarcoPolo Protocol: Chain-to-chain Interoperation Protocol'

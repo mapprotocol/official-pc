@@ -1,6 +1,6 @@
 {
 	"language": {
-		"_title": "English",
+		"_title": "Tiếng việt nam",
 		"langs": [
 			{
 				"name": "English",
@@ -58,146 +58,141 @@
 	},
 	"nav": [
 		{
-			"name": "Homepage",
+			"name": "Nhà",
 			"subName": "Homepage",
 			"path": "top"
 		},
 		{
-			"name": "Developer",
+			"name": "Nhà phát triển",
 			"subName": "Developer",
 			"path": "https://github.com/marcopoloprotocol"
 		},
 		{
-			"name": "White Paper",
+			"name": "Sách trắng",
 			"subName": "White Paper",
 			"path": "m-footer"
 		},
 		{
-			"name": "Download",
+			"name": "Tải xuống ứng dụng ví",
 			"subName": "Download",
 			"path": "http://www.marcopolopay.org/download"
-		},
-		{
-			"name": "Hiring",
-			"subName": "We are hiring developers",
-			"path": "https://www.indeedjobs.com/marcopolo-protocol/_hl/en_CA"
 		}
 	],
 	"home": {
 		"banner": {
-			"_title": "MarcoPolo Protocol: Chain-to-chain Interoperation Protocol",
+			"_title": "MarcoPolo Protocol: Giao THức Chéo Chuỗi-sang-Chuỗi",
 			"desc": [
-				"MarcoPolo Protocol is an open, fully decentralized, chain-to-chain interoperation protocol that enables the interoperability of multiple independently verifiable consensus blockchains without a relay chain. MarcoPolo Protocol expects to construct a future inter-chain-net, which is interoperable and chain-to-chain based. The ecosystem built on MarcoPolo Protocol can provide a solid infrastructure for finance, AI, IoT, traceability, and governance filed by cross-chain communication, privacy computation, shared storage, etc..."
+				"MarcoPolo Protocol là một giao thức chéo mở, hoàn toàn phân tán, chuỗi-sang-chuỗi thứ cho phép sẽ tương tác của nhiều cơ chế đồng thuận blockchain độc lập có thể xác minh. Mà không chồng chéo chuỗi. MarcoPolo Protocol mong đợi xây dựng một mạng lưới trong chuỗi, thứ dựa trên sự tương tác chuỗi-sang-chuỗi. Hệ sinh thái xây dựng trên MarcoPolo Protocol có thể cung cấp một hạ tầng vững chắc cho tài chính, AI, IoT, truy xuất, và quản trị bởi tương tác chuỗi chéo, tín toán riêng tư, chia sẻ dữ liệu, vv."
 			]
 		},
 		"chainInfo": [
 			{
-				"title": "Super Light Cross-chain Verification Algorithm",
-				"desc": [
-					"Provides the ability of one chain to validate the state of another chain under low bandwidth and low storage."
+				"title": "Thuật toán xác minh liên chuỗi rất nhẹ",
+				"desc":  [
+					"Cung cấp khả năng của một chuỗi để xác minh trạng thái của chuỗi khác với băng thông hẹp và lưu trữ thấp."
 				]
 			},
 			{
-				"title": "Composable Smart Contract Rule",
+				"title":  "Có thể soạn hợp đồng thông minh",
 				"desc": [
-					"A rule for multiple composable trigger condition smart contracts."
+					"Một quy tắc cho các hợp đồng thông minh tự kích hoạt theo điều kiện."
 				]
 			},
 			{
-				"title": "Standardized Peer Discovery and Communication P2P Protocol",
+				"title":  "Giao Thức P2P Tìm Kiếm Và Liên Lạc Ngang Hàng",
 				"desc": [
-					"A protocol under which the peer under different blockchain systems can discover and communicate with each other."
+					"Một giao thức theo sát các hệ thống blockchains khác có thể phát hiện và liên lạc với nhau."
 				]
 			},
 			{
-				"title": "High-efficiency Block Transport Channel",
+				"title": "Kênh chuyển khối hiệu năng cao",
 				"desc": [
-					"A block transportation channel based on IBLT which can compress the block size when relaying blocks."
+					"Một kênh chuyển khối dựa vào IBLT thứ có thể nén kích thước khối trên các khối"
 				]
 			},
 			{
-				"title": "APOS Consensus Protocol",
+				"title":  "Giao thức đồng thuận APOS",
 				"desc": [
-					"Asset Proof of Staking consensus based on verifiable random function."
+					"Cơ chế đồng thuận Asset Proof of Staking dựa trên chức năng xác minh ngẫu nhiên"
 				]
 			},
 			{
-				"title": "MarcoPolo Application Tool Environment",
+				"title": "Môi trường công cụ ứng dụng MarcoPolo",
 				"desc": [
-					"A toolkit built on Sustainable MAP RunTime which can help developers to construct their own interoperable blockchains."
+					"Một bộ toolkit được xây dựng trên MAP Run Time thứ có thể giúp các nhà phát triển xây dựng blockchains tương tác của riêng họ"
 				]
 			}
 		],
 		"pointsInfo": {
-			"title": "Peer-to-Peer Electronic Cash System Infrastructure",
+			"title": "Cơ sở hạ tầng cho ứng dụng hệ thống tiền mặt điện tử ngang hàng",
 			"leftDescList": [
-				"Support multiple tokens, one account supports all tokens' addresses",
-				"Choose the best public chain to ensure the fast and low-cost realization of peer-to-peer payment"
+				"Hỗ trợ đa tiền tệ bản địa, một tài khoản hỗ trợ tất cả các địa chỉ tiền tệ.",
+				"Chọn chuỗi công khai tốt nhất để đảm bảo thực hiện nhanh chóng và chi phí thấp cho thanh toán ngang hàng."
 			],
 			"centerDescList": [
-				"WASM contract support brings contractual support to digital currencies such as BTC",
-				"New smart contract language Delta which provides unlimited possibilities for electronic cash scenarios."
+				"Hỗ trợ hợp đồng wasm mang lại hỗ trợ theo hợp đồng cho các loại tiền kỹ thuật số như btc.",
+				"Ngôn ngữ hợp đồng thông minh Delta mới cung cấp khả năng không giới hạn cho các kịch bản tiền điện tử."
 			],
 			"rightDescList": [
-				"Inter-chain TPS sharing through BRPC and MTP, provide high-speed trading and deep transaction sharing"
+				"Chia sẻ tps liên chuỗi đạt được thông qua brpc và mtp, cung cấp các giao dịch tốc độ cao và chia sẻ sâu các giao dịch."
 			]
 		},
 		"impareInfo": {
-			"title": "Community Incentive Mechanism",
+			"title": "Ưu đãi cộng đồng",
 			"list": [
 				{
-					"name": "PoB Incentive",
-					"desc": "Encourage community construction through PoB construction",
+					"name": "Ưu đãi PoB",
+					"desc": "Khuyến khích xây dựng cộng đồng thông qua xây dựng PoB",
 					"icon": "pop"
 				},
 				{
-					"name": "Eco-system Incentive",
-					"desc": "Encourage on-chain governance mechanism",
+					"name": "Khuyến khích sinh thái",
+					"desc": "Khuyến khích phát triển ứng dụng thông qua quản trị theo chuỗi",
 					"icon": "globe"
 				},
 				{
-					"name": "Technology Incentive",
-					"desc": "Attracting global developers through on-chain governance and incentives",
+					"name": "Ưu đãi kỹ thuật",
+					"desc": "Thu hút sự tham gia của các nhà phát triển toàn cầu thông qua quản trị và khuyến khích trên chuỗi",
 					"icon": "dev"
 				}
 			]
 		},
 		"roadmap": {
-			"_title": "Road map",
+			"_title": "Lộ trình",
 			"mcont": [
 				{
-					"stage": "The First Stage 2019.Q1",
+					"stage": "Giai đoạn đầu tiên 2019.Q1",
 					"intr": "Gravity:",
 					"desc": [
-						"The interoperability module Gravity has been developed, which realized useable interoperability between third-generation public chains and high consensus digital currency such as BTC and ETH, will share computing power and performance gradually expand to a more high-performance public chain through interoperability."
+						"Quá trình phát triển thành phần tương tác Gravity đã hoàn tất. Gravity sẽ sử dụng BTC, ETH và các loại tiền kỹ thuật số đồng thuận khác để đạt được khả năng tương tác có thể sử dụng với thế hệ thứ ba của chuỗi công khai hiệu suất cao, chia sẻ sức mạnh và hiệu suất tính toán, và dần dần mở rộng sang Nhiều chuỗi công cộng hiệu suất cao. "
 					]
 				},
 				{
-					"stage": "The Second Stage 2019.Q3",
+					"stage": "Giai đoạn thứ hai 2019.Q3",
 					"intr": "Electromagnet:",
 					"desc": [
-						"Launch online retail payment application - MarcoPay",
-						"Launch community governance POB  DAPP."
+						"Thanh toán bán lẻ ngang hàng DApp Marco Pay đi vào hoạt động",
+						"Dapp quản trị cộng đồng dapp là trực tuyến."
 					]
 				},
 				{
-					"stage": "The Third Stage 2020.Q4",
+					"stage": "Giai đoạn thứ ba 2020.Q4",
 					"intr": "Interaction:",
 					"desc": [
-						"Independently developed MarcoPolo's mainnet; Launch StandardChain; achieve APoS, on-chain governance, and architecture design of InteractChain"
+						"Nghiên cứu và phát triển độc lập của mainnet của MarcoPolo, StandardChain, đã được đưa ra, cho phép APOS, quản trị trên chuỗi và thiết kế kiến ​​trúc InteractChain."
 					]
 				},
 				{
-					"stage": "The Fourth Stage 2022.Q2",
-					"intr": "Grand Unification:",
+					"stage": "Giai đoạn thứ tư 2022.Q2",
+					"intr": " Grand Unification:",
 					"desc": [
-						"The realization of heterogeneous cross-chain operability and resource sharing between chains"
+						"Thực hiện khả năng hoạt động chuỗi chéo không đồng nhất và nhận ra việc chia sẻ tài nguyên giữa các chuỗi."
 					]
 				}
 			]
 		},
 		"partnerInfo": {
-			"title": "Partners and Investors",
+			"title": "Đối tác",
 			"list": [
 				{
 					"img": "softBank",
@@ -247,31 +242,31 @@
 		}
 	},
 	"footer": {
-		"_title": "Follow us",
+		"_title": "Theo dõi chúng tôi",
 		"mSupport": {
-			"copyright": "2020 MarcoPolo Network Foundation, All Rights Reseved",
+			"copyright": "2020 MarcoPolo Network Foundation,All Rights Reseved",
 			"list": [
 				{
-					"name": "Developer support: developers@MarcoPolo.link",
+					"name": "Hỗ trợ nhà phát triển: developers@MarcoPolo.link",
 					"link": "developers@MarcoPolo.link"
 				},
 				{
-					"name": "Contact Us: cooperation@MarcoPolo.link",
+					"name": "Liên hệ với chúng tôi: cooperation@MarcoPolo.link",
 					"link": "cooperation@MarcoPolo.link"
 				}
 			]
 		},
 		"fun": [
 			{
-				"name": "Whitepaper",
+				"name": "Sách trắng Trung Quốc",
 				"link": "https://files.marcopolo.link/pdf/marcopolo_whitePater_en.pdf"
 			},
 			{
-				"name": "Economic Model",
+				"name": "Mô hình kinh tế",
 				"link": "https://files.marcopolo.link/pdf/marcopolo_economic_en.pdf"
 			}
 		],
-		"icon": [
+		"icon":  [
 			{
 				"i": "telegram",
 				"link": "https://t.me/MarcoPoloMAP"
@@ -279,6 +274,10 @@
 			{
 				"i": "twitter",
 				"link": "https://twitter.com/MarcoPoloGlobal"
+			},
+			{
+				"i": "facebook",
+				"link": "https://www.facebook.com/MarcoPolo-Protocol-107054464162905"
 			},
 			{
 				"i": "bitcointalk",
@@ -297,8 +296,8 @@
 				"link": "https://open.kakao.com/o/gI5fPXSb"
 			}
 		],
-		"download": {
-			"_title": "Download App now",
+		"download":{
+			"_title": "Tải xuống ứng dụng ngay bây giờ",
 			"link": "http://www.marcopolopay.org/download"
 		}
 	}
