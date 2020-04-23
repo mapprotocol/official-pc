@@ -70,8 +70,8 @@
     <map-china></map-china>
     <!-- 产品宣传
     <product-media></product-media> -->
-    <!-- 合作伙伴 -->
-    <partner-mod></partner-mod>
+    <!-- 合作伙伴
+    <partner-mod></partner-mod>  -->
     <!-- 底部 -->
     <sys-footer></sys-footer>
     <!-- 悬浮框 -->

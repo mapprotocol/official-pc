@@ -171,32 +171,37 @@
         "_title": "路线图",
         "mcont": [
           {
-            "stage": "第一阶段 2019.Q1",
+            "stage": "第一阶段 2020.Q4",
             "intr": "Gravity:",
             "desc": [
-              "互操作性组件Gravity开发完成，Gravity将BTC、ETH等共识强大的数字货币，与第三代高性能公链实现可用的互操作，共享算力和性能，后期逐步通过互操作性方式扩展至更多高性能公有链。"
+              "基准链开发，包括：",
+              "基准链PoS共识，MapVM和SMART系统，链上治理"
             ]
           },
           {
-            "stage": "第二阶段 2019.Q3",
-            "intr": "Electromagnet:",
+            "stage": "第二阶段 2021.Q2",
+            "intr": "Electromagnetic:",
             "desc": [
-              "点对点零售支付DApp  Marco Pay上线",
-              "POB社区治理DAPP上线。"
+              "轻量级跨链验证协议",
+              "组合式触发条件的智能脚本系统",
+              "通用ChainID规范标准"
             ]
           },
           {
-            "stage": "第三阶段 2020.Q4",
+            "stage": "第三阶段 2021.Q4",
             "intr": "Interaction:",
             "desc": [
-              "自主研发MarcoPolo主网StandardChain上线，实现APOS、链上治理、InteractChain等架构设计。"
+              "MATE框架",
+              "搭建支持电子现金系统等应用区块链，并支持与基准链的连接"
             ]
           },
           {
             "stage": "第四阶段 2022.Q2",
-            "intr": " Grand Unification:",
+            "intr": "Grand Unification:",
             "desc": [
-              "实现异构跨链可操作性，实现链间资源共享。"
+              "支持与其他公链的轻量级跨链",
+              "实现与BTC、ETH等的跨链",
+              "提供与DPoS链的跨链支持"
             ]
           }
         ]
@@ -253,7 +258,7 @@
       "fun": [
         {
           "name": "白皮书",
-          "link": "https://files.marcopolo.link/pdf/marcopolo_whitePater_en.pdf"
+          "link": "https://files.marcopolo.link/pdf/marcopolo_whitepaper_en.pdf"
         },
         {
           "name": "经济模型",
