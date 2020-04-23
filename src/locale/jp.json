@@ -76,6 +76,11 @@
 			"name": "ウォレットアプリのダウンロード",
 			"subName": "Download",
 			"path": "http://www.marcopolopay.org/download"
+		},
+		{
+			"name": "ウェブウォレット",
+			"subName": "WebWallet",
+			"path": "https://webwallet.marcopay.org/"
 		}
 	],
 	"home": {

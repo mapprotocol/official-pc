@@ -76,6 +76,11 @@
 			"name": "Tải xuống ứng dụng ví",
 			"subName": "Download",
 			"path": "http://www.marcopolopay.org/download"
+		},
+		{
+			"name": "Ví web",
+			"subName": "WebWallet",
+			"path": "https://webwallet.marcopay.org/"
 		}
 	],
 	"home": {

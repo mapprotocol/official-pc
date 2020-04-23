@@ -78,6 +78,11 @@
         "path": "http://www.marcopolopay.org/download"
       },
       {
+        "name": "Carteira Web",
+        "subName": "WebWallet",
+        "path": "https://webwallet.marcopay.org/"
+      },
+      {
         "name": "Contratação",
         "subName": "We are hiring developers",
         "path": "https://www.indeedjobs.com/marcopolo-protocol/_hl/en_CA"

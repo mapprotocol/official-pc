@@ -76,6 +76,11 @@
 			"name": "Скачать приложение кошелька",
 			"subName": "Download",
 			"path": "http://www.marcopolopay.org/download"
+		},
+		{
+			"name": "Кошелек",
+			"subName": "WebWallet",
+			"path": "https://webwallet.marcopay.org/"
 		}
 	],
 	"home": {

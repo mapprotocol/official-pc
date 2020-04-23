@@ -78,6 +78,11 @@
         "path": "http://www.marcopolopay.org/download"
       },
       {
+        "name": "在线钱包",
+        "subName": "WebWallet",
+        "path": "https://webwallet.marcopay.org/"
+      },
+      {
         "name": "人才招聘",
         "subName": "We are hiring developers",
         "path": "https://www.indeedjobs.com/marcopolo-protocol/_hl/en_CA"

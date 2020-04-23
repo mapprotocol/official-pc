@@ -94,6 +94,11 @@
 			"name": "ওয়ালেট অ্যাপ ডাউনলোড করুন",
 			"subName": "Download",
 			"path": "http://www.marcopolopay.org/download"
+		},
+		{
+			"name": "অনলাইন মানিব্যাগ",
+			"subName": "WebWallet",
+			"path": "https://webwallet.marcopay.org/"
 		}
 	],
 	"home": {

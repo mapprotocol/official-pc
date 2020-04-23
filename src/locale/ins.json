@@ -76,6 +76,11 @@
 			"name": "Unduh Aplikasi Dompet",
 			"subName": "Download",
 			"path": "http://www.marcopolopay.org/download"
+		},
+		{
+			"name": "Dompet Web",
+			"subName": "WebWallet",
+			"path": "https://webwallet.marcopay.org/"
 		}
 	],
 	"home": {
