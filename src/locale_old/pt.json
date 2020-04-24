@@ -94,11 +94,6 @@
         "name": "Baixar",
         "subName": "Download",
         "path": "http://www.marcopolopay.org/download"
-      },
-      {
-        "name": "Contratação",
-        "subName": "We are hiring developers",
-        "path": "https://www.indeedjobs.com/marcopolo-protocol/_hl/en_CA"
       }
     ],
     "home": {

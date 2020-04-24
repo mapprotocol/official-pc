@@ -81,11 +81,6 @@
 			"name": "WebWallet",
 			"subName": "WebWallet",
 			"path": "https://webwallet.marcopay.org/"
-		},
-		{
-			"name": "Hiring",
-			"subName": "We are hiring developers",
-			"path": "https://www.indeedjobs.com/marcopolo-protocol/_hl/en_CA"
 		}
 	],
 	"home": {
@@ -168,7 +163,7 @@
 			]
 		},
 		"roadmap": {
-			"_title": "Road map",
+			"_title": "Roadmap",
 			"mcont": [
 				{
 					"stage": "The First Stage 2020.Q4",
@@ -258,10 +253,6 @@
 			{
 				"name": "Whitepaper",
 				"link": "https://files.marcopolo.link/pdf/marcopolo_whitepaper_en.pdf"
-			},
-			{
-				"name": "Economic Model",
-				"link": "https://files.marcopolo.link/pdf/marcopolo_economic_en.pdf"
 			}
 		],
 		"icon": [
