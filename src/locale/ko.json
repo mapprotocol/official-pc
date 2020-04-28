@@ -1,0 +1,303 @@
+{
+	"header": {
+		"navList": [
+			{
+				"key": "home",
+				"name": "Home"
+			},
+			{
+				"key": "why",
+				"name": "Why"
+			},
+			{
+				"key": "roadMap",
+				"name": "Roadmap"
+			},
+			{
+				"key": "gitV",
+				"name": "GitHub"
+			},
+			{
+				"key": "white",
+				"name": "Whitepaper"
+			},
+			{
+				"key": "wallet",
+				"name": "Wallet"
+			}
+		],
+		"lang": {
+			"default": "English",
+			"defaultKey": "en",
+			"list": [
+				{
+					"default": "English",
+					"key": "en"
+				}
+			]
+		}
+	},
+	"PointsWaves": {
+		"title": "MarcoPolo Protocol",
+		"subTitle": "Chain-to-chain Interoperation Protocol"
+	},
+	"Introduce": {
+		"title": "First Protocol that Provides the Infrastructure for Direct Interoperate in the Heterogeneous Blockchain Ecosystem",
+		"introduce": "MarcoPolo Protocol is an open, fully decentralized, chain-to-chain interoperation protocol that enables the interoperability of multiple independently verifiable consensus blockchains without a relay chain. MarcoPolo Protocol expects to construct a future inter-chain-net, which is interoperable and chain-to-chain based. The ecosystem built on MarcoPolo Protocol can provide a solid infrastructure for finance, AI, IoT, traceability, and governance filed by cross-chain communication, privacy computation, shared storage, etc...",
+		"BtnLink": [
+			{
+				"name": "Whitepaper",
+				"url": ""
+			},
+			{
+				"name": "GitHub",
+				"url": ""
+			}
+		]
+	},
+	"SubCore": {
+		"title": "THREE CORE SUB-MODULES",
+		"list": {
+			"desc1": [
+				"Ultra-light Local Chain Verification Protocol"
+			],
+			"desc2": [
+				"Ultra-light Cross-chain Verification Protocol"
+			],
+			"desc3": [
+				"Smart Script with Combinable Trigger Conditions"
+			]
+		}
+	},
+	"Protocol": {
+		"title": "Why MarcoPolo Protocol?",
+		"list": [
+			{
+				"icon": "",
+				"title": "Ultra Light Cross-chain Verification Algorithm",
+				"info": [
+					"Provides the ability of one chain to validate the state of another chain under low bandwidth and low storage."
+				]
+			},
+			{
+				"icon": "",
+				"title": "High-efficiency Block Transport Channel",
+				"info": [
+					"A block transportation channel based on IBLT which can compress the block size when relaying blocks."
+				]
+			},
+			{
+				"icon": "",
+				"title": "MarcoPolo Application Tool Environment",
+				"info": [
+					"A toolkit built on Sustainable MAP RunTime which can help developers to construct their own interoperable blockchains."
+				]
+			},
+			{
+				"icon": "",
+				"title": "Composable Smart Contract Rule",
+				"info": [
+					"A rule for multiple composable trigger condition smart contracts."
+				]
+			},
+			{
+				"icon": "",
+				"title": "Standardized P2P Stack",
+				"info": [
+					"A protocol under which the peer under different blockchain systems can discover and communicate with each other."
+				]
+			}
+		]
+	},
+	"Census": {
+		"infos": [
+			{
+				"count": 300000,
+				"btnName": "Downloads",
+				"url": ""
+			},
+			{
+				"count": 3,
+				"btnName": "Wallet support chain",
+				"url": ""
+			},
+			{
+				"count": 140000,
+				"btnName": "Community users",
+				"url": ""
+			}
+		]
+	},
+	"Info":{
+		"list": [
+			{
+				"name": "Concise",
+				"remark": "This protocol will not occupy a lot of network resources and storage resources"
+			},
+			{
+				"name": "Reliability",
+				"remark": "This protocol will ensure the security of interoperation, that is to say, the data obtained by any node must be consistent with that obtained by all nodes of the corresponding chain."
+			},
+			{
+				"name": "Universality",
+				"remark": "This protocol only regulates interoperable modules and does not add any other requirements, constraints, or restrictions to the ecological blockchain."
+			}
+		]
+	},
+	"Scenarios": {
+		"title": "Application scenarios",
+		"list": [
+			{
+				"icon": "",
+				"name": "Finance"
+			},
+			{
+				"icon": "",
+				"name": "AI"
+			},
+			{
+				"icon": "",
+				"name": "IoT"
+			},
+			{
+				"icon": "",
+				"name": "Traceability"
+			},
+			{
+				"icon": "",
+				"name": "Governance filed"
+			},
+			{
+				"icon": "",
+				"name": "Privacy computation"
+			},
+			{
+				"icon": "",
+				"name": "Shared storage"
+			},
+			{
+				"icon": "",
+				"name": "More"
+			}
+		]
+	},
+	"Roadmap": {
+		"title": "Roadmap",
+		"list": [
+			{
+				"time": "The First Stage 2020.Q4",
+				"title": "Gravity:",
+				"introduce": [
+					"Standard Chain development: includes Standard Chain PoS consensus, Map-VM and SMART system, and on-chain governance"
+				]
+			},
+			{
+				"time": "The Second Stage 2021.Q2",
+				"title": "Electromagnetic:",
+				"introduce": [
+					"Lightweight Local Chain Verification Protocol",
+					"Lightweight cross-chain verification Protocol",
+					"Smart Script with Combinable Trigger Conditions General ChainID Specifications"
+				]
+			},
+			{
+				"time": "The Third Stage 2021.Q4",
+				"title": "Interaction:",
+				"introduce": [
+					"MATE framework",
+					"Build blockchains that support electronic cash systems, other applications, and support connections to the Standard Chain"
+				]
+			},
+			{
+				"time": "The Fourth Stage 2022.Q2",
+				"title": "Grand Unification:",
+				"introduce": [
+					"Support lightweight cross-chain with other public chains",
+					"Realize cross-chain interoperability with BTC, ETH, etc.",
+					"Provide cross-chain features with other DPoS chains"
+				]
+			}
+		]
+	},
+	"Footer": {
+		"Investor": {
+			"label": "Investor：",
+			"IconList": [
+				{
+					"icon": "",
+					"key": "",
+					"url": ""
+				}
+			]
+		},
+		"SocialMedia": {
+			"label": "Social Media: ：",
+			"IconList": [
+				{
+					"icon": "",
+					"key": "",
+					"url": ""
+				},
+				{
+					"icon": "",
+					"key": "",
+					"url": ""
+				},
+				{
+					"icon": "",
+					"key": "",
+					"url": ""
+				},
+				{
+					"icon": "",
+					"key": "",
+					"url": ""
+				},
+				{
+					"icon": "",
+					"key": "",
+					"url": ""
+				},
+				{
+					"icon": "",
+					"key": "",
+					"url": ""
+				},
+				{
+					"icon": "",
+					"key": "",
+					"url": ""
+				}
+			]
+		},
+		"Copyright": "© 2020 MarcoPolo Network Foundation, All Rights Reseved",
+		"Support": {
+			"title": "Support",
+			"list": [
+				{
+					"name": "Online Wallet",
+					"url": ""
+				},
+				{
+					"name": "MarcoPay website",
+					"url": ""
+				},
+				{
+					"name": "Truescan",
+					"url": ""
+				}
+			]
+		},
+		"ContactUs": {
+			"title": "Contact Us",
+			"list": [
+				{
+					"name": "cooperation@MarcoPolo.link"
+				},
+				{
+					"name": "evelopers@MarcoPolo.link"
+				}
+			]
+		}
+	}
+}

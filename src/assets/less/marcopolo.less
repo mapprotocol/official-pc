@@ -1,0 +1,35 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,p,blockquote,th,td { margin:0;padding:0}
+h1,h2,h3,h4,h5,h6 { font-size:100%}
+ol,ul { list-style:none }
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-size: unset;
+	font-weight: normal;
+}
+table { border-collapse:collapse; border-spacing:0 }
+fieldset,img { border:0 }
+caption,th { text-align:left }
+q:before,q:after { content: ''}
+
+.my-header-mobile {
+	display: none;
+}
+@media(max-width: 1200px) {
+	.my-header {
+		display: none;
+	}
+	.my-header-mobile {
+		display: block;
+	}
+}
+/* 大屏幕 */
+@media (min-width: 1200px) {
+}
+/* 平板电脑和小屏电脑之间的分辨率 */
+@media (min-width: 768px) and (max-width: 979px) {
+}
+/* 横向放置的手机和竖向放置的平板之间的分辨率 */
+@media (max-width: 767px) {
+}
+/* 横向放置的手机及分辨率更小的设备 */
+@media (max-width: 480px) {
+}
