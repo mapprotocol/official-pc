@@ -3,7 +3,7 @@
     <div class="container">
       <div class="logo"></div>
       <div class="nav-menu animated fadeIn">
-        <ul :class="['menu', $i18n.locale]">
+        <ul :class="['menu', {'en': $i18n.locale !== 'zh'}]">
           <li v-for="(item,ins) in $t('header.navList')" :key="'menu_' + ins"><a href="javascript:void(0)" :class="{'nav_Active': activeNav === item.key}" @click.prevent.stop="changeNav(item, ins)"
             ><strong>{{item.name}}</strong></a></li>
           <li>

@@ -3,17 +3,17 @@
 		"navList": [
 			{
 				"key": "home",
-				"name": "Home",
+				"name": "首页",
 				"path": "homeId"
 			},
 			{
 				"key": "why",
-				"name": "Why",
+				"name": "为什么",
 				"path": "whyId"
 			},
 			{
 				"key": "roadMap",
-				"name": "Roadmap",
+				"name": "路线图",
 				"path": "roadMapId"
 			},
 			{
@@ -23,12 +23,12 @@
 			},
 			{
 				"key": "white",
-				"name": "Whitepaper",
+				"name": "白皮书",
 				"path": "https://files.marcopolo.link/pdf/marcopolo_whitepaper_en.pdf"
 			},
 			{
 				"key": "wallet",
-				"name": "Wallet",
+				"name": "钱包",
 				"path": "https://www.marcopolopay.org/download"
 			}
 		],
@@ -359,7 +359,7 @@
 					"name": "cooperation@MarcoPolo.link"
 				},
 				{
-					"name": "evelopers@MarcoPolo.link"
+					"name": "developers@MarcoPolo.link"
 				}
 			]
 		}
