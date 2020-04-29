@@ -42,14 +42,19 @@
       }
       span {
         display: block;
-        width: 100%;
         text-align: center;
+        margin-bottom: 20px;
         font-size:50px;
         font-family:JDZhengHT-Regular,JDZhengHT;
         font-weight:400;
         color: #ffffff;
         line-height:60px;
-        margin-bottom: 20px;
+        &.tex-info {
+          width: 100%;
+          span.tex {
+            display: inline-block;
+          }
+        }
       }
       a {
         text-decoration: none;
@@ -94,7 +99,7 @@
       <div class="census-layout">
         <ul class="census-item">
           <li v-for="(item, ins) in $t('Census.infos')" :key="'census_' + ins">
-            <span> <countTo :startVal='0' :endVal='item.count' :duration='3000'></countTo>+</span>
+            <span class="tex-info"> <countTo class="tex" :startVal='0' :endVal='item.count' :duration='3000'></countTo>+</span>
             <a href="javascript:void(0);">{{item.btnName}}</a>
           </li>
         </ul>

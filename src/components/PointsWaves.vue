@@ -36,6 +36,8 @@
   }
   @media(max-width: 480px) {
     .waves-logo{
+      position: relative;
+      top: 0;
       p {
         font-size: 30px;
         line-height: 36px;
@@ -45,6 +47,13 @@
           margin-top: 13px;
         }
       }
+    }
+    #pointWaves {
+      position: relative;
+    }
+    #points_canvas {
+      position: absolute;
+      top: 213px;
     }
   }
 </style>

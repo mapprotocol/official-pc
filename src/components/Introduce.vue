@@ -79,7 +79,8 @@
       margin: 0 auto 52px auto;
     }
     .init-btns a {
-      width: 148px;
+      min-width: 138px;
+      max-width: 138px;
       padding: 0 0;
       font-size: 14px;
       margin-right: 4px;
