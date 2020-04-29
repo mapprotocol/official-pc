@@ -34,6 +34,11 @@
       }
     }
   }
+  @media(max-width: 1200px) {
+    .waves-logo{
+      position: relative;
+    }
+  }
   @media(max-width: 480px) {
     .waves-logo{
       position: relative;
