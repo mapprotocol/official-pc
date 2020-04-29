@@ -56,23 +56,29 @@ export default {
     changeNav (item, ins) {
       this.activeNav = item.key
       const { path } = item;
-      ins === 0 ? this.$router.go(0) : (path.includes('://') ? window.open(path) : document.querySelector(`#${item.path}`).scrollIntoView({
-        behavior: 'smooth', // 平滑过渡
-        block: 'start' // 上边框与视窗顶部平齐。默认值
-      }))
-      if (!path.includes('://')) {
-        if (this.activeNav === 'why') {
-          document.querySelector('#nav_line').style.transform = 'translateX(124px) translateX(0)'
-        } else if (this.activeNav === 'roadMap') {
-          document.querySelector('#nav_line').style.transform = 'translateX(246px) translateX(0)'
-        } else if (this.activeNav === 'gitV') {
-          document.querySelector('#nav_line').style.transform = 'translateX(370px) translateX(0)'
-        } else if (this.activeNav === 'white') {
-          document.querySelector('#nav_line').style.transform = 'translateX(495px) translateX(0)'
-        } else if (this.activeNav === 'wallet') {
-          document.querySelector('#nav_line').style.transform = 'translateX(620px) translateX(0)'
-        } else {
-          document.querySelector('#nav_line').style.transform = 'translateX(0) translateX(0)'
+      if (item.key === 'wallet') {
+        let routeUrl = this.$router.resolve({
+          path: '/about' });
+        window.open(routeUrl.href, '_blank');
+      } else {
+        ins === 0 ? this.$router.go(0) : (path.includes('://') ? window.open(path) : document.querySelector(`#${item.path}`).scrollIntoView({
+          behavior: 'smooth', // 平滑过渡
+          block: 'start' // 上边框与视窗顶部平齐。默认值
+        }))
+        if (!path.includes('://')) {
+          if (this.activeNav === 'why') {
+            document.querySelector('#nav_line').style.transform = 'translateX(124px) translateX(0)'
+          } else if (this.activeNav === 'roadMap') {
+            document.querySelector('#nav_line').style.transform = 'translateX(246px) translateX(0)'
+          } else if (this.activeNav === 'gitV') {
+            document.querySelector('#nav_line').style.transform = 'translateX(370px) translateX(0)'
+          } else if (this.activeNav === 'white') {
+            document.querySelector('#nav_line').style.transform = 'translateX(495px) translateX(0)'
+          } else if (this.activeNav === 'wallet') {
+            document.querySelector('#nav_line').style.transform = 'translateX(620px) translateX(0)'
+          } else {
+            document.querySelector('#nav_line').style.transform = 'translateX(0) translateX(0)'
+          }
         }
       }
     },

@@ -29,9 +29,9 @@
       border-bottom: 4px solid #000000;
       margin: 0 auto 44px auto;
     }
-    .info-mark {
-      width:324px;
-      height:48px;
+    .info-remark {
+      width: 80%;
+      margin: 0 auto;
       font-size:14px;
       font-family:PingFangSC-Medium,PingFang SC;
       font-weight:500;
