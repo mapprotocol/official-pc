@@ -92,6 +92,8 @@ export default {
         .flex();
         flex-direction: column;
         margin-bottom: 83px;
+        position: relative;
+        z-index: 1000;
         .logo {
           width: 230px;
           height: 205px;
@@ -147,7 +149,7 @@ export default {
       }
     }
   }
-  @media(max-width: 1200px) {
+  @media(max-width: 1506px) {
     #download .area .down-bg {
       width: 100%;
       height: 37.9%;

@@ -24,7 +24,7 @@
     position: relative;
     margin: 0 auto 83px auto;
     z-index: 0;
-    &:after {
+    /*&:after {
       content: '';
       position: absolute;
       width: 2px;
@@ -34,7 +34,7 @@
       left: 50%;
       border-radius: 10px;
       margin-left: -3px;
-    }
+    }*/
     .road-row {
       position: relative;
       width: calc(50% - 54px);
@@ -42,6 +42,17 @@
       clear: both;
       text-align: left;
       padding: 0 27px;
+      &:before {
+        content: '';
+        position: absolute;
+        width: 2px;
+        background-color: #203260;
+        top: 18px;
+        bottom: 0;
+        left: 0;
+        border-radius: 10px;
+        margin-left: -3px;
+      }
       &:after {
         content: '';
         position: absolute;
@@ -57,6 +68,10 @@
       &:nth-child(2n+2) {
         left: 0;
         text-align: right;
+        &:before {
+          left: unset;
+          right: 1px;
+        }
         &:after {
           left: unset;
           right: -8px;
@@ -96,19 +111,26 @@
       width: 100%;
     }
     .road-ctx {
-      &:after {
+     /* &:after {
         left: 32px;
-      }
+      }*/
       .road-row{
         width: calc(100% - 72px);
         left: 18px;
         padding: 0 27px 0 27px;
+        &:before {
+          left: 13px;
+        }
         &:after {
           left: 0;
         }
         &:nth-child(2n+2) {
           text-align: left;
           padding: 0 27px 0 45px;
+          &:before {
+            left: 30px;
+            right: unset;
+          }
           &:after {
             left: 18px;
           }
