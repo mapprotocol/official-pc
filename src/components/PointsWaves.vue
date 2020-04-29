@@ -4,10 +4,11 @@
    /* position: relative;*/
   }
   .waves-logo {
-    position: relative;
-    top: 110px;
+    position: absolute;
     width: 100%;
     left: 0;
+    top: 164px;
+    z-index: 20;
     img {
       display: block;
       width: 230px;
