@@ -12,7 +12,7 @@
     margin: 41px auto 97px auto;
   }
   .int-title {
-    width: 61.5%;
+    max-width: 1200px;
     margin: 0 auto 16px auto;
     text-align: center;
     font-size:20px;
@@ -22,13 +22,14 @@
     line-height:28px;
   }
   .int-introduce {
-    width: 65%;
+    max-width: 1200px;
     margin: 0 auto 108px auto;
     font-size:14px;
     font-family:PingFangSC-Regular,PingFang SC;
     font-weight:400;
     color: #000000;
     line-height:28px;
+    text-align: center;
   }
   .init-btns {
     display: flex;
@@ -52,6 +53,36 @@
       &:last-child{
         margin-right: 0;
       }
+    }
+  }
+  @media(max-width: 1200px) {
+    .int-title {
+      width: 83%;
+    }
+    .int-introduce {
+      width: 83%;
+    }
+  }
+  @media(max-width: 480px) {
+    .next-down {
+      width: 13px;
+      height: 25px;
+      margin: 72px auto 58px auto;
+    }
+    .int-title {
+      width: 83%;
+      font-size:18px;
+      line-height:25px;
+    }
+    .int-introduce {
+      width: 83%;
+      margin: 0 auto 52px auto;
+    }
+    .init-btns a {
+      width: 148px;
+      padding: 0 0;
+      font-size: 14px;
+      margin-right: 4px;
     }
   }
 </style>

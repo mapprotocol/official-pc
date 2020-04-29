@@ -3,108 +3,164 @@
 		"navList": [
 			{
 				"key": "home",
-				"name": "Home"
+				"name": "홈",
+				"path": "homeId"
 			},
 			{
 				"key": "why",
-				"name": "Why"
+				"name": "이유",
+				"path": "whyId"
 			},
 			{
 				"key": "roadMap",
-				"name": "Roadmap"
+				"name": "로드맵",
+				"path": "roadMapId"
 			},
 			{
 				"key": "gitV",
-				"name": "GitHub"
+				"name": "깃헙",
+				"path": "https://github.com/marcopoloprotocol"
 			},
 			{
 				"key": "white",
-				"name": "Whitepaper"
+				"name": "백서",
+				"path": "https://files.marcopolo.link/pdf/marcopolo_whitepaper_en.pdf"
 			},
 			{
 				"key": "wallet",
-				"name": "Wallet"
+				"name": "지갑",
+				"path": "https://www.marcopolopay.org/download"
 			}
 		],
-		"lang": {
-			"default": "English",
-			"defaultKey": "en",
-			"list": [
-				{
-					"default": "English",
-					"key": "en"
-				}
-			]
-		}
+		"langList": [
+			{
+				"name": "English",
+				"subName": "Language",
+				"introduce": "英文",
+				"tag": "en"
+			},
+			{
+				"name": "한국어",
+				"subName": "Language",
+				"introduce": "韩文",
+				"tag": "ko"
+			},
+			{
+				"name": "Türk dili",
+				"subName": "Language",
+				"introduce": "土耳其语",
+				"tag": "tr"
+			},
+			{
+				"name": "русский",
+				"subName": "Language",
+				"introduce": "俄语",
+				"tag": "ru"
+			},
+			{
+				"name": "Tiếng việt nam",
+				"subName": "Language",
+				"introduce": "越南语",
+				"tag": "vn"
+			},
+			{
+				"name": "Português",
+				"subName": "Language",
+				"tag": "pt"
+			},
+			{
+				"name": "Orang indonesia",
+				"subName": "Language",
+				"introduce": "印尼语",
+				"tag": "ins"
+			},
+			{
+				"name": "日本語",
+				"subName": "Language",
+				"introduce": "日本语",
+				"tag": "jp"
+			},
+			{
+				"name": "中文简体",
+				"subName": "Language",
+				"tag": "zh"
+			}
+		]
 	},
 	"PointsWaves": {
 		"title": "MarcoPolo Protocol",
-		"subTitle": "Chain-to-chain Interoperation Protocol"
+		"subTitle": "Chain-to-chain 상호운영 가능한 프로토콜"
 	},
 	"Introduce": {
-		"title": "First Protocol that Provides the Infrastructure for Direct Interoperate in the Heterogeneous Blockchain Ecosystem",
-		"introduce": "MarcoPolo Protocol is an open, fully decentralized, chain-to-chain interoperation protocol that enables the interoperability of multiple independently verifiable consensus blockchains without a relay chain. MarcoPolo Protocol expects to construct a future inter-chain-net, which is interoperable and chain-to-chain based. The ecosystem built on MarcoPolo Protocol can provide a solid infrastructure for finance, AI, IoT, traceability, and governance filed by cross-chain communication, privacy computation, shared storage, etc...",
+		"title": "블록체인 생태계에서 직접 상호(기종간의 상호작용)을 위한 인프라를 제공하는 최초의 프로토콜",
+		"introduce": "마르코폴로 프로토콜은 개방적이고 완전히 분산된 체인 간 상호운용 프로토콜로, 독립적으로 검증 가능한 여러 컨센서스 블록체인의 상호운용성을 가능하게 합니다. MarcoPolo Protocol은 상호운용 가능하고 체인 투 체인 기반의 미래 인터 체인 네트워크를 구축할 것입니다. 마르코폴로 프로토콜에 구축된 이 생태계는 크로스체인 통신, 프라이버시 계산, 공유 스토리지 등에 의해 금융, AI, IOT, 추적성 및 거버넌스를 위한 탄탄한 인프라를 제공합니다.",
 		"BtnLink": [
 			{
-				"name": "Whitepaper",
-				"url": ""
+				"name": "백서",
+				"url": "https://files.marcopolo.link/pdf/marcopolo_whitepaper_en.pdf"
 			},
 			{
 				"name": "GitHub",
-				"url": ""
+				"url": "https://github.com/marcopoloprotocol"
 			}
 		]
 	},
 	"SubCore": {
-		"title": "THREE CORE SUB-MODULES",
-		"list": {
-			"desc1": [
-				"Ultra-light Local Chain Verification Protocol"
-			],
-			"desc2": [
-				"Ultra-light Cross-chain Verification Protocol"
-			],
-			"desc3": [
-				"Smart Script with Combinable Trigger Conditions"
-			]
-		}
-	},
-	"Protocol": {
-		"title": "Why MarcoPolo Protocol?",
+		"title": "세 가지 핵심 하위 모델",
 		"list": [
 			{
-				"icon": "",
-				"title": "Ultra Light Cross-chain Verification Algorithm",
-				"info": [
-					"Provides the ability of one chain to validate the state of another chain under low bandwidth and low storage."
+				"desc": [
+					"초경량 로컬 체인 검증 프로토콜"
 				]
 			},
 			{
-				"icon": "",
-				"title": "High-efficiency Block Transport Channel",
-				"info": [
-					"A block transportation channel based on IBLT which can compress the block size when relaying blocks."
+				"desc": [
+					"초경량 로컬 체인 검증 프로토콜"
 				]
 			},
 			{
-				"icon": "",
+				"desc": [
+					"결합 가능한 트리거 조건이 있는 스마트 스크립트"
+				]
+			}
+		]
+	},
+	"Protocol": {
+		"title": "왜 마르코폴로 프로토콜인가?",
+		"list": [
+			{
+				"icon": "core1",
+				"title": "Ultra Light Cross-chain 검증 알고리즘",
+				"info": [
+					"낮은 대역폭과 낮은 스토리지에서 다른 체인의 상태를 검증할 수 있는 체인기능을 제공합니다."
+				]
+			},
+			{
+				"icon": "core2",
+				"title": "고효율 블록 전송 채널",
+				"info": [
+					"ICLT 기반의 블록 전송 채널로, 블록을 중계할 때 블록 크기를 압축할 수 있습니다."
+				]
+			},
+			{
+				"icon": "core3",
 				"title": "MarcoPolo Application Tool Environment",
 				"info": [
-					"A toolkit built on Sustainable MAP RunTime which can help developers to construct their own interoperable blockchains."
+					"RunTime을 기반으로 구축된 툴킷으로 개발자들이 상호운용 가능한 블록체인을 직접 구축할 수 있도록 도와줍니다."
 				]
 			},
 			{
-				"icon": "",
-				"title": "Composable Smart Contract Rule",
+				"icon": "core4",
+				"title": "복합형 스마트 계약 규칙",
 				"info": [
-					"A rule for multiple composable trigger condition smart contracts."
+					"복합형 트리거 스마트 계약 대한 규칙입니다."
 				]
 			},
 			{
-				"icon": "",
-				"title": "Standardized P2P Stack",
+				"icon": "core5",
+				"title": "표준화된 Peer 탐색 및 통신 P2P 프로토콜",
 				"info": [
-					"A protocol under which the peer under different blockchain systems can discover and communicate with each other."
+					"서로 다른 블록체인의 시스템 아래 있는 Peer가 서로 발견하고 통신할 수 있는 프로토콜입니다."
 				]
 			}
 		]
@@ -113,17 +169,17 @@
 		"infos": [
 			{
 				"count": 300000,
-				"btnName": "Downloads",
+				"btnName": "다운로드",
 				"url": ""
 			},
 			{
 				"count": 3,
-				"btnName": "Wallet support chain",
+				"btnName": "월렛 서포트 체인",
 				"url": ""
 			},
 			{
 				"count": 140000,
-				"btnName": "Community users",
+				"btnName": "커뮤니티 유저",
 				"url": ""
 			}
 		]
@@ -131,165 +187,172 @@
 	"Info":{
 		"list": [
 			{
-				"name": "Concise",
-				"remark": "This protocol will not occupy a lot of network resources and storage resources"
+				"name": "간결한",
+				"remark": [
+					"이 프로토콜은 많은 네트워크 리소스 및 스토리지 리소스를 차지하지 않습니다."
+				]
 			},
 			{
-				"name": "Reliability",
-				"remark": "This protocol will ensure the security of interoperation, that is to say, the data obtained by any node must be consistent with that obtained by all nodes of the corresponding chain."
+				"name": "신뢰성",
+				"remark": [
+					"이 프로토콜은 상호 작용의 보안을 보장합니다. 즉, 어떤 노드에서 얻은 데이터라도 해당 체인의 모든 노드에서 얻은 데이터와 일치하게 됩니다.(프로토콜은 해당 체인 자체보다 높은 보안을 얻을 수 없습니다 즉, 체인의 컴퓨팅 파워 공격 등에 저항할 수 없습니다)"
+				]
 			},
 			{
-				"name": "Universality",
-				"remark": "This protocol only regulates interoperable modules and does not add any other requirements, constraints, or restrictions to the ecological blockchain."
+				"name": "보편성",
+				"remark": [
+					"이 프로토콜은 상호운용 가능한 모듈만 규제하며 생태 블록체인에 다른 요구사항, 제약사항 또는 제한을 추가하지 않습니다."
+				]
 			}
 		]
 	},
 	"Scenarios": {
-		"title": "Application scenarios",
+		"title": "적용 시나리오",
 		"list": [
 			{
-				"icon": "",
-				"name": "Finance"
+				"icon": "finance",
+				"name": "재무"
 			},
 			{
-				"icon": "",
-				"name": "AI"
+				"icon": "ai",
+				"name": "인공지능"
 			},
 			{
-				"icon": "",
-				"name": "IoT"
+				"icon": "iot",
+				"name": "사물인터넷"
 			},
 			{
-				"icon": "",
-				"name": "Traceability"
+				"icon": "trace",
+				"name": "추적가능성"
 			},
 			{
-				"icon": "",
-				"name": "Governance filed"
+				"icon": "governance",
+				"name": "거버넌스 제출"
 			},
 			{
-				"icon": "",
-				"name": "Privacy computation"
+				"icon": "privacy",
+				"name": "개인 정보 계산"
 			},
 			{
-				"icon": "",
-				"name": "Shared storage"
+				"icon": "shared",
+				"name": "공유 저장소"
 			},
 			{
-				"icon": "",
-				"name": "More"
+				"icon": "more",
+				"name": "좀 더"
 			}
 		]
 	},
 	"Roadmap": {
-		"title": "Roadmap",
+		"title": "로드맵",
 		"list": [
 			{
-				"time": "The First Stage 2020.Q4",
-				"title": "Gravity:",
+				"time": "첫 번째 단계 2020년 4분기",
+				"title": "중력:",
 				"introduce": [
-					"Standard Chain development: includes Standard Chain PoS consensus, Map-VM and SMART system, and on-chain governance"
+					"표준 체인 개발: 표준 체인 PoS 컨센서스, Map-VM 및 SMART 시스템, 온체인 거버넌스 등이 포함"
 				]
 			},
 			{
-				"time": "The Second Stage 2021.Q2",
-				"title": "Electromagnetic:",
+				"time": "두 번째 단계 2021년 2분기",
+				"title": "전자파 :",
 				"introduce": [
-					"Lightweight Local Chain Verification Protocol",
-					"Lightweight cross-chain verification Protocol",
-					"Smart Script with Combinable Trigger Conditions General ChainID Specifications"
+					"경량 로컬 체인 검증 프로토콜입니다. ",
+					"경량 크로스 체인 검증 프로토콜입니다. ",
+					"조합 가능한 트리거 조건이 있는 스마트 스크립트입니다. ",
+					"General ChainID 사양입니다."
 				]
 			},
 			{
-				"time": "The Third Stage 2021.Q4",
-				"title": "Interaction:",
+				"time": "세 번째 단계 2021년 4분기",
+				"title": "상호 작용 :",
 				"introduce": [
-					"MATE framework",
-					"Build blockchains that support electronic cash systems, other applications, and support connections to the Standard Chain"
+					"MATE 프레임워크는",
+					"전자 현금 시스템, 기타 애플리케이션 및 표준 체인에 대한 연결을 지원하는 블록체인을 구축합니다."
 				]
 			},
 			{
-				"time": "The Fourth Stage 2022.Q2",
-				"title": "Grand Unification:",
+				"time": "내 번째 단계 2022년 2분기",
+				"title": "Grand 통합:",
 				"introduce": [
-					"Support lightweight cross-chain with other public chains",
-					"Realize cross-chain interoperability with BTC, ETH, etc.",
-					"Provide cross-chain features with other DPoS chains"
+					"다른 퍼블릭 체인으로 경량 크로스 체인을 지원합니다. ",
+					"BTC, ETH 등과 교차 체인 상호운용성을 실현합니다. ",
+					"다른 DPoS 체인과 교차 체인 기능을 제공합니다."
 				]
 			}
 		]
 	},
 	"Footer": {
 		"Investor": {
-			"label": "Investor：",
+			"label": "투자자：",
 			"IconList": [
 				{
-					"icon": "",
+					"icon": "ft-soft",
 					"key": "",
 					"url": ""
 				}
 			]
 		},
 		"SocialMedia": {
-			"label": "Social Media: ：",
+			"label": "소셜 미디어：",
 			"IconList": [
 				{
-					"icon": "",
+					"icon": "ft-telegram",
 					"key": "",
-					"url": ""
+					"url": "https://t.me/MarcoPoloMAP"
 				},
 				{
-					"icon": "",
+					"icon": "ft-twitter",
 					"key": "",
-					"url": ""
+					"url": "https://twitter.com/MarcoPoloGlobal"
 				},
 				{
-					"icon": "",
+					"icon": "ft-bitcointalk",
 					"key": "",
-					"url": ""
+					"url": "https://bitcointalk.org/index.php?topic=5215440.new#new"
 				},
 				{
-					"icon": "",
+					"icon": "ft-naver",
 					"key": "",
-					"url": ""
+					"url": "https://blog.naver.com/marcopoloprotocol"
 				},
 				{
-					"icon": "",
+					"icon": "ft-medium",
 					"key": "",
-					"url": ""
+					"url": "https://medium.com/marcopolo-protocol"
 				},
 				{
-					"icon": "",
+					"icon": "ft-kakao",
 					"key": "",
-					"url": ""
+					"url": "https://open.kakao.com/o/gI5fPXSb"
 				},
 				{
-					"icon": "",
+					"icon": "ft-cat",
 					"key": "",
-					"url": ""
+					"url": "https://github.com/marcopoloprotocol"
 				}
 			]
 		},
 		"Copyright": "© 2020 MarcoPolo Network Foundation, All Rights Reseved",
 		"Support": {
-			"title": "Support",
+			"title": "지원",
 			"list": [
 				{
 					"name": "Online Wallet",
-					"url": ""
+					"url": "https://webwallet.marcopay.org/"
 				},
 				{
 					"name": "MarcoPay website",
-					"url": ""
+					"url": "https://www.marcopay.com.br/"
 				},
 				{
 					"name": "Truescan",
-					"url": ""
+					"url": "http://www.truescan.network/"
 				}
 			]
 		},
 		"ContactUs": {
-			"title": "Contact Us",
+			"title": "문의",
 			"list": [
 				{
 					"name": "cooperation@MarcoPolo.link"

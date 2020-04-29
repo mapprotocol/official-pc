@@ -1,7 +1,7 @@
 <style scoped lang="less">
   #pointWaves{
     margin: 54px auto 41px auto;
-    position: relative;
+   /* position: relative;*/
   }
   .waves-logo {
     position: relative;
@@ -25,12 +25,24 @@
       margin: 0 auto;
       text-align: center;
       &:last-child {
-        width:375px;
         font-size:20px;
         font-family:PingFangSC-Medium,PingFang SC;
         font-weight:500;
         line-height:28px;
         margin-top: 21px;
+      }
+    }
+  }
+  @media(max-width: 480px) {
+    .waves-logo{
+      p {
+        font-size: 30px;
+        line-height: 36px;
+        &:last-child {
+          font-size:14px;
+          line-height:20px;
+          margin-top: 13px;
+        }
       }
     }
   }

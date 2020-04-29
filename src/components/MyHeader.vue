@@ -3,10 +3,17 @@
     <div class="container">
       <div class="logo"></div>
       <div class="nav-menu animated fadeIn">
-        <ul class="menu">
-          <li v-for="(item,ins) in $t('header.navList')" :key="'menu_' + ins"><a href="javascript:void(0)" :class="{'nav_Active': activeNav === item.key}" @click.prevent.stop="changeNav(item)"
+        <ul :class="['menu', $i18n.locale]">
+          <li v-for="(item,ins) in $t('header.navList')" :key="'menu_' + ins"><a href="javascript:void(0)" :class="{'nav_Active': activeNav === item.key}" @click.prevent.stop="changeNav(item, ins)"
             ><strong>{{item.name}}</strong></a></li>
-          <li><span>{{selectLang.name}}</span><span class="down"></span></li>
+          <li>
+            <div class="lang-layout"  @mouseover="selectLangVisible = true" @mouseout="selectLangVisible = false">
+              <span class="lang-show">{{selectLang.name}}<i :class="['icon-select', {'up': selectLangVisible}]"></i></span>
+              <ul class="lang-list" v-show="selectLangVisible">
+                <li v-for="(item, i) in $t('header.langList')" :key="i" @click="changeLang(item)" :class="{active: selectLang.tag === item.tag}">{{item.name}}</li>
+              </ul>
+            </div>
+          </li>
         </ul>
         <span class="nav_line" id="nav_line"></span>
       </div>
@@ -21,6 +28,7 @@ export default {
   data () {
     return {
       activeNav: 'home',
+      selectLangVisible: false, // 选择语言（默认不展示）
       selectLang: {
         name: '',
         subName: '',
@@ -45,25 +53,37 @@ export default {
     }
   },
   methods: {
-    changeNav (item) {
-      this.activeNav = item.key;
-      if (this.activeNav === 'why') {
-        document.querySelector('#nav_line').style.transform = 'translateX(124px) translateX(0)'
-      } else if (this.activeNav === 'roadMap') {
-        document.querySelector('#nav_line').style.transform = 'translateX(246px) translateX(0)'
-      } else if (this.activeNav === 'gitV') {
-        document.querySelector('#nav_line').style.transform = 'translateX(370px) translateX(0)'
-      } else if (this.activeNav === 'white') {
-        document.querySelector('#nav_line').style.transform = 'translateX(495px) translateX(0)'
-      } else if (this.activeNav === 'wallet') {
-        document.querySelector('#nav_line').style.transform = 'translateX(620px) translateX(0)'
-      } else {
-        document.querySelector('#nav_line').style.transform = 'translateX(0) translateX(0)'
+    changeNav (item, ins) {
+      this.activeNav = item.key
+      const { path } = item;
+      ins === 0 ? this.$router.go(0) : (path.includes('://') ? window.open(path) : document.querySelector(`#${item.path}`).scrollIntoView({
+        behavior: 'smooth', // 平滑过渡
+        block: 'start' // 上边框与视窗顶部平齐。默认值
+      }))
+      if (!path.includes('://')) {
+        if (this.activeNav === 'why') {
+          document.querySelector('#nav_line').style.transform = 'translateX(124px) translateX(0)'
+        } else if (this.activeNav === 'roadMap') {
+          document.querySelector('#nav_line').style.transform = 'translateX(246px) translateX(0)'
+        } else if (this.activeNav === 'gitV') {
+          document.querySelector('#nav_line').style.transform = 'translateX(370px) translateX(0)'
+        } else if (this.activeNav === 'white') {
+          document.querySelector('#nav_line').style.transform = 'translateX(495px) translateX(0)'
+        } else if (this.activeNav === 'wallet') {
+          document.querySelector('#nav_line').style.transform = 'translateX(620px) translateX(0)'
+        } else {
+          document.querySelector('#nav_line').style.transform = 'translateX(0) translateX(0)'
+        }
       }
-      try {
-        document.querySelector('#' + item.targetId).scrollIntoView(true);
-      }catch (e) {
-      }
+    },
+    changeLang (item) {
+      setStore('marcoLang', item.tag)
+      this.$i18n.locale = item.tag;
+      this.selectLangVisible = false
+      this.selectLang.name = item.name
+      this.selectLang.subName = item.subName;
+      this.selectLang.tag = item.tag
+      setTitle()
     }
   }
 }
@@ -75,6 +95,8 @@ export default {
   height:85px;
   background: #ffffff;
   box-shadow:0 2px 5px 0 rgba(0,0,0,0.06);
+  position: relative;
+  z-index: 888;
   .container {
     width: 1200px;
     margin: 0 auto;
@@ -88,7 +110,7 @@ export default {
       background-image: url("../assets/image/header/logo.png");
       background-repeat: no-repeat;
       background-size: 100% 100%;
-      margin: 21px 0 18px 177px;
+      margin: 21px 0 18px 0;
     }
     .nav-menu {
       display: block;
@@ -133,6 +155,60 @@ export default {
         }
         &:last-child {
           margin-right: 0;
+        }
+      }
+      &.en {
+        li {
+          margin-right: 66px;
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+  }
+  .lang-layout {
+    position: relative;
+    width: 150px;
+    text-align: center;
+    .icon-select {
+      display: inline-block;
+      vertical-align: middle;
+      width: 12px;
+      height: 12px;
+      margin-left: 8px;
+      background-image: url('../assets/image/header/select-top.png');
+      transform: rotate(180deg);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      &.up {
+        transform: rotate(0);
+        background-image: url('../assets/image/header/select-top.png');
+      }
+    }
+    .lang-show {
+      margin-bottom: 8px;
+    }
+    .lang-list {
+      position: absolute;
+      width: 150px;
+      min-height:212px;
+      background: #ffffff;
+      border:1px solid #000000;
+      z-index: 999;
+      li {
+        width: 100%;
+        cursor: pointer;
+        text-align: center;
+        margin: 0 0;
+        font-size:14px;
+        font-family:PingFangSC-Regular,PingFang SC;
+        font-weight:400;
+        color: #000000;
+        line-height: 35px;
+        &.active {
+          background: #131313;
+          color: #ffffff;
         }
       }
     }

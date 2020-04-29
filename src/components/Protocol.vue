@@ -119,6 +119,8 @@
       }
     }
   }
+  @media(max-width: 480px) {
+  }
 </style>
 <template>
   <div class="protocol" id="whyId">

@@ -177,6 +177,16 @@
       }
     }
   }
+  @media(max-width: 480px) {
+    .ctx-left{
+      .ft-social{
+        span {
+          display: block;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
 </style>
 <template>
   <div class="footer" id="footer">
@@ -186,11 +196,11 @@
         <ul class="ctx-left">
           <li class="ft-investor">
             <span>{{$t('Footer.Investor.label')}}</span>
-            <a :href="item.url" :class="item.icon" v-for="(item, ins) in $t('Footer.Investor.IconList')" :key="'ft_' + ins"></a>
+            <a href="javascript:void(0);" :class="item.icon" v-for="(item, ins) in $t('Footer.Investor.IconList')" :key="'ft_' + ins"></a>
           </li>
           <li class="ft-social">
             <span>{{$t('Footer.SocialMedia.label')}}</span>
-            <a :href="item.url" :class="item.icon" v-for="(item, ins) in $t('Footer.SocialMedia.IconList')" :key="'ft_' + ins"></a>
+            <a :href="item.url" target="_blank" :class="item.icon" v-for="(item, ins) in $t('Footer.SocialMedia.IconList')" :key="'ft_' + ins"></a>
           </li>
           <li class="ft-copyright">
             <span>{{$t('Footer.Copyright')}}</span>
@@ -199,7 +209,7 @@
         <ul class="ctx-center" id="walletId">
           <li class="ft-sup-title">{{$t('Footer.Support.title')}}</li>
           <li class="ft-sup-li" v-for="(item,sonIns) in $t('Footer.Support.list')" :key="'sup_li_' + sonIns">
-            <a :href="item.url">{{item.name}}</a>
+            <a :href="item.url" target="_blank">{{item.name}}</a>
           </li>
         </ul>
         <ul class="ctx-right">

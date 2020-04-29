@@ -95,7 +95,7 @@
         <ul class="census-item">
           <li v-for="(item, ins) in $t('Census.infos')" :key="'census_' + ins">
             <span> <countTo :startVal='0' :endVal='item.count' :duration='3000'></countTo>+</span>
-            <a :href="item.url">{{item.btnName}}</a>
+            <a href="javascript:void(0);">{{item.btnName}}</a>
           </li>
         </ul>
       </div>

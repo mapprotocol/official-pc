@@ -3,108 +3,164 @@
 		"navList": [
 			{
 				"key": "home",
-				"name": "Home"
+				"name": "Ev",
+				"path": "homeId"
 			},
 			{
 				"key": "why",
-				"name": "Why"
+				"name": "Neden",
+				"path": "whyId"
 			},
 			{
 				"key": "roadMap",
-				"name": "Roadmap"
+				"name": "Yol Haritası",
+				"path": "roadMapId"
 			},
 			{
 				"key": "gitV",
-				"name": "GitHub"
+				"name": "Github",
+				"path": "https://github.com/marcopoloprotocol"
 			},
 			{
 				"key": "white",
-				"name": "Whitepaper"
+				"name": "Whitepaper",
+				"path": "https://files.marcopolo.link/pdf/marcopolo_whitepaper_en.pdf"
 			},
 			{
 				"key": "wallet",
-				"name": "Wallet"
+				"name": "Cüzdan",
+				"path": "https://www.marcopolopay.org/download"
 			}
 		],
-		"lang": {
-			"default": "English",
-			"defaultKey": "en",
-			"list": [
-				{
-					"default": "English",
-					"key": "en"
-				}
-			]
-		}
+		"langList": [
+			{
+				"name": "English",
+				"subName": "Language",
+				"introduce": "英文",
+				"tag": "en"
+			},
+			{
+				"name": "한국어",
+				"subName": "Language",
+				"introduce": "韩文",
+				"tag": "ko"
+			},
+			{
+				"name": "Türk dili",
+				"subName": "Language",
+				"introduce": "土耳其语",
+				"tag": "tr"
+			},
+			{
+				"name": "русский",
+				"subName": "Language",
+				"introduce": "俄语",
+				"tag": "ru"
+			},
+			{
+				"name": "Tiếng việt nam",
+				"subName": "Language",
+				"introduce": "越南语",
+				"tag": "vn"
+			},
+			{
+				"name": "Português",
+				"subName": "Language",
+				"tag": "pt"
+			},
+			{
+				"name": "Orang indonesia",
+				"subName": "Language",
+				"introduce": "印尼语",
+				"tag": "ins"
+			},
+			{
+				"name": "日本語",
+				"subName": "Language",
+				"introduce": "日本语",
+				"tag": "jp"
+			},
+			{
+				"name": "中文简体",
+				"subName": "Language",
+				"tag": "zh"
+			}
+		]
 	},
 	"PointsWaves": {
 		"title": "MarcoPolo Protocol",
-		"subTitle": "Chain-to-chain Interoperation Protocol"
+		"subTitle": "Zincir-Zincir Birlikte Çalışma Protokolü"
 	},
 	"Introduce": {
-		"title": "First Protocol that Provides the Infrastructure for Direct Interoperate in the Heterogeneous Blockchain Ecosystem",
-		"introduce": "MarcoPolo Protocol is an open, fully decentralized, chain-to-chain interoperation protocol that enables the interoperability of multiple independently verifiable consensus blockchains without a relay chain. MarcoPolo Protocol expects to construct a future inter-chain-net, which is interoperable and chain-to-chain based. The ecosystem built on MarcoPolo Protocol can provide a solid infrastructure for finance, AI, IoT, traceability, and governance filed by cross-chain communication, privacy computation, shared storage, etc...",
+		"title": "Heterojen blok zincir ekosisteminde doğrudan birlikte çalışma için altyapı sağlayan ilk protokol",
+		"introduce": "MarcoPolo Protokolü, bir röle zinciri olmadan bağımsız olarak doğrulanabilir çoklu konsensüs blok zincirlerinin birlikte çalışabilirliğini sağlayan açık, tamamen merkezi olmayan, zincirden zincire birlikte çalışma protokolüdür. MarcoPolo Protokolü, birlikte çalışabilir ve zincirler arası temelli bir gelecek zincirler arası ağ oluşturmayı beklemektedir. MarcoPolo Protokolü üzerine kurulan ekosistem, zincirler arası iletişim, gizlilik hesaplama, paylaşılan depolama alanı vb. Tarafından finanse edilen finans, AI, IoT, izlenebilirlik ve yönetişim için sağlam bir altyapı sağlayabilir.",
 		"BtnLink": [
 			{
 				"name": "Whitepaper",
-				"url": ""
+				"url": "https://files.marcopolo.link/pdf/marcopolo_whitepaper_en.pdf"
 			},
 			{
 				"name": "GitHub",
-				"url": ""
+				"url": "https://github.com/marcopoloprotocol"
 			}
 		]
 	},
 	"SubCore": {
-		"title": "THREE CORE SUB-MODULES",
-		"list": {
-			"desc1": [
-				"Ultra-light Local Chain Verification Protocol"
-			],
-			"desc2": [
-				"Ultra-light Cross-chain Verification Protocol"
-			],
-			"desc3": [
-				"Smart Script with Combinable Trigger Conditions"
-			]
-		}
-	},
-	"Protocol": {
-		"title": "Why MarcoPolo Protocol?",
+		"title": "ÜÇ CORE ALT MODÜL",
 		"list": [
 			{
-				"icon": "",
-				"title": "Ultra Light Cross-chain Verification Algorithm",
-				"info": [
-					"Provides the ability of one chain to validate the state of another chain under low bandwidth and low storage."
+				"desc": [
+					"Ultra Hafif Yerel Zincir Doğrulama Protokolü"
 				]
 			},
 			{
-				"icon": "",
-				"title": "High-efficiency Block Transport Channel",
-				"info": [
-					"A block transportation channel based on IBLT which can compress the block size when relaying blocks."
+				"desc": [
+					"Ultra Hafif Çapraz Zincir Doğrulama Protokolü"
 				]
 			},
 			{
-				"icon": "",
-				"title": "MarcoPolo Application Tool Environment",
+				"desc": [
+					"Birleştirilebilir Tetikleyici Koşullarına Sahip Akıllı Komut Dosyası"
+				]
+			}
+		]
+	},
+	"Protocol": {
+		"title": "Neden MarcoPolo Protokolü?",
+		"list": [
+			{
+				"icon": "core1",
+				"title": "Süper Hafif Çapraz Zincir Doğrulama Algoritması",
 				"info": [
-					"A toolkit built on Sustainable MAP RunTime which can help developers to construct their own interoperable blockchains."
+					"Bir zincirin düşük bant genişliği ve düşük depolama altında başka bir zincirin durumunu doğrulama yeteneği sağlar."
 				]
 			},
 			{
-				"icon": "",
-				"title": "Composable Smart Contract Rule",
+				"icon": "core2",
+				"title": "Yüksek Verimli Blok Taşıma Kanalı",
 				"info": [
-					"A rule for multiple composable trigger condition smart contracts."
+					"Blokları geçirirken blok boyutunu sıkıştırabilen IBLT'ye dayalı bir blok taşıma kanalı."
 				]
 			},
 			{
-				"icon": "",
-				"title": "Standardized P2P Stack",
+				"icon": "core3",
+				"title": "MarcoPolo Uygulama Aracı Ortamı",
 				"info": [
-					"A protocol under which the peer under different blockchain systems can discover and communicate with each other."
+					"Sürdürülebilir MAP RunTime üzerine kurulmuş, geliştiricilerin kendi birlikte çalışabilir blok zincirlerini oluşturmalarına yardımcı olabilecek bir araç seti."
+				]
+			},
+			{
+				"icon": "core4",
+				"title": "Bileşilebilir Akıllı Sözleşme Kuralı",
+				"info": [
+					"Birden fazla birleştirilebilir tetikleyici koşulu akıllı sözleşmeleri için bir kural."
+				]
+			},
+			{
+				"icon": "core5",
+				"title": "Standartlaştırılmış Eş Bulma ve İletişim P2P Protokolü",
+				"info": [
+					"Farklı blockchain sistemleri altındaki eşin birbirini keşfedebileceği ve iletişim kurabileceği bir protokol."
 				]
 			}
 		]
@@ -113,17 +169,17 @@
 		"infos": [
 			{
 				"count": 300000,
-				"btnName": "Downloads",
+				"btnName": "İndirilenler",
 				"url": ""
 			},
 			{
 				"count": 3,
-				"btnName": "Wallet support chain",
+				"btnName": "Cüzdan destek zinciri",
 				"url": ""
 			},
 			{
 				"count": 140000,
-				"btnName": "Community users",
+				"btnName": "Topluluk kullanıcıları",
 				"url": ""
 			}
 		]
@@ -131,165 +187,172 @@
 	"Info":{
 		"list": [
 			{
-				"name": "Concise",
-				"remark": "This protocol will not occupy a lot of network resources and storage resources"
+				"name": "Özlü",
+				"remark": [
+					"Bu protokol çok fazla ağ kaynağı ve depolama kaynağı işgal etmeyecektir"
+				]
 			},
 			{
-				"name": "Reliability",
-				"remark": "This protocol will ensure the security of interoperation, that is to say, the data obtained by any node must be consistent with that obtained by all nodes of the corresponding chain."
+				"name": "Güvenilirlik",
+				"remark": [
+					"Bu protokol, birlikte çalışmanın güvenliğini, yani herhangi bir düğüm tarafından elde edilen verilerin, karşılık gelen zincirin tüm düğümleri tarafından elde edilen verilerle tutarlı olması gerekir. (Protokolün karşılık gelen zincirin kendisinden daha yüksek güvenlik elde edemeyeceğini, yani zincirin bilgi işlem güç saldırılarına karşı koyamayacağını vb."
+				]
 			},
 			{
-				"name": "Universality",
-				"remark": "This protocol only regulates interoperable modules and does not add any other requirements, constraints, or restrictions to the ecological blockchain."
+				"name": "Genellik",
+				"remark": [
+					"Bu protokol yalnızca birlikte çalışabilir modülleri düzenler ve ekolojik blok zincirine başka herhangi bir gereklilik, kısıtlama veya kısıtlama eklemez."
+				]
 			}
 		]
 	},
 	"Scenarios": {
-		"title": "Application scenarios",
+		"title": "Uygulama senaryoları",
 		"list": [
 			{
-				"icon": "",
-				"name": "Finance"
+				"icon": "finance",
+				"name": "Finans"
 			},
 			{
-				"icon": "",
+				"icon": "ai",
 				"name": "AI"
 			},
 			{
-				"icon": "",
+				"icon": "iot",
 				"name": "IoT"
 			},
 			{
-				"icon": "",
-				"name": "Traceability"
+				"icon": "trace",
+				"name": "İzlenebilirlik"
 			},
 			{
-				"icon": "",
-				"name": "Governance filed"
+				"icon": "governance",
+				"name": "İzlenebilirlik"
 			},
 			{
-				"icon": "",
-				"name": "Privacy computation"
+				"icon": "privacy",
+				"name": "Gizlilik hesaplaması"
 			},
 			{
-				"icon": "",
-				"name": "Shared storage"
+				"icon": "shared",
+				"name": "Paylaşılan depolama alanı"
 			},
 			{
-				"icon": "",
-				"name": "More"
+				"icon": "more",
+				"name": "Daha"
 			}
 		]
 	},
 	"Roadmap": {
-		"title": "Roadmap",
+		"title": "Yol Haritası",
 		"list": [
 			{
-				"time": "The First Stage 2020.Q4",
+				"time": "İlk Aşama 2020.Ç4",
 				"title": "Gravity:",
 				"introduce": [
-					"Standard Chain development: includes Standard Chain PoS consensus, Map-VM and SMART system, and on-chain governance"
+					"Standart Zincir geliştirme: Standart Zincir PoS konsensüsü, Map-VM ve SMART sistemi ve zincir üstü yönetişimi içerir"
 				]
 			},
 			{
-				"time": "The Second Stage 2021.Q2",
+				"time": "İkinci Aşama 2021.Ç2",
 				"title": "Electromagnetic:",
 				"introduce": [
-					"Lightweight Local Chain Verification Protocol",
-					"Lightweight cross-chain verification Protocol",
-					"Smart Script with Combinable Trigger Conditions General ChainID Specifications"
+					"Hafif Yerel Zincir Doğrulama Protokolü",
+					"Hafif çapraz zincir doğrulama protokolü",
+					"Birleştirilebilir Tetikleyici Koşullarına Sahip Akıllı Komut Dosyası",
+					"Genel ChainID Spesifikasyonları"
 				]
 			},
 			{
-				"time": "The Third Stage 2021.Q4",
+				"time": "Üçüncü Aşama 2021.Ç4",
 				"title": "Interaction:",
 				"introduce": [
-					"MATE framework",
-					"Build blockchains that support electronic cash systems, other applications, and support connections to the Standard Chain"
+					"MATE çerçevesi",
+					"Elektronik nakit sistemlerini, diğer uygulamaları ve Standart Zincir bağlantılarını destekleyen blok zincirler oluşturur"
 				]
 			},
 			{
 				"time": "The Fourth Stage 2022.Q2",
 				"title": "Grand Unification:",
 				"introduce": [
-					"Support lightweight cross-chain with other public chains",
-					"Realize cross-chain interoperability with BTC, ETH, etc.",
-					"Provide cross-chain features with other DPoS chains"
+					"Diğer halka açık zincirlerle hafif çapraz zinciri destekleyin",
+					"BTC, ETH vb.İle zincirler arası birlikte çalışabilirliği gerçekleştirir",
+					"Diğer DPoS zincirleriyle çapraz zincir özellikleri sağlar"
 				]
 			}
 		]
 	},
 	"Footer": {
 		"Investor": {
-			"label": "Investor：",
+			"label": "Yatırımcı：",
 			"IconList": [
 				{
-					"icon": "",
+					"icon": "ft-soft",
 					"key": "",
 					"url": ""
 				}
 			]
 		},
 		"SocialMedia": {
-			"label": "Social Media: ：",
+			"label": "Sosyal medya：",
 			"IconList": [
 				{
-					"icon": "",
+					"icon": "ft-telegram",
 					"key": "",
-					"url": ""
+					"url": "https://t.me/MarcoPoloMAP"
 				},
 				{
-					"icon": "",
+					"icon": "ft-twitter",
 					"key": "",
-					"url": ""
+					"url": "https://twitter.com/MarcoPoloGlobal"
 				},
 				{
-					"icon": "",
+					"icon": "ft-bitcointalk",
 					"key": "",
-					"url": ""
+					"url": "https://bitcointalk.org/index.php?topic=5215440.new#new"
 				},
 				{
-					"icon": "",
+					"icon": "ft-naver",
 					"key": "",
-					"url": ""
+					"url": "https://blog.naver.com/marcopoloprotocol"
 				},
 				{
-					"icon": "",
+					"icon": "ft-medium",
 					"key": "",
-					"url": ""
+					"url": "https://medium.com/marcopolo-protocol"
 				},
 				{
-					"icon": "",
+					"icon": "ft-kakao",
 					"key": "",
-					"url": ""
+					"url": "https://open.kakao.com/o/gI5fPXSb"
 				},
 				{
-					"icon": "",
+					"icon": "ft-cat",
 					"key": "",
-					"url": ""
+					"url": "https://github.com/marcopoloprotocol"
 				}
 			]
 		},
 		"Copyright": "© 2020 MarcoPolo Network Foundation, All Rights Reseved",
 		"Support": {
-			"title": "Support",
+			"title": "Destek",
 			"list": [
 				{
 					"name": "Online Wallet",
-					"url": ""
+					"url": "https://webwallet.marcopay.org/"
 				},
 				{
 					"name": "MarcoPay website",
-					"url": ""
+					"url": "https://www.marcopay.com.br/"
 				},
 				{
 					"name": "Truescan",
-					"url": ""
+					"url": "http://www.truescan.network/"
 				}
 			]
 		},
 		"ContactUs": {
-			"title": "Contact Us",
+			"title": "Bize Ulaşın",
 			"list": [
 				{
 					"name": "cooperation@MarcoPolo.link"

@@ -3,108 +3,164 @@
 		"navList": [
 			{
 				"key": "home",
-				"name": "Home"
+				"name": "Home",
+				"path": "homeId"
 			},
 			{
 				"key": "why",
-				"name": "Why"
+				"name": "Why",
+				"path": "whyId"
 			},
 			{
 				"key": "roadMap",
-				"name": "Roadmap"
+				"name": "Roadmap",
+				"path": "roadMapId"
 			},
 			{
 				"key": "gitV",
-				"name": "GitHub"
+				"name": "GitHub",
+				"path": "https://github.com/marcopoloprotocol"
 			},
 			{
 				"key": "white",
-				"name": "Whitepaper"
+				"name": "Whitepaper",
+				"path": "https://files.marcopolo.link/pdf/marcopolo_whitepaper_en.pdf"
 			},
 			{
 				"key": "wallet",
-				"name": "Wallet"
+				"name": "Wallet",
+				"path": "https://www.marcopolopay.org/download"
 			}
 		],
-		"lang": {
-			"default": "English",
-			"defaultKey": "en",
-			"list": [
-				{
-					"default": "English",
-					"key": "en"
-				}
-			]
-		}
+		"langList": [
+			{
+				"name": "English",
+				"subName": "Language",
+				"introduce": "英文",
+				"tag": "en"
+			},
+			{
+				"name": "한국어",
+				"subName": "Language",
+				"introduce": "韩文",
+				"tag": "ko"
+			},
+			{
+				"name": "Türk dili",
+				"subName": "Language",
+				"introduce": "土耳其语",
+				"tag": "tr"
+			},
+			{
+				"name": "русский",
+				"subName": "Language",
+				"introduce": "俄语",
+				"tag": "ru"
+			},
+			{
+				"name": "Tiếng việt nam",
+				"subName": "Language",
+				"introduce": "越南语",
+				"tag": "vn"
+			},
+			{
+				"name": "Português",
+				"subName": "Language",
+				"tag": "pt"
+			},
+			{
+				"name": "Orang indonesia",
+				"subName": "Language",
+				"introduce": "印尼语",
+				"tag": "ins"
+			},
+			{
+				"name": "日本語",
+				"subName": "Language",
+				"introduce": "日本语",
+				"tag": "jp"
+			},
+			{
+				"name": "中文简体",
+				"subName": "Language",
+				"tag": "zh"
+			}
+		]
 	},
 	"PointsWaves": {
 		"title": "MarcoPolo Protocol",
-		"subTitle": "Chain-to-chain Interoperation Protocol"
+		"subTitle": "自由互链协议"
 	},
 	"Introduce": {
-		"title": "First Protocol that Provides the Infrastructure for Direct Interoperate in the Heterogeneous Blockchain Ecosystem",
-		"introduce": "MarcoPolo Protocol is an open, fully decentralized, chain-to-chain interoperation protocol that enables the interoperability of multiple independently verifiable consensus blockchains without a relay chain. MarcoPolo Protocol expects to construct a future inter-chain-net, which is interoperable and chain-to-chain based. The ecosystem built on MarcoPolo Protocol can provide a solid infrastructure for finance, AI, IoT, traceability, and governance filed by cross-chain communication, privacy computation, shared storage, etc...",
+		"title": "第一个异构区块链网络的直接互操作协议",
+		"introduce": "MarcoPolo Protocol 是一种开放的、完全去中心化的链间交互协议，在独立自验证的共识机制下，链与链之间可以实现轻量级地任意交互而不需要任何中继链。MarcoPolo Protocol 期望构建一个点对点的、具有大量可互操作的未来互链网，通过各链间TPS、隐私计算、存储、安全等资源或能力互操作，为金融、AI、物联网、溯源、治理等领域应用提供坚实的区块链底层基础设施。",
 		"BtnLink": [
 			{
-				"name": "Whitepaper",
-				"url": ""
+				"name": "白皮书",
+				"url": "https://files.marcopolo.link/pdf/marcopolo_whitepaper_en.pdf"
 			},
 			{
 				"name": "GitHub",
-				"url": ""
+				"url": "https://github.com/marcopoloprotocol"
 			}
 		]
 	},
 	"SubCore": {
-		"title": "THREE CORE SUB-MODULES",
-		"list": {
-			"desc1": [
-				"Ultra-light Local Chain Verification Protocol"
-			],
-			"desc2": [
-				"Ultra-light Cross-chain Verification Protocol"
-			],
-			"desc3": [
-				"Smart Script with Combinable Trigger Conditions"
-			]
-		}
-	},
-	"Protocol": {
-		"title": "Why MarcoPolo Protocol?",
+		"title": "MarcoPolo Protocol 的三大构成",
 		"list": [
 			{
-				"icon": "",
-				"title": "Ultra Light Cross-chain Verification Algorithm",
-				"info": [
-					"Provides the ability of one chain to validate the state of another chain under low bandwidth and low storage."
+				"desc": [
+					"超轻型本地链验证协议"
 				]
 			},
 			{
-				"icon": "",
-				"title": "High-efficiency Block Transport Channel",
-				"info": [
-					"A block transportation channel based on IBLT which can compress the block size when relaying blocks."
+				"desc": [
+					"超轻型跨链验证协议"
 				]
 			},
 			{
-				"icon": "",
-				"title": "MarcoPolo Application Tool Environment",
+				"desc": [
+					"具有可组合触发条件的智能脚本"
+				]
+			}
+		]
+	},
+	"Protocol": {
+		"title": "为什么选择MarcoPolo Protocol?",
+		"list": [
+			{
+				"icon": "core1",
+				"title": "超轻量级跨链验证协议",
 				"info": [
-					"A toolkit built on Sustainable MAP RunTime which can help developers to construct their own interoperable blockchains."
+					"使得任意区块链的节点可以在低带宽以及低存储复杂度的情况下验证其他区块链上的状态或者交易。"
 				]
 			},
 			{
-				"icon": "",
-				"title": "Composable Smart Contract Rule",
+				"icon": "core2",
+				"title": "高效区块传输通道",
 				"info": [
-					"A rule for multiple composable trigger condition smart contracts."
+					"基于Invertible Bloom Lookup Tables (IBLT) 进一步优化区块的传输协议，大幅度压缩需要传输数据大小，极大的提高区块的传输效率。"
 				]
 			},
 			{
-				"icon": "",
-				"title": "Standardized P2P Stack",
+				"icon": "core3",
+				"title": "MATE",
 				"info": [
-					"A protocol under which the peer under different blockchain systems can discover and communicate with each other."
+					"MATE(MarcoPolo Application Tool Environment)是一个通用的区块链框架，通过Runtime设计做好各模块的解耦以及不分叉的动态升级，开发人员可以轻松地构建自己的可交互链。"
+				]
+			},
+			{
+				"icon": "core4",
+				"title": "可组合触发式智能脚本规范",
+				"info": [
+					"可自由组合的多条件触发智能脚本规范，灵活组合链间状态处理与交易的跨链执行。"
+				]
+			},
+			{
+				"icon": "core5",
+				"title": "通用区块链节点发现与通讯协议通用区块链节点发现与通讯协议",
+				"info": [
+					"通用协议保证各个区块链节点能够快速发现其他链上节点并进行通讯。"
 				]
 			}
 		]
@@ -113,17 +169,17 @@
 		"infos": [
 			{
 				"count": 300000,
-				"btnName": "Downloads",
+				"btnName": "下载用户数",
 				"url": ""
 			},
 			{
 				"count": 3,
-				"btnName": "Wallet support chain",
+				"btnName": "钱包支持链",
 				"url": ""
 			},
 			{
 				"count": 140000,
-				"btnName": "Community users",
+				"btnName": "社群人数",
 				"url": ""
 			}
 		]
@@ -131,165 +187,173 @@
 	"Info":{
 		"list": [
 			{
-				"name": "Concise",
-				"remark": "This protocol will not occupy a lot of network resources and storage resources"
+				"name": "简洁性",
+				"remark": [
+					"该协议不会占用大量的网络资源和存储资源"
+				]
 			},
 			{
-				"name": "Reliability",
-				"remark": "This protocol will ensure the security of interoperation, that is to say, the data obtained by any node must be consistent with that obtained by all nodes of the corresponding chain."
+				"name": "可靠性",
+				"remark": [
+					"该协议保证了互操作的安全性，即任何节点获取的数据必须与对应链上所有节点获取的数据一致。（请注意，该协议不能获得比相应链本身更高的安全性，即不能抵抗链的计算能力攻击等。"
+				]
 			},
 			{
-				"name": "Universality",
-				"remark": "This protocol only regulates interoperable modules and does not add any other requirements, constraints, or restrictions to the ecological blockchain."
+				"name": "普遍性",
+				"remark": [
+					"该协议只管理可互操作的模块，不向生态区块链添加任何其他要求、约束或限制。"
+				]
 			}
 		]
 	},
 	"Scenarios": {
-		"title": "Application scenarios",
+		"title": "应用场景",
 		"list": [
 			{
-				"icon": "",
-				"name": "Finance"
+				"icon": "finance",
+				"name": "金融"
 			},
 			{
-				"icon": "",
-				"name": "AI"
+				"icon": "ai",
+				"name": "人工智能"
 			},
 			{
-				"icon": "",
-				"name": "IoT"
+				"icon": "iot",
+				"name": "物联网"
 			},
 			{
-				"icon": "",
-				"name": "Traceability"
+				"icon": "trace",
+				"name": "溯源"
 			},
 			{
-				"icon": "",
-				"name": "Governance filed"
+				"icon": "governance",
+				"name": "治理提交"
 			},
 			{
-				"icon": "",
-				"name": "Privacy computation"
+				"icon": "privacy",
+				"name": "隐私计算"
 			},
 			{
-				"icon": "",
-				"name": "Shared storage"
+				"icon": "shared",
+				"name": "共享存储"
 			},
 			{
-				"icon": "",
-				"name": "More"
+				"icon": "more",
+				"name": "更多"
 			}
 		]
 	},
 	"Roadmap": {
-		"title": "Roadmap",
+		"title": "路线图",
 		"list": [
 			{
-				"time": "The First Stage 2020.Q4",
+				"time": "第一阶段 2020.Q4",
 				"title": "Gravity:",
 				"introduce": [
-					"Standard Chain development: includes Standard Chain PoS consensus, Map-VM and SMART system, and on-chain governance"
+					"基准链开发，包括：基准链PoS共识",
+					"MapVM和SMART系统",
+					"链上治理"
 				]
 			},
 			{
-				"time": "The Second Stage 2021.Q2",
+				"time": "第二阶段 2021.Q2",
 				"title": "Electromagnetic:",
 				"introduce": [
-					"Lightweight Local Chain Verification Protocol",
-					"Lightweight cross-chain verification Protocol",
-					"Smart Script with Combinable Trigger Conditions General ChainID Specifications"
+					"轻量级跨链验证协议",
+					"组合式触发条件的智能脚本系统",
+					"通用ChainID规范标准"
 				]
 			},
 			{
-				"time": "The Third Stage 2021.Q4",
+				"time": "第三阶段 2021.Q4",
 				"title": "Interaction:",
 				"introduce": [
-					"MATE framework",
-					"Build blockchains that support electronic cash systems, other applications, and support connections to the Standard Chain"
+					"MATE框架",
+					"搭建支持电子现金系统等应用区块链，并支持与基准链的连接"
 				]
 			},
 			{
-				"time": "The Fourth Stage 2022.Q2",
+				"time": "第四阶段 2022.Q2",
 				"title": "Grand Unification:",
 				"introduce": [
-					"Support lightweight cross-chain with other public chains",
-					"Realize cross-chain interoperability with BTC, ETH, etc.",
-					"Provide cross-chain features with other DPoS chains"
+					"支持与其他公链的轻量级跨链",
+					"实现与BTC、ETH等的跨链",
+					"提供与DPoS链的跨链支持"
 				]
 			}
 		]
 	},
 	"Footer": {
 		"Investor": {
-			"label": "Investor：",
+			"label": "投资者：",
 			"IconList": [
 				{
-					"icon": "",
+					"icon": "ft-soft",
 					"key": "",
 					"url": ""
 				}
 			]
 		},
 		"SocialMedia": {
-			"label": "Social Media: ：",
+			"label": "社交媒体：",
 			"IconList": [
 				{
-					"icon": "",
+					"icon": "ft-telegram",
 					"key": "",
-					"url": ""
+					"url": "https://t.me/MarcoPoloMAP"
 				},
 				{
-					"icon": "",
+					"icon": "ft-twitter",
 					"key": "",
-					"url": ""
+					"url": "https://twitter.com/MarcoPoloGlobal"
 				},
 				{
-					"icon": "",
+					"icon": "ft-bitcointalk",
 					"key": "",
-					"url": ""
+					"url": "https://bitcointalk.org/index.php?topic=5215440.new#new"
 				},
 				{
-					"icon": "",
+					"icon": "ft-naver",
 					"key": "",
-					"url": ""
+					"url": "https://blog.naver.com/marcopoloprotocol"
 				},
 				{
-					"icon": "",
+					"icon": "ft-medium",
 					"key": "",
-					"url": ""
+					"url": "https://medium.com/marcopolo-protocol"
 				},
 				{
-					"icon": "",
+					"icon": "ft-kakao",
 					"key": "",
-					"url": ""
+					"url": "https://open.kakao.com/o/gI5fPXSb"
 				},
 				{
-					"icon": "",
+					"icon": "ft-cat",
 					"key": "",
-					"url": ""
+					"url": "https://github.com/marcopoloprotocol"
 				}
 			]
 		},
 		"Copyright": "© 2020 MarcoPolo Network Foundation, All Rights Reseved",
 		"Support": {
-			"title": "Support",
+			"title": "帮助与支持",
 			"list": [
 				{
 					"name": "Online Wallet",
-					"url": ""
+					"url": "https://webwallet.marcopay.org/"
 				},
 				{
 					"name": "MarcoPay website",
-					"url": ""
+					"url": "https://www.marcopay.com.br/"
 				},
 				{
 					"name": "Truescan",
-					"url": ""
+					"url": "http://www.truescan.network/"
 				}
 			]
 		},
 		"ContactUs": {
-			"title": "Contact Us",
+			"title": "联系我们",
 			"list": [
 				{
 					"name": "cooperation@MarcoPolo.link"

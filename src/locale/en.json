@@ -4,32 +4,32 @@
 			{
 				"key": "home",
 				"name": "Home",
-				"targetId": "homeId"
+				"path": "homeId"
 			},
 			{
 				"key": "why",
 				"name": "Why",
-				"targetId": "whyId"
+				"path": "whyId"
 			},
 			{
 				"key": "roadMap",
 				"name": "Roadmap",
-				"targetId": "roadMapId"
+				"path": "roadMapId"
 			},
 			{
 				"key": "gitV",
 				"name": "GitHub",
-				"targetId": "whiteId"
+				"path": "https://github.com/marcopoloprotocol"
 			},
 			{
 				"key": "white",
 				"name": "Whitepaper",
-				"targetId": "whiteId"
+				"path": "https://files.marcopolo.link/pdf/marcopolo_whitepaper_en.pdf"
 			},
 			{
 				"key": "wallet",
 				"name": "Wallet",
-				"targetId": "walletId"
+				"path": "https://www.marcopolopay.org/download"
 			}
 		],
 		"langList": [
@@ -101,7 +101,7 @@
 			},
 			{
 				"name": "GitHub",
-				"url": ""
+				"url": "https://github.com/marcopoloprotocol"
 			}
 		]
 	},
@@ -328,7 +328,7 @@
 				{
 					"icon": "ft-cat",
 					"key": "",
-					"url": ""
+					"url": "https://github.com/marcopoloprotocol"
 				}
 			]
 		},
@@ -338,11 +338,11 @@
 			"list": [
 				{
 					"name": "Online Wallet",
-					"url": ""
+					"url": "https://webwallet.marcopay.org/"
 				},
 				{
 					"name": "MarcoPay website",
-					"url": ""
+					"url": "https://www.marcopay.com.br/"
 				},
 				{
 					"name": "Truescan",
