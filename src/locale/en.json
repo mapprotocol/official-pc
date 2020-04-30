@@ -130,7 +130,7 @@
 		"list": [
 			{
 				"icon": "core1",
-				"title": "Ultra Light Cross-chain Verification Algorithm",
+				"title": "Ultra-light Cross-chain Verification Algorithm",
 				"info": [
 					"Provides the ability of one chain to validate the state of another chain under low bandwidth and low storage."
 				]
@@ -187,7 +187,7 @@
 	"Info":{
 		"list": [
 			{
-				"name": "Concise",
+				"name": "Succinctness",
 				"remark": [
 					"This protocol will not occupy a lot of network resources and storage resources"
 				]
@@ -247,7 +247,7 @@
 		"title": "Roadmap",
 		"list": [
 			{
-				"time": "The First Stage 2020.Q4",
+				"time": "The First Stage 2019.Q3-2020.Q4",
 				"title": "Gravity:",
 				"introduce": [
 					"Standard Chain development: includes Standard Chain PoS consensus, Map-VM and SMART system, and on-chain governance"
@@ -259,7 +259,8 @@
 				"introduce": [
 					"Lightweight Local Chain Verification Protocol",
 					"Lightweight cross-chain verification Protocol",
-					"Smart Script with Combinable Trigger Conditions General ChainID Specifications"
+					"Smart Script with Combinable Trigger Conditions",
+					"General ChainID Specifications"
 				]
 			},
 			{
@@ -337,7 +338,7 @@
 			"title": "Support",
 			"list": [
 				{
-					"name": "Online Wallet",
+					"name": "Web Wallet",
 					"url": "https://webwallet.marcopay.org/"
 				},
 				{

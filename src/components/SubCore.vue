@@ -59,7 +59,7 @@
         margin: 0 auto 36px auto;
       }
       p {
-        width: 90%;
+        width: 96%;
         text-align: center;
         font-size:22px;
         font-family:PingFangSC-Medium,PingFang SC;

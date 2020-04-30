@@ -195,7 +195,7 @@
 			{
 				"name": "Keunggulan",
 				"remark": [
-					"Protokol ini akan memastikan keamanan interoperasi, yaitu, data yang diperoleh setiap node harus konsisten dengan yang diperoleh semua node dari deretan yang sesuai. (Perhatikan bahwa protokol tidak dapat memperoleh keamanan yang lebih tinggi daripada rantai yang terkait itu sendiri, yaitu, ia tidak dapat menahan serangan daya komputasi rantai, dll."
+					"Protokol ini akan memastikan keamanan interoperasi, yaitu, data yang diperoleh setiap node harus konsisten dengan yang diperoleh semua node dari deretan yang sesuai."
 				]
 			},
 			{
@@ -247,7 +247,7 @@
 		"title": "Peta jalan",
 		"list": [
 			{
-				"time": "Tahap Pertama 2020.Q4",
+				"time": "Tahap Pertama 2019.Q3-2020.Q4",
 				"title": "Gravity:",
 				"introduce": [
 					"Pengembangan Deretan Standar: termasuk konsensus PoS Deretan Standar, sistem Peta-VM dan SMART,dan tata kelola on-chain"
@@ -338,7 +338,7 @@
 			"title": "Layanan",
 			"list": [
 				{
-					"name": "Online Wallet",
+					"name": "Web Wallet",
 					"url": "https://webwallet.marcopay.org/"
 				},
 				{

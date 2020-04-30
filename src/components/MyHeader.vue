@@ -67,17 +67,17 @@ export default {
         }))
         if (!path.includes('://')) {
           if (this.activeNav === 'why') {
-            document.querySelector('#nav_line').style.transform = 'translateX(124px) translateX(0)'
+            document.querySelector('#nav_line').style.transform = 'translateX(158px) translateX(0)'
           } else if (this.activeNav === 'roadMap') {
-            document.querySelector('#nav_line').style.transform = 'translateX(246px) translateX(0)'
+            document.querySelector('#nav_line').style.transform = 'translateX(280px) translateX(0)'
           } else if (this.activeNav === 'gitV') {
-            document.querySelector('#nav_line').style.transform = 'translateX(370px) translateX(0)'
+            document.querySelector('#nav_line').style.transform = 'translateX(400px) translateX(0)'
           } else if (this.activeNav === 'white') {
-            document.querySelector('#nav_line').style.transform = 'translateX(495px) translateX(0)'
+            document.querySelector('#nav_line').style.transform = 'translateX(520px) translateX(0)'
           } else if (this.activeNav === 'wallet') {
-            document.querySelector('#nav_line').style.transform = 'translateX(620px) translateX(0)'
+            document.querySelector('#nav_line').style.transform = 'translateX(640px) translateX(0)'
           } else {
-            document.querySelector('#nav_line').style.transform = 'translateX(0) translateX(0)'
+            document.querySelector('#nav_line').style.transform = 'translateX(38px) translateX(0)'
           }
         }
       }
@@ -128,7 +128,7 @@ export default {
       width: 46px;
       height: 6px;
       background: #000000;
-      transform: translateX(0) translateX(0);
+      transform: translateX(38px) translateX(0);
       transition-duration: 0.3s;
     }
     .menu {
@@ -147,7 +147,9 @@ export default {
       li {
         list-style-type: none;
         margin-top: 33px;
-        margin-right: 77px;
+        width: 120px;
+        text-align: center;
+        word-break: break-all;
         a {
           display: inline-block;
           min-width: 46px;
@@ -161,22 +163,15 @@ export default {
         }
         &:last-child {
           margin-right: 0;
-        }
-      }
-      &.en {
-        li {
-          margin-right: 66px;
-          &:last-child {
-            margin-right: 0;
-          }
+          width: 150px;
+          padding-right: 16px;
         }
       }
     }
   }
   .lang-layout {
     position: relative;
-    width: 150px;
-    text-align: center;
+    text-align: right;
     .icon-select {
       display: inline-block;
       vertical-align: middle;
@@ -193,11 +188,12 @@ export default {
       }
     }
     .lang-show {
-      margin-bottom: 8px;
+      margin-bottom: 10px;
+      display: inline-block;
     }
     .lang-list {
       position: absolute;
-      width: 150px;
+      width: 164px;
       min-height:212px;
       background: #ffffff;
       border:1px solid #000000;

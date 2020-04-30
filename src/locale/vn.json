@@ -195,7 +195,7 @@
 			{
 				"name": "Độ tin cậy",
 				"remark": [
-					"Giao thức này sẽ đảm bảo tính bảo mật đồng bộ, nghĩa là dữ liệu thu được bởi bất kỳ nút nào phải phù hợp với dữ liệu thu được bởi tất cả các nút của chuỗi tương ứng. (Lưu ý rằng giao thức không thể có được bảo mật cao hơn chính chuỗi tương ứng, nghĩa là nó không thể chống lại các cuộc tấn công của các siêu máy tính, v.v."
+					"Giao thức này sẽ đảm bảo tính bảo mật đồng bộ, nghĩa là dữ liệu thu được bởi bất kỳ nút nào phải phù hợp với dữ liệu thu được bởi tất cả các nút của chuỗi tương ứng."
 				]
 			},
 			{
@@ -247,7 +247,7 @@
 		"title": "Lộ trình",
 		"list": [
 			{
-				"time": "Giai đoạn đầu năm 2020.Q4",
+				"time": "Giai đoạn đầu năm 2019.Q3-2020.Q4",
 				"title": "Gravity:",
 				"introduce": [
 					"Phát triển chuỗi tiêu chuẩn: bao gồm sự đồng thuận PoS của chuỗi tiêu chuẩn, hệ thống Map-VM và SMART, và quản trị theo chuỗi"
@@ -339,7 +339,7 @@
 			"title": "Hỗ trợ",
 			"list": [
 				{
-					"name": "Online Wallet",
+					"name": "Web Wallet",
 					"url": "https://webwallet.marcopay.org/"
 				},
 				{

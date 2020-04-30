@@ -247,7 +247,7 @@
 		"title": "路线图",
 		"list": [
 			{
-				"time": "第一阶段 2020.Q4",
+				"time": "第一阶段 2019.Q3-2020.Q4",
 				"title": "Gravity:",
 				"introduce": [
 					"基准链开发，包括：基准链PoS共识",
@@ -339,7 +339,7 @@
 			"title": "帮助与支持",
 			"list": [
 				{
-					"name": "Online Wallet",
+					"name": "Web Wallet",
 					"url": "https://webwallet.marcopay.org/"
 				},
 				{

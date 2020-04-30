@@ -195,7 +195,7 @@
 			{
 				"name": "Güvenilirlik",
 				"remark": [
-					"Bu protokol, birlikte çalışmanın güvenliğini, yani herhangi bir düğüm tarafından elde edilen verilerin, karşılık gelen zincirin tüm düğümleri tarafından elde edilen verilerle tutarlı olması gerekir. (Protokolün karşılık gelen zincirin kendisinden daha yüksek güvenlik elde edemeyeceğini, yani zincirin bilgi işlem güç saldırılarına karşı koyamayacağını vb."
+					"Bu protokol, birlikte çalışmanın güvenliğini, yani herhangi bir düğüm tarafından elde edilen verilerin, karşılık gelen zincirin tüm düğümleri tarafından elde edilen verilerle tutarlı olması gerekir."
 				]
 			},
 			{
@@ -338,7 +338,7 @@
 			"title": "Destek",
 			"list": [
 				{
-					"name": "Online Wallet",
+					"name": "Web Wallet",
 					"url": "https://webwallet.marcopay.org/"
 				},
 				{

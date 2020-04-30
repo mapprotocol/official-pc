@@ -187,7 +187,7 @@
 	"Info":{
 		"list": [
 			{
-				"name": "Concise",
+				"name": "Succinctness",
 				"remark": [
 					"Este protocolo não ocupará muitos recursos de rede e recursos de armazenamento"
 				]
@@ -195,7 +195,7 @@
 			{
 				"name": "Reliability",
 				"remark": [
-					"Esse protocolo garantirá a segurança da interoperação, ou seja, os dados obtidos por qualquer nó devem ser consistentes com os obtidos por todos os nós da cadeia correspondente. (Observe que o protocolo não pode obter maior segurança do que a própria cadeia correspondente, ou seja, não pode resistir aos ataques de poder de computação da cadeia, etc."
+					"Esse protocolo garantirá a segurança da interoperação, ou seja, os dados obtidos por qualquer nó devem ser consistentes com os obtidos por todos os nós da cadeia correspondente."
 				]
 			},
 			{
@@ -247,7 +247,7 @@
 		"title": "Roteiro",
 		"list": [
 			{
-				"time": "A Primeira Fase 2020.Q4",
+				"time": "A Primeira Fase 2019.Q3-2020.Q4",
 				"title": "Gravity:",
 				"introduce": [
 					"Desenvolvimento da cadeia padrão: inclui consenso em PoS da cadeia padrão, sistema Map-VM e SMART e governança na cadeia"
@@ -337,7 +337,7 @@
 			"title": "Apoio, suporte",
 			"list": [
 				{
-					"name": "Online Wallet",
+					"name": "Web Wallet",
 					"url": "https://webwallet.marcopay.org/"
 				},
 				{

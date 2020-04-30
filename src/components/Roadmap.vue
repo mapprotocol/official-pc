@@ -1,7 +1,7 @@
 <style scoped lang="less">
   .road-map {
     width: 100%;
-    min-height: 990px;
+   /* min-height: 990px;*/
   }
   .road-container {
     width: 1200px;

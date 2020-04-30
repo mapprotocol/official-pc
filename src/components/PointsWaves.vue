@@ -13,7 +13,7 @@
       display: block;
       width: 230px;
       height: 205px;
-      margin: 0 auto 46px auto;
+      margin: 110px auto 46px auto;
     }
     p {
       max-width:567px;

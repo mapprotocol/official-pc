@@ -55,6 +55,14 @@
       }
     }
   }
+  @media(min-width: 1200px) {
+    .init-btns {
+      a {
+        width: 268px;
+        margin-right: 134px;
+      }
+    }
+  }
   @media(max-width: 1200px) {
     .int-title {
       width: 83%;
