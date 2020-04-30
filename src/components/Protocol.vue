@@ -120,6 +120,15 @@
     }
   }
   @media(max-width: 480px) {
+    .pro-title {
+      width: 83%;
+      margin: 64px auto;
+    }
+    .pro-item {
+      li {
+        margin-bottom: 58px;
+      }
+    }
   }
 </style>
 <template>

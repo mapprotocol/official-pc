@@ -138,6 +138,20 @@
       }
     }
   }
+  @media(max-width: 480px) {
+    .road-title {
+      width: 83%;
+      padding: 66px 0 46px 0;
+    }
+    .road-ctx {
+      .road-row {
+        padding: 0 27px 0 32px;
+        ul {
+          padding-bottom: 20px;
+        }
+      }
+    }
+  }
 </style>
 <template>
   <div class="road-map" id="roadMapId">

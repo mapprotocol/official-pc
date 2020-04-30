@@ -75,23 +75,33 @@
     .next-down {
       width: 13px;
       height: 25px;
-      margin: 72px auto 58px auto;
+      margin: 88px auto 58px auto;
     }
     .int-title {
       width: 83%;
       font-size:18px;
       line-height:25px;
+      margin: 0 auto 40px auto;
     }
     .int-introduce {
       width: 83%;
-      margin: 0 auto 52px auto;
+      margin: 0 auto 70px auto;
     }
+    .init-btns a {
+      min-width: 163px;
+      max-width: 163px;
+      padding: 0 0;
+      font-size: 18px;
+      margin-right: 13px;
+    }
+    .introduce {
+      padding-bottom: 72px;
+    }
+  }
+  @media(max-width: 375px) {
     .init-btns a {
       min-width: 138px;
       max-width: 138px;
-      padding: 0 0;
-      font-size: 14px;
-      margin-right: 4px;
     }
   }
 </style>
@@ -111,4 +121,3 @@ export default {
   name: 'Introduce.vue'
 }
 </script>
-

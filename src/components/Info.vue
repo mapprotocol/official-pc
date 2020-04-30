@@ -56,6 +56,11 @@
       }
     }
   }
+  @media(max-width: 480px) {
+    .info-item {
+      padding-top: 78px;
+    }
+  }
 </style>
 <template>
   <div class="info" id="info">

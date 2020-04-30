@@ -89,6 +89,15 @@
       }
     }
   }
+  @media(max-width: 480px) {
+    .sub-title {
+      width: 83%;
+      padding-top: 70px;
+    }
+    .sub-item {
+      margin-top: 58px;
+    }
+  }
 </style>
 <template>
   <div class="sub-core" id="subCore">

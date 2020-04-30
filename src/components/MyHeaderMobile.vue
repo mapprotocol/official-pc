@@ -4,8 +4,8 @@
       <div class="logo"></div>
       <div class="menu-icon" @click.prevent.stop="setMenuShow"></div>
     </div>
-    <div v-if="menuShow">
-      <ul class='menu-list'>
+    <div v-if="menuShow" class="m-mobile-layout">
+      <ul class='menu-list animated fadeInDown'>
         <li v-for="(item,ins) in $t('header.navList')" :key="'menu_' + ins"><a href="javascript:void(0)" :class="{'nav_Active': activeNav === item.key}" @click.prevent.stop="changeNav(item, ins)"
         ><strong>{{item.name}}</strong></a></li>
         <li class="mLang-list">
@@ -84,6 +84,8 @@ export default {
 .my-header-mobile {
   width: 100%;
   background: #ffffff;
+  position: relative;
+  z-index: 40;
 }
 .mobile-header {
   display: flex;
@@ -91,7 +93,7 @@ export default {
   -webkit-justify-content: space-between;
   align-items: center;
   -webkit-align-items: center;
-  margin-top: 9px;
+  margin-top: 26px;
   .logo {
     display: block;
     width: 102px;
@@ -110,6 +112,10 @@ export default {
     background-size: 100% 100%;
     margin-right: 22px;
   }
+}
+.m-mobile-layout {
+  position: absolute;
+  background: #ffffff;
 }
 .menu-list {
   width: 100%;

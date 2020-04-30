@@ -91,6 +91,19 @@
       }
     }
   }
+  @media(max-width: 480px) {
+    .census-item {
+      padding-top: 69px;
+      li {
+        span.tex-info {
+          margin-bottom: 0;
+        }
+        &:last-child {
+          margin-bottom: 101px;
+        }
+      }
+    }
+  }
 </style>
 <template>
   <div class="census" id="censusId">

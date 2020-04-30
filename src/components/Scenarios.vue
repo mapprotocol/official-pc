@@ -166,6 +166,17 @@
       }
     }
   }
+  @media(max-width: 480px) {
+    .sce-title {
+      width: 83%;
+      padding: 66px 0 58px 0
+    }
+    .sce-item {
+      li:last-child {
+        margin: 0 12.5% 83px 12.5%
+      }
+    }
+  }
 </style>
 <template>
   <div class="scenarios" id="scenarios">

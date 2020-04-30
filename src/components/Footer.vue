@@ -178,13 +178,34 @@
     }
   }
   @media(max-width: 480px) {
+    .footer {
+      padding-top: 67px;
+    }
+    .ft-logo {
+      margin: 0 auto 66px auto;
+    }
     .ctx-left{
       .ft-social{
         span {
           display: block;
           margin-bottom: 20px;
         }
+        a {
+          width: 25px;
+          height: 25px;
+          &:last-child {
+            margin-right: 0;
+          }
+        }
       }
+    }
+    .ft-ctx {
+      .ctx-center, .ctx-right {
+        margin-top: 26px;
+      }
+    }
+    .ft-mobile-copyRight {
+      padding-top: 41px;
     }
   }
 </style>
