@@ -106,12 +106,12 @@
   }
 </style>
 <template>
-  <div class="census" id="censusId">
+  <div class="census" id="censusId"  v-animate-onscroll="{down: 'animated fadeInUp'}">
     <div class="census-container">
       <div class="bg"></div>
       <div class="census-layout">
         <ul class="census-item">
-          <li v-for="(item, ins) in $t('Census.infos')" :key="'census_' + ins">
+          <li v-for="(item, ins) in $t('Census.infos')" :key="'census_' + ins" :class="['animated fadeInUp', {'delay-1s': ins === 2, 'delay-2s': ins === 1}]">
             <span class="tex-info"> <countTo class="tex" :startVal='0' :endVal='item.count' :duration='3000'></countTo>+</span>
             <a href="javascript:void(0);">{{item.btnName}}</a>
           </li>

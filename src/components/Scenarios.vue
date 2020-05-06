@@ -100,7 +100,7 @@
       .privacy {
         width: 76px;
         height: 76px;
-        background-image: url("../assets/image/scenarios/governance.png");
+        background-image: url("../assets/image/scenarios/privacy.png");
         margin: 36px auto 27px auto;
       }
       .shared {
@@ -138,7 +138,7 @@
           background-image: url("../assets/image/scenarios/governance_h.png")
         }
         .privacy {
-          background-image: url("../assets/image/scenarios/governance_h.png")
+          background-image: url("../assets/image/scenarios/privacy_h.png")
         }
         .shared {
           background-image: url("../assets/image/scenarios/shared_h.png")
@@ -179,11 +179,16 @@
   }
 </style>
 <template>
-  <div class="scenarios" id="scenarios">
+  <div class="scenarios" id="scenarios"  v-animate-onscroll="{down: 'animated fadeInUp'}">
     <div class="sce-container">
       <p :class="['sce-title', 'animated fadeInUp']">{{$t('Scenarios.title')}}</p>
       <ul class="sce-item">
-        <li @mouseover="move(ins)" @mouseout="delMove(ins)" :id="'sce_itemLi' + ins" v-for="(item, ins) in $t('Scenarios.list')" :key="'pro_' + ins">
+        <li @mouseover="move(ins)" @mouseout="delMove(ins)" :id="'sce_itemLi' + ins" v-for="(item, ins) in $t('Scenarios.list')" :key="'pro_' + ins" :class="{
+          'animated fadeInLeft delay-2s': ins === 0 || ins === 4,
+          'animated fadeInUp  delay-2s': ins === 5 || ins === 6,
+          'animated fadeInDown  delay-2s': ins === 1 || ins === 2,
+          'animated fadeInRight delay-2s': ins === 3 || ins === 7,
+        }">
           <span :class="[item.icon, 'sce-common']"><i></i></span>
           <p class="sce_name">{{item.name}}</p>
         </li>
@@ -197,7 +202,7 @@ export default {
   name: 'Scenarios.vue',
   methods: {
     move (ins) {
-      document.querySelector('#sce_itemLi' + ins).setAttribute('class', 'animated bounce ')
+      document.querySelector('#sce_itemLi' + ins).setAttribute('class', 'animated pulse ')
     },
     delMove (ins) {
       document.querySelector('#sce_itemLi' + ins).setAttribute('class', '')

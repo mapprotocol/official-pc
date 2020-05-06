@@ -154,7 +154,7 @@
   }
 </style>
 <template>
-  <div class="road-map" id="roadMapId">
+  <div class="road-map" id="roadMapId"  v-animate-onscroll="{down: 'animated fadeInUp'}">
     <div class="road-container">
       <div :class="['road-title', 'animated fadeInUp']">{{$t('Roadmap.title')}}</div>
       <div class="road-ctx">

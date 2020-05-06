@@ -132,11 +132,11 @@
   }
 </style>
 <template>
-  <div class="protocol" id="whyId">
+  <div class="protocol" id="whyId"  v-animate-onscroll="{down: 'animated fadeInUp'}">
     <div class="pro-container">
       <p :class="['pro-title', 'animated fadeInUp']">{{$t('Protocol.title')}}</p>
       <ul class="pro-item">
-        <li :class="'animated fadeInUp delay-'+ins+'s'" v-for="(item, ins) in $t('Protocol.list')" :key="'pro_' + ins">
+        <li :class="'animated fadeInUp delay-'+(ins + 1)+'s'" v-for="(item, ins) in $t('Protocol.list')" :key="'pro_' + ins">
           <span :class="[item.icon, 'core-common']"><i></i></span>
           <p class="pro_name">{{item.title}}</p>
           <p class="pro_info" v-for="(sonItem, sonIns) in item.info" :key="'pro_son_' + sonIns">{{sonItem}}</p>

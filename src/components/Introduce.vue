@@ -106,9 +106,9 @@
   }
 </style>
 <template>
-  <div class="introduce" id="introduceId">
+  <div class="introduce" id="introduceId" v-animate-onscroll="{down: 'animated slideInUp'}">
     <div class="next-down"></div>
-    <div :class="['int-title', 'animated fadeInUp']">{{$t('Introduce.title')}}</div>
+    <div :class="['int-title']">{{$t('Introduce.title')}}</div>
     <div class="int-introduce">{{$t('Introduce.introduce')}}</div>
     <div class="init-btns" id="whiteId">
       <a :href="item.url" target="_blank" v-for="(item, ins) in $t('Introduce.BtnLink')" :key="'btn_' + ins">{{item.name}}</a>

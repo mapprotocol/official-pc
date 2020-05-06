@@ -4,6 +4,7 @@ import router from './router'
 import i18n from '@/locale/index'
 import store from './store'
 import VueMeta from 'vue-meta'
+import VueAnimateOnScroll from 'vue-animate-onscroll'
 import * as THREE from 'three'
 import * as ThreeStats from 'three-stats'
 import * as OrbitControls from 'three-orbitcontrols'
@@ -18,6 +19,7 @@ Vue.use(VueMeta, {
   refreshOnceOnNavigation: true
 })
 Vue.use(animate);
+Vue.use(VueAnimateOnScroll)
 new Vue({
   i18n,
   store,
