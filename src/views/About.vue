@@ -1,13 +1,13 @@
 <template>
   <div id='download'>
     <div class='area'>
+      <div class="down-bg"></div>
       <div class='inter'>
         <div class='logo'></div>
         <h2>{{$t('PointsWaves.title')}}</h2>
         <p>{{$t('PointsWaves.subTitle')}}</p>
         <img src="../assets/image/down/erCode.png" />
       </div>
-      <div class="down-bg"></div>
       <div v-if="isAndroid">
         <a
           class='btn'
@@ -94,12 +94,14 @@ export default {
         margin-bottom: 83px;
         position: relative;
         z-index: 1000;
+        min-height: 872px;
         .logo {
           width: 230px;
           height: 205px;
           background-size: 100% 100%;
           background-image: url('../assets/image/down/logo.png');
           margin-bottom: 46px;
+          margin-top: 46px;
         }
         h2 {
           font-size:60px;
@@ -108,6 +110,7 @@ export default {
           color:rgba(0,0,0,1);
           line-height:72px;
           margin-bottom: 21px;
+          text-align: center;
         }
         p {
           font-size:20px;
@@ -116,11 +119,14 @@ export default {
           color:rgba(0,0,0,1);
           line-height:28px;
           margin-bottom: 59px;
+          text-align: center;
         }
         img {
           margin: 0 auto;
           width: 264px;
           height: 264px;
+          display: block;
+          border: 4px solid #000000;
         }
       }
       .down-bg {
@@ -162,6 +168,11 @@ export default {
           font-size:14px;
           line-height:20px;
           margin-top: 13px;
+    }
+  }
+  @media(max-width: 320px) {
+    #download .area .inter .logo {
+      margin-top: 164px;
     }
   }
 </style>

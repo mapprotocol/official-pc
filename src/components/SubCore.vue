@@ -100,13 +100,17 @@
   }
 </style>
 <template>
-  <div class="sub-core" id="subCore" v-animate-onscroll="{down: 'animated fadeInUp'}">
+  <div class="sub-core" id="subCore"  v-animate-onscroll.repeat="{down: 'animated fadeInUp'}">
     <div class="sub-container">
       <div class="bg"></div>
       <div class="sub-layout">
         <p :class="['sub-title', 'animated fadeInUp delay-1s']">{{$t('SubCore.title')}}</p>
         <ul class="sub-item">
-          <li v-for="(item, ins) in $t('SubCore.list')" :key="'sub_' + ins" :class="'animated fadeInUp delay-'+(ins+2)+'s'">
+          <li v-for="(item, ins) in $t('SubCore.list')" :key="'sub_' + ins" :class="{
+              'animated fadeInLeft delay-2s': ins === 0,
+              'animated fadeInDown delay-3s': ins === 1,
+              'animated fadeInRight delay-2s': ins === 2
+          }">
             <span></span>
             <p v-for="(sonItem, sonIns) in item.desc" :key="'sub_son_' + sonIns">{{sonItem}}</p>
           </li>

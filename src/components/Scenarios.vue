@@ -179,7 +179,7 @@
   }
 </style>
 <template>
-  <div class="scenarios" id="scenarios"  v-animate-onscroll="{down: 'animated fadeInUp'}">
+  <div class="scenarios" id="scenarios"  v-animate-onscroll.repeat="{down: 'animated fadeInUp'}">
     <div class="sce-container">
       <p :class="['sce-title', 'animated fadeInUp']">{{$t('Scenarios.title')}}</p>
       <ul class="sce-item">

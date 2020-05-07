@@ -63,7 +63,7 @@
   }
 </style>
 <template>
-  <div class="info" id="info"  v-animate-onscroll="{down: 'animated fadeInUp'}">
+  <div class="info" id="info"  v-animate-onscroll.repeat="{down: 'animated fadeInUp'}">
     <div class="info-container">
       <ul class="info-item">
         <li v-for="(item, ins) in $t('Info.list')" :key="'pro_' + ins" :class="'animated fadeInUp delay-' +(ins)+ 's'">

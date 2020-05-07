@@ -106,7 +106,7 @@
   }
 </style>
 <template>
-  <div class="census" id="censusId"  v-animate-onscroll="{down: 'animated fadeInUp'}">
+  <div class="census" id="censusId"  v-animate-onscroll.repeat="{down: 'animated fadeInUp'}">
     <div class="census-container">
       <div class="bg"></div>
       <div class="census-layout">
