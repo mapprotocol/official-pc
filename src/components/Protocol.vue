@@ -134,15 +134,15 @@
 <template>
   <div class="protocol" id="whyId"  v-animate-onscroll.repeat="{down: 'animated fadeInUp'}">
     <div class="pro-container">
-      <p :class="['pro-title', 'animated fadeInUp']">{{$t('Protocol.title')}}</p>
+      <p :class="['pro-title', {'animated fadeInUp': flag}]">{{$t('Protocol.title')}}</p>
       <ul class="pro-item">
         <li v-for="(item, ins) in $t('Protocol.list')" :key="'pro_' + ins"
           :class="{
-            'animated fadeInLeft delay-2s': ins === 0,
-            'animated fadeInUp delay-3s': ins === 1,
-            'animated fadeInRight delay-2s': ins === 2,
-            'animated fadeInLeft delay-4s': ins === 3,
-            'animated fadeInRight delay-4s': ins === 4
+            'animated fadeInLeft delay-2s': ins === 0 && flag,
+            'animated fadeInUp delay-3s': ins === 1 && flag,
+            'animated fadeInRight delay-2s': ins === 2 && flag,
+            'animated fadeInLeft delay-4s': ins === 3 && flag,
+            'animated fadeInRight delay-4s': ins === 4 && flag
           }">
           <span :class="[item.icon, 'core-common']"><i></i></span>
           <p class="pro_name">{{item.title}}</p>
@@ -155,6 +155,27 @@
 
 <script>
 export default {
-  name: 'Protocol.vue'
+  name: 'Protocol.vue',
+  data () {
+    return {
+      flag: true,
+      interTimer: null
+    }
+  },
+  mounted () {
+    let that = this;
+    this.interTimer = setInterval(function () {
+      let subCoreDom = document.querySelector('#whyId')
+      if (subCoreDom) {
+        let classStr = subCoreDom.classList.toString() || ''
+        that.flag = classStr.includes('animated')
+      }
+    }, 500)
+  },
+  destroyed () {
+    if (this.interTimer) {
+      window.clearInterval(this.interTimer)
+    }
+  }
 }
 </script>

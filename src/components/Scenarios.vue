@@ -181,13 +181,13 @@
 <template>
   <div class="scenarios" id="scenarios"  v-animate-onscroll.repeat="{down: 'animated fadeInUp'}">
     <div class="sce-container">
-      <p :class="['sce-title', 'animated fadeInUp']">{{$t('Scenarios.title')}}</p>
+      <p :class="['sce-title', {'animated fadeInUp': flag}]">{{$t('Scenarios.title')}}</p>
       <ul class="sce-item">
         <li @mouseover="move(ins)" @mouseout="delMove(ins)" :id="'sce_itemLi' + ins" v-for="(item, ins) in $t('Scenarios.list')" :key="'pro_' + ins" :class="{
-          'animated fadeInLeft delay-2s': ins === 0 || ins === 4,
-          'animated fadeInUp  delay-2s': ins === 5 || ins === 6,
-          'animated fadeInDown  delay-2s': ins === 1 || ins === 2,
-          'animated fadeInRight delay-2s': ins === 3 || ins === 7,
+          'animated fadeInLeft delay-2s': (ins === 0 || ins === 4) && flag,
+          'animated fadeInUp  delay-2s': (ins === 5 || ins === 6) && flag,
+          'animated fadeInDown  delay-2s': (ins === 1 || ins === 2) && flag,
+          'animated fadeInRight delay-2s': (ins === 3 || ins === 7) && flag,
         }">
           <span :class="[item.icon, 'sce-common']"><i></i></span>
           <p class="sce_name">{{item.name}}</p>
@@ -206,6 +206,27 @@ export default {
     },
     delMove (ins) {
       document.querySelector('#sce_itemLi' + ins).setAttribute('class', '')
+    }
+  },
+  data () {
+    return {
+      flag: true,
+      interTimer: null
+    }
+  },
+  mounted () {
+    let that = this;
+    this.interTimer = setInterval(function () {
+      let subCoreDom = document.querySelector('#scenarios')
+      if (subCoreDom) {
+        let classStr = subCoreDom.classList.toString() || ''
+        that.flag = classStr.includes('animated')
+      }
+    }, 500)
+  },
+  destroyed () {
+    if (this.interTimer) {
+      window.clearInterval(this.interTimer)
     }
   }
 }

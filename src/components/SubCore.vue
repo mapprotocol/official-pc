@@ -100,16 +100,16 @@
   }
 </style>
 <template>
-  <div class="sub-core" id="subCore"  v-animate-onscroll.repeat="{down: 'animated fadeInUp'}">
+  <div class="sub-core asv" id="subCore"  v-animate-onscroll.repeat="{down: 'animated fadeInUp'}">
     <div class="sub-container">
       <div class="bg"></div>
       <div class="sub-layout">
-        <p :class="['sub-title', 'animated fadeInUp delay-1s']">{{$t('SubCore.title')}}</p>
+        <p :class="['sub-title', {'animated fadeInUp delay-1s': flag }]">{{$t('SubCore.title')}}</p>
         <ul class="sub-item">
           <li v-for="(item, ins) in $t('SubCore.list')" :key="'sub_' + ins" :class="{
-              'animated fadeInLeft delay-2s': ins === 0,
-              'animated fadeInDown delay-3s': ins === 1,
-              'animated fadeInRight delay-2s': ins === 2
+              'animated fadeInLeft delay-2s': ins === 0 && flag,
+              'animated fadeInDown delay-3s': ins === 1 && flag,
+              'animated fadeInRight delay-2s': ins === 2 && flag
           }">
             <span></span>
             <p v-for="(sonItem, sonIns) in item.desc" :key="'sub_son_' + sonIns">{{sonItem}}</p>
@@ -122,6 +122,28 @@
 
 <script>
 export default {
-  name: 'SubCore.vue'
+  name: 'SubCore.vue',
+  data () {
+    return {
+      flag: true,
+      interTimer: null
+    }
+  },
+  methods: {},
+  mounted () {
+    let that = this;
+    this.interTimer = setInterval(function () {
+      let subCoreDom = document.querySelector('#subCore')
+      if (subCoreDom) {
+        let classStr = subCoreDom.classList.toString() || ''
+        that.flag = classStr.includes('animated')
+      }
+    }, 500)
+  },
+  destroyed () {
+    if (this.interTimer) {
+      window.clearInterval(this.interTimer)
+    }
+  }
 }
 </script>

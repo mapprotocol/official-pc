@@ -156,9 +156,9 @@
 <template>
   <div class="road-map" id="roadMapId"  v-animate-onscroll.repeat="{down: 'animated fadeInUp'}">
     <div class="road-container">
-      <div :class="['road-title', 'animated fadeInUp']">{{$t('Roadmap.title')}}</div>
+      <div :class="['road-title', {'animated fadeInUp': flag}]">{{$t('Roadmap.title')}}</div>
       <div class="road-ctx">
-        <div :class="['road-row', {'animated fadeInRight': ins % 2 === 0, 'animated fadeInLeft': ins % 2 !== 0}, 'delay-'+ins+'s']" v-for="(item, ins) in $t('Roadmap.list')" :key="'road_' + ins">
+        <div :class="['road-row', {'animated fadeInRight': ins % 2 === 0 && flag, 'animated fadeInLeft': ins % 2 !== 0 && flag }, 'delay-'+ins+'s']" v-for="(item, ins) in $t('Roadmap.list')" :key="'road_' + ins">
           <div class="item-title">{{item.time}}</div>
           <div class="item-subTitle">{{item.title}}</div>
           <ul>
@@ -172,7 +172,28 @@
 
 <script>
 export default {
-  name: 'RoadMap.vue'
+  name: 'RoadMap.vue',
+  data () {
+    return {
+      flag: true,
+      interTimer: null
+    }
+  },
+  methods: {},
+  mounted () {
+    let that = this;
+    this.interTimer = setInterval(function () {
+      let subCoreDom = document.querySelector('#roadMapId')
+      if (subCoreDom) {
+        let classStr = subCoreDom.classList.toString() || ''
+        that.flag = classStr.includes('animated')
+      }
+    }, 500)
+  },
+  destroyed () {
+    if (this.interTimer) {
+      window.clearInterval(this.interTimer)
+    }
+  }
 }
 </script>
-

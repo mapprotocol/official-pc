@@ -108,8 +108,8 @@
 <template>
   <div class="introduce" id="introduceId" v-animate-onscroll.repeat="{down: 'animated slideInUp'}">
     <div class="next-down"></div>
-    <div :class="['int-title']">{{$t('Introduce.title')}}</div>
-    <div class="int-introduce">{{$t('Introduce.introduce')}}</div>
+    <div :class="['int-title', {'animated zoomIn': flag}]">{{$t('Introduce.title')}}</div>
+    <div :class="['int-introduce', {'animated rotateIn delay-1s': flag}]">{{$t('Introduce.introduce')}}</div>
     <div class="init-btns" id="whiteId">
       <a :href="item.url" target="_blank" v-for="(item, ins) in $t('Introduce.BtnLink')" :key="'btn_' + ins">{{item.name}}</a>
     </div>
@@ -118,6 +118,27 @@
 
 <script>
 export default {
-  name: 'Introduce.vue'
+  name: 'Introduce.vue',
+  data () {
+    return {
+      flag: true,
+      interTimer: null
+    }
+  },
+  mounted () {
+    let that = this;
+    this.interTimer = setInterval(function () {
+      let subCoreDom = document.querySelector('#introduceId')
+      if (subCoreDom) {
+        let classStr = subCoreDom.classList.toString() || ''
+        that.flag = classStr.includes('animated')
+      }
+    }, 500)
+  },
+  destroyed () {
+    if (this.interTimer) {
+      window.clearInterval(this.interTimer)
+    }
+  }
 }
 </script>

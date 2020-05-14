@@ -66,7 +66,7 @@
   <div class="info" id="info"  v-animate-onscroll.repeat="{down: 'animated fadeInUp'}">
     <div class="info-container">
       <ul class="info-item">
-        <li v-for="(item, ins) in $t('Info.list')" :key="'pro_' + ins" :class="'animated fadeInUp delay-' +(ins)+ 's'">
+        <li v-for="(item, ins) in $t('Info.list')" :key="'pro_' + ins" :class="['delay-' +(ins)+ 's', {'animated fadeInUp' : flag}]">
           <span class="info-name">{{item.name}}</span>
           <p class="info-remark" v-for="(sonItem, sonIns) in item.remark" :key="'pro_son_' + sonIns">{{sonItem}}</p>
         </li>
@@ -77,6 +77,27 @@
 
 <script>
 export default {
-  name: 'Info.vue'
+  name: 'Info.vue',
+  data () {
+    return {
+      flag: true,
+      interTimer: null
+    }
+  },
+  mounted () {
+    let that = this;
+    this.interTimer = setInterval(function () {
+      let subCoreDom = document.querySelector('#info')
+      if (subCoreDom) {
+        let classStr = subCoreDom.classList.toString() || ''
+        that.flag = classStr.includes('animated')
+      }
+    }, 500)
+  },
+  destroyed () {
+    if (this.interTimer) {
+      window.clearInterval(this.interTimer)
+    }
+  }
 }
 </script>
