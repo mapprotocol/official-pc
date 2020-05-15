@@ -93,7 +93,7 @@
 	},
 	"Introduce": {
 		"title": "First Protocol that Provides the Infrastructure for Direct Interoperate in the Heterogeneous Blockchain Ecosystem",
-		"introduce": "MarcoPolo Protocol is an open, fully decentralized, chain-to-chain interoperation protocol that enables the interoperability of multiple independently verifiable consensus blockchains without a relay chain. MarcoPolo Protocol expects to construct a future inter-chain-net, which is interoperable and chain-to-chain based. The ecosystem built on MarcoPolo Protocol can provide a solid infrastructure for finance, AI, IoT, traceability, and governance filed by cross-chain communication, privacy computation, shared storage, etc...",
+		"introduce": "MarcoPolo Protocol is an open, fully decentralized, chain-to-chain interoperation protocol that enables the interoperability of multiple independently verifiable consensus blockchains without a relay chain. MarcoPolo Protocol expects to construct a future inter-chain-net, which is interoperable and chain-to-chain based. The ecosystem built on MarcoPolo Protocol can provide a solid infrastructure for finance, AI, IoT, traceability, and governance filed by cross-chain communication, privacy computation, shared storage, etc",
 		"BtnLink": [
 			{
 				"name": "Whitepaper",
@@ -132,35 +132,35 @@
 				"icon": "core1",
 				"title": "Ultra-light Cross-chain Verification Algorithm",
 				"info": [
-					"Provides the ability of one chain to validate the state of another chain under low bandwidth and low storage."
+					"Provides the ability of one chain to validate the state of another chain under low bandwidth and low storage"
 				]
 			},
 			{
 				"icon": "core2",
 				"title": "High-efficiency Block Transport Channel",
 				"info": [
-					"A block transportation channel based on IBLT which can compress the block size when relaying blocks."
+					"A block transportation channel based on IBLT which can compress the block size when relaying blocks"
 				]
 			},
 			{
 				"icon": "core3",
 				"title": "MarcoPolo Application Tool Environment",
 				"info": [
-					"A toolkit built on Sustainable MAP RunTime which can help developers to construct their own interoperable blockchains."
+					"A toolkit built on Sustainable MAP RunTime which can help developers to construct their own interoperable blockchains"
 				]
 			},
 			{
 				"icon": "core4",
 				"title": "Composable Smart Contract Rule",
 				"info": [
-					"A rule for multiple composable trigger condition smart contracts."
+					"A rule for multiple composable trigger condition smart contracts"
 				]
 			},
 			{
 				"icon": "core5",
 				"title": "Standardized P2P Stack",
 				"info": [
-					"A protocol under which the peer under different blockchain systems can discover and communicate with each other."
+					"A protocol under which the peer under different blockchain systems can discover and communicate with each other"
 				]
 			}
 		]

@@ -93,7 +93,7 @@
 	},
 	"Introduce": {
 		"title": "Primeiro protocolo que fornece a infraestrutura para interoperação direta no ecossistema heterogêneo de Blockchain",
-		"introduce": "O Protocolo MarcoPolo é um protocolo de interoperação aberto, totalmente descentralizado, cadeia a cadeia, que permite a interoperabilidade de várias cadeias de blocos de consenso verificáveis  independentemente sem uma cadeia de retransmissão. O Protocolo MarcoPolo espera construir uma futura rede inter-cadeia, que seja interoperável e baseada em cadeia a cadeia. O ecossistema construído no Protocolo MarcoPolo pode fornecer uma infraestrutura sólida para finanças, IA, IoT, rastreabilidade e governança arquivada por comunicação entre cadeias, computação de privacidade, armazenamento compartilhado, etc.",
+		"introduce": "O Protocolo MarcoPolo é um protocolo de interoperação aberto, totalmente descentralizado, cadeia a cadeia, que permite a interoperabilidade de várias cadeias de blocos de consenso verificáveis  independentemente sem uma cadeia de retransmissão. O Protocolo MarcoPolo espera construir uma futura rede inter-cadeia, que seja interoperável e baseada em cadeia a cadeia. O ecossistema construído no Protocolo MarcoPolo pode fornecer uma infraestrutura sólida para finanças, IA, IoT, rastreabilidade e governança arquivada por comunicação entre cadeias, computação de privacidade, armazenamento compartilhado, etc",
 		"BtnLink": [
 			{
 				"name": "Whitepaper",
@@ -132,35 +132,35 @@
 				"icon": "core1",
 				"title": "Algoritmo de verificação de cadeia cruzada super leve",
 				"info": [
-					"Fornece a capacidade de uma cadeia de validar o estado de outra cadeia com baixa largura de banda e baixo armazenamento."
+					"Fornece a capacidade de uma cadeia de validar o estado de outra cadeia com baixa largura de banda e baixo armazenamento"
 				]
 			},
 			{
 				"icon": "core2",
 				"title": "Canal de Transporte em Bloco de alta eficiência",
 				"info": [
-					"Um canal de transporte de bloco baseado no IBLT que pode comprimir o tamanho do bloco ao retransmitir blocos."
+					"Um canal de transporte de bloco baseado no IBLT que pode comprimir o tamanho do bloco ao retransmitir blocos"
 				]
 			},
 			{
 				"icon": "core3",
 				"title": "Ambiente da ferramenta de aplicação MarcoPolo",
 				"info": [
-					"Um kit de ferramentas criado no Sustainable MAP RunTime que pode ajudar os desenvolvedores a construir suas próprias cadeias interoperáveis."
+					"Um kit de ferramentas criado no Sustainable MAP RunTime que pode ajudar os desenvolvedores a construir suas próprias cadeias interoperáveis"
 				]
 			},
 			{
 				"icon": "core4",
 				"title": "Regra de contrato inteligente compostável",
 				"info": [
-					"Uma regra para vários contratos inteligentes de condições acionáveis composíveis."
+					"Uma regra para vários contratos inteligentes de condições acionáveis composíveis"
 				]
 			},
 			{
 				"icon": "core5",
 				"title": "Pilha P2P padronizada",
 				"info": [
-					"Um protocolo sob o qual o par em diferentes sistemas blockchain pode descobrir e se comunicar."
+					"Um protocolo sob o qual o par em diferentes sistemas blockchain pode descobrir e se comunicar"
 				]
 			}
 		]

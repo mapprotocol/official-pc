@@ -93,7 +93,7 @@
 	},
 	"Introduce": {
 		"title": "Protokol pertama yang menyediakan infrastruktur untuk interoperate langsung dalam ekosistem blockchain yang heterogen",
-		"introduce": "MarcoPolo Protocol adalah protokol interoperasi rantai-ke-rantai yang terbuka, sepenuhnya terdesentralisasi, yang memungkinkan interoperabilitas beberapa blokir konsensus yang dapat diverifikasi secara independen tanpa rantai relai. MarcoPolo Protocol mengharapkan untuk membangun jaringan antar-jaringan di masa depan, yang interoperable dan berbasis rantai-ke-rantai. Ekosistem yang dibangun di atas MarcoPolo Protocol dapat menyediakan infrastruktur yang kokoh untuk keuangan, AI, IoT, ketertelusuran, dan tata kelola yang diajukan oleh komunikasi lintas rantai, penghitungan privasi, penyimpanan bersama, dll ...",
+		"introduce": "MarcoPolo Protocol adalah protokol interoperasi rantai-ke-rantai yang terbuka, sepenuhnya terdesentralisasi, yang memungkinkan interoperabilitas beberapa blokir konsensus yang dapat diverifikasi secara independen tanpa rantai relai. MarcoPolo Protocol mengharapkan untuk membangun jaringan antar-jaringan di masa depan, yang interoperable dan berbasis rantai-ke-rantai. Ekosistem yang dibangun di atas MarcoPolo Protocol dapat menyediakan infrastruktur yang kokoh untuk keuangan, AI, IoT, ketertelusuran, dan tata kelola yang diajukan oleh komunikasi lintas rantai, penghitungan privasi, penyimpanan bersama, dll",
 		"BtnLink": [
 			{
 				"name": "Whitepaper",
@@ -132,35 +132,35 @@
 				"icon": "core1",
 				"title": "Algoritma Verifikasi Silang Super Ringan",
 				"info": [
-					"Memberikan kemampuan satu rantai untuk memvalidasi keadaan rantai lainnya di bawah bandwidth rendah dan penyimpanan rendah."
+					"Memberikan kemampuan satu rantai untuk memvalidasi keadaan rantai lainnya di bawah bandwidth rendah dan penyimpanan rendah"
 				]
 			},
 			{
 				"icon": "core2",
 				"title": "Saluran Transportasi Blok efisiensi tinggi",
 				"info": [
-					"Saluran transportasi blok berdasarkan IBLT yang dapat mengompres ukuran blok saat merelayasi blok."
+					"Saluran transportasi blok berdasarkan IBLT yang dapat mengompres ukuran blok saat merelayasi blok"
 				]
 			},
 			{
 				"icon": "core3",
 				"title": "Lingkungan Alat Aplikasi MarcoPolo",
 				"info": [
-					"Toolkit yang dibangun di atas Sustainable MAP RunTime yang dapat membantu pengembang untuk membangun blockchain sendiri yang dapat dioperasikan."
+					"Toolkit yang dibangun di atas Sustainable MAP RunTime yang dapat membantu pengembang untuk membangun blockchain sendiri yang dapat dioperasikan"
 				]
 			},
 			{
 				"icon": "core4",
 				"title": "Peraturan Kontrak Cerdas yang Kompos",
 				"info": [
-					"Aturan untuk beberapa kontrak cerdas yang dapat memicu kondisi pemicu."
+					"Aturan untuk beberapa kontrak cerdas yang dapat memicu kondisi pemicu"
 				]
 			},
 			{
 				"icon": "core5",
 				"title": "Penemuan Peer Standar dan Protokol komunikasi P2P",
 				"info": [
-					"Protokol di mana rekan di bawah sistem blockchain yang berbeda dapat menemukan dan berkomunikasi satu sama lain."
+					"Protokol di mana rekan di bawah sistem blockchain yang berbeda dapat menemukan dan berkomunikasi satu sama lain"
 				]
 			}
 		]

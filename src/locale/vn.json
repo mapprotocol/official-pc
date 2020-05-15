@@ -93,7 +93,7 @@
 	},
 	"Introduce": {
 		"title": "Giao thức đầu tiên cung cấp cơ sở hạ tầng để tương tác trực tiếp trong hệ sinh thái blockchain không đồng nhất",
-		"introduce": "MarcoPolo Protocol là một giao thức chéo mở, hoàn toàn phân tán, chuỗi-sang-chuỗi thứ cho phép sẽ tương tác của nhiều cơ chế đồng thuận blockchain độc lập có thể xác minh. Mà không chồng chéo chuỗi. MarcoPolo Protocol mong đợi xây dựng một mạng lưới trong chuỗi, thứ dựa trên sự tương tác chuỗi-sang-chuỗi. Hệ sinh thái xây dựng trên MarcoPolo Protocol có thể cung cấp một hạ tầng vững chắc cho tài chính, AI, IoT, truy xuất, và quản trị bởi tương tác chuỗi chéo, tín toán riêng tư, chia sẻ dữ liệu, vv.",
+		"introduce": "MarcoPolo Protocol là một giao thức chéo mở, hoàn toàn phân tán, chuỗi-sang-chuỗi thứ cho phép sẽ tương tác của nhiều cơ chế đồng thuận blockchain độc lập có thể xác minh. Mà không chồng chéo chuỗi. MarcoPolo Protocol mong đợi xây dựng một mạng lưới trong chuỗi, thứ dựa trên sự tương tác chuỗi-sang-chuỗi. Hệ sinh thái xây dựng trên MarcoPolo Protocol có thể cung cấp một hạ tầng vững chắc cho tài chính, AI, IoT, truy xuất, và quản trị bởi tương tác chuỗi chéo, tín toán riêng tư, chia sẻ dữ liệu, vv",
 		"BtnLink": [
 			{
 				"name": "Sách trắng",
@@ -132,7 +132,7 @@
 				"icon": "core1",
 				"title": "Thuật toán xác minh liên chuỗi rất nhẹ",
 				"info": [
-					"Cung cấp khả năng của một chuỗi để xác minh trạng thái của chuỗi khác với băng thông hẹp và lưu trữ thấp."
+					"Cung cấp khả năng của một chuỗi để xác minh trạng thái của chuỗi khác với băng thông hẹp và lưu trữ thấp"
 				]
 			},
 			{
@@ -153,14 +153,14 @@
 				"icon": "core4",
 				"title": "Có thể soạn hợp đồng thông minh",
 				"info": [
-					"Một quy tắc cho các hợp đồng thông minh tự kích hoạt theo điều kiện."
+					"Một quy tắc cho các hợp đồng thông minh tự kích hoạt theo điều kiện"
 				]
 			},
 			{
 				"icon": "core5",
 				"title": "Ngăn xếp tiêu chuẩn ngang hàng",
 				"info": [
-					"Một giao thức theo sát các hệ thống blockchains khác có thể phát hiện và liên lạc với nhau."
+					"Một giao thức theo sát các hệ thống blockchains khác có thể phát hiện và liên lạc với nhau"
 				]
 			}
 		]
@@ -277,7 +277,7 @@
 				"title": "Grand Unification:",
 				"introduce": [
 					"Hỗ trợ chuỗi chéo lightweight với các chuỗi công cộng khác",
-					"Nhận ra khả năng tương tác chuỗi chéo với BTC, ETH v.v.",
+					"Nhận ra khả năng tương tác chuỗi chéo với BTC, ETH v.v",
 					"Cung cấp các tính năng chuỗi chéo với các chuỗi DPoS khác"
 				]
 			}

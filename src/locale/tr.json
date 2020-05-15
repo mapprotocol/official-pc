@@ -93,7 +93,7 @@
 	},
 	"Introduce": {
 		"title": "Heterojen blok zincir ekosisteminde doğrudan birlikte çalışma için altyapı sağlayan ilk protokol",
-		"introduce": "MarcoPolo Protokolü, bir röle zinciri olmadan bağımsız olarak doğrulanabilir çoklu konsensüs blok zincirlerinin birlikte çalışabilirliğini sağlayan açık, tamamen merkezi olmayan, zincirden zincire birlikte çalışma protokolüdür. MarcoPolo Protokolü, birlikte çalışabilir ve zincirler arası temelli bir gelecek zincirler arası ağ oluşturmayı beklemektedir. MarcoPolo Protokolü üzerine kurulan ekosistem, zincirler arası iletişim, gizlilik hesaplama, paylaşılan depolama alanı vb. Tarafından finanse edilen finans, AI, IoT, izlenebilirlik ve yönetişim için sağlam bir altyapı sağlayabilir.",
+		"introduce": "MarcoPolo Protokolü, bir röle zinciri olmadan bağımsız olarak doğrulanabilir çoklu konsensüs blok zincirlerinin birlikte çalışabilirliğini sağlayan açık, tamamen merkezi olmayan, zincirden zincire birlikte çalışma protokolüdür. MarcoPolo Protokolü, birlikte çalışabilir ve zincirler arası temelli bir gelecek zincirler arası ağ oluşturmayı beklemektedir. MarcoPolo Protokolü üzerine kurulan ekosistem, zincirler arası iletişim, gizlilik hesaplama, paylaşılan depolama alanı vb. Tarafından finanse edilen finans, AI, IoT, izlenebilirlik ve yönetişim için sağlam bir altyapı sağlayabilir",
 		"BtnLink": [
 			{
 				"name": "Whitepaper",
@@ -132,35 +132,35 @@
 				"icon": "core1",
 				"title": "Süper Hafif Çapraz Zincir Doğrulama Algoritması",
 				"info": [
-					"Bir zincirin düşük bant genişliği ve düşük depolama altında başka bir zincirin durumunu doğrulama yeteneği sağlar."
+					"Bir zincirin düşük bant genişliği ve düşük depolama altında başka bir zincirin durumunu doğrulama yeteneği sağlar"
 				]
 			},
 			{
 				"icon": "core2",
 				"title": "Yüksek Verimli Blok Taşıma Kanalı",
 				"info": [
-					"Blokları geçirirken blok boyutunu sıkıştırabilen IBLT'ye dayalı bir blok taşıma kanalı."
+					"Blokları geçirirken blok boyutunu sıkıştırabilen IBLT'ye dayalı bir blok taşıma kanalı"
 				]
 			},
 			{
 				"icon": "core3",
 				"title": "MarcoPolo Uygulama Aracı Ortamı",
 				"info": [
-					"Sürdürülebilir MAP RunTime üzerine kurulmuş, geliştiricilerin kendi birlikte çalışabilir blok zincirlerini oluşturmalarına yardımcı olabilecek bir araç seti."
+					"Sürdürülebilir MAP RunTime üzerine kurulmuş, geliştiricilerin kendi birlikte çalışabilir blok zincirlerini oluşturmalarına yardımcı olabilecek bir araç seti"
 				]
 			},
 			{
 				"icon": "core4",
 				"title": "Bileşilebilir Akıllı Sözleşme Kuralı",
 				"info": [
-					"Birden fazla birleştirilebilir tetikleyici koşulu akıllı sözleşmeleri için bir kural."
+					"Birden fazla birleştirilebilir tetikleyici koşulu akıllı sözleşmeleri için bir kural"
 				]
 			},
 			{
 				"icon": "core5",
 				"title": "Standartlaştırılmış Eş Bulma ve İletişim P2P Protokolü",
 				"info": [
-					"Farklı blockchain sistemleri altındaki eşin birbirini keşfedebileceği ve iletişim kurabileceği bir protokol."
+					"Farklı blockchain sistemleri altındaki eşin birbirini keşfedebileceği ve iletişim kurabileceği bir protokol"
 				]
 			}
 		]
