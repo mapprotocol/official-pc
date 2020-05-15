@@ -195,13 +195,13 @@
 			{
 				"name": "Reliability",
 				"remark": [
-					"Esse protocolo garantirá a segurança da interoperação, ou seja, os dados obtidos por qualquer nó devem ser consistentes com os obtidos por todos os nós da cadeia correspondente."
+					"Esse protocolo garantirá a segurança da interoperação, ou seja, os dados obtidos por qualquer nó devem ser consistentes com os obtidos por todos os nós da cadeia correspondente"
 				]
 			},
 			{
 				"name": "Universality",
 				"remark": [
-					"Este protocolo regula apenas módulos interoperáveis e não adiciona outros requisitos, restrições ou restrições ao blockchain ecológico."
+					"Este protocolo regula apenas módulos interoperáveis e não adiciona outros requisitos, restrições ou restrições ao blockchain ecológico"
 				]
 			}
 		]

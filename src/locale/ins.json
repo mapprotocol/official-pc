@@ -195,13 +195,13 @@
 			{
 				"name": "Keunggulan",
 				"remark": [
-					"Protokol ini akan memastikan keamanan interoperasi, yaitu, data yang diperoleh setiap node harus konsisten dengan yang diperoleh semua node dari deretan yang sesuai."
+					"Protokol ini akan memastikan keamanan interoperasi, yaitu, data yang diperoleh setiap node harus konsisten dengan yang diperoleh semua node dari deretan yang sesuai"
 				]
 			},
 			{
 				"name": "Keuniversalan",
 				"remark": [
-					"Protokol ini hanya mengatur modul yang tidak dapat dioperasikan dan tidak menambahkan persyaratan, kendala, atau batasan lain pada blockchain ekologis."
+					"Protokol ini hanya mengatur modul yang tidak dapat dioperasikan dan tidak menambahkan persyaratan, kendala, atau batasan lain pada blockchain ekologis"
 				]
 			}
 		]

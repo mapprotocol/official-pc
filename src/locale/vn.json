@@ -195,13 +195,13 @@
 			{
 				"name": "Độ tin cậy",
 				"remark": [
-					"Giao thức này sẽ đảm bảo tính bảo mật đồng bộ, nghĩa là dữ liệu thu được bởi bất kỳ nút nào phải phù hợp với dữ liệu thu được bởi tất cả các nút của chuỗi tương ứng."
+					"Giao thức này sẽ đảm bảo tính bảo mật đồng bộ, nghĩa là dữ liệu thu được bởi bất kỳ nút nào phải phù hợp với dữ liệu thu được bởi tất cả các nút của chuỗi tương ứng"
 				]
 			},
 			{
 				"name": "Quốc tế hóa",
 				"remark": [
-					"Giao thức này chỉ điều chỉnh các mô-đun có thể tương tác và không thêm bất kỳ yêu cầu, ràng buộc hoặc hạn chế nào khác đối với blockchain sinh thái."
+					"Giao thức này chỉ điều chỉnh các mô-đun có thể tương tác và không thêm bất kỳ yêu cầu, ràng buộc hoặc hạn chế nào khác đối với blockchain sinh thái"
 				]
 			}
 		]

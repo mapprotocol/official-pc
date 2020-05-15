@@ -195,13 +195,13 @@
 			{
 				"name": "Reliability",
 				"remark": [
-					"This protocol will ensure the security of interoperation, that is to say, the data obtained by any node must be consistent with that obtained by all nodes of the corresponding chain."
+					"This protocol will ensure the security of interoperation, that is to say, the data obtained by any node must be consistent with that obtained by all nodes of the corresponding chain"
 				]
 			},
 			{
 				"name": "Universality",
 				"remark": [
-					"This protocol only regulates interoperable modules and does not add any other requirements, constraints, or restrictions to the ecological blockchain."
+					"This protocol only regulates interoperable modules and does not add any other requirements, constraints, or restrictions to the ecological blockchain"
 				]
 			}
 		]

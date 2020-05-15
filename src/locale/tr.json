@@ -195,13 +195,13 @@
 			{
 				"name": "Güvenilirlik",
 				"remark": [
-					"Bu protokol, birlikte çalışmanın güvenliğini, yani herhangi bir düğüm tarafından elde edilen verilerin, karşılık gelen zincirin tüm düğümleri tarafından elde edilen verilerle tutarlı olması gerekir."
+					"Bu protokol, birlikte çalışmanın güvenliğini, yani herhangi bir düğüm tarafından elde edilen verilerin, karşılık gelen zincirin tüm düğümleri tarafından elde edilen verilerle tutarlı olması gerekir"
 				]
 			},
 			{
 				"name": "Genellik",
 				"remark": [
-					"Bu protokol yalnızca birlikte çalışabilir modülleri düzenler ve ekolojik blok zincirine başka herhangi bir gereklilik, kısıtlama veya kısıtlama eklemez."
+					"Bu protokol yalnızca birlikte çalışabilir modülleri düzenler ve ekolojik blok zincirine başka herhangi bir gereklilik, kısıtlama veya kısıtlama eklemez"
 				]
 			}
 		]
