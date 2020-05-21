@@ -139,7 +139,7 @@
 				"icon": "core2",
 				"title": "고효율 블록 전송 채널",
 				"info": [
-					"ICLT 기반의 블록 전송 채널로, 블록을 중계할 때 블록 크기를 압축할 수 있습니다"
+					"Invertible Bloom Lookup Tables (IBLT) 기반의 블록 전송 채널로, 블록을 중계할 때 블록 크기를 압축할 수 있습니다"
 				]
 			},
 			{
