@@ -64,7 +64,7 @@ const setMeta = (keyword, description, description2) => {
           break
         default:
           keyword =
-            'marcopolo ,marcopolo protocol,blockchain,Ethereum,cryptocurrency,Pay,Crypto payment,bitcoin payment,payment,map,bitcoin,truechain,Magellan protocol, peer-to-peer cash system,defi,dex,Gravity,Marcopay,MarcoPolo pay,MarcoPolo,peer-to-peer Electronic cash system'
+            'marcopolo ,marcopolo protocol,blockchain,Ethereum,cryptocurrency,Pay,Crypto payment,bitcoin payment,payment,map,bitcoin,Magellan protocol, peer-to-peer cash system,defi,dex,Gravity,Marcopay,MarcoPolo pay,MarcoPolo,peer-to-peer Electronic cash system'
           description =
             'MarcoPolo Protocol is an open, fully decentralized, chain-to-chain interoperation protocol that enables the interoperability of multiple independently verifiable consensus blockchains without a relay chain. MarcoPolo Protocol expects to construct a future inter-chain-net, which is interoperable and chain-to-chain based. The ecosystem built on MarcoPolo Protocol can provide a solid infrastructure for finance, AI, IoT, traceability, and governance filed by cross-chain communication, privacy computation, shared storage, etc...'
           description2 =
@@ -73,7 +73,7 @@ const setMeta = (keyword, description, description2) => {
       }
     } else {
       keyword =
-        'marcopolo ,marcopolo protocol,blockchain,Ethereum,cryptocurrency,Pay,Crypto payment,bitcoin payment,payment,map,bitcoin,truechain,Magellan protocol, peer-to-peer cash system,defi,dex,Gravity,Marcopay,MarcoPolo pay,MarcoPolo,peer-to-peer Electronic cash system'
+        'marcopolo ,marcopolo protocol,blockchain,Ethereum,cryptocurrency,Pay,Crypto payment,bitcoin payment,payment,map,bitcoin,Magellan protocol, peer-to-peer cash system,defi,dex,Gravity,Marcopay,MarcoPolo pay,MarcoPolo,peer-to-peer Electronic cash system'
       description =
         'MarcoPolo Protocol is an open, fully decentralized, chain-to-chain interoperation protocol that enables the interoperability of multiple independently verifiable consensus blockchains without a relay chain. MarcoPolo Protocol expects to construct a future inter-chain-net, which is interoperable and chain-to-chain based. The ecosystem built on MarcoPolo Protocol can provide a solid infrastructure for finance, AI, IoT, traceability, and governance filed by cross-chain communication, privacy computation, shared storage, etc...'
       description2 =
