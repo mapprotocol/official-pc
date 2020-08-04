@@ -339,16 +339,8 @@
 			"title": "Hỗ trợ",
 			"list": [
 				{
-					"name": "Web Wallet",
-					"url": "https://webwallet.marcopay.org/"
-				},
-				{
 					"name": "MarcoPay website",
 					"url": "https://www.marcopay.com.br/"
-				},
-				{
-					"name": "Truescan",
-					"url": "http://www.truescan.network/"
 				}
 			]
 		},
