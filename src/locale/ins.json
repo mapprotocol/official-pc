@@ -89,7 +89,8 @@
 	},
 	"PointsWaves": {
 		"title": "MAP Protocol",
-		"subTitle": "MarcoPolo Protocol"
+		"subTitle": "MarcoPolo Protocol",
+		"subDetail": "Protokol Interoperasi rantai-ke-rantai"
 	},
 	"Introduce": {
 		"title": "Protokol pertama yang menyediakan infrastruktur untuk interoperate langsung dalam ekosistem blockchain yang heterogen",

@@ -89,7 +89,8 @@
 	},
 	"PointsWaves": {
 		"title": "MAP Protocol",
-		"subTitle": "MarcoPolo Protocol"
+		"subTitle": "MarcoPolo Protocol",
+		"subDetail": "Zincir-Zincir Birlikte Çalışma Protokolü"
 	},
 	"Introduce": {
 		"title": "Heterojen blok zincir ekosisteminde doğrudan birlikte çalışma için altyapı sağlayan ilk protokol",

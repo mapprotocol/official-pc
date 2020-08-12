@@ -89,7 +89,8 @@
 	},
 	"PointsWaves": {
 		"title": "MAP Protocol",
-		"subTitle": "MarcoPolo Protocol"
+		"subTitle": "MarcoPolo Protocol",
+		"subDetail": "自由互链协议"
 	},
 	"Introduce": {
 		"title": "第一个异构区块链网络的直接互操作协议",

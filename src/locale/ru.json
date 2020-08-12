@@ -89,7 +89,8 @@
 	},
 	"PointsWaves": {
 		"title": "MAP Protocol",
-		"subTitle": "MarcoPolo Protocol"
+		"subTitle": "MarcoPolo Protocol",
+		"subDetail": "Протокол взаимодействия Chain-to-chain"
 	},
 	"Introduce": {
 		"title": "Первый протокол, который обеспечивает инфраструктуру для прямого взаимодействия в экосистеме блокчейнов",

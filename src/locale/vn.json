@@ -89,7 +89,8 @@
 	},
 	"PointsWaves": {
 		"title": "MAP Protocol",
-		"subTitle": "MarcoPolo Protocol"
+		"subTitle": "MarcoPolo Protocol",
+		"subDetail": "Giao THức Chéo Chuỗi-sang-Chuỗi"
 	},
 	"Introduce": {
 		"title": "Giao thức đầu tiên cung cấp cơ sở hạ tầng để tương tác trực tiếp trong hệ sinh thái blockchain không đồng nhất",

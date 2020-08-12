@@ -89,7 +89,8 @@
 	},
 	"PointsWaves": {
 		"title": "MAP Protocol",
-		"subTitle": "MarcoPolo Protocol"
+		"subTitle": "MarcoPolo Protocol",
+		"subDetail": "チェーン間相互運用プロトコル"
 	},
 	"Introduce": {
 		"title": "異種ブロックチェーンエコシステムにおける直接相互運用のためのインフラストラクチャを提供する最初のプロトコル",

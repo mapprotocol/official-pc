@@ -89,7 +89,8 @@
 	},
 	"PointsWaves": {
 		"title": "MAP Protocol",
-		"subTitle": "MarcoPolo Protocol"
+		"subTitle": "MarcoPolo Protocol",
+		"subDetail": "Chain-to-chain 상호운영 가능한 프로토콜"
 	},
 	"Introduce": {
 		"title": "블록체인 생태계에서 직접 상호(기종간의 상호작용)을 위한 인프라를 제공하는 최초의 프로토콜",

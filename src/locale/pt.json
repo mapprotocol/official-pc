@@ -89,7 +89,8 @@
 	},
 	"PointsWaves": {
 		"title": "MAP Protocol",
-		"subTitle": "MarcoPolo Protocol"
+		"subTitle": "MarcoPolo Protocol",
+		"subDetail": "Protocolo de interoperação de cadeia a cadeia"
 	},
 	"Introduce": {
 		"title": "Primeiro protocolo que fornece a infraestrutura para interoperação direta no ecossistema heterogêneo de Blockchain",
