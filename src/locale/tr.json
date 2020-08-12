@@ -93,7 +93,7 @@
 	},
 	"Introduce": {
 		"title": "Heterojen blok zincir ekosisteminde doğrudan birlikte çalışma için altyapı sağlayan ilk protokol",
-		"introduce": "MarcoPolo Protokolü, bir röle zinciri olmadan bağımsız olarak doğrulanabilir çoklu konsensüs blok zincirlerinin birlikte çalışabilirliğini sağlayan açık, tamamen merkezi olmayan, zincirden zincire birlikte çalışma protokolüdür. MarcoPolo Protokolü, birlikte çalışabilir ve zincirler arası temelli bir gelecek zincirler arası ağ oluşturmayı beklemektedir. MarcoPolo Protokolü üzerine kurulan ekosistem, zincirler arası iletişim, gizlilik hesaplama, paylaşılan depolama alanı vb. Tarafından finanse edilen finans, AI, IoT, izlenebilirlik ve yönetişim için sağlam bir altyapı sağlayabilir",
+		"introduce": "MAP Protokolü, bir röle zinciri olmadan bağımsız olarak doğrulanabilir çoklu konsensüs blok zincirlerinin birlikte çalışabilirliğini sağlayan açık, tamamen merkezi olmayan, zincirden zincire birlikte çalışma protokolüdür. MAP Protokolü, birlikte çalışabilir ve zincirler arası temelli bir gelecek zincirler arası ağ oluşturmayı beklemektedir. MAP Protokolü üzerine kurulan ekosistem, zincirler arası iletişim, gizlilik hesaplama, paylaşılan depolama alanı vb. Tarafından finanse edilen finans, AI, IoT, izlenebilirlik ve yönetişim için sağlam bir altyapı sağlayabilir",
 		"BtnLink": [
 			{
 				"name": "Whitepaper",
@@ -126,7 +126,7 @@
 		]
 	},
 	"Protocol": {
-		"title": "Neden MarcoPolo Protokolü?",
+		"title": "Neden MAP Protokolü?",
 		"list": [
 			{
 				"icon": "core1",
@@ -144,7 +144,7 @@
 			},
 			{
 				"icon": "core3",
-				"title": "MarcoPolo Uygulama Aracı Ortamı",
+				"title": "MAP Uygulama Aracı Ortamı",
 				"info": [
 					"Sürdürülebilir MAP RunTime üzerine kurulmuş, geliştiricilerin kendi birlikte çalışabilir blok zincirlerini oluşturmalarına yardımcı olabilecek bir araç seti"
 				]
@@ -333,7 +333,7 @@
 				}
 			]
 		},
-		"Copyright": "© 2020 MarcoPolo Network Foundation, All Rights Reseved",
+		"Copyright": "© 2020 MAP Network Foundation, All Rights Reseved",
 		"Support": {
 			"title": "Destek",
 			"list": [

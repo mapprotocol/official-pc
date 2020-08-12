@@ -93,7 +93,7 @@
 	},
 	"Introduce": {
 		"title": "Primeiro protocolo que fornece a infraestrutura para interoperação direta no ecossistema heterogêneo de Blockchain",
-		"introduce": "O Protocolo MarcoPolo é um protocolo de interoperação aberto, totalmente descentralizado, cadeia a cadeia, que permite a interoperabilidade de várias cadeias de blocos de consenso verificáveis  independentemente sem uma cadeia de retransmissão. O Protocolo MarcoPolo espera construir uma futura rede inter-cadeia, que seja interoperável e baseada em cadeia a cadeia. O ecossistema construído no Protocolo MarcoPolo pode fornecer uma infraestrutura sólida para finanças, IA, IoT, rastreabilidade e governança arquivada por comunicação entre cadeias, computação de privacidade, armazenamento compartilhado, etc",
+		"introduce": "O Protocolo MAP é um protocolo de interoperação aberto, totalmente descentralizado, cadeia a cadeia, que permite a interoperabilidade de várias cadeias de blocos de consenso verificáveis  independentemente sem uma cadeia de retransmissão. O Protocolo MAP espera construir uma futura rede inter-cadeia, que seja interoperável e baseada em cadeia a cadeia. O ecossistema construído no Protocolo MAP pode fornecer uma infraestrutura sólida para finanças, IA, IoT, rastreabilidade e governança arquivada por comunicação entre cadeias, computação de privacidade, armazenamento compartilhado, etc",
 		"BtnLink": [
 			{
 				"name": "Whitepaper",
@@ -144,7 +144,7 @@
 			},
 			{
 				"icon": "core3",
-				"title": "Ambiente da ferramenta de aplicação MarcoPolo",
+				"title": "Ambiente da ferramenta de aplicação MAP",
 				"info": [
 					"Um kit de ferramentas criado no Sustainable MAP RunTime que pode ajudar os desenvolvedores a construir suas próprias cadeias interoperáveis"
 				]
@@ -332,7 +332,7 @@
 				}
 			]
 		},
-		"Copyright": "© 2020 MarcoPolo Network Foundation, All Rights Reseved",
+		"Copyright": "© 2020 MAP Network Foundation, All Rights Reseved",
 		"Support": {
 			"title": "Apoio, suporte",
 			"list": [

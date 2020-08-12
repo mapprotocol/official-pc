@@ -93,7 +93,7 @@
 	},
 	"Introduce": {
 		"title": "第一个异构区块链网络的直接互操作协议",
-		"introduce": "MarcoPolo Protocol 是一种开放的、完全去中心化的链间交互协议，在独立自验证的共识机制下，链与链之间可以实现轻量级地任意交互而不需要任何中继链。MarcoPolo Protocol 期望构建一个点对点的、具有大量可互操作的未来互链网，通过各链间TPS、隐私计算、存储、安全等资源或能力互操作，为金融、AI、物联网、溯源、治理等领域应用提供坚实的区块链底层基础设施。",
+		"introduce": "MAP Protocol 是一种开放的、完全去中心化的链间交互协议，在独立自验证的共识机制下，链与链之间可以实现轻量级地任意交互而不需要任何中继链。MAP Protocol 期望构建一个点对点的、具有大量可互操作的未来互链网，通过各链间TPS、隐私计算、存储、安全等资源或能力互操作，为金融、AI、物联网、溯源、治理等领域应用提供坚实的区块链底层基础设施。",
 		"BtnLink": [
 			{
 				"name": "白皮书",
@@ -106,7 +106,7 @@
 		]
 	},
 	"SubCore": {
-		"title": "MarcoPolo Protocol 的三大构成",
+		"title": "MAP Protocol 的三大构成",
 		"list": [
 			{
 				"desc": [
@@ -126,7 +126,7 @@
 		]
 	},
 	"Protocol": {
-		"title": "为什么选择MarcoPolo Protocol?",
+		"title": "为什么选择MAP Protocol?",
 		"list": [
 			{
 				"icon": "core1",
@@ -146,7 +146,7 @@
 				"icon": "core3",
 				"title": "MATE",
 				"info": [
-					"MATE(MarcoPolo Application Tool Environment)是一个通用的区块链框架，通过Runtime设计做好各模块的解耦以及不分叉的动态升级，开发人员可以轻松地构建自己的可交互链。"
+					"MATE(MAP Application Tool Environment)是一个通用的区块链框架，通过Runtime设计做好各模块的解耦以及不分叉的动态升级，开发人员可以轻松地构建自己的可交互链。"
 				]
 			},
 			{
@@ -334,7 +334,7 @@
 				}
 			]
 		},
-		"Copyright": "© 2020 MarcoPolo Network Foundation, All Rights Reseved",
+		"Copyright": "© 2020 MAP Network Foundation, All Rights Reseved",
 		"Support": {
 			"title": "帮助与支持",
 			"list": [

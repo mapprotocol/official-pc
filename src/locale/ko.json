@@ -93,7 +93,7 @@
 	},
 	"Introduce": {
 		"title": "블록체인 생태계에서 직접 상호(기종간의 상호작용)을 위한 인프라를 제공하는 최초의 프로토콜",
-		"introduce": "마르코폴로 프로토콜은 개방적이고 완전히 분산된 체인 간 상호운용 프로토콜로, 독립적으로 검증 가능한 여러 컨센서스 블록체인의 상호운용성을 가능하게 합니다. MarcoPolo Protocol은 상호운용 가능하고 체인 투 체인 기반의 미래 인터 체인 네트워크를 구축할 것입니다. 마르코폴로 프로토콜에 구축된 이 생태계는 크로스체인 통신, 프라이버시 계산, 공유 스토리지 등에 의해 금융, AI, IOT, 추적성 및 거버넌스를 위한 탄탄한 인프라를 제공합니다",
+		"introduce": "마르코폴로 프로토콜은 개방적이고 완전히 분산된 체인 간 상호운용 프로토콜로, 독립적으로 검증 가능한 여러 컨센서스 블록체인의 상호운용성을 가능하게 합니다. MAP Protocol은 상호운용 가능하고 체인 투 체인 기반의 미래 인터 체인 네트워크를 구축할 것입니다. 마르코폴로 프로토콜에 구축된 이 생태계는 크로스체인 통신, 프라이버시 계산, 공유 스토리지 등에 의해 금융, AI, IOT, 추적성 및 거버넌스를 위한 탄탄한 인프라를 제공합니다",
 		"BtnLink": [
 			{
 				"name": "백서",
@@ -144,7 +144,7 @@
 			},
 			{
 				"icon": "core3",
-				"title": "MarcoPolo Application Tool Environment",
+				"title": "MAP Application Tool Environment",
 				"info": [
 					"RunTime을 기반으로 구축된 툴킷으로 개발자들이 상호운용 가능한 블록체인을 직접 구축할 수 있도록 도와줍니다"
 				]
@@ -333,7 +333,7 @@
 				}
 			]
 		},
-		"Copyright": "© 2020 MarcoPolo Network Foundation, All Rights Reseved",
+		"Copyright": "© 2020 MAP Network Foundation, All Rights Reseved",
 		"Support": {
 			"title": "지원",
 			"list": [

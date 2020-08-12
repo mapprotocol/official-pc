@@ -93,7 +93,7 @@
 	},
 	"Introduce": {
 		"title": "Protokol pertama yang menyediakan infrastruktur untuk interoperate langsung dalam ekosistem blockchain yang heterogen",
-		"introduce": "MarcoPolo Protocol adalah protokol interoperasi rantai-ke-rantai yang terbuka, sepenuhnya terdesentralisasi, yang memungkinkan interoperabilitas beberapa blokir konsensus yang dapat diverifikasi secara independen tanpa rantai relai. MarcoPolo Protocol mengharapkan untuk membangun jaringan antar-jaringan di masa depan, yang interoperable dan berbasis rantai-ke-rantai. Ekosistem yang dibangun di atas MarcoPolo Protocol dapat menyediakan infrastruktur yang kokoh untuk keuangan, AI, IoT, ketertelusuran, dan tata kelola yang diajukan oleh komunikasi lintas rantai, penghitungan privasi, penyimpanan bersama, dll",
+		"introduce": "MAP Protocol adalah protokol interoperasi rantai-ke-rantai yang terbuka, sepenuhnya terdesentralisasi, yang memungkinkan interoperabilitas beberapa blokir konsensus yang dapat diverifikasi secara independen tanpa rantai relai. MAP Protocol mengharapkan untuk membangun jaringan antar-jaringan di masa depan, yang interoperable dan berbasis rantai-ke-rantai. Ekosistem yang dibangun di atas MAP Protocol dapat menyediakan infrastruktur yang kokoh untuk keuangan, AI, IoT, ketertelusuran, dan tata kelola yang diajukan oleh komunikasi lintas rantai, penghitungan privasi, penyimpanan bersama, dll",
 		"BtnLink": [
 			{
 				"name": "Whitepaper",
@@ -126,7 +126,7 @@
 		]
 	},
 	"Protocol": {
-		"title": "Mengapa Protokol Marcopolo?",
+		"title": "Mengapa Protokol MAP?",
 		"list": [
 			{
 				"icon": "core1",
@@ -144,7 +144,7 @@
 			},
 			{
 				"icon": "core3",
-				"title": "Lingkungan Alat Aplikasi MarcoPolo",
+				"title": "Lingkungan Alat Aplikasi MAP",
 				"info": [
 					"Toolkit yang dibangun di atas Sustainable MAP RunTime yang dapat membantu pengembang untuk membangun blockchain sendiri yang dapat dioperasikan"
 				]
@@ -333,7 +333,7 @@
 				}
 			]
 		},
-		"Copyright": "© 2020 MarcoPolo Network Foundation, All Rights Reseved",
+		"Copyright": "© 2020 MAP Network Foundation, All Rights Reseved",
 		"Support": {
 			"title": "Layanan",
 			"list": [

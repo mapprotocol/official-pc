@@ -93,7 +93,7 @@
 	},
 	"Introduce": {
 		"title": "Giao thức đầu tiên cung cấp cơ sở hạ tầng để tương tác trực tiếp trong hệ sinh thái blockchain không đồng nhất",
-		"introduce": "MarcoPolo Protocol là một giao thức chéo mở, hoàn toàn phân tán, chuỗi-sang-chuỗi thứ cho phép sẽ tương tác của nhiều cơ chế đồng thuận blockchain độc lập có thể xác minh. Mà không chồng chéo chuỗi. MarcoPolo Protocol mong đợi xây dựng một mạng lưới trong chuỗi, thứ dựa trên sự tương tác chuỗi-sang-chuỗi. Hệ sinh thái xây dựng trên MarcoPolo Protocol có thể cung cấp một hạ tầng vững chắc cho tài chính, AI, IoT, truy xuất, và quản trị bởi tương tác chuỗi chéo, tín toán riêng tư, chia sẻ dữ liệu, vv",
+		"introduce": "MAP Protocol là một giao thức chéo mở, hoàn toàn phân tán, chuỗi-sang-chuỗi thứ cho phép sẽ tương tác của nhiều cơ chế đồng thuận blockchain độc lập có thể xác minh. Mà không chồng chéo chuỗi. MAP Protocol mong đợi xây dựng một mạng lưới trong chuỗi, thứ dựa trên sự tương tác chuỗi-sang-chuỗi. Hệ sinh thái xây dựng trên MAP Protocol có thể cung cấp một hạ tầng vững chắc cho tài chính, AI, IoT, truy xuất, và quản trị bởi tương tác chuỗi chéo, tín toán riêng tư, chia sẻ dữ liệu, vv",
 		"BtnLink": [
 			{
 				"name": "Sách trắng",
@@ -126,7 +126,7 @@
 		]
 	},
 	"Protocol": {
-		"title": "Tại sao lại là giao thức Marcopolo?",
+		"title": "Tại sao lại là giao thức MAP?",
 		"list": [
 			{
 				"icon": "core1",
@@ -144,7 +144,7 @@
 			},
 			{
 				"icon": "core3",
-				"title": "Môi trường công cụ ứng dụng MarcoPolo",
+				"title": "Môi trường công cụ ứng dụng MAP",
 				"info": [
 					"Một bộ toolkit được xây dựng trên MAP Run Time thứ có thể giúp các nhà phát triển xây dựng blockchains tương tác của riêng họ"
 				]
@@ -334,7 +334,7 @@
 				}
 			]
 		},
-		"Copyright": "© 2020 MarcoPolo Network Foundation, All Rights Reseved",
+		"Copyright": "© 2020 MAP Network Foundation, All Rights Reseved",
 		"Support": {
 			"title": "Hỗ trợ",
 			"list": [
