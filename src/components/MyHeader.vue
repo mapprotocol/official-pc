@@ -111,8 +111,8 @@ export default {
     -webkit-justify-content: space-between;
     .logo {
       display: block;
-      width: 140px;
-      height: 46px;
+      width: 200px;
+      height: 41px;
       background-image: url("../assets/image/header/logo.png");
       background-repeat: no-repeat;
       background-size: 100% 100%;

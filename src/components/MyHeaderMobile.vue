@@ -96,8 +96,8 @@ export default {
   margin-top: 26px;
   .logo {
     display: block;
-    width: 102px;
-    height: 34px;
+    width: 100px;
+    height: 20.5px;
     background-image: url("../assets/image/header/logo.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
