@@ -1,7 +1,14 @@
 <style scoped lang="less">
   #pointWaves{
     margin: 54px auto 41px auto;
+    min-height: 580px;
    /* position: relative;*/
+  }
+  @media(max-width: 480px) {
+    #pointWaves{
+      min-height: 380px;
+      /* position: relative;*/
+    }
   }
   .waves-logo {
     position: absolute;
