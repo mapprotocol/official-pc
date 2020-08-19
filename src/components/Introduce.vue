@@ -108,7 +108,7 @@
 <template>
   <div class="introduce" id="introduceId" v-animate-onscroll.repeat="{down: 'animated slideInUp'}">
     <div class="next-down"></div>
-    <div :class="['int-title', {'animated zoomIn': flag}]">{{$t('Introduce.title')}}</div>
+<!--    <div :class="['int-title', {'animated zoomIn': flag}]">{{$t('Introduce.title')}}</div>-->
     <div :class="['int-introduce', {'animated rotateIn delay-1s': flag}]">{{$t('Introduce.introduce')}}</div>
     <div class="init-btns" id="whiteId">
       <a :href="item.url" target="_blank" v-for="(item, ins) in $t('Introduce.BtnLink')" :key="'btn_' + ins">{{item.name}}</a>
