@@ -334,7 +334,7 @@
 				}
 			]
 		},
-		"Copyright": "© 2020 MAP Network Foundation, All Rights Reseved",
+		"Copyright": "© 2020 MarcoPolo Network Foundation, All Rights Reseved",
 		"Support": {
 			"title": "Support",
 			"list": [
@@ -351,7 +351,13 @@
 					"name": "cooperation@MarcoPolo.link"
 				},
 				{
+					"name": "cooperation@maplabs.io"
+				},
+				{
 					"name": "developers@MarcoPolo.link"
+				},
+				{
+					"name": "developers@maplabs.io"
 				}
 			]
 		}
