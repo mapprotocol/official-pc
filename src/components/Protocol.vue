@@ -13,6 +13,7 @@
     color: #000000;
     line-height:36px;
   }
+
   .pro-item {
     display: flex;
     flex-direction: row;

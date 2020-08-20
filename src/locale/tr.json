@@ -209,6 +209,7 @@
 	},
 	"Scenarios": {
 		"title": "Uygulama senaryoları",
+		"introduce":"DeFi and DEX are the two most important application scenarios of MAP Protocol. The essence of DeFi and DEX can be seen as inter-chain calculation and MAP Protocol provides a powerful chain interoperation function. Through the chain interoperation, different digital assets could be exchanged directly. In addition, MAP Protocol makes DeFi and DEX safer and more efficient.",
 		"list": [
 			{
 				"icon": "finance",
@@ -224,10 +225,6 @@
 			},
 			{
 				"icon": "trace",
-				"name": "İzlenebilirlik"
-			},
-			{
-				"icon": "governance",
 				"name": "İzlenebilirlik"
 			},
 			{

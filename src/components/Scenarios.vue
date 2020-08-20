@@ -20,6 +20,18 @@
     line-height: 36px;
     margin: 0 auto;
   }
+
+  .sce-introduce {
+    max-width: 1200px;
+    margin: 0 auto 108px auto;
+    font-size:14px;
+    font-family:PingFangSC-Regular,PingFang SC;
+    font-weight:400;
+    color: #000000;
+    line-height:28px;
+    text-align: center;
+  }
+
   .sce-item {
     display: flex;
     flex-direction: row;
@@ -182,6 +194,7 @@
   <div class="scenarios" id="scenarios"  v-animate-onscroll.repeat="{down: 'animated fadeInUp'}">
     <div class="sce-container">
       <p :class="['sce-title', {'animated fadeInUp': flag}]">{{$t('Scenarios.title')}}</p>
+      <div :class="['sce-introduce', {'animated rotateIn delay-1s': flag}]">{{$t('Scenarios.introduce')}}</div>
       <ul class="sce-item">
         <li @mouseover="move(ins)" @mouseout="delMove(ins)" :id="'sce_itemLi' + ins" v-for="(item, ins) in $t('Scenarios.list')" :key="'pro_' + ins" :class="{
           'animated fadeInLeft delay-2s': (ins === 0 || ins === 4) && flag,
