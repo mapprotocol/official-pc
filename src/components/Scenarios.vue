@@ -23,13 +23,15 @@
 
   .sce-introduce {
     max-width: 1200px;
-    margin: 0 auto 108px auto;
-    font-size:14px;
-    font-family:PingFangSC-Regular,PingFang SC;
-    font-weight:400;
+    margin: 0 auto 30px auto;
+    font-size:22px;
+    font-family: PingFangSC-Semibold,PingFang SC;
+    font-weight:600;
     color: #000000;
-    line-height:28px;
+    line-height:45px;
     text-align: center;
+    border:1px solid #B6B6B6;
+    padding: 40px;
   }
 
   .sce-item {
