@@ -147,6 +147,7 @@
       font-weight:400;
     }
   }
+
   @media(max-width: 1200px) {
     .ft-container{
       width: 100%;

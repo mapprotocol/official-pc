@@ -338,6 +338,10 @@
 				{
 					"name": "MarcoPay website",
 					"url": "https://www.marcopay.com.br/"
+				},
+				{
+					"name": "Official ERC-20 Address",
+					"url": "https://etherscan.io/token/0x49229c3902d49be6443e01c0251b02780397ab1as"
 				}
 			]
 		},
