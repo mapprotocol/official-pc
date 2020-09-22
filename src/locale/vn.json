@@ -242,41 +242,42 @@
 		]
 	},
 	"Roadmap": {
-		"title": "Lộ trình",
+		"title": "Roadmap",
 		"list": [
 			{
-				"time": "Giai đoạn đầu năm 2019.Q3-2020.Q4",
+				"time": "Phase 1 2019.Q3-2020.Q4",
 				"title": "Gravity:",
 				"introduce": [
-					"Phát triển chuỗi tiêu chuẩn: bao gồm sự đồng thuận PoS của chuỗi tiêu chuẩn, hệ thống Map-VM và SMART, và quản trị theo chuỗi"
+					"Ultra-light Verification Protocol",
+					"Map-PoS Consensus",
+					"Map-VM and SMART System"
 				]
 			},
 			{
-				"time": "Giai đoạn thứ hai 2021.Q2",
+				"time": "Phase 2 2021.Q2",
 				"title": "Electromagnetic:",
 				"introduce": [
-					"Giao thức xác minh chuỗi nhẹ cục bộ",
-					"Giao thức xác minh chuỗi chéo nhẹ",
-					"Tập lệnh thông minh có thể kết hợp",
-					"Điều kiện kích hoạt chung của ChainID",
-					"Thông số kỹ thuật chung của ChainID"
+					"MAP-Feeder",
+					"MAP Block Transport Ptotocol",
+					"Chain Gateway Id Specification"
 				]
 			},
 			{
-				"time": "Giai đoạn thứ ba 2021.Q4",
+				"time": "Phase 3 2021.Q4",
 				"title": "Interaction:",
 				"introduce": [
-					"Khung phần mềm MATE",
-					"Xây dựng các chuỗi khối hỗ trợ các hệ thống tiền điện tử, các ứng dụng khác và hỗ trợ kết nối với Chuỗi tiêu chuẩn"
+					"Map-P2P Protocol",
+					"MATE Framework",
+					"Standard Chain development"
 				]
 			},
 			{
-				"time": "Giai đoạn thứ tư 2022.Q2",
+				"time": "Phase 4 2022.Q2",
 				"title": "Grand Unification:",
 				"introduce": [
-					"Hỗ trợ chuỗi chéo lightweight với các chuỗi công cộng khác",
-					"Nhận ra khả năng tương tác chuỗi chéo với BTC, ETH v.v",
-					"Cung cấp các tính năng chuỗi chéo với các chuỗi DPoS khác"
+					"Support cross-chain with other public chains",
+					"Realize cross-chain interoperability with BTC, ETH, etc.",
+					"Provide cross-chain features with other DPoS chains"
 				]
 			}
 		]

@@ -245,35 +245,37 @@
 		"title": "Roadmap",
 		"list": [
 			{
-				"time": "The First Stage 2019.Q3-2020.Q4",
+				"time": "Phase 1 2019.Q3-2020.Q4",
 				"title": "Gravity:",
 				"introduce": [
-					"Standard Chain development: includes Standard Chain PoS consensus, Map-VM and SMART system, and on-chain governance"
+					"Ultra-light Verification Protocol",
+					"Map-PoS Consensus",
+					"Map-VM and SMART System"
 				]
 			},
 			{
-				"time": "The Second Stage 2021.Q2",
+				"time": "Phase 2 2021.Q2",
 				"title": "Electromagnetic:",
 				"introduce": [
-					"Lightweight Local Chain Verification Protocol",
-					"Lightweight cross-chain verification Protocol",
-					"Smart Script with Combinable Trigger Conditions",
-					"General ChainID Specifications"
+					"MAP-Feeder",
+					"MAP Block Transport Ptotocol",
+					"Chain Gateway Id Specification"
 				]
 			},
 			{
-				"time": "The Third Stage 2021.Q4",
+				"time": "Phase 3 2021.Q4",
 				"title": "Interaction:",
 				"introduce": [
-					"MATE framework",
-					"Build blockchains that support electronic cash systems, other applications, and support connections to the Standard Chain"
+					"Map-P2P Protocol",
+					"MATE Framework",
+					"Standard Chain development"
 				]
 			},
 			{
-				"time": "The Fourth Stage 2022.Q2",
+				"time": "Phase 4 2022.Q2",
 				"title": "Grand Unification:",
 				"introduce": [
-					"Support lightweight cross-chain with other public chains",
+					"Support cross-chain with other public chains",
 					"Realize cross-chain interoperability with BTC, ETH, etc.",
 					"Provide cross-chain features with other DPoS chains"
 				]

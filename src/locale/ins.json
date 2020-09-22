@@ -242,40 +242,42 @@
 		]
 	},
 	"Roadmap": {
-		"title": "Peta jalan",
+		"title": "Roadmap",
 		"list": [
 			{
-				"time": "Tahap Pertama 2019.Q3-2020.Q4",
+				"time": "Phase 1 2019.Q3-2020.Q4",
 				"title": "Gravity:",
 				"introduce": [
-					"Pengembangan Deretan Standar: termasuk konsensus PoS Deretan Standar, sistem Peta-VM dan SMART,dan tata kelola on-chain"
+					"Ultra-light Verification Protocol",
+					"Map-PoS Consensus",
+					"Map-VM and SMART System"
 				]
 			},
 			{
-				"time": "Tahap Kedua 2021.Q2",
+				"time": "Phase 2 2021.Q2",
 				"title": "Electromagnetic:",
 				"introduce": [
-					"Protokol Verifikasi Rantai Lokal Ringan",
-					"Protokol verifikasi lintas rantai yang ringan",
-					"Skrip Cerdas dengan Kondisi Pemicu yang Dapat Dikombinasikan",
-					"General ChainID spesifikasi"
+					"MAP-Feeder",
+					"MAP Block Transport Ptotocol",
+					"Chain Gateway Id Specification"
 				]
 			},
 			{
-				"time": "Tahap Ketiga 2021.Q4",
+				"time": "Phase 3 2021.Q4",
 				"title": "Interaction:",
 				"introduce": [
-					"Kerangka kerja MATE",
-					"Membangun blockchains yang mendukung sistem uang tunai elektronik, aplikasi lain, dan dukungan koneksi ke Deretan Standar"
+					"Map-P2P Protocol",
+					"MATE Framework",
+					"Standard Chain development"
 				]
 			},
 			{
-				"time": "Tahap Keempat 2022.Q2",
+				"time": "Phase 4 2022.Q2",
 				"title": "Grand Unification:",
 				"introduce": [
-					"Mendukung cross-chain ringan dengan rantai publik lainnya",
-					"Mewujudkan interoperabilitas cross-chain dengan BTC, ETH, dll.",
-					"Menyediakan fitur cross-chain dengan deretan DPoS lainnya"
+					"Support cross-chain with other public chains",
+					"Realize cross-chain interoperability with BTC, ETH, etc.",
+					"Provide cross-chain features with other DPoS chains"
 				]
 			}
 		]

@@ -242,40 +242,42 @@
 		]
 	},
 	"Roadmap": {
-		"title": "Дорожная карта",
+		"title": "Roadmap",
 		"list": [
 			{
-				"time": "Первый этап 2019.Q3-2020.Q4",
+				"time": "Phase 1 2019.Q3-2020.Q4",
 				"title": "Gravity:",
 				"introduce": [
-					"Разработка стандартной цепочки: включает консенсус по стандартной цепочке PoS, систему Map-VM и SMART, а также управление в цепочке"
+					"Ultra-light Verification Protocol",
+					"Map-PoS Consensus",
+					"Map-VM and SMART System"
 				]
 			},
 			{
-				"time": "Второй этап 2021.Q2",
+				"time": "Phase 2 2021.Q2",
 				"title": "Electromagnetic:",
 				"introduce": [
-					"Легкий локальный протокол проверки цепочки",
-					"Легкий перекрестный протокол проверки",
-					"Smart Script с комбинируемыми условиями триггера",
-					"Общие характеристики ChainID"
+					"MAP-Feeder",
+					"MAP Block Transport Ptotocol",
+					"Chain Gateway Id Specification"
 				]
 			},
 			{
-				"time": "Третий этап 2021.Q4",
+				"time": "Phase 3 2021.Q4",
 				"title": "Interaction:",
 				"introduce": [
-					"MATE framework",
-					"Создание блокчейнов, которые поддерживают системы электронных денег, другие приложения и поддерживают соединения со стандартной цепочкой"
+					"Map-P2P Protocol",
+					"MATE Framework",
+					"Standard Chain development"
 				]
 			},
 			{
-				"time": "The Fourth Stage 2022.Q2",
+				"time": "Phase 4 2022.Q2",
 				"title": "Grand Unification:",
 				"introduce": [
-					"Поддержка легких перекрестных цепей с другими публичными цепями",
-					"Реализация взаимодействия между цепочками с BTC, ETH и т. Д",
-					"Обеспечение перекрестных цепей с другими цепями DPoS"
+					"Support cross-chain with other public chains",
+					"Realize cross-chain interoperability with BTC, ETH, etc.",
+					"Provide cross-chain features with other DPoS chains"
 				]
 			}
 		]

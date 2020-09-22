@@ -242,39 +242,42 @@
 		]
 	},
 	"Roadmap": {
-		"title": "ロードマップ",
+		"title": "Roadmap",
 		"list": [
 			{
-				"time": "ファーストステージ2019.Q3-2020.Q4",
+				"time": "Phase 1 2019.Q3-2020.Q4",
 				"title": "Gravity:",
 				"introduce": [
-					"標準チェーン開発：標準チェーンPoSコンセンサス、Map-VMおよびSMARTシステム、オンチェーンガバナンスが含まれます"
+					"Ultra-light Verification Protocol",
+					"Map-PoS Consensus",
+					"Map-VM and SMART System"
 				]
 			},
 			{
-				"time": "セカンドステージ2021.Q2",
+				"time": "Phase 2 2021.Q2",
 				"title": "Electromagnetic:",
 				"introduce": [
-					"軽量ローカルチェーン検証プロトコル",
-					"軽量のクロスチェーン検証プロトコル",
-					"組み合わせ可能なトリガー条件を持つスマートスクリプト一般的なチェーンID一般的なチェーンID仕様"
+					"MAP-Feeder",
+					"MAP Block Transport Ptotocol",
+					"Chain Gateway Id Specification"
 				]
 			},
 			{
-				"time": "第3ステージ2021.Q4",
+				"time": "Phase 3 2021.Q4",
 				"title": "Interaction:",
 				"introduce": [
-					"MATEフレームワーク",
-					"電子キャッシュシステム、その他のアプリケーションをサポートし、スタンダードチェーンへの接続をサポートするブロックチェーンを構築する"
+					"Map-P2P Protocol",
+					"MATE Framework",
+					"Standard Chain development"
 				]
 			},
 			{
-				"time": "第4ステージ2022.Q2",
+				"time": "Phase 4 2022.Q2",
 				"title": "Grand Unification:",
 				"introduce": [
-					"他のパブリックチェーンとの軽量クロスチェーンをサポートする",
-					"BTC、ETHなどとのクロスチェーン相互運用性を実現",
-					"他のDPoSチェーンとのクロスチェーン機能を提供します"
+					"Support cross-chain with other public chains",
+					"Realize cross-chain interoperability with BTC, ETH, etc.",
+					"Provide cross-chain features with other DPoS chains"
 				]
 			}
 		]

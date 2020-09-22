@@ -242,40 +242,42 @@
 		]
 	},
 	"Roadmap": {
-		"title": "Yol Haritası",
+		"title": "Roadmap",
 		"list": [
 			{
-				"time": "İlk Aşama 2020.Ç4",
+				"time": "Phase 1 2019.Q3-2020.Q4",
 				"title": "Gravity:",
 				"introduce": [
-					"Standart Zincir geliştirme: Standart Zincir PoS konsensüsü, Map-VM ve SMART sistemi ve zincir üstü yönetişimi içerir"
+					"Ultra-light Verification Protocol",
+					"Map-PoS Consensus",
+					"Map-VM and SMART System"
 				]
 			},
 			{
-				"time": "İkinci Aşama 2021.Ç2",
+				"time": "Phase 2 2021.Q2",
 				"title": "Electromagnetic:",
 				"introduce": [
-					"Hafif Yerel Zincir Doğrulama Protokolü",
-					"Hafif çapraz zincir doğrulama protokolü",
-					"Birleştirilebilir Tetikleyici Koşullarına Sahip Akıllı Komut Dosyası",
-					"Genel ChainID Spesifikasyonları"
+					"MAP-Feeder",
+					"MAP Block Transport Ptotocol",
+					"Chain Gateway Id Specification"
 				]
 			},
 			{
-				"time": "Üçüncü Aşama 2021.Ç4",
+				"time": "Phase 3 2021.Q4",
 				"title": "Interaction:",
 				"introduce": [
-					"MATE çerçevesi",
-					"Elektronik nakit sistemlerini, diğer uygulamaları ve Standart Zincir bağlantılarını destekleyen blok zincirler oluşturur"
+					"Map-P2P Protocol",
+					"MATE Framework",
+					"Standard Chain development"
 				]
 			},
 			{
-				"time": "The Fourth Stage 2022.Q2",
+				"time": "Phase 4 2022.Q2",
 				"title": "Grand Unification:",
 				"introduce": [
-					"Diğer halka açık zincirlerle hafif çapraz zinciri destekleyin",
-					"BTC, ETH vb.İle zincirler arası birlikte çalışabilirliği gerçekleştirir",
-					"Diğer DPoS zincirleriyle çapraz zincir özellikleri sağlar"
+					"Support cross-chain with other public chains",
+					"Realize cross-chain interoperability with BTC, ETH, etc.",
+					"Provide cross-chain features with other DPoS chains"
 				]
 			}
 		]

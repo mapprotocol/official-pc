@@ -246,37 +246,38 @@
 		"list": [
 			{
 				"time": "第一阶段 2019.Q3-2020.Q4",
-				"title": "Gravity:",
+				"title": "引力:",
 				"introduce": [
-					"基准链开发，包括：基准链PoS共识",
-					"MapVM和SMART系统",
-					"链上治理"
+					"超轻验证协议",
+					"MAP-PoS共识",
+					" MAP-VM和SMART系统"
 				]
 			},
 			{
-				"time": "第二阶段 2021.Q2",
-				"title": "Electromagnetic:",
+				"time": "第二阶段 2021年Q2",
+				"title": "电磁:",
 				"introduce": [
-					"轻量级跨链验证协议",
-					"组合式触发条件的智能脚本系统",
-					"通用ChainID规范标准"
+					"MAP-Feeder",
+					"MAP块传输协议",
+					"链网关ID规范"
 				]
 			},
 			{
-				"time": "第三阶段 2021.Q4",
-				"title": "Interaction:",
+				"time": "第三阶段 2021年Q4",
+				"title": "相互作用:",
 				"introduce": [
+					"Map-P2P通讯协定",
 					"MATE框架",
-					"搭建支持电子现金系统等应用区块链，并支持与基准链的连接"
+					"标准链开发"
 				]
 			},
 			{
-				"time": "第四阶段 2022.Q2",
-				"title": "Grand Unification:",
+				"time": "第四阶段 2022年Q2",
+				"title": "大统一:",
 				"introduce": [
-					"支持与其他公链的轻量级跨链",
-					"实现与BTC、ETH等的跨链",
-					"提供与DPoS链的跨链支持"
+					"支持与其他公共链的跨链",
+					"与BTC，ETH等实现跨链互操作性",
+					"与其他DPoS链一起提供跨链功能"
 				]
 			}
 		]

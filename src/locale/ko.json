@@ -245,37 +245,39 @@
 		"title": "로드맵",
 		"list": [
 			{
-				"time": "첫 번째 단계 2020년 4분기",
-				"title": "중력:",
+				"time": "1단계(Phase 1) : 2019년 3분기-2020.4분기",
+				"title": "중력(Gravity):",
 				"introduce": [
-					"표준 체인 개발: 표준 체인 PoS 컨센서스, Map-VM 및 SMART 시스템, 온체인 거버넌스 등이 포함"
+					"초경량 검증 프로토콜(Ultra-light Verification Protocol)",
+					"Map-PoS 컨센서스",
+					"Map-VM 및 SMART 시스템"
 				]
 			},
 			{
-				"time": "두 번째 단계 2021년 2분기",
-				"title": "전자파 :",
+				"time": "2단계(Phase 2) : 2021년 2분기",
+				"title": "전자파(Electromagnetic):",
 				"introduce": [
-					"경량 로컬 체인 검증 프로토콜입니다",
-					"경량 크로스 체인 검증 프로토콜입니다",
-					"조합 가능한 트리거 조건이 있는 스마트 스크립트입니다",
-					"General ChainID 사양입니다"
+					"MAP-Feeder",
+					"MAP 블록 전송 프로토콜",
+					"체인 게이트웨이 ID 사양"
 				]
 			},
 			{
-				"time": "세 번째 단계 2021년 4분기",
-				"title": "상호 작용 :",
+				"time": "3단계(Phase 3) : 2021년 4분기",
+				"title": "상호작용(Interaction):",
 				"introduce": [
-					"MATE 프레임워크는",
-					"전자 현금 시스템, 기타 애플리케이션 및 표준 체인에 대한 연결을 지원하는 블록체인을 구축합니다"
+					"Map-P2P 프로토콜",
+					"MATE 프레임워크",
+					"표준 체인 개발"
 				]
 			},
 			{
-				"time": "내 번째 단계 2022년 2분기",
-				"title": "Grand 통합:",
+				"time": "4단계((Phase 4) : 2022년 2분기",
+				"title": "대통합(Grand Unification):",
 				"introduce": [
-					"다른 퍼블릭 체인으로 경량 크로스 체인을 지원합니다",
-					"BTC, ETH 등과 교차 체인 상호운용성을 실현합니다",
-					"다른 DPoS 체인과 교차 체인 기능을 제공합니다"
+					"다른 공용 체인과의 교차 체인 지원",
+					"BTC, ETH 등과 교차 체인 상호운용성(interoperability ) 실현",
+					"다른 DPoS 체인들과의 교차 체인 기능 제공"
 				]
 			}
 		]

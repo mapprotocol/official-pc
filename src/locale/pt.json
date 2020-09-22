@@ -242,39 +242,42 @@
 		]
 	},
 	"Roadmap": {
-		"title": "Roteiro",
+		"title": "Roadmap",
 		"list": [
 			{
-				"time": "A Primeira Fase 2019.Q3-2020.Q4",
+				"time": "Phase 1 2019.Q3-2020.Q4",
 				"title": "Gravity:",
 				"introduce": [
-					"Desenvolvimento da cadeia padrão: inclui consenso em PoS da cadeia padrão, sistema Map-VM e SMART e governança na cadeia"
+					"Ultra-light Verification Protocol",
+					"Map-PoS Consensus",
+					"Map-VM and SMART System"
 				]
 			},
 			{
-				"time": "A segunda etapa 2021.Q2",
+				"time": "Phase 2 2021.Q2",
 				"title": "Electromagnetic:",
 				"introduce": [
-					"Protocolo de verificação de cadeia local leve",
-					"Protocolo leve de verificação de cadeia cruzada",
-					"Script inteligente com condições combináveis de acionadorID da cadeia geralID da cadeia Geral especificações"
+					"MAP-Feeder",
+					"MAP Block Transport Ptotocol",
+					"Chain Gateway Id Specification"
 				]
 			},
 			{
-				"time": "Terceiro estágio 2021.Q4",
+				"time": "Phase 3 2021.Q4",
 				"title": "Interaction:",
 				"introduce": [
-					"Estrutura MATE",
-					"Crie cadeias de blocos compatíveis com sistemas de caixa eletrônico, outros aplicativos e conexões com a cadeia padrão"
+					"Map-P2P Protocol",
+					"MATE Framework",
+					"Standard Chain development"
 				]
 			},
 			{
-				"time": "Quarto estágio 2022.Q2",
+				"time": "Phase 4 2022.Q2",
 				"title": "Grand Unification:",
 				"introduce": [
-					"Suporte a cadeia cruzada leve com outras cadeias públicas",
-					"Realize interoperabilidade entre cadeias com BTC, ETH, etc.",
-					"Forneça recursos de cadeia cruzada com outras cadeias de DPoS"
+					"Support cross-chain with other public chains",
+					"Realize cross-chain interoperability with BTC, ETH, etc.",
+					"Provide cross-chain features with other DPoS chains"
 				]
 			}
 		]
