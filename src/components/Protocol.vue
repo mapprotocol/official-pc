@@ -76,10 +76,23 @@
     }
     li {
       width: 28%;
-      margin-right: 8%;
+      //margin-right: 8%;
       margin-bottom: 84px;
       &:nth-child(3n+3) {
         margin-right: 0;
+      }
+      &:nth-child(1) {
+       width: 50%;
+        margin-top: 2%;
+        //margin-right: 5%;
+      }
+      &:nth-child(3) {
+        margin-right: 4%;
+        margin-top: 2%;
+      }
+      &:nth-child(5) {
+        margin-left: 4%;
+        margin-top: 1%;
       }
     }
     .pro_name {

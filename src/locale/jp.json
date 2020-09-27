@@ -107,61 +107,71 @@
 		]
 	},
 	"SubCore": {
-		"title": "3つのコアサブモジュール",
+		"title": "MAP Protocol Architecture",
 		"list": [
 			{
+				"title": [
+					"Core Modules"
+				],
 				"desc": [
-					"超軽量ローカルチェーン検証プロトコル"
+					"Ultra-light Verification Protocol and Map Feeder"
 				]
 			},
 			{
+				"title": [
+					"Add-on Modules"
+				],
 				"desc": [
-					"超軽量クロスチェーン検証プロトコル"
+					"MAP Standardized P2P Stack and  MAP Block Transport Channel"
 				]
 			},
 			{
+				"title": [
+					"Development Framework"
+				],
 				"desc": [
-					"組み合わせ可能なトリガー条件を備えたスマートスクリプト"
+					"MAP Application Tool Environment (MATE)"
 				]
 			}
 		]
 	},
 	"Protocol": {
-		"title": "なぜMAPプロトコルなのか？",
+		"title": "Why MAP Protocol?",
 		"list": [
 			{
 				"icon": "core1",
-				"title": "超軽量クロスチェーン検証アルゴリズム",
+				"title": "Ultra-light Verification Protocol(ULVP)",
 				"info": [
-					"1つのチェーンが低帯域幅および低ストレージで別のチェーンの状態を検証する機能を提供します"
-				]
-			},
-			{
-				"icon": "core2",
-				"title": "高効率ブロックトランスポートチャネル",
-				"info": [
-					"ブロックをリレーするときにブロックサイズを圧縮できるIBLTに基づくブロック転送チャネル"
-				]
-			},
-			{
-				"icon": "core3",
-				"title": "MAPアプリケーションツール環境",
-				"info": [
-					"開発者が独自の相互運用可能なブロックチェーンを構築するのに役立つ、持続可能なMAP RunTimeに基づいて構築されたツールキット"
+					"Provides the ability of one chain to validate the state of another chain underlow bandwidth and low storage"
 				]
 			},
 			{
 				"icon": "core4",
-				"title": "構成可能なスマート契約ルール",
+				"title": "MAP Feeder",
 				"info": [
-					"複数の構成可能なトリガー条件スマートコントラクトのルール"
+					"Provides the ability of one chain to change the state of another chain withsuitable authority"
 				]
 			},
 			{
-				"icon": "core5",
-				"title": "標準化されたP2Pスタック",
+				"icon": "core2",
+				"title": "Block Transport Channel",
 				"info": [
-					"異なるブロックチェーンシステムのピアが相互に検出および通信できるプロトコル"
+					"A block transportation channel based on IBLT which can compress the block size when relaying blocks"
+				]
+			},
+			{
+				"icon": "core3",
+				"title": "Map Application Tool Environment(MATE)",
+				"info": [
+					"A  development framework  which can help developers to construct their owninteroperable blockchains"
+				]
+			},
+
+			{
+				"icon": "core5",
+				"title": "Standardized P2P Stack",
+				"info": [
+					"A  protocol  under  which  the  peer  under  different blockchain  systems  can discover and transmit stream with each othe"
 				]
 			}
 		]

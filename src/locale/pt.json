@@ -107,61 +107,71 @@
 		]
 	},
 	"SubCore": {
-		"title": "TRÊS submódulos principais",
+		"title": "MAP Protocol Architecture",
 		"list": [
 			{
+				"title": [
+					"Core Modules"
+				],
 				"desc": [
-					"Protocolo de verificação de cadeia local ultraleve"
+					"Ultra-light Verification Protocol and Map Feeder"
 				]
 			},
 			{
+				"title": [
+					"Add-on Modules"
+				],
 				"desc": [
-					"Protocolo de verificação de cadeia cruzada ultraleve"
+					"MAP Standardized P2P Stack and  MAP Block Transport Channel"
 				]
 			},
 			{
+				"title": [
+					"Development Framework"
+				],
 				"desc": [
-					"Script inteligente com condições de acionamento combináveis"
+					"MAP Application Tool Environment (MATE)"
 				]
 			}
 		]
 	},
 	"Protocol": {
-		"title": "Por que o Protocolo MarcoPolo?",
+		"title": "Why MAP Protocol?",
 		"list": [
 			{
 				"icon": "core1",
-				"title": "Algoritmo de verificação de cadeia cruzada super leve",
+				"title": "Ultra-light Verification Protocol(ULVP)",
 				"info": [
-					"Fornece a capacidade de uma cadeia de validar o estado de outra cadeia com baixa largura de banda e baixo armazenamento"
-				]
-			},
-			{
-				"icon": "core2",
-				"title": "Canal de Transporte em Bloco de alta eficiência",
-				"info": [
-					"Um canal de transporte de bloco baseado no IBLT que pode comprimir o tamanho do bloco ao retransmitir blocos"
-				]
-			},
-			{
-				"icon": "core3",
-				"title": "Ambiente da ferramenta de aplicação MAP",
-				"info": [
-					"Um kit de ferramentas criado no Sustainable MAP RunTime que pode ajudar os desenvolvedores a construir suas próprias cadeias interoperáveis"
+					"Provides the ability of one chain to validate the state of another chain underlow bandwidth and low storage"
 				]
 			},
 			{
 				"icon": "core4",
-				"title": "Regra de contrato inteligente compostável",
+				"title": "MAP Feeder",
 				"info": [
-					"Uma regra para vários contratos inteligentes de condições acionáveis composíveis"
+					"Provides the ability of one chain to change the state of another chain withsuitable authority"
 				]
 			},
 			{
-				"icon": "core5",
-				"title": "Pilha P2P padronizada",
+				"icon": "core2",
+				"title": "Block Transport Channel",
 				"info": [
-					"Um protocolo sob o qual o par em diferentes sistemas blockchain pode descobrir e se comunicar"
+					"A block transportation channel based on IBLT which can compress the block size when relaying blocks"
+				]
+			},
+			{
+				"icon": "core3",
+				"title": "Map Application Tool Environment(MATE)",
+				"info": [
+					"A  development framework  which can help developers to construct their owninteroperable blockchains"
+				]
+			},
+
+			{
+				"icon": "core5",
+				"title": "Standardized P2P Stack",
+				"info": [
+					"A  protocol  under  which  the  peer  under  different blockchain  systems  can discover and transmit stream with each othe"
 				]
 			}
 		]

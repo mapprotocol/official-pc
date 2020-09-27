@@ -107,21 +107,30 @@
 		]
 	},
 	"SubCore": {
-		"title": "THREE CORE SUB-MODULES",
+		"title": "MAP Protocol Architecture",
 		"list": [
 			{
+				"title": [
+					"Core Modules"
+				],
 				"desc": [
-					"Ultra-light Local Chain Verification Protocol"
+					"Ultra-light Verification Protocol and Map Feeder"
 				]
 			},
 			{
+				"title": [
+					"Add-on Modules"
+				],
 				"desc": [
-					"Ultra-light Cross-chain Verification Protocol"
+					"MAP Standardized P2P Stack and  MAP Block Transport Channel"
 				]
 			},
 			{
+				"title": [
+					"Development Framework"
+				],
 				"desc": [
-					"Smart Script with Combinable Trigger Conditions"
+					"MAP Application Tool Environment (MATE)"
 				]
 			}
 		]
@@ -131,37 +140,38 @@
 		"list": [
 			{
 				"icon": "core1",
-				"title": "Ultra-light Cross-chain Verification Algorithm",
+				"title": "Ultra-light Verification Protocol(ULVP)",
 				"info": [
-					"Provides the ability of one chain to validate the state of another chain under low bandwidth and low storage"
+					"Provides the ability of one chain to validate the state of another chain underlow bandwidth and low storage"
+				]
+			},
+			{
+				"icon": "core4",
+				"title": "MAP Feeder",
+				"info": [
+					"Provides the ability of one chain to change the state of another chain withsuitable authority"
 				]
 			},
 			{
 				"icon": "core2",
-				"title": "High-efficiency Block Transport Channel",
+				"title": "Block Transport Channel",
 				"info": [
 					"A block transportation channel based on IBLT which can compress the block size when relaying blocks"
 				]
 			},
 			{
 				"icon": "core3",
-				"title": "MAP Application Tool Environment",
+				"title": "Map Application Tool Environment(MATE)",
 				"info": [
-					"A toolkit built on Sustainable MAP RunTime which can help developers to construct their own interoperable blockchains"
+					"A  development framework  which can help developers to construct their owninteroperable blockchains"
 				]
 			},
-			{
-				"icon": "core4",
-				"title": "Composable Smart Contract Rule",
-				"info": [
-					"A rule for multiple composable trigger condition smart contracts"
-				]
-			},
+
 			{
 				"icon": "core5",
 				"title": "Standardized P2P Stack",
 				"info": [
-					"A protocol under which the peer under different blockchain systems can discover and communicate with each other"
+					"A  protocol  under  which  the  peer  under  different blockchain  systems  can discover and transmit stream with each othe"
 				]
 			}
 		]

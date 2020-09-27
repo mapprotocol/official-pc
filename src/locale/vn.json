@@ -107,61 +107,71 @@
 		]
 	},
 	"SubCore": {
-		"title": "BA MÔ HÌNH PHỤ TRỢ",
+		"title": "MAP Protocol Architecture",
 		"list": [
 			{
+				"title": [
+					"Core Modules"
+				],
 				"desc": [
-					"Giao thức xác minh chuỗi địa phương siêu nhẹ"
+					"Ultra-light Verification Protocol and Map Feeder"
 				]
 			},
 			{
+				"title": [
+					"Add-on Modules"
+				],
 				"desc": [
-					"Giao thức xác minh chuỗi siêu nhẹ"
+					"MAP Standardized P2P Stack and  MAP Block Transport Channel"
 				]
 			},
 			{
+				"title": [
+					"Development Framework"
+				],
 				"desc": [
-					"Tập lệnh thông minh với các điều kiện kích hoạt kết hợp"
+					"MAP Application Tool Environment (MATE)"
 				]
 			}
 		]
 	},
 	"Protocol": {
-		"title": "Tại sao lại là giao thức MAP?",
+		"title": "Why MAP Protocol?",
 		"list": [
 			{
 				"icon": "core1",
-				"title": "Thuật toán xác minh liên chuỗi rất nhẹ",
+				"title": "Ultra-light Verification Protocol(ULVP)",
 				"info": [
-					"Cung cấp khả năng của một chuỗi để xác minh trạng thái của chuỗi khác với băng thông hẹp và lưu trữ thấp"
-				]
-			},
-			{
-				"icon": "core2",
-				"title": "Kênh chuyển khối hiệu năng cao",
-				"info": [
-					"Một kênh chuyển khối dựa vào IBLT thứ có thể nén kích thước khối trên các khối"
-				]
-			},
-			{
-				"icon": "core3",
-				"title": "Môi trường công cụ ứng dụng MAP",
-				"info": [
-					"Một bộ toolkit được xây dựng trên MAP Run Time thứ có thể giúp các nhà phát triển xây dựng blockchains tương tác của riêng họ"
+					"Provides the ability of one chain to validate the state of another chain underlow bandwidth and low storage"
 				]
 			},
 			{
 				"icon": "core4",
-				"title": "Có thể soạn hợp đồng thông minh",
+				"title": "MAP Feeder",
 				"info": [
-					"Một quy tắc cho các hợp đồng thông minh tự kích hoạt theo điều kiện"
+					"Provides the ability of one chain to change the state of another chain withsuitable authority"
 				]
 			},
 			{
-				"icon": "core5",
-				"title": "Ngăn xếp tiêu chuẩn ngang hàng",
+				"icon": "core2",
+				"title": "Block Transport Channel",
 				"info": [
-					"Một giao thức theo sát các hệ thống blockchains khác có thể phát hiện và liên lạc với nhau"
+					"A block transportation channel based on IBLT which can compress the block size when relaying blocks"
+				]
+			},
+			{
+				"icon": "core3",
+				"title": "Map Application Tool Environment(MATE)",
+				"info": [
+					"A  development framework  which can help developers to construct their owninteroperable blockchains"
+				]
+			},
+
+			{
+				"icon": "core5",
+				"title": "Standardized P2P Stack",
+				"info": [
+					"A  protocol  under  which  the  peer  under  different blockchain  systems  can discover and transmit stream with each othe"
 				]
 			}
 		]

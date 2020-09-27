@@ -111,6 +111,7 @@
               'animated fadeInDown delay-3s': ins === 1 && flag,
               'animated fadeInRight delay-2s': ins === 2 && flag
           }">
+            <p style="margin-bottom: 30px" v-for="(sonItem, sonIns) in item.title" :key="'sub_son1_' + sonIns">{{sonItem}}</p>
             <span></span>
             <p v-for="(sonItem, sonIns) in item.desc" :key="'sub_son_' + sonIns">{{sonItem}}</p>
           </li>

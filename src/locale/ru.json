@@ -107,61 +107,71 @@
 		]
 	},
 	"SubCore": {
-		"title": "ТРИ ОСНОВНЫХ СУБ-МОДУЛЯ",
+		"title": "MAP Protocol Architecture",
 		"list": [
 			{
+				"title": [
+					"Core Modules"
+				],
 				"desc": [
-					"Ультралегкий протокол проверки локальной цепи"
+					"Ultra-light Verification Protocol and Map Feeder"
 				]
 			},
 			{
+				"title": [
+					"Add-on Modules"
+				],
 				"desc": [
-					"Ультралегкий протокол проверки перекрестных цепей"
+					"MAP Standardized P2P Stack and  MAP Block Transport Channel"
 				]
 			},
 			{
+				"title": [
+					"Development Framework"
+				],
 				"desc": [
-					"Smart Script с комбинируемыми условиями запуска"
+					"MAP Application Tool Environment (MATE)"
 				]
 			}
 		]
 	},
 	"Protocol": {
-		"title": "Почему MAP Protocol?",
+		"title": "Why MAP Protocol?",
 		"list": [
 			{
 				"icon": "core1",
-				"title": "Суперлегкий алгоритм проверки перекрестных цепей",
+				"title": "Ultra-light Verification Protocol(ULVP)",
 				"info": [
-					"Обеспечивает способность одной цепочки проверять состояние другой цепочки при низкой пропускной способности и малом объеме хранилища"
-				]
-			},
-			{
-				"icon": "core2",
-				"title": "Высокоэффективный блочный транспортный канал",
-				"info": [
-					"Канал транспортировки блоков на основе IBLT, который может сжимать размер блока при ретрансляции блоков"
-				]
-			},
-			{
-				"icon": "core3",
-				"title": "Среда прикладного инструмента MAP",
-				"info": [
-					"Инструментарий, основанный на Sustainable MAP RunTime, который может помочь разработчикам создавать свои собственные совместимые блокчейны"
+					"Provides the ability of one chain to validate the state of another chain underlow bandwidth and low storage"
 				]
 			},
 			{
 				"icon": "core4",
-				"title": "Правило составного смарт-контракта",
+				"title": "MAP Feeder",
 				"info": [
-					"Правило для умных контрактов с несколькими составными условиями триггера"
+					"Provides the ability of one chain to change the state of another chain withsuitable authority"
 				]
 			},
 			{
-				"icon": "core5",
-				"title": "Стандартизированный P2P стек",
+				"icon": "core2",
+				"title": "Block Transport Channel",
 				"info": [
-					"Протокол, в соответствии с которым одноранговый узел в разных системах цепочки блоков может обнаруживать и связываться друг с другом"
+					"A block transportation channel based on IBLT which can compress the block size when relaying blocks"
+				]
+			},
+			{
+				"icon": "core3",
+				"title": "Map Application Tool Environment(MATE)",
+				"info": [
+					"A  development framework  which can help developers to construct their owninteroperable blockchains"
+				]
+			},
+
+			{
+				"icon": "core5",
+				"title": "Standardized P2P Stack",
+				"info": [
+					"A  protocol  under  which  the  peer  under  different blockchain  systems  can discover and transmit stream with each othe"
 				]
 			}
 		]

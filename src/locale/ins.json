@@ -107,61 +107,71 @@
 		]
 	},
 	"SubCore": {
-		"title": "TIGA MODUL SUB INTI",
+		"title": "MAP Protocol Architecture",
 		"list": [
 			{
+				"title": [
+					"Core Modules"
+				],
 				"desc": [
-					"Ultra-light Protokol Verifikasi Deretan Lokal"
+					"Ultra-light Verification Protocol and Map Feeder"
 				]
 			},
 			{
+				"title": [
+					"Add-on Modules"
+				],
 				"desc": [
-					"Verifikasi Protokol Ultra-light Cross-chain"
+					"MAP Standardized P2P Stack and  MAP Block Transport Channel"
 				]
 			},
 			{
+				"title": [
+					"Development Framework"
+				],
 				"desc": [
-					"Skrip Pintar dengan Kondisi Pemicu yang Dapat Dikombinasikan"
+					"MAP Application Tool Environment (MATE)"
 				]
 			}
 		]
 	},
 	"Protocol": {
-		"title": "Mengapa Protokol MAP?",
+		"title": "Why MAP Protocol?",
 		"list": [
 			{
 				"icon": "core1",
-				"title": "Algoritma Verifikasi Silang Super Ringan",
+				"title": "Ultra-light Verification Protocol(ULVP)",
 				"info": [
-					"Memberikan kemampuan satu rantai untuk memvalidasi keadaan rantai lainnya di bawah bandwidth rendah dan penyimpanan rendah"
-				]
-			},
-			{
-				"icon": "core2",
-				"title": "Saluran Transportasi Blok efisiensi tinggi",
-				"info": [
-					"Saluran transportasi blok berdasarkan IBLT yang dapat mengompres ukuran blok saat merelayasi blok"
-				]
-			},
-			{
-				"icon": "core3",
-				"title": "Lingkungan Alat Aplikasi MAP",
-				"info": [
-					"Toolkit yang dibangun di atas Sustainable MAP RunTime yang dapat membantu pengembang untuk membangun blockchain sendiri yang dapat dioperasikan"
+					"Provides the ability of one chain to validate the state of another chain underlow bandwidth and low storage"
 				]
 			},
 			{
 				"icon": "core4",
-				"title": "Peraturan Kontrak Cerdas yang Kompos",
+				"title": "MAP Feeder",
 				"info": [
-					"Aturan untuk beberapa kontrak cerdas yang dapat memicu kondisi pemicu"
+					"Provides the ability of one chain to change the state of another chain withsuitable authority"
 				]
 			},
 			{
-				"icon": "core5",
-				"title": "Penemuan Peer Standar dan Protokol komunikasi P2P",
+				"icon": "core2",
+				"title": "Block Transport Channel",
 				"info": [
-					"Protokol di mana rekan di bawah sistem blockchain yang berbeda dapat menemukan dan berkomunikasi satu sama lain"
+					"A block transportation channel based on IBLT which can compress the block size when relaying blocks"
+				]
+			},
+			{
+				"icon": "core3",
+				"title": "Map Application Tool Environment(MATE)",
+				"info": [
+					"A  development framework  which can help developers to construct their owninteroperable blockchains"
+				]
+			},
+
+			{
+				"icon": "core5",
+				"title": "Standardized P2P Stack",
+				"info": [
+					"A  protocol  under  which  the  peer  under  different blockchain  systems  can discover and transmit stream with each othe"
 				]
 			}
 		]

@@ -107,61 +107,71 @@
 		]
 	},
 	"SubCore": {
-		"title": "ÜÇ CORE ALT MODÜL",
+		"title": "MAP Protocol Architecture",
 		"list": [
 			{
+				"title": [
+					"Core Modules"
+				],
 				"desc": [
-					"Ultra Hafif Yerel Zincir Doğrulama Protokolü"
+					"Ultra-light Verification Protocol and Map Feeder"
 				]
 			},
 			{
+				"title": [
+					"Add-on Modules"
+				],
 				"desc": [
-					"Ultra Hafif Çapraz Zincir Doğrulama Protokolü"
+					"MAP Standardized P2P Stack and  MAP Block Transport Channel"
 				]
 			},
 			{
+				"title": [
+					"Development Framework"
+				],
 				"desc": [
-					"Birleştirilebilir Tetikleyici Koşullarına Sahip Akıllı Komut Dosyası"
+					"MAP Application Tool Environment (MATE)"
 				]
 			}
 		]
 	},
 	"Protocol": {
-		"title": "Neden MAP Protokolü?",
+		"title": "Why MAP Protocol?",
 		"list": [
 			{
 				"icon": "core1",
-				"title": "Süper Hafif Çapraz Zincir Doğrulama Algoritması",
+				"title": "Ultra-light Verification Protocol(ULVP)",
 				"info": [
-					"Bir zincirin düşük bant genişliği ve düşük depolama altında başka bir zincirin durumunu doğrulama yeteneği sağlar"
-				]
-			},
-			{
-				"icon": "core2",
-				"title": "Yüksek Verimli Blok Taşıma Kanalı",
-				"info": [
-					"Blokları geçirirken blok boyutunu sıkıştırabilen IBLT'ye dayalı bir blok taşıma kanalı"
-				]
-			},
-			{
-				"icon": "core3",
-				"title": "MAP Uygulama Aracı Ortamı",
-				"info": [
-					"Sürdürülebilir MAP RunTime üzerine kurulmuş, geliştiricilerin kendi birlikte çalışabilir blok zincirlerini oluşturmalarına yardımcı olabilecek bir araç seti"
+					"Provides the ability of one chain to validate the state of another chain underlow bandwidth and low storage"
 				]
 			},
 			{
 				"icon": "core4",
-				"title": "Bileşilebilir Akıllı Sözleşme Kuralı",
+				"title": "MAP Feeder",
 				"info": [
-					"Birden fazla birleştirilebilir tetikleyici koşulu akıllı sözleşmeleri için bir kural"
+					"Provides the ability of one chain to change the state of another chain withsuitable authority"
 				]
 			},
 			{
-				"icon": "core5",
-				"title": "Standartlaştırılmış Eş Bulma ve İletişim P2P Protokolü",
+				"icon": "core2",
+				"title": "Block Transport Channel",
 				"info": [
-					"Farklı blockchain sistemleri altındaki eşin birbirini keşfedebileceği ve iletişim kurabileceği bir protokol"
+					"A block transportation channel based on IBLT which can compress the block size when relaying blocks"
+				]
+			},
+			{
+				"icon": "core3",
+				"title": "Map Application Tool Environment(MATE)",
+				"info": [
+					"A  development framework  which can help developers to construct their owninteroperable blockchains"
+				]
+			},
+
+			{
+				"icon": "core5",
+				"title": "Standardized P2P Stack",
+				"info": [
+					"A  protocol  under  which  the  peer  under  different blockchain  systems  can discover and transmit stream with each othe"
 				]
 			}
 		]
