@@ -83,16 +83,16 @@
       }
       &:nth-child(1) {
        width: 50%;
-        margin-top: 2%;
+        margin-top: 1.5%;
         //margin-right: 5%;
       }
       &:nth-child(3) {
         margin-right: 4%;
-        margin-top: 2%;
+        //margin-top: 2%;
       }
       &:nth-child(5) {
         margin-left: 4%;
-        margin-top: 1%;
+        //margin-top: 2.5%;
       }
     }
     .pro_name {

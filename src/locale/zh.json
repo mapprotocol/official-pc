@@ -107,61 +107,71 @@
 		]
 	},
 	"SubCore": {
-		"title": "MAP 跨链协议 的三大构成",
+		"title": "MAP协议框架",
 		"list": [
 			{
+				"title": [
+					"核心模块"
+				],
 				"desc": [
-					"超轻型本地链验证协议"
+					" Ultra-light Verification Protocol and Map Feeder"
 				]
 			},
 			{
+				"title": [
+					"附加模块"
+				],
 				"desc": [
-					"超轻型跨链验证协议"
+					"MAP Standardized P2P Stack and  MAP Block Transport Channel"
 				]
 			},
 			{
+				"title": [
+					"开发框架"
+				],
 				"desc": [
-					"具有可组合触发条件的智能脚本"
+					"MAP Application Tool Environment (MATE)"
 				]
 			}
 		]
 	},
 	"Protocol": {
-		"title": "为什么选择MAP 跨链协议?",
+		"title": "Why MAP Protocol?",
 		"list": [
 			{
 				"icon": "core1",
-				"title": "超轻量级跨链验证协议",
+				"title": "Ultra-light Verification Protocol(ULVP)",
 				"info": [
-					"使得任意区块链的节点可以在低带宽以及低存储复杂度的情况下验证其他区块链上的状态或者交易。"
-				]
-			},
-			{
-				"icon": "core2",
-				"title": "高效区块传输通道",
-				"info": [
-					"基于Invertible Bloom Lookup Tables (IBLT) 进一步优化区块的传输协议，大幅度压缩需要传输数据大小，极大的提高区块的传输效率。"
-				]
-			},
-			{
-				"icon": "core3",
-				"title": "MATE",
-				"info": [
-					"MATE(MAP Application Tool Environment)是一个通用的区块链框架，通过Runtime设计做好各模块的解耦以及不分叉的动态升级，开发人员可以轻松地构建自己的可交互链。"
+					"提供一条区块链使用少量带宽和少量存储去验证另一条链状态的能力"
 				]
 			},
 			{
 				"icon": "core4",
-				"title": "可组合触发式智能脚本规范",
+				"title": "MAP Feeder",
 				"info": [
-					"可自由组合的多条件触发智能脚本规范，灵活组合链间状态处理与交易的跨链执行。"
+					"提供一条区块链在恰当的授权下改变另一条链的状态的能力"
 				]
 			},
 			{
-				"icon": "core5",
-				"title": "通用区块链节点发现与通讯协议",
+				"icon": "core2",
+				"title": "High-efficiency Block Transport Channel",
 				"info": [
-					"通用协议保证各个区块链节点能够快速发现其他链上节点并进行通讯。"
+					"基于IBLT的，能够在传输区块的时候压缩区块大小的区块传输通道"
+				]
+			},
+			{
+				"icon": "core3",
+				"title": "Map Application Tool Environment(MATE)",
+				"info": [
+					"能够帮助开发者建立自己的互操作性区块链的开发框架\n"
+				]
+			},
+
+			{
+				"icon": "core5",
+				"title": "Standardized P2P Stack",
+				"info": [
+					"提供不同区块链系统的节点互相发现和传输数据流的协议"
 				]
 			}
 		]
