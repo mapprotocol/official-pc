@@ -19,7 +19,7 @@
 			{
 				"key": "gitV",
 				"name": "GitHub",
-				"path": "https://github.com/marcopoloprotocol"
+				"path": "https://github.com/mapprotocol"
 			},
 			{
 				"key": "white",
@@ -98,11 +98,11 @@
 		"BtnLink": [
 			{
 				"name": "Sách trắng",
-				"url": "https://files.marcopolo.link/pdf/marcopolo_whitepaper_en.pdf"
+				"url": "https://files.maplabs.io/pdf/mapprotocol_whitepaper_en.pdf"
 			},
 			{
 				"name": "GitHub",
-				"url": "https://github.com/marcopoloprotocol"
+				"url": "https://github.com/mapprotocol"
 			}
 		]
 	},
