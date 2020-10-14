@@ -11,7 +11,7 @@
       <div v-if="isAndroid">
         <a
           class='btn'
-          href="https://files.marcopolo.link/app/MarcoPay.apk"
+          href="https://files.maplabs.io/app/MarcoPay.apk"
         >
           Download APK
         </a>
