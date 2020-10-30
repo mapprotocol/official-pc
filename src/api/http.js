@@ -1,7 +1,7 @@
 import Axios from 'axios'
 
 // let baseURL = 'http://39.98.240.34:8102/'; //测服
-let baseURL = 'http://52.237.72.106:8806/'; //生产
+let baseURL = 'https://api.maplabs.io/'; //生产
 let baseURLChain = 'https://usersideapi.marcopay.org/'; //区块查询相关
 Axios.defaults.headers['Content-Type'] = 'application/json';
 Axios.defaults.timeout = 15000;
