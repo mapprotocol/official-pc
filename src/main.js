@@ -10,6 +10,9 @@ import * as ThreeStats from 'three-stats'
 import * as OrbitControls from 'three-orbitcontrols'
 import './assets/less/marcopolo.less'
 import animate from 'animate.css'
+import api from './api/api'
+import scroll from 'vue-seamless-scroll'
+Vue.use(scroll)
 
 Vue.config.productionTip = false
 Vue.prototype.THREE = THREE
@@ -21,6 +24,7 @@ Vue.use(VueMeta, {
 Vue.use(animate);
 Vue.use(VueAnimateOnScroll)
 new Vue({
+  api,
   i18n,
   store,
   router,
