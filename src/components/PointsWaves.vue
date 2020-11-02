@@ -43,6 +43,7 @@
     height: 25px;
     width: 100%;
     .item {
+      margin-left: 250px;
       display: flex;
       flex-direction: row;
       width: 1300px;
@@ -70,6 +71,7 @@
         margin-top: 7px;
         width: 6px;
         height: 6px;
+
         background: #000000;
       }
       div {
@@ -147,9 +149,9 @@
       <div class="item">
         <div class="point-round"></div>
         <img src="../assets/image/pointsWaves/new.png"/>
-        <a target="_blank" href="https://marcopoloprotocol.medium.com"><div class="new-text" v-text="text"></div></a>
+        <a target="_blank" href="https://medium.com/marcopolo-protocol"><div class="new-text" v-text="text"></div></a>
         <div  class="point-round"></div>
-        <a target="_blank"  href="https://marcopoloprotocol.medium.com"><div class="new-text"  v-text="texts"></div></a>
+        <a target="_blank"  href="https://medium.com/marcopolo-protocol"><div class="new-text"  v-text="texts"></div></a>
       </div>
     </vue-seamless-scroll>
     <div class="waves-logo">
