@@ -49,6 +49,9 @@
   .ctx-left{
     .ft-investor{
       margin-bottom: 41px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
       span{
         display: inline-block;
         vertical-align: middle;
@@ -66,6 +69,10 @@
         background-size: 100% 100%;
         background-repeat: no-repeat;
         margin-right: 16px;
+      }
+      img {
+        //width: 116px;
+        height: 28px;
       }
       .ft-soft{
         background-image: url("../assets/image/footer/soft.png");
@@ -219,6 +226,7 @@
           <li class="ft-investor">
             <span>{{$t('Footer.Investor.label')}}</span>
             <a href="javascript:void(0);" :class="item.icon" v-for="(item, ins) in $t('Footer.Investor.IconList')" :key="'ft_' + ins"></a>
+            <img src="../assets/image/footer/web3.png"/>
           </li>
           <li class="ft-social">
             <span>{{$t('Footer.SocialMedia.label')}}</span>
