@@ -142,14 +142,14 @@
 				"icon": "core1",
 				"title": "Ultra-light Verification Protocol(ULVP)",
 				"info": [
-					"Provides the ability of one chain to validate the state of another chain underlow bandwidth and low storage"
+					"Provides the ability of one chain to validate the state of another chain under low bandwidth and low storage"
 				]
 			},
 			{
 				"icon": "core4",
 				"title": "MAP Feeder",
 				"info": [
-					"Provides the ability of one chain to change the state of another chain withsuitable authority"
+					"Provides the ability of one chain to change the state of another chain with suitable authority"
 				]
 			},
 			{
@@ -163,7 +163,7 @@
 				"icon": "core3",
 				"title": "Map Application Tool Environment(MATE)",
 				"info": [
-					"A  development framework  which can help developers to construct their owninteroperable blockchains"
+					"A  development framework  which can help developers to construct their own interoperable blockchains"
 				]
 			},
 
