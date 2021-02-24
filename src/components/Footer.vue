@@ -226,7 +226,7 @@
           <li class="ft-investor">
             <span>{{$t('Footer.Investor.label')}}</span>
             <a href="javascript:void(0);" :class="item.icon" v-for="(item, ins) in $t('Footer.Investor.IconList')" :key="'ft_' + ins"></a>
-            <img src="../assets/image/footer/web3.png"/>
+<!--            <img src="../assets/image/footer/web3.png"/>-->
           </li>
           <li class="ft-social">
             <span>{{$t('Footer.SocialMedia.label')}}</span>
@@ -243,7 +243,7 @@
           </li>
         </ul>
         <ul class="ctx-right">
-          <li class="ft-sup-title">{{$t('Footer.ContactUs.title')}}</li>
+          <xli class="ft-sup-title">{{$t('Footer.ContactUs.title')}}</xli>
           <li class="ft-sup-li" v-for="(item,sonIns) in $t('Footer.ContactUs.list')" :key="'const_li_' + sonIns">{{item.name}}</li>
         </ul>
       </div>
