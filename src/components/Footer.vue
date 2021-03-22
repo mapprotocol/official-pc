@@ -71,8 +71,8 @@
         margin-right: 16px;
       }
       img {
-        //width: 116px;
-        height: 28px;
+        width: 103px;
+        height: 22px;
       }
       .ft-soft{
         background-image: url("../assets/image/footer/soft.png");
@@ -226,7 +226,7 @@
           <li class="ft-investor">
             <span>{{$t('Footer.Investor.label')}}</span>
             <a href="javascript:void(0);" :class="item.icon" v-for="(item, ins) in $t('Footer.Investor.IconList')" :key="'ft_' + ins"></a>
-<!--            <img src="../assets/image/footer/web3.png"/>-->
+            <img src="../assets/image/footer/weiruan.png"/>
           </li>
           <li class="ft-social">
             <span>{{$t('Footer.SocialMedia.label')}}</span>
