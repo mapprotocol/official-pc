@@ -347,10 +347,6 @@
 			"title": "지원",
 			"list": [
 				{
-					"name": "MarcoPay website",
-					"url": "https://www.marcopay.com.br/"
-				},
-				{
 					"name": "Official ERC-20 Address",
 					"url": "https://etherscan.io/token/0x9e976f211daea0d652912ab99b0dc21a7fd728e4"
 				}

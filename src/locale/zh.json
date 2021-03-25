@@ -348,10 +348,6 @@
 			"title": "帮助与支持",
 			"list": [
 				{
-					"name": "MarcoPay website",
-					"url": "https://www.marcopay.com.br/"
-				},
-				{
 					"name": "官方唯一以太坊ERC-20合约地址",
 					"url": "https://etherscan.io/token/0x9e976f211daea0d652912ab99b0dc21a7fd728e4"
 				}
