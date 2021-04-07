@@ -94,7 +94,7 @@
 	},
 	"Introduce": {
 		"title": "First Protocol that Provides the Infrastructure for Direct Interoperate in the Heterogeneous Blockchain Ecosystem",
-		"introduce": "MAP Protocol is an open, fully decentralized, chain-to-chain interoperation protocol that enables the interoperability of multiple independently verifiable consensus blockchains without a relay chain. MAP Protocol expects to construct a future inter-chain-net, which is interoperable and chain-to-chain based. The ecosystem built on MAP Protocol can provide a solid infrastructure for DeFi, DEX, AI, IoT, traceability, and governance filed by cross-chain communication, privacy computation, shared storage, etc",
+		"introduce": "MAP Protocol is an open, fully decentralized, chain-to-chain interoperation protocol that enables the interoperability of multiple blockchains. Such interoperability could be achieved among different blockchain system or among several Layer-2 subchains. MAP Protocol expects to construct a future inter-chain-net, which is interoperable and chain-to-chain based. The ecosystem built on MAP Protocol can provide a solid infrastructure for DeFi, DEX, AI, IoT, traceability, and governance filed by cross-chain communication, privacy computation, shared storage, etc",
 		"BtnLink": [
 			{
 				"name": "Whitepaper",
