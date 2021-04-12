@@ -258,36 +258,28 @@
 				"time": "Phase 1 2019.Q3-2020.Q4",
 				"title": "Gravity:",
 				"introduce": [
-					"Ultra-light Verification Protocol",
-					"Map-PoS Consensus",
-					"Map-VM and SMART System"
+					"Release MAP Protocol Gravity Version. Implement MAP-ULVP module and MAP-POS Consensus."
 				]
 			},
 			{
 				"time": "Phase 2 2021.Q2",
 				"title": "Electromagnetic:",
 				"introduce": [
-					"MAP-Feeder",
-					"MAP Block Transport Protocol",
-					"Chain Gateway Id Specification"
+					"Release MAP Protocol Electromagnetic Version. Launch MAP Testnet Makalu. Implement MAP-Feeder module ."
 				]
 			},
 			{
 				"time": "Phase 3 2021.Q4",
 				"title": "Interaction:",
 				"introduce": [
-					"Map-P2P Protocol",
-					"MATE Framework",
-					"Standard Chain development"
+					"Release MAP Protocol Interaction Version. Launch MAP Mainnet. Implement MAP P2P Stack. Realize MAP Layer2 Cross-Chain and MATE framework."
 				]
 			},
 			{
 				"time": "Phase 4 2022.Q2",
 				"title": "Grand Unification:",
 				"introduce": [
-					"Support cross-chain with other public chains",
-					"Realize cross-chain interoperability with BTC, ETH, etc.",
-					"Provide cross-chain features with other DPoS chains"
+					"Release MAP Protocol Grand Unification Version. Realize cross-chain interoperability with other blockchain systems."
 				]
 			}
 		]
