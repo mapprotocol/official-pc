@@ -46,6 +46,11 @@
     -webkit-align-items: baseline;
     -ms-align-items: baseline;
   }
+
+  .footer-logo3 {
+    width: 33px !important;
+    height: 33px !important;
+  }
   .ctx-left{
     .ft-investor{
       margin-bottom: 41px;
@@ -227,6 +232,7 @@
             <span>{{$t('Footer.Investor.label')}}</span>
             <a href="javascript:void(0);" :class="item.icon" v-for="(item, ins) in $t('Footer.Investor.IconList')" :key="'ft_' + ins"></a>
             <img src="../assets/image/footer/weiruan.png"/>
+            <img class="footer-logo3" src="../assets/image/footer/logo3.png"/>
           </li>
           <li class="ft-social">
             <span>{{$t('Footer.SocialMedia.label')}}</span>

@@ -21,7 +21,7 @@ Vue.prototype.OrbitControls = OrbitControls
 Vue.use(VueMeta, {
   refreshOnceOnNavigation: true
 })
-Vue.use(animate);
+Vue.use(animate)
 Vue.use(VueAnimateOnScroll)
 new Vue({
   api,
