@@ -3,17 +3,17 @@
 		"navList": [
 			{
 				"key": "home",
-				"name": "首页",
+				"name": "首頁",
 				"path": "homeId"
 			},
 			{
 				"key": "why",
-				"name": "为什么",
+				"name": "為什麼",
 				"path": "whyId"
 			},
 			{
 				"key": "roadMap",
-				"name": "路线图",
+				"name": "路線圖",
 				"path": "roadMapId"
 			},
 			{
@@ -23,12 +23,12 @@
 			},
 			{
 				"key": "white",
-				"name": "白皮书",
+				"name": "白皮書",
 				"path": "https://files.maplabs.io/pdf/mapprotocol_whitepaper_en.pdf"
 			},
 			{
 				"key": "wallet",
-				"name": "钱包",
+				"name": "錢包",
 				"path": "https://www.marcopolopay.org/download"
 			}
 		],
@@ -90,14 +90,14 @@
 	"PointsWaves": {
 		"title": "MAP Protocol",
 		"subTitle": "Marcopay Wallet",
-		"subDetail": "自由互链协议"
+		"subDetail": "自由互鏈協議"
 	},
 	"Introduce": {
-		"title": "第一个异构区块链网络的直接互操作协议",
-		"introduce": "MAP 跨链协议是一种开放的、完全去中心化的链间交互协议，在独立自验证的共识机制下，链与链之间可以实现轻量级地任意交互而不需要任何中继链。MAP 跨链协议期望构建一个点对点的、具有大量可互操作的未来互链网，通过各链间TPS、隐私计算、存储、安全等资源或能力互操作，为DeFi、DEX、AI、物联网、DAO治理等应用提供坚实的区块链底层基础设施。",
+		"title": "第一個異構區塊鍊網絡的直接互操作協議",
+		"introduce": "MAP 跨鏈協議是一種開放的、完全去中心化的鏈間交互協議，在獨立自驗證的共識機制下，鏈與鏈之間可以實現輕量級地任意交互而不需要任何中繼鏈。 MAP 跨鏈協議期望構建一個點對點的、具有大量可互操作的未來互鍊網，通過各鏈間TPS、隱私計算、存儲、安全等資源或能力互操作，為DeFi、DEX、AI、物聯網、 DAO治理等應用提供堅實的區塊鏈底層基礎設施。",
 		"BtnLink": [
 			{
-				"name": "白皮书",
+				"name": "白皮書",
 				"url": "https://files.maplabs.io/pdf/mapprotocol_whitepaper_en.pdf"
 			},
 			{
@@ -107,11 +107,11 @@
 		]
 	},
 	"SubCore": {
-		"title": "MAP协议框架",
+		"title": "MAP協議框架",
 		"list": [
 			{
 				"title": [
-					"核心模块"
+					"核心模塊"
 				],
 				"desc": [
 					" Ultra-light Verification Protocol and Map Feeder"
@@ -119,7 +119,7 @@
 			},
 			{
 				"title": [
-					"附加模块"
+					"附加模塊"
 				],
 				"desc": [
 					"MAP Standardized P2P Stack and  MAP Block Transport Channel"
@@ -127,7 +127,7 @@
 			},
 			{
 				"title": [
-					"开发框架"
+					"開發框架"
 				],
 				"desc": [
 					"MAP Application Tool Environment (MATE)"
@@ -142,28 +142,28 @@
 				"icon": "core1",
 				"title": "Ultra-light Verification Protocol(ULVP)",
 				"info": [
-					"提供一条区块链使用少量带宽和少量存储去验证另一条链状态的能力"
+					"提供一條區塊鏈使用少量帶寬和少量存儲去驗證另一條鏈狀態的能力"
 				]
 			},
 			{
 				"icon": "core4",
 				"title": "MAP Feeder",
 				"info": [
-					"提供一条区块链在恰当的授权下改变另一条链的状态的能力"
+					"提供一條區塊鏈在恰當的授權下改變另一條鏈的狀態的能力"
 				]
 			},
 			{
 				"icon": "core2",
 				"title": "High-efficiency Block Transport Channel",
 				"info": [
-					"基于IBLT的，能够在传输区块的时候压缩区块大小的区块传输通道"
+					"基於IBLT的，能夠在傳輸區塊的時候壓縮區塊大小的區塊傳輸通道"
 				]
 			},
 			{
 				"icon": "core3",
 				"title": "Map Application Tool Environment(MATE)",
 				"info": [
-					"能够帮助开发者建立自己的互操作性区块链的开发框架\n"
+					"能夠幫助開發者建立自己的互操作性區塊鏈的開發框架\n"
 				]
 			},
 
@@ -171,7 +171,7 @@
 				"icon": "core5",
 				"title": "Standardized P2P Stack",
 				"info": [
-					"提供不同区块链系统的节点互相发现和传输数据流的协议"
+					"提供不同區塊鏈系統的節點互相發現和傳輸數據流的協議"
 				]
 			}
 		]
@@ -180,17 +180,17 @@
 		"infos": [
 			{
 				"count": 300000,
-				"btnName": "下载用户数",
+				"btnName": "下載用戶數",
 				"url": ""
 			},
 			{
 				"count": 3,
-				"btnName": "钱包支持链",
+				"btnName": "錢包支持鏈",
 				"url": ""
 			},
 			{
 				"count": 140000,
-				"btnName": "社群人数",
+				"btnName": "社群人數",
 				"url": ""
 			}
 		]
@@ -198,28 +198,28 @@
 	"Info":{
 		"list": [
 			{
-				"name": "简洁性",
+				"name": "簡潔性",
 				"remark": [
-					"该协议不会占用大量的网络资源和存储资源"
+					"該協議不會佔用大量的網絡資源和存儲資源"
 				]
 			},
 			{
 				"name": "可靠性",
 				"remark": [
-					"该协议保证了互操作的安全性，即任何节点获取的数据必须与对应链上所有节点获取的数据一致"
+					"該協議保證了互操作的安全性，即任何節點獲取的數據必須與對應鏈上所有節點獲取的數據一致"
 				]
 			},
 			{
 				"name": "普遍性",
 				"remark": [
-					"该协议只管理可互操作的模块，不向生态区块链添加任何其他要求、约束或限制"
+					"該協議只管理可互操作的模塊，不向生態區塊鏈添加任何其他要求、約束或限制"
 				]
 			}
 		]
 	},
 	"Scenarios": {
-		"title": "应用场景",
-		"introduce": "DeFi和DEX是MAP跨链协议的重要应用场景，DeFi和DEX的本质可以看作是链间计算，而MAP跨链协议提供了强大的链间互操作功能。 通过链的互操作，可以直接交换不同数字资产,可以使DeFi和DEX更安全，更高效。",
+		"title": "應用場景",
+		"introduce": "DeFi和DEX是MAP跨鏈協議的重要應用場景，DeFi和DEX的本質可以看作是鏈間計算，而MAP跨鏈協議提供了強大的鏈間互操作功能。通過鏈的互操作，可以直接交換不同數字資產,可以使DeFi和DEX更安全，更高效。",
 		"list": [
 			{
 				"icon": "finance",
@@ -231,7 +231,7 @@
 			},
 			{
 				"icon": "iot",
-				"name": "物联网"
+				"name": "物聯網"
 			},
 			{
 				"icon": "trace",
@@ -239,11 +239,11 @@
 			},
 			{
 				"icon": "privacy",
-				"name": "隐私计算"
+				"name": "隱私計算"
 			},
 			{
 				"icon": "shared",
-				"name": "共享存储"
+				"name": "共享存儲"
 			},
 			{
 				"icon": "more",
@@ -252,42 +252,42 @@
 		]
 	},
 	"Roadmap": {
-		"title": "路线图",
+		"title": "路線圖",
 		"list": [
 			{
-				"time": "第一阶段 2019.Q3-2020.Q4",
+				"time": "第一階段 2019.Q3-2020.Q4",
 				"title": "引力:",
 				"introduce": [
-					"超轻验证协议",
-					"MAP-PoS共识",
-					" MAP-VM和SMART系统"
+					"超輕驗證協議",
+					"MAP-PoS共識",
+					" MAP-VM和SMART系統"
 				]
 			},
 			{
-				"time": "第二阶段 2021年Q2",
+				"time": "第二階段 2021年Q2",
 				"title": "电磁:",
 				"introduce": [
 					"MAP-Feeder",
-					"MAP块传输协议",
-					"链网关ID规范"
+					"MAP塊傳輸協議",
+					"鍊網關ID規範"
 				]
 			},
 			{
-				"time": "第三阶段 2021年Q4",
+				"time": "第三階段 2021年Q4",
 				"title": "相互作用:",
 				"introduce": [
-					"Map-P2P通讯协定",
+					"Map-P2P通訊協定",
 					"MATE框架",
-					"标准链开发"
+					"標準鏈開發"
 				]
 			},
 			{
-				"time": "第四阶段 2022年Q2",
-				"title": "大统一:",
+				"time": "第四階段 2022年Q2",
+				"title": "大統一:",
 				"introduce": [
-					"支持与其他公共链的跨链",
-					"与BTC，ETH等实现跨链互操作性",
-					"与其他DPoS链一起提供跨链功能"
+					"支持與其他公共鏈的跨鏈",
+					"與BTC，ETH等實現跨鏈互操作性",
+					"與其他DPoS鏈一起提供跨鏈功能"
 				]
 			}
 		]
@@ -304,7 +304,7 @@
 			]
 		},
 		"SocialMedia": {
-			"label": "社交媒体：",
+			"label": "社交媒體：",
 			"IconList": [
 				{
 					"icon": "ft-telegram",
@@ -345,7 +345,7 @@
 		},
 		"Copyright": "© 2020 MarcoPolo Network Foundation, All Rights Reseved",
 		"Support": {
-			"title": "帮助与支持",
+			"title": "幫助與支持",
 			"list": [
 				{
 					"name": "官方唯一以太坊ERC-20合约地址",
@@ -354,7 +354,7 @@
 			]
 		},
 		"ContactUs": {
-			"title": "联系我们",
+			"title": "聯繫我們",
 			"list": [
 				{
 					"name": "cooperation@MarcoPolo.link"
