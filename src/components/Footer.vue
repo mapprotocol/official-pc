@@ -124,6 +124,10 @@
       .ft-cat {
         background-image: url("../assets/image/footer/cat.png");
       }
+
+      .ft-frog {
+        background-image: url("../assets/image/footer/frog.png");
+      }
     }
     .ft-copyright {
       span {

@@ -332,6 +332,11 @@
 					"icon": "ft-cat",
 					"key": "",
 					"url": " https://github.com/mapprotocol"
+				},
+				{
+					"icon": "ft-frog",
+					"key": "",
+					"url": " https://www.coingecko.com/en/coins/map-protocol"
 				}
 			]
 		},
