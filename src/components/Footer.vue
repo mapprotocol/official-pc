@@ -253,7 +253,7 @@
           </li>
         </ul>
         <ul class="ctx-right">
-          <xli class="ft-sup-title">{{$t('Footer.ContactUs.title')}}</xli>
+          <li class="ft-sup-title">{{$t('Footer.ContactUs.title')}}</li>
           <li class="ft-sup-li" v-for="(item,sonIns) in $t('Footer.ContactUs.list')" :key="'const_li_' + sonIns">{{item.name}}</li>
         </ul>
       </div>

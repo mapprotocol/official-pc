@@ -260,34 +260,39 @@
 				"introduce": [
 					"超輕驗證協議",
 					"MAP-PoS共識",
-					" MAP-VM和SMART系統"
+					"MAP-VM和SMART系統"
 				]
 			},
 			{
-				"time": "第二階段 2021年Q2",
+				"time": "Phrase 2: 2021.Q3",
 				"title": "电磁:",
 				"introduce": [
-					"MAP-Feeder",
-					"MAP塊傳輸協議",
-					"鍊網關ID規範"
+					"測試網上線，啟動與eth的去中心化跨鏈測試",
+					"開展公測，邀請更多用戶加入節點參與測試網公測"
 				]
 			},
 			{
-				"time": "第三階段 2021年Q4",
+				"time": "Phrase 3: 2021.Q4",
 				"title": "相互作用:",
 				"introduce": [
-					"Map-P2P通訊協定",
-					"MATE框架",
-					"標準鏈開發"
+					"主網正式上線，支持多鏈間去中心化跨鏈",
+					"支持跨鏈swap和更多defi項目加入"
 				]
 			},
 			{
-				"time": "第四階段 2022年Q2",
+				"time": "Phrase 4: 2022.Q3",
 				"title": "大統一:",
 				"introduce": [
-					"支持與其他公共鏈的跨鏈",
-					"與BTC，ETH等實現跨鏈互操作性",
-					"與其他DPoS鏈一起提供跨鏈功能"
+					"接入更多公鏈，優化協議，為跨鏈預言機、借貸等各種DApp提供支持",
+					"支持BTC等非智能合約主鏈跨鏈，為非智能合約主鏈提供exchange和swap支持"
+				]
+			},
+			{
+				"time": "Phrase 5: 2023.Q2",
+				"title": "大統一:",
+				"introduce": [
+					"支持任意消息的去中心化跨鏈",
+					"提供更完善的SDK，讓更多區塊鏈可以更方便接入跨鏈"
 				]
 			}
 		]
@@ -340,6 +345,11 @@
 					"icon": "ft-cat",
 					"key": "",
 					"url": " https://github.com/mapprotocol"
+				},
+				{
+					"icon": "ft-frog",
+					"key": "",
+					"url": " https://www.coingecko.com/en/coins/map-protocol"
 				}
 			]
 		},
