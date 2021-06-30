@@ -255,7 +255,7 @@
 		"title": "Roadmap",
 		"list": [
 			{
-				"time": "Phase 1 2019.Q3-2020.Q4",
+				"time": "Phase 1:  2019.Q3-2020.Q4",
 				"title": "Gravity:",
 				"introduce": [
 					"Release MAP Protocol Gravity Version. Implement MAP-ULVP module and MAP-POS Consensus."
