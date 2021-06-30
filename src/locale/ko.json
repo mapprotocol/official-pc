@@ -263,30 +263,35 @@
 				]
 			},
 			{
-				"time": "2단계(Phase 2) : 2021년 2분기",
+				"time": "2단계: 2021년 3분기",
 				"title": "전자파(Electromagnetic):",
 				"introduce": [
-					"MAP-Feeder",
-					"MAP 블록 전송 프로토콜",
-					"체인 게이트웨이 ID 사양"
+					"테스트넷 런칭, 탈 중앙화 된 ETH 체인 간 연결 테스트",
+					"BETA버전 테스트, 더 많은 사용자에게 노드를 생성하여 BETA버전 테스트 진행 요청"
 				]
 			},
 			{
-				"time": "3단계(Phase 3) : 2021년 4분기",
+				"time": "3단계: 2021년 4분기",
 				"title": "상호작용(Interaction):",
 				"introduce": [
-					"Map-P2P 프로토콜",
-					"MATE 프레임워크",
-					"표준 체인 개발"
+					"메인넷 공식 런칭, 복수의 체인 간 탈 중앙화 크로스체인 지원",
+					"체인 간 Swap지원, 더 많은 DeFi 프로젝트 가입"
 				]
 			},
 			{
-				"time": "4단계((Phase 4) : 2022년 2분기",
+				"time": "4단계: 2022년 3분기",
 				"title": "대통합(Grand Unification):",
 				"introduce": [
-					"다른 공용 체인과의 교차 체인 지원",
-					"BTC, ETH 등과 교차 체인 상호운용성(interoperability ) 실현",
-					"다른 DPoS 체인들과의 교차 체인 기능 제공"
+					"더 많은 퍼블릭 체인 간 연결, 프로토콜 최적화, 블록체인 오라클, 대출 등 여러 디앱 지원",
+					"BTC등의 비 스마트 계약의 메인넷 연결 지원, Exchange 및 Swap지원"
+				]
+			},
+			{
+				"time": "5단계: 2023년 2분기",
+				"title": "대통합(Grand Unification):",
+				"introduce": [
+					"모든 메시지의 탈 중앙화 된 체인 간 전송 지원",
+					"더 완벽한 SDK 지원, 더 많은 블록체인의 체인 간 연결 지원"
 				]
 			}
 		]
@@ -339,6 +344,11 @@
 					"icon": "ft-cat",
 					"key": "",
 					"url": " https://github.com/mapprotocol"
+				},
+				{
+					"icon": "ft-frog",
+					"key": "",
+					"url": " https://www.coingecko.com/en/coins/map-protocol"
 				}
 			]
 		},

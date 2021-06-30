@@ -160,7 +160,7 @@
       <div class="road-ctx">
         <div :class="['road-row', {'animated fadeInRight': ins % 2 === 0 && flag, 'animated fadeInLeft': ins % 2 !== 0 && flag }, 'delay-'+ins+'s']" v-for="(item, ins) in $t('Roadmap.list')" :key="'road_' + ins">
           <div class="item-title">{{item.time}}</div>
-          <div class="item-subTitle">{{item.title}}</div>
+<!--          <div class="item-subTitle">{{item.title}}</div>-->
           <ul>
             <li v-for="(sonItem, sonIns) in item.introduce" :key="'road_son_' + sonIns">{{sonItem}}</li>
           </ul>
@@ -181,7 +181,7 @@ export default {
   },
   methods: {},
   mounted () {
-    let that = this;
+    let that = this
     this.interTimer = setInterval(function () {
       let subCoreDom = document.querySelector('#roadMapId')
       if (subCoreDom) {
