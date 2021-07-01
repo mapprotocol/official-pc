@@ -262,7 +262,7 @@
 				]
 			},
 			{
-				"time": "Phrase 2: 2021.Q3",
+				"time": "Phase 2: 2021.Q3",
 				"title": "Electromagnetic:",
 				"introduce": [
 					"Launch the Testnet, start the decentralized cross-chain tests with ETH",
@@ -270,7 +270,7 @@
 				]
 			},
 			{
-				"time": "Phrase 3: 2021.Q4",
+				"time": "Phase 2: 2021.Q3",
 				"title": "Interaction:",
 				"introduce": [
 					"Launch the mainnet; support decentralized cross-chain between multiple chains",
@@ -278,7 +278,7 @@
 				]
 			},
 			{
-				"time": "Phrase 4: 2022.Q3",
+				"time": "Phase 4: 2022.Q3",
 				"title": "Grand Unification:",
 				"introduce": [
 					"Access to more public chains, optimize protocols, and provide supports for cross-chain oracles, lending, and other DApps",
@@ -286,7 +286,7 @@
 				]
 			},
 			{
-				"time": "Phrase 5: 2023.Q2",
+				"time": "Phase 5: 2023.Q2",
 				"introduce": [
 					"Support decentralized cross-chain of any message",
 					"Provide a more complete SDK, so that more blockchains can easily access cross-chain"
