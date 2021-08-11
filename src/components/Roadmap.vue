@@ -61,14 +61,13 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      //width: 1200px;
+      justify-content: center;
       margin: 0 auto;
       padding-top: 101px;
       padding-bottom: 120px;
       position: relative;
       z-index: 99
     }
-
 
     .road-content {
       padding-top: 85px;
@@ -101,6 +100,10 @@
     }
 
     .road-img {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
       width: 100%;
       padding-top: 110px;
       img {
@@ -110,6 +113,7 @@
 
     .road-text {
       position: relative;
+      max-width: 1600px;
       width: 100%;
       height: 220px;
       background: url("../assets/image/roadmap/content.png")no-repeat;
@@ -120,40 +124,41 @@
       text-align: center;
       position: absolute;
       left: 18%;
-      top: -40%;
+      top: -100px;
       width: 16%;
       font-size: 16px;
       font-family: PingFangSC-Semibold, PingFang SC;
       font-weight: 600;
       color: #FFFFFF;
       line-height: 20px;
+      max-width: 280px;
     }
 
     .road-text-two {
-      width: 17%;
       position: absolute;
       left: 42%;
-      top: -48%;
+      top: -115px;
     }
 
     .road-text-three {
-      width: 18%;
       position: absolute;
       left: 67%;
-      top: -47%;
+      top: -115px;
+      //top: -47%;
     }
 
     .road-text-four {
       position: absolute;
       left: 29%;
-      top: 90%;
+      top: 210px;
     }
 
     .road-text-five {
       width: 23%;
       position: absolute;
       left: 52%;
-      top: 90%;
+      top: 210px;
+      max-width: 350px;
     }
 
     .road-part {
@@ -184,28 +189,28 @@
       .road-text-one {
         width: 20%;
         left: 15%;
-        top: -48%;
+        top: -110px;
       }
 
       .road-text-two {
         left: 40%;
-        top: -57%;
+        top: -127px;
       }
 
       .road-text-three {
         width: 24%;
         left: 65%;
-        top: -50%;
+        top: -110px;
       }
 
       .road-text-four {
-        top: 60%;
+        top: 135px;
         left: 27%;
       }
 
       .road-text-five {
         width: 28%;
-        top: 60%;
+        top: 135px;
         left: 49%;
       }
 
