@@ -137,7 +137,7 @@
     }
 
     .footer-link {
-      width: 45%;
+      width: 40%;
       padding-top: 68px;
       display: flex;
       flex-direction: row;
@@ -223,7 +223,7 @@
             <!--                link-->
             <div class="footer-link">
               <div class="link-title">
-                <a target="_blank" href="https://etherscan.io/token/0x9e976f211daea0d652912ab99b0dc21a7fd728e4">Support: Official ERC-20 Address</a>
+                <a target="_blank" href="https://etherscan.io/token/0x9e976f211daea0d652912ab99b0dc21a7fd728e4">Official ERC-20 Address</a>
               </div>
               <div class="link-line">|</div>
               <div>Email: cooperation@maplabs.io</div>
