@@ -125,8 +125,8 @@
       }
 
       .atom-banner {
-        padding-top: 82px;
-        padding-bottom: 107px;
+        padding-top: 12px;
+        padding-bottom: 47px;
         img {
           width: 1140px;
         }

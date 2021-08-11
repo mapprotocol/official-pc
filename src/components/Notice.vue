@@ -19,7 +19,7 @@
     .notice-container {
       width: 1200px;
       margin: 0 auto;
-      padding-top: 100px;
+      padding-top: 60px;
       padding-bottom: 140px;
       display: flex;
       flex-direction: column;

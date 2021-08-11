@@ -97,7 +97,7 @@
     }
 
     .title-line {
-      margin-bottom: 110px;
+      margin-bottom: 70px;
     }
 
     .road-img {
