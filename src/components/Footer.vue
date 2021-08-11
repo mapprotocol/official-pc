@@ -138,7 +138,7 @@
     }
 
     .footer-link {
-      width: 85%;
+      width: 45%;
       padding-top: 128px;
       display: flex;
       flex-direction: row;
@@ -147,7 +147,7 @@
     }
 
     .footer-all {
-      padding-top: 38px;
+      padding-top: 68px;
       font-size: 16px;
       font-family: Helvetica;
       color: #595959;
@@ -180,7 +180,6 @@
         <div class="ft-container">
           <div class="footer-content">
             <div class="footer-title">
-              <img/>
               <span>{{ $t('Footer.title') }}</span>
             </div>
             <div class="footer-icon">
@@ -188,25 +187,14 @@
               <a href="https://t.me/MarcoPoloMAP" target="_blank"><img src="../assets/image/footer/telegram.png"/></a>
               <a href="https://twitter.com/MarcoPoloGlobal" target="_blank"><img src="../assets/image/footer/twitter.png"/></a>
               <a href="https://github.com/mapprotocol" target="_blank"><img src="../assets/image/footer/git.png"/></a>
-              <a href="https://bitcointalk.org/index.php?topic=5215440.new#new" target="_blank"><img
-                  src="../assets/image/footer/bittalk.png" target="_blank"/></a>
+<!--              <a href="https://bitcointalk.org/index.php?topic=5215440.new#new" target="_blank"><img-->
+<!--                  src="../assets/image/footer/bittalk.png" target="_blank"/></a>-->
               <a href="https://open.kakao.com/o/gP9WduRb" target="_blank"><img src="../assets/image/footer/kakao.png"/></a>
               <a href="https://blog.naver.com/marcopay" target="_blank"><img src="../assets/image/footer/naver.png"/></a>
               <a href="https://www.coingecko.com/en/coins/map-protocol" target="_blank"> <img src="../assets/image/footer/fog.png"/></a>
               <!--                <a> <img src="../assets/image/footer/t.png"/></a>-->
               <!--                <a href="mailto:"> <img src="../assets/image/footer/email.png"/></a>-->
             </div>
-
-<!--            <div class="footer-sub">-->
-<!--              <div class="footer-sub-title">{{ $t('Footer.sub.title') }}</div>-->
-<!--              <form action="https://maplabs.us5.list-manage.com/subscribe/post?u=d9020390cb31cbcdcfb9df2e9&amp;id=49e9121910" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>-->
-<!--                <div class="footer-sub-input">-->
-<!--                  <input v-model="email" :placeholder="$t('Footer.sub.input')"/>-->
-<!--                  <button @click="actionEmail">{{ $t('Footer.sub.btn') }}</button>-->
-<!--                </div>-->
-<!--              </form>-->
-
-
             <div class="footer-sub">
               <div class="footer-sub-title">{{ $t('Footer.sub.title') }}</div>
               <form action="https://maplabs.us5.list-manage.com/subscribe/post?u=d9020390cb31cbcdcfb9df2e9&amp;id=49e9121910" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -218,40 +206,23 @@
 <!--                  <button>{{ $t('Footer.sub.btn') }}</button>-->
                 </div>
               </form>
-
-
-<!--              <div id="mc_embed_signup" class="footer-sub-input">-->
-<!--                <form action="https://maplabs.us5.list-manage.com/subscribe/post?u=d9020390cb31cbcdcfb9df2e9&amp;id=49e9121910" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>-->
-<!--                  <div id="mc_embed_signup_scroll ">-->
-
-<!--                    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>-->
-<!--                    &lt;!&ndash; real people should not fill this in and expect good things - do not remove this or risk form bot signups&ndash;&gt;-->
-<!--                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d9020390cb31cbcdcfb9df2e9_49e9121910" tabindex="-1" value=""></div>-->
-<!--                    <div class="clear">-->
-<!--                      <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">{{ $t('Footer.sub.btn') }}</button>-->
-<!--                    </div>-->
-<!--                  </div>-->
-<!--                </form>-->
-<!--              </div>-->
-
-
-
             </div>
 
             <!--                link-->
             <div class="footer-link">
-              <div class="link-title">cooperation@MarcoPolo.link</div>
+              <div class="link-title">Support: Official ERC-20 Address</div>
               <div class="link-line">|</div>
-              <div>cooperation@maplabs.io</div>
-              <div>|</div>
-              <div>developers@MarcoPolo.link</div>
-              <div>|</div>
-              <div>developers@maplabs.io</div>
+              <div>Email: cooperation@maplabs.io</div>
+<!--              <div>|</div>-->
+<!--              <div>developers@MarcoPolo.link</div>-->
+<!--              <div>|</div>-->
+<!--              <div>developers@maplabs.io</div>-->
             </div>
             <!--            all right-->
             <div class="footer-all">
-              © 2021 MarcoPolo Network Foundation, All Rights Reseved
+              © 2021 MarcoPolo Network Foundation, All Rights Reseved<br>
             </div>
+<!--            <span style="text-align: center;width: 100%;margin-top: 20px">Email: cooperation@maplabs.io</span>-->
           </div>
         </div>
       </div>
