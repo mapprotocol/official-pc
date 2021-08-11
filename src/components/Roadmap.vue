@@ -121,10 +121,10 @@
     }
 
     .road-text-one {
-      text-align: center;
+      text-align: left;
       position: absolute;
-      left: 18%;
-      top: -100px;
+      left: 20%;
+      top: -97px;
       width: 16%;
       font-size: 16px;
       font-family: PingFangSC-Semibold, PingFang SC;
@@ -135,29 +135,30 @@
     }
 
     .road-text-two {
+      width: 17%;
       position: absolute;
-      left: 42%;
+      left: 45%;
       top: -115px;
     }
 
     .road-text-three {
       position: absolute;
-      left: 67%;
+      left: 70%;
       top: -115px;
       //top: -47%;
     }
 
     .road-text-four {
       position: absolute;
-      left: 29%;
-      top: 210px;
+      left: 30%;
+      top: 200px;
     }
 
     .road-text-five {
       width: 23%;
       position: absolute;
-      left: 52%;
-      top: 210px;
+      left: 54%;
+      top: 200px;
       max-width: 350px;
     }
 

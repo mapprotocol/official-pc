@@ -178,7 +178,7 @@
         font-weight: 600;
         color: #FFFFFF;
         padding-top: 28px;
-        padding-bottom: 42px;
+        padding-bottom: 25px;
         width: 90%;
         text-align: center;
       }
@@ -203,14 +203,15 @@
         margin-left: 10px;
         font-size: 14px;
         font-family: PingFangSC-Regular, PingFang SC;
-        font-weight: 400;
+        font-weight: 800;
         color: #FFFFFF;
         line-height: 17px;
         width: 100%;
       }
 
       .content-right-one {
-        color: #FFF391;
+        //color: black;
+        //font-weight: 900;
       }
 
       .content-right-twod {
