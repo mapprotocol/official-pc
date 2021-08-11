@@ -13,7 +13,7 @@
       width: 100%;
       background: #0B0B0B;
       color: white;
-      padding: 145px 0;
+      padding: 85px 0 60px 0;
       position: relative;
       z-index: 99;
     }
@@ -39,7 +39,6 @@
         font-size: 23px;
         font-family: Helvetica;
         color: #FFFFFF;
-        padding-left: 20px;
       }
     }
 
@@ -86,7 +85,7 @@
 
     .footer-sub {
       width: 100%;
-      padding-top: 68px;
+      padding-top: 88px;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -139,7 +138,7 @@
 
     .footer-link {
       width: 45%;
-      padding-top: 128px;
+      padding-top: 68px;
       display: flex;
       flex-direction: row;
       align-items: center;
@@ -147,12 +146,25 @@
     }
 
     .footer-all {
-      padding-top: 68px;
+      padding-top: 18px;
       font-size: 16px;
       font-family: Helvetica;
       color: #595959;
     }
 
+    .link-title {
+      font-family:PingFangSC-Regular,PingFang SC;
+      color: #FFFFFF;
+      font-weight:400;
+    }
+
+    a {
+      font-family:PingFangSC-Regular,PingFang SC;
+      color: #FFFFFF;
+      font-weight:400;
+      text-decoration: none;
+      outline-style: none;
+    }
 
     @media (max-width: 1200px) {
       .ft-container {
@@ -210,7 +222,9 @@
 
             <!--                link-->
             <div class="footer-link">
-              <div class="link-title">Support: Official ERC-20 Address</div>
+              <div class="link-title">
+                <a target="_blank" href="https://etherscan.io/token/0x9e976f211daea0d652912ab99b0dc21a7fd728e4">Support: Official ERC-20 Address</a>
+              </div>
               <div class="link-line">|</div>
               <div>Email: cooperation@maplabs.io</div>
 <!--              <div>|</div>-->
