@@ -51,9 +51,9 @@ const setMeta = (keyword, description, description2) => {
       switch (lang) {
         case 'zh':
           keyword =
-            'MAP,map protocol,blockchain,区块链,以太坊,,BTC支付,区块链支付'
+            '马可波罗,marcopolo ,MAP,marcopolo protocol,blockchain,区块链,以太坊,,BTC支付,区块链支付,Marcopay'
           description =
-            'MAP Protocol 是一种开放的、完全去中心化的链间交互协议，在独立自验证的共识机制下，链与链之间可以实现轻量级地任意交互而不需要任何中继链。MAP Protocol 期望构建一个点对点的、具有大量可互操作的未来互链网，通过各链间TPS、隐私计算、存储、安全等资源或能力互操作，为金融、AI、物联网、溯源、治理等领域应用提供坚实的区块链底层基础设施。'
+            'MAP Protocol 是一种开放的、完全去中心化的链间交互协议，在独立自验证的共识机制下，链与链之间可以实现轻量级地任意交互而不需要任何中继链。MarcoPolo Protocol 期望构建一个点对点的、具有大量可互操作的未来互链网，通过各链间TPS、隐私计算、存储、安全等资源或能力互操作，为金融、AI、物联网、溯源、治理等领域应用提供坚实的区块链底层基础设施。'
           description2 = ''
           break
         case 'ko':
@@ -64,18 +64,18 @@ const setMeta = (keyword, description, description2) => {
           break
         default:
           keyword =
-            'map ,map protocol,blockchain,Ethereum,cryptocurrency,Pay,Crypto payment,bitcoin payment,payment,map,bitcoin,Magellan protocol, peer-to-peer cash system,defi,dex,Gravity,Map,peer-to-peer Electronic cash system'
+            'marcopolo ,marcopolo protocol,blockchain,Ethereum,cryptocurrency,Pay,Crypto payment,bitcoin payment,payment,map,bitcoin,Magellan protocol, peer-to-peer cash system,defi,dex,Gravity,Marcopay,MarcoPolo pay,MarcoPolo,peer-to-peer Electronic cash system'
           description =
-            'MAP Protocol is an open, fully decentralized, chain-to-chain interoperation protocol that enables the interoperability of multiple blockchains. Such interoperability could be achieved among different blockchain system or among several Layer-2 subchains. MAP Protocol expects to construct a future inter-chain-net, which is interoperable and chain-to-chain based. The ecosystem built on MAP Protocol can provide a solid infrastructure for DeFi, DEX, AI, IoT, traceability, and governance filed by cross-chain communication, privacy computation, shared storage, etc'
+            'MarcoPolo Protocol is an open, fully decentralized, chain-to-chain interoperation protocol that enables the interoperability of multiple independently verifiable consensus blockchains without a relay chain. MarcoPolo Protocol expects to construct a future inter-chain-net, which is interoperable and chain-to-chain based. The ecosystem built on MarcoPolo Protocol can provide a solid infrastructure for finance, AI, IoT, traceability, and governance filed by cross-chain communication, privacy computation, shared storage, etc...'
           description2 =
             ''
           break
       }
     } else {
       keyword =
-        'map ,map protocol,blockchain,Ethereum,cryptocurrency,Pay,Crypto payment,bitcoin payment,payment,map,bitcoin,Magellan protocol, peer-to-peer cash system,defi,dex,Gravity,Map,peer-to-peer Electronic cash system'
+        'marcopolo ,marcopolo protocol,blockchain,Ethereum,cryptocurrency,Pay,Crypto payment,bitcoin payment,payment,map,bitcoin,Magellan protocol, peer-to-peer cash system,defi,dex,Gravity,Marcopay,MarcoPolo pay,MarcoPolo,peer-to-peer Electronic cash system'
       description =
-        'MAP Protocol is an open, fully decentralized, chain-to-chain interoperation protocol that enables the interoperability of multiple blockchains. Such interoperability could be achieved among different blockchain system or among several Layer-2 subchains. MAP Protocol expects to construct a future inter-chain-net, which is interoperable and chain-to-chain based. The ecosystem built on MAP Protocol can provide a solid infrastructure for DeFi, DEX, AI, IoT, traceability, and governance filed by cross-chain communication, privacy computation, shared storage, etc'
+        'MarcoPolo Protocol is an open, fully decentralized, chain-to-chain interoperation protocol that enables the interoperability of multiple independently verifiable consensus blockchains without a relay chain. MarcoPolo Protocol expects to construct a future inter-chain-net, which is interoperable and chain-to-chain based. The ecosystem built on MarcoPolo Protocol can provide a solid infrastructure for finance, AI, IoT, traceability, and governance filed by cross-chain communication, privacy computation, shared storage, etc...'
       description2 =
         ''
     }

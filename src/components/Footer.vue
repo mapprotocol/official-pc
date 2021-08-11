@@ -1,269 +1,291 @@
-<style scoped lang="less">
-  .footer {
-    clear: both;
-    width: 100%;
-    min-height: 482px;
-    background: #000000;
-    padding-top: 73px;
-    ul,li {
-      list-style-type: none;
-    }
-    a {
-      text-decoration: none;
-    }
-  }
-  .ft-container {
-    width: 1200px;
-    margin: 0 auto;
-  }
-  .ft-logo {
-    width: 127px;
-    height: 127px;
-    background-image: url("../assets/image/footer/logo.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    margin: 0 auto 51px auto;
-  }
-  .ft-mobile-copyRight {
-    display: none;
-    width: 80%;
-    word-break: break-all;
-    text-align: center;
-    padding-top: 41px;
-    padding-bottom: 102px;
-    font-size:14px;
-    font-family: PingFangSC-Regular,PingFang SC;;
-    font-weight:400;
-    color: #FFFFFF;
-    line-height:20px;
-    margin: 0 auto;
-  }
-  .ft-ctx {
-    display: flex;
-    justify-content: space-between;
-    -webkit-justify-content: space-between;
-    align-items: baseline;
-    -webkit-align-items: baseline;
-    -ms-align-items: baseline;
-  }
+    <style scoped lang="less">
 
-  .footer-logo3 {
-    width: 33px !important;
-    height: 33px !important;
-  }
-  .ctx-left{
-    .ft-investor{
-      margin-bottom: 41px;
+    input:-webkit-autofill,
+    input:-webkit-autofill:hover,
+    input:-webkit-autofill:focus,
+    input:-webkit-autofill:active {
+      -webkit-transition-delay: 99999s;
+      -webkit-transition: color 99999s ease-out, background-color 99999s ease-out;
+    }
+
+    .footer {
+      clear: both;
+      width: 100%;
+      background: #0B0B0B;
+      color: white;
+      padding: 145px 0;
+      position: relative;
+      z-index: 99;
+    }
+
+    .ft-container {
+      width: 1200px;
+      margin: 0 auto;
+    }
+
+    .footer-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .footer-title {
+      img {
+        width: 58px;
+      }
+
+      span {
+        font-size: 23px;
+        font-family: Helvetica;
+        color: #FFFFFF;
+        padding-left: 20px;
+      }
+    }
+
+    .footer-icon {
+      width: 80%;
       display: flex;
       flex-direction: row;
       align-items: center;
-      span{
-        display: inline-block;
-        vertical-align: middle;
-        font-size:20px;
-        font-family:PingFangSC-Semibold,PingFang SC;
-        font-weight:600;
-        color: #ffffff;
-        line-height:28px;
-      }
-      a{
-        display: inline-block;
-        vertical-align: middle;
-        width: 116px;
-        height: 24px;
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        margin-right: 16px;
-      }
+      justify-content: space-between;
+      padding-top: 61px;
+
       img {
-        width: 103px;
-        height: 22px;
+        width: 27px;
       }
-      .ft-soft{
-        background-image: url("../assets/image/footer/soft.png");
+
+      img:nth-child(3) {
+        width: 29px;
       }
-    }
-    .ft-social{
-      margin-bottom: 33px;
-      span{
-        display: inline-block;
-        vertical-align: middle;
-        font-size:20px;
-        font-family:PingFangSC-Semibold,PingFang SC;
-        font-weight:600;
-        color: #ffffff;
-        line-height:28px;
-      }
-      a{
-        display: inline-block;
-        vertical-align: middle;
+
+      img:nth-child(4) {
         width: 28px;
-        height: 28px;
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        margin-right: 26px;
-      }
-      .ft-telegram {
-        background-image: url("../assets/image/footer/telegram.png");
-      }
-      .ft-twitter {
-        background-image: url("../assets/image/footer/twitter.png");
-      }
-      .ft-bitcointalk {
-        background-image: url("../assets/image/footer/bitcointalk.png");
-      }
-      .ft-naver {
-        background-image: url("../assets/image/footer/naver.png");
-      }
-      .ft-medium {
-        background-image: url("../assets/image/footer/medium.png");
-      }
-      .ft-kakao{
-        background-image: url("../assets/image/footer/kakao.png");
-      }
-      .ft-cat {
-        background-image: url("../assets/image/footer/cat.png");
       }
 
-      .ft-frog {
-        background-image: url("../assets/image/footer/frog.png");
+      img:nth-child(5) {
+        width: 20px;
       }
-    }
-    .ft-copyright {
-      span {
-        font-size:14px;
-        font-family:PingFangSC-Regular,PingFang SC;
-        font-weight:400;
-        /*color: #CCCCCC;*/
-        color: #FFFFFF;
-        line-height:20px;
-      }
-    }
-  }
-  .ft-sup-title {
-    font-size: 20px;
-    font-family: Helvetica;
-    color:  #FFFFFF;
-    line-height: 24px;
-    margin-bottom: 26px;
-  }
-  .ft-sup-li {
-    font-size:14px;
-    font-family:PingFangSC-Regular,PingFang SC;
-    /*color: #CCCCCC;*/
-    color: #FFFFFF;
-    font-weight:400;
-    line-height:20px;
-    margin-bottom: 15px;
-    a {
-      font-size:14px;
-      font-family:PingFangSC-Regular,PingFang SC;
-      /*color: #CCCCCC;*/
-      color: #FFFFFF;
-      font-weight:400;
-    }
-  }
 
-  @media(max-width: 1200px) {
-    .ft-container{
+      img:nth-child(6) {
+        width: 29px;
+      }
+
+      img:nth-child(7) {
+        width: 21px;
+      }
+
+      img:nth-child(8) {
+        width: 38px;
+      }
+
+      img:nth-child(9) {
+        width: 38px;
+      }
+    }
+
+    .footer-sub {
       width: 100%;
+      padding-top: 68px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
-    .ft-mobile-copyRight {
-      display: block;
-    }
-    .ft-ctx {
-      flex-wrap: wrap;
-      -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-      .ft-copyright {
-        display: none;
-      }
-      .ctx-left {
-        width: 100%;
-        text-align: center;
-      }
-      .ctx-center {
-        margin-top: 46px;
-        width: 100%;
-        text-align: center;
-      }
-      .ctx-right {
-        margin-top: 41px;
-        width: 100%;
-        text-align: center;
-      }
-    }
-  }
-  @media(max-width: 480px) {
-    .footer {
-      padding-top: 67px;
-    }
-    .ft-logo {
-      margin: 0 auto 66px auto;
-    }
-    .ctx-left{
-      .ft-social{
-        span {
-          display: block;
-          margin-bottom: 20px;
-        }
-        a {
-          width: 25px;
-          height: 25px;
-          &:last-child {
-            margin-right: 0;
-          }
-        }
-      }
-    }
-    .ft-ctx {
-      .ctx-center, .ctx-right {
-        margin-top: 26px;
-      }
-    }
-    .ft-mobile-copyRight {
-      padding-top: 41px;
-    }
-  }
-</style>
-<template>
-  <div class="footer" id="footer">
-    <div class="ft-container">
-      <div class="ft-logo"></div>
-      <div class="ft-ctx">
-        <ul class="ctx-left">
-          <li class="ft-investor">
-            <span>{{$t('Footer.Investor.label')}}</span>
-            <a href="javascript:void(0);" :class="item.icon" v-for="(item, ins) in $t('Footer.Investor.IconList')" :key="'ft_' + ins"></a>
-            <img src="../assets/image/footer/weiruan.png"/>
-            <img class="footer-logo3" src="../assets/image/footer/logo3.png"/>
-          </li>
-          <li class="ft-social">
-            <span>{{$t('Footer.SocialMedia.label')}}</span>
-            <a :href="item.url" target="_blank" :class="item.icon" v-for="(item, ins) in $t('Footer.SocialMedia.IconList')" :key="'ft_' + ins"></a>
-          </li>
-          <li class="ft-copyright">
-            <span>{{$t('Footer.Copyright')}}</span>
-          </li>
-        </ul>
-        <ul class="ctx-center" id="walletId">
-          <li class="ft-sup-title">{{$t('Footer.Support.title')}}</li>
-          <li class="ft-sup-li" v-for="(item,sonIns) in $t('Footer.Support.list')" :key="'sup_li_' + sonIns">
-            <a :href="item.url" target="_blank">{{item.name}}</a>
-          </li>
-        </ul>
-        <ul class="ctx-right">
-          <li class="ft-sup-title">{{$t('Footer.ContactUs.title')}}</li>
-          <li class="ft-sup-li" v-for="(item,sonIns) in $t('Footer.ContactUs.list')" :key="'const_li_' + sonIns">{{item.name}}</li>
-        </ul>
-      </div>
-      <div class="ft-mobile-copyRight">{{$t('Footer.Copyright')}}</div>
-    </div>
-  </div>
-</template>
 
-<script>
-export default {
-  name: 'Footer.vue'
-}
-</script>
+    .footer-sub-title {
+      font-size: 20px;
+      font-family: Helvetica;
+      color: #FFFFFF;
+    }
+
+    .footer-sub-input {
+      outline-style: none;
+      margin-top: 39px;
+      width: 600px;
+      height: 60px;
+      background: #222222;
+      border-radius: 5px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+
+      input {
+        margin-left: 20px;
+        width: 70%;
+        //height: 100%;
+        outline-style: none;
+        font-size: 16px;
+        font-family: Helvetica;
+        color: white;
+        height: 40px;
+        background: #222222;
+        border: 0;
+      }
+
+      button {
+        cursor: pointer;
+        width: 128px;
+        height: 50px;
+        background: #E44E3A;
+        border-radius: 5px;
+        font-size: 16px;
+        font-family: PingFangSC-Semibold, PingFang SC;
+        font-weight: 600;
+        color: #0B0B0B;
+        margin-right: 5px;
+      }
+    }
+
+    .footer-link {
+      width: 85%;
+      padding-top: 128px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .footer-all {
+      padding-top: 38px;
+      font-size: 16px;
+      font-family: Helvetica;
+      color: #595959;
+    }
+
+
+    @media (max-width: 1200px) {
+      .ft-container {
+        width: 100%;
+      }
+    }
+
+
+    @media (max-width: 480px) {
+      .footer-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .footer {
+        padding-top: 67px;
+      }
+
+    }
+    </style>
+    <template>
+      <div class="footer" id="footerId">
+        <div class="ft-container">
+          <div class="footer-content">
+            <div class="footer-title">
+              <img/>
+              <span>{{ $t('Footer.title') }}</span>
+            </div>
+            <div class="footer-icon">
+              <a href="https://medium.com/marcopolo-protocol" target="_blank"><img src="../assets/image/footer/medium.png"/></a>
+              <a href="https://t.me/MarcoPoloMAP" target="_blank"><img src="../assets/image/footer/telegram.png"/></a>
+              <a href="https://twitter.com/MarcoPoloGlobal" target="_blank"><img src="../assets/image/footer/twitter.png"/></a>
+              <a href="https://github.com/mapprotocol" target="_blank"><img src="../assets/image/footer/git.png"/></a>
+              <a href="https://bitcointalk.org/index.php?topic=5215440.new#new" target="_blank"><img
+                  src="../assets/image/footer/bittalk.png" target="_blank"/></a>
+              <a href="https://open.kakao.com/o/gP9WduRb" target="_blank"><img src="../assets/image/footer/kakao.png"/></a>
+              <a href="https://blog.naver.com/marcopay" target="_blank"><img src="../assets/image/footer/naver.png"/></a>
+              <a href="https://www.coingecko.com/en/coins/map-protocol" target="_blank"> <img src="../assets/image/footer/fog.png"/></a>
+              <!--                <a> <img src="../assets/image/footer/t.png"/></a>-->
+              <!--                <a href="mailto:"> <img src="../assets/image/footer/email.png"/></a>-->
+            </div>
+
+<!--            <div class="footer-sub">-->
+<!--              <div class="footer-sub-title">{{ $t('Footer.sub.title') }}</div>-->
+<!--              <form action="https://maplabs.us5.list-manage.com/subscribe/post?u=d9020390cb31cbcdcfb9df2e9&amp;id=49e9121910" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>-->
+<!--                <div class="footer-sub-input">-->
+<!--                  <input v-model="email" :placeholder="$t('Footer.sub.input')"/>-->
+<!--                  <button @click="actionEmail">{{ $t('Footer.sub.btn') }}</button>-->
+<!--                </div>-->
+<!--              </form>-->
+
+
+            <div class="footer-sub">
+              <div class="footer-sub-title">{{ $t('Footer.sub.title') }}</div>
+              <form action="https://maplabs.us5.list-manage.com/subscribe/post?u=d9020390cb31cbcdcfb9df2e9&amp;id=49e9121910" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div class="footer-sub-input">
+                  <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" required :placeholder="$t('Footer.sub.input')"/>
+<!--                  <div class="clear">-->
+                    <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">{{ $t('Footer.sub.btn') }}</button>
+<!--                  </div>-->
+<!--                  <button>{{ $t('Footer.sub.btn') }}</button>-->
+                </div>
+              </form>
+
+
+<!--              <div id="mc_embed_signup" class="footer-sub-input">-->
+<!--                <form action="https://maplabs.us5.list-manage.com/subscribe/post?u=d9020390cb31cbcdcfb9df2e9&amp;id=49e9121910" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>-->
+<!--                  <div id="mc_embed_signup_scroll ">-->
+
+<!--                    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>-->
+<!--                    &lt;!&ndash; real people should not fill this in and expect good things - do not remove this or risk form bot signups&ndash;&gt;-->
+<!--                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d9020390cb31cbcdcfb9df2e9_49e9121910" tabindex="-1" value=""></div>-->
+<!--                    <div class="clear">-->
+<!--                      <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">{{ $t('Footer.sub.btn') }}</button>-->
+<!--                    </div>-->
+<!--                  </div>-->
+<!--                </form>-->
+<!--              </div>-->
+
+
+
+            </div>
+
+            <!--                link-->
+            <div class="footer-link">
+              <div class="link-title">cooperation@MarcoPolo.link</div>
+              <div class="link-line">|</div>
+              <div>cooperation@maplabs.io</div>
+              <div>|</div>
+              <div>developers@MarcoPolo.link</div>
+              <div>|</div>
+              <div>developers@maplabs.io</div>
+            </div>
+            <!--            all right-->
+            <div class="footer-all">
+              © 2021 MarcoPolo Network Foundation, All Rights Reseved
+            </div>
+          </div>
+        </div>
+      </div>
+    </template>
+
+
+    <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+
+
+    <script>
+
+    import axios from "axios";
+
+    export default {
+      name: 'Footer.vue',
+      data() {
+        return {
+          email: ''
+        }
+      },
+      methods: {
+      }
+    }
+    </script>
+
+
+    <style type="text/css">
+    #mc_embed_signup{
+      background:black;
+      clear:left;
+      font:14px Helvetica,Arial,sans-serif;
+
+    }
+
+    /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+       We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+    </style>

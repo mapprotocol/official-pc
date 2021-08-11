@@ -8,9 +8,9 @@
       <ul class='menu-list animated fadeInDown'>
         <li v-for="(item,ins) in $t('header.navList')" :key="'menu_' + ins"><a href="javascript:void(0)" :class="{'nav_Active': activeNav === item.key}" @click.prevent.stop="changeNav(item, ins)"
         ><strong>{{item.name}}</strong></a></li>
-        <li class="mLang-list">
-          <span v-for="(item, i) in $t('header.langList')" :key="i"><strong  @click="changeLang(item)" :class="{'active': selectLang.tag === item.tag}">{{item.name}}</strong><i v-if="i < $t('header.langList').length - 1"> | </i></span>
-        </li>
+<!--        <li class="mLang-list">-->
+<!--          <span v-for="(item, i) in $t('header.langList')" :key="i"><strong  @click="changeLang(item)" :class="{'active': selectLang.tag === item.tag}">{{item.name}}</strong><i v-if="i < $t('header.langList').length - 1"> | </i></span>-->
+<!--        </li>-->
       </ul>
     </div>
   </div>
@@ -74,7 +74,6 @@ export default {
       this.selectLang.name = item.name
       this.selectLang.subName = item.subName;
       this.selectLang.tag = item.tag;
-      setTitle()
     }
   }
 }
@@ -83,7 +82,7 @@ export default {
 <style scoped lang="less">
 .my-header-mobile {
   width: 100%;
-  background: #ffffff;
+  background: white;
   position: relative;
   z-index: 40;
 }
@@ -93,12 +92,13 @@ export default {
   -webkit-justify-content: space-between;
   align-items: center;
   -webkit-align-items: center;
-  margin-top: 26px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   .logo {
     display: block;
-    width: 100px;
-    height: 20.5px;
-    background-image: url("../assets/image/header/logo.png");
+    width: 211px;
+    height: 50px;
+    background-image: url("../assets/image/header/logo2.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin-left: 9px;
@@ -114,6 +114,7 @@ export default {
   }
 }
 .m-mobile-layout {
+  width: 100%;
   position: absolute;
   background: #ffffff;
 }
@@ -130,10 +131,10 @@ export default {
     a {
       text-decoration: none;
       strong {
-        font-size:14px;
+        font-size:24px;
         font-family:Helvetica;
         color: #000000;
-        line-height:17px;
+        line-height:28px;
       }
       &.nav_Active {
         strong {
@@ -145,6 +146,9 @@ export default {
   }
 }
   .mLang-list {
+    span {
+      font-size: 24px;
+    }
     strong.active {
       font-weight: bold;
     }

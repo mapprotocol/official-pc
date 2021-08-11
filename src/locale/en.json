@@ -1,5 +1,12 @@
 {
 	"header": {
+		"Home": "Home",
+		"Solutions": "Solutions",
+		"RoadMap": "Roadmap",
+		"WhitePaper": "White Paper",
+		"GitHub": "GitHub",
+		"Wallet": "Wallet",
+		"JoinUs": "Follow Us",
 		"navList": [
 			{
 				"key": "home",
@@ -7,14 +14,19 @@
 				"path": "homeId"
 			},
 			{
-				"key": "why",
-				"name": "Why",
-				"path": "whyId"
+				"key": "solutions",
+				"name": "Solutions",
+				"path": "atomId"
 			},
 			{
-				"key": "roadMap",
+				"key": "RoadMap",
 				"name": "Roadmap",
 				"path": "roadMapId"
+			},
+			{
+				"key": "white",
+				"name": "White Paper",
+				"path": "https://files.maplabs.io/pdf/mapprotocol_whitepaper_en.pdf"
 			},
 			{
 				"key": "gitV",
@@ -22,14 +34,14 @@
 				"path": "https://github.com/mapprotocol"
 			},
 			{
-				"key": "white",
-				"name": "Whitepaper",
-				"path": "https://files.maplabs.io/pdf/mapprotocol_whitepaper_en.pdf"
-			},
-			{
 				"key": "wallet",
 				"name": "Wallet",
-				"path": "https://www.marcopolopay.org/download"
+				"path": "https://www.maplabs.io/about"
+			},
+			{
+				"key": "join",
+				"name": "Follow Us",
+				"path": "footerId"
 			}
 		],
 		"langList": [
@@ -87,295 +99,77 @@
 			}
 		]
 	},
+	"Notice": {
+		"title": "Blockchain Assets Freeway",
+		"head": "MAP Protocol",
+		"info": "MAP protocol aims to be the secure end-to-end solution for any blockchain resident to move and exchange assets. To fulfill this role, MAP team is building on three layers simultaneously: a dedicated blockchain served as the infrastructure freeway connecting all kinds of blockchains to break the barriers, the MAP Assets layer where all kinds of assets are mapped to MAP chain in a non-custodial style via trustless smart contract, and the DeFi Application layer where all kinds of applications including but not limited to DEXes, games and NFTs can be built with the cross-chain capabilities enabled by the MAP chain and MAP assets."
+	},
+	"Strength": {
+		"title": "Our Strength",
+		"info": {
+			"one":{
+				"title":"Decentralized",
+				"info": "secured by 100+ validators and maintained by thousands of relayers"
+			},
+			"two":{
+				"title":"Trustless",
+				"info": "driven only by cryptographic proof other than human decision"
+			},
+			"three":{
+				"title":"Randomness",
+				"info": "unbiased on-chain randomness is supported by thousands of relayers"
+			},
+			"four":{
+				"title":"Feeless",
+				"info": "nearly-zero fees for cross-chain assets transfer or swap by MAP token compensation"
+			}
+		}
+	},
+	"Atom": {
+		"info": {
+			"one": {
+				"title": "DeFi Application",
+				"a": "Cross-chain DeFi application can be easily built with the underlying light client and assets vault.",
+				"b": "Safely migrate all your digital assets from one chain to another without chain barriers.",
+				"c": "Fast trades of NFT tokens on cross-chain in decentralized manner even without the specified token in your wallet.",
+				"d": "Easy migration of your DeFi application to MAP chain to enjoy the aggregation of diverse assets."
+			},
+			"two": {
+				"title": "Assets Vault",
+				"a": "Bulletproof smart contract manages massive cross-chain assets itself other than by human.",
+				"b": "It is built-on the trustless light client to complete cross-chain message verification",
+				"c": "Assets movement can only be triggered by events backed by cryptographic proof.",
+				"d": "One-stop boundless assets transfer by wrapping all assets on MAP chain."
+			},
+			"three": {
+				"title": "MAP blockchain",
+				"a": "Fully EVM compatible blockchain is secured by 100+ staked validators via BFT protocol.",
+				"b": "Maintaining light clients of interested blockchains is the foundation of cross-chain verification.",
+				"c": "Light clients are updated by 1000+ relayers with cryptographic proof following consensus.",
+				"d": "Fair and unbiased on-chain randomness is supported by massive relayers in the swarm model."
+			}
+		}
+	},
+	"Roadmap": {
+		"title": "Roadmap",
+		"a": "Release MAP Protocol Gravity Version. Implement MAP-ULVP module and MAP-POS Consensus.",
+		"b": "Launch the mainnet; support decentralized cross-chain between multiple chains Support cross-chain swap and invite defi projects to join",
+		"c": "Support decentralized cross-chain of any message Provide a more complete SDK, so that more blockchains can easily access cross-chain",
+		"d": "Launch the Testnet,start the decentralized cross-chain tests with ETH Public Testing, invite more users to join the node to participate in the beta test",
+		"e": "Access to more public chains,optimize protocols, and provide supports for cross-chain oracles, lending, and other DApps Support cross-chain of non-smart contract main chains such as BTC, and provide exchanges and swaps support for non-smart contract main chains",
+		"part": "Partnerships"
+	},
+	"Footer": {
+		"title": "MAP Protocol",
+		"sub": {
+			"title": "Get the latest news from the MAP ecosystem",
+			"input": "Please fill in your email address",
+			"btn": "Subscribe"
+		}
+	},
 	"PointsWaves": {
 		"title": "MAP Protocol",
 		"subTitle": "Marcopay Wallet",
 		"subDetail": "Chain-to-chain Interoperation Protocol"
-	},
-	"Introduce": {
-		"title": "First Protocol that Provides the Infrastructure for Direct Interoperate in the Heterogeneous Blockchain Ecosystem",
-		"introduce": "MAP Protocol is an open, fully decentralized, chain-to-chain interoperation protocol that enables the interoperability of multiple blockchains. Such interoperability could be achieved among different blockchain system or among several Layer-2 subchains. MAP Protocol expects to construct a future inter-chain-net, which is interoperable and chain-to-chain based. The ecosystem built on MAP Protocol can provide a solid infrastructure for DeFi, DEX, AI, IoT, traceability, and governance filed by cross-chain communication, privacy computation, shared storage, etc",
-		"BtnLink": [
-			{
-				"name": "Whitepaper",
-				"url": "https://files.maplabs.io/pdf/mapprotocol_whitepaper_en.pdf"
-			},
-			{
-				"name": "GitHub",
-				"url": "https://github.com/mapprotocol"
-			}
-		]
-	},
-	"SubCore": {
-		"title": "MAP Protocol Architecture",
-		"list": [
-			{
-				"title": [
-					"Core Modules"
-				],
-				"desc": [
-					"Ultra-light Verification Protocol and Map Feeder"
-				]
-			},
-			{
-				"title": [
-					"Add-on Modules"
-				],
-				"desc": [
-					"MAP Standardized P2P Stack and  MAP Block Transport Channel"
-				]
-			},
-			{
-				"title": [
-					"Development Framework"
-				],
-				"desc": [
-					"MAP Application Tool Environment (MATE)"
-				]
-			}
-		]
-	},
-	"Protocol": {
-		"title": "Why MAP Protocol?",
-		"list": [
-			{
-				"icon": "core1",
-				"title": "Ultra-light Verification Protocol(ULVP)",
-				"info": [
-					"Provides the ability of one chain to validate the state of another chain under low bandwidth and low storage"
-				]
-			},
-			{
-				"icon": "core4",
-				"title": "MAP Feeder",
-				"info": [
-					"Provides the ability of one chain to change the state of another chain with suitable authority"
-				]
-			},
-			{
-				"icon": "core2",
-				"title": "Block Transport Channel",
-				"info": [
-					"A block transportation channel based on IBLT which can compress the block size when relaying blocks"
-				]
-			},
-			{
-				"icon": "core3",
-				"title": "Map Application Tool Environment(MATE)",
-				"info": [
-					"A  development framework  which can help developers to construct their own interoperable blockchains"
-				]
-			},
-
-			{
-				"icon": "core5",
-				"title": "Standardized P2P Stack",
-				"info": [
-					"A  protocol  under  which  the  peer  under  different blockchain  systems  can discover and transmit stream with each othe"
-				]
-			}
-		]
-	},
-	"Census": {
-		"infos": [
-			{
-				"count": 300000,
-				"btnName": "Downloads",
-				"url": ""
-			},
-			{
-				"count": 3,
-				"btnName": "Wallet support chain",
-				"url": ""
-			},
-			{
-				"count": 140000,
-				"btnName": "Community users",
-				"url": ""
-			}
-		]
-	},
-	"Info":{
-		"list": [
-			{
-				"name": "Succinctness",
-				"remark": [
-					"This protocol will not occupy a lot of network resources and storage resources"
-				]
-			},
-			{
-				"name": "Reliability",
-				"remark": [
-					"This protocol will ensure the security of interoperation, that is to say, the data obtained by any node must be consistent with that obtained by all nodes of the corresponding chain"
-				]
-			},
-			{
-				"name": "Universality",
-				"remark": [
-					"This protocol only regulates interoperable modules and does not add any other requirements, constraints, or restrictions to the ecological blockchain"
-				]
-			}
-		]
-	},
-	"Scenarios": {
-		"title": "Application scenarios",
-		"introduce":"DeFi and DEX are the two most important application scenarios of MAP Protocol. The essence of DeFi and DEX can be seen as inter-chain calculation and MAP Protocol provides a powerful chain interoperation function. Through the chain interoperation, different digital assets could be exchanged directly. In addition, MAP Protocol makes DeFi and DEX safer and more efficient.",
-		"list": [
-			{
-				"icon": "finance",
-				"name": "Finance"
-			},
-			{
-				"icon": "ai",
-				"name": "AI"
-			},
-			{
-				"icon": "iot",
-				"name": "IoT"
-			},
-			{
-				"icon": "trace",
-				"name": "Traceability"
-			},
-			{
-				"icon": "privacy",
-				"name": "Privacy computation"
-			},
-			{
-				"icon": "shared",
-				"name": "Shared storage"
-			},
-			{
-				"icon": "more",
-				"name": "More"
-			}
-		]
-	},
-	"Roadmap": {
-		"title": "Roadmap",
-		"list": [
-			{
-				"time": "Phase 1:  2019.Q3-2020.Q4",
-				"title": "Gravity:",
-				"introduce": [
-					"Release MAP Protocol Gravity Version. Implement MAP-ULVP module and MAP-POS Consensus."
-				]
-			},
-			{
-				"time": "Phase 2: 2021.Q3",
-				"title": "Electromagnetic:",
-				"introduce": [
-					"Launch the Testnet, start the decentralized cross-chain tests with ETH",
-					"Public Testing, invite more users to join the node to participate in the beta test"
-				]
-			},
-			{
-				"time": "Phase 3: 2021.Q4",
-				"title": "Interaction:",
-				"introduce": [
-					"Launch the mainnet; support decentralized cross-chain between multiple chains",
-					"Support cross-chain swap and invite defi projects to join"
-				]
-			},
-			{
-				"time": "Phase 4: 2022.Q3",
-				"title": "Grand Unification:",
-				"introduce": [
-					"Access to more public chains, optimize protocols, and provide supports for cross-chain oracles, lending, and other DApps",
-					"Support cross-chain of non-smart contract main chains such as BTC, and provide exchanges and swaps support for non-smart contract main chains"
-				]
-			},
-			{
-				"time": "Phase 5: 2023.Q2",
-				"introduce": [
-					"Support decentralized cross-chain of any message",
-					"Provide a more complete SDK, so that more blockchains can easily access cross-chain"
-				]
-			}
-		]
-	},
-	"Footer": {
-		"Investor": {
-			"label": "Partnerships：",
-			"IconList": [
-				{
-					"icon": "ft-soft",
-					"key": "",
-					"url": ""
-				}
-			]
-		},
-		"SocialMedia": {
-			"label": "Social Media：",
-			"IconList": [
-				{
-					"icon": "ft-telegram",
-					"key": "",
-					"url": "https://t.me/MarcoPoloMAP"
-				},
-				{
-					"icon": "ft-twitter",
-					"key": "",
-					"url": "https://twitter.com/MarcoPoloGlobal"
-				},
-				{
-					"icon": "ft-bitcointalk",
-					"key": "",
-					"url": "https://bitcointalk.org/index.php?topic=5215440.new#new"
-				},
-				{
-					"icon": "ft-naver",
-					"key": "",
-					"url": "https://blog.naver.com/marcopay"
-				},
-				{
-					"icon": "ft-medium",
-					"key": "",
-					"url": "https://medium.com/marcopolo-protocol"
-				},
-				{
-					"icon": "ft-kakao",
-					"key": "",
-					"url": "https://open.kakao.com/o/gP9WduRb"
-				},
-				{
-					"icon": "ft-cat",
-					"key": "",
-					"url": " https://github.com/mapprotocol"
-				},
-				{
-					"icon": "ft-frog",
-					"key": "",
-					"url": " https://www.coingecko.com/en/coins/map-protocol"
-				}
-			]
-		},
-		"Copyright": "© 2021 MarcoPolo Network Foundation, All Rights Reseved",
-		"Support": {
-			"title": "Support",
-			"list": [
-				{
-					"name": "Official ERC-20 Address",
-					"url": "https://etherscan.io/token/0x9e976f211daea0d652912ab99b0dc21a7fd728e4"
-				}
-			]
-		},
-		"ContactUs": {
-			"title": "Contact Us",
-			"list": [
-				{
-					"name": "cooperation@MarcoPolo.link"
-				},
-				{
-					"name": "cooperation@maplabs.io"
-				},
-				{
-					"name": "developers@MarcoPolo.link"
-				},
-				{
-					"name": "developers@maplabs.io"
-				}
-			]
-		}
 	}
 }

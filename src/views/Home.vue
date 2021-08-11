@@ -1,59 +1,48 @@
 <template>
   <div class="home">
-    <my-header-mobile />
-    <my-header />
-    <points-waves />
-    <introduce />
-    <sub-core />
-    <protocol />
-    <census />
-    <info />
-    <scenarios />
-    <road-map />
-    <my-footer />
+    <my-header-mobile/>
+    <my-header/>
+    <notice/>
+    <strength/>
+    <atom/>
+    <road-map/>
+    <my-footer/>
   </div>
 </template>
 
 <script>
 import MyHeader from '@/components/MyHeader'
 import MyHeaderMobile from '@/components/MyHeaderMobile'
-import PointsWaves from '@/components/PointsWaves'
-import Introduce from '@/components/Introduce'
-import SubCore from '@/components/SubCore'
-import Protocol from '@/components/Protocol'
-import Census from '@/components/Census'
-import Info from '@/components/Info'
-import Scenarios from '@/components/Scenarios'
-import RoadMap from '@/components/Roadmap'
+import Notice from '@/components/Notice'
 import MyFooter from '@/components/Footer'
+import Strength from "@/components/Strength";
+import Atom from "@/components/Atom";
+import RoadMap from "@/components/Roadmap";
 
 export default {
   name: 'home',
   components: {
+    RoadMap,
+    Atom,
+    Strength,
     MyHeader,
     MyHeaderMobile,
-    PointsWaves,
-    Introduce,
-    SubCore,
-    Protocol,
-    Census,
-    Info,
-    Scenarios,
-    RoadMap,
+    Notice,
     MyFooter
   },
-  data () {
-    return {
-    }
+  data() {
+    return {}
   },
-  methods: {
+  methods: {},
+  mounted() {
   },
-  mounted () {
-  },
-  destroyed () {
+  destroyed() {
   }
 }
 </script>
 
-<style lang="less" scoped>
+<style lang="less">
+.home {
+  background-color: white;
+}
 </style>
