@@ -142,7 +142,7 @@ export default {
   position: absolute;
   left: 20%;
   top: -90px;
-  width: 20%;
+  width: 18%;
   font-size: 14px;
   font-family: PingFangSC-Semibold, PingFang SC;
   font-weight: 600;
@@ -155,7 +155,7 @@ export default {
   width: 18%;
   position: absolute;
   left: 45%;
-  top: -110px;
+  top: -108px;
 }
 
 .road-text-three {
