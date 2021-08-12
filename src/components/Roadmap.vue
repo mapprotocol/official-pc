@@ -167,7 +167,7 @@ export default {
 
 .road-text-four {
   position: absolute;
-  left: 30%;
+  left: 28%;
   width: 25%;
   top: 200px;
 }
