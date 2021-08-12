@@ -175,7 +175,7 @@ export default {
 .road-text-five {
   width: 23%;
   position: absolute;
-  left: 54%;
+  left: 57%;
   top: 200px;
   max-width: 350px;
 }

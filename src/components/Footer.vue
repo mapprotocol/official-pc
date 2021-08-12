@@ -71,7 +71,7 @@
       }
 
       img:nth-child(7) {
-        width: 21px;
+        width: 43px;
       }
 
       img:nth-child(8) {

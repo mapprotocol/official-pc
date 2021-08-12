@@ -77,7 +77,7 @@ export default {
   flex-direction: row;
   align-content: center;
   justify-content: space-between;
-  padding-top: 108px;
+  padding-top: 58px;
   //padding-bottom: 91px;
   width: 80%;
 }
@@ -107,7 +107,7 @@ export default {
   display: flex;
   flex-direction: column;
   padding-top: 26px;
-  padding-bottom: 180px;
+  padding-bottom: 80px;
   text-align: center;
   font-size: 14px;
   font-family: Helvetica;
