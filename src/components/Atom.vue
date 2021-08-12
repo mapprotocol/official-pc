@@ -125,27 +125,27 @@
       }
 
       .atom-banner {
-        padding-top: 12px;
+        padding-top: 52px;
         padding-bottom: 47px;
         img {
-          width: 1140px;
+          width: 958px;
         }
       }
 
 
       .atom-bottom {
-        padding-bottom: 170px;
+        padding-bottom: 67px;
         padding-top: 50px;
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        width: 90%;
+        width: 95%;
       }
 
       .bottom-info {
-        width:32%;
-        height: 538px;
+        width:31%;
+        height: 442px;
         background: rgba(228, 78, 58, 0.37);
         border-radius: 27px;
         border: 1px solid #FF3014;
@@ -155,7 +155,7 @@
       }
 
       .bottom-info-icon {
-        margin-top: 50px;
+        margin-top: 36px;
         width: 122px;
         //background: #E44E3A;
         //border-radius: 50%;
@@ -164,7 +164,7 @@
         align-items: center;
         justify-content: center;
         img {
-          width: 122px;
+          width: 80px;
         }
       }
 
@@ -173,12 +173,12 @@
       }
 
       .info-title {
-        font-size: 29px;
+        font-size: 22px;
         font-family: PingFangSC-Semibold, PingFang SC;
         font-weight: 600;
         color: #FFFFFF;
-        padding-top: 28px;
-        padding-bottom: 25px;
+        padding-top: 18px;
+        padding-bottom: 21px;
         width: 90%;
         text-align: center;
       }
@@ -203,7 +203,7 @@
         margin-left: 10px;
         font-size: 14px;
         font-family: PingFangSC-Regular, PingFang SC;
-        font-weight: 800;
+        font-weight: 400;
         color: #FFFFFF;
         line-height: 17px;
         width: 100%;
@@ -215,7 +215,7 @@
       }
 
       .content-right-twod {
-        margin-top: 7px;
+        margin-top: 12px;
       }
 
       .content-right-threed {

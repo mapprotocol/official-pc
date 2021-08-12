@@ -69,7 +69,7 @@ export default {
 }
 
 .title {
-  padding-top: 101px;
+  padding-top: 104px;
 }
 
 .str-content {
@@ -77,9 +77,9 @@ export default {
   flex-direction: row;
   align-content: center;
   justify-content: space-between;
-  padding-top: 89px;
-  padding-bottom: 91px;
-  width: 100%;
+  padding-top: 108px;
+  //padding-bottom: 91px;
+  width: 80%;
 }
 
 .str-info {
@@ -89,7 +89,7 @@ export default {
   width: 23%;
 
   img {
-    width: 168px;
+    width: 137px;
   }
 }
 
@@ -103,17 +103,17 @@ export default {
 }
 
 .str-info-info {
-  width: 68%;
+  width: 66%;
   display: flex;
   flex-direction: column;
   padding-top: 26px;
+  padding-bottom: 180px;
   text-align: center;
-  font-size: 16px;
+  font-size: 14px;
   font-family: Helvetica;
   color: #FFFFFF;
   line-height: 20px;
 }
-
 
 @media (max-width: 1512px) {
   .str-bg {

@@ -8,9 +8,9 @@
       <ul class='menu-list animated fadeInDown'>
         <li v-for="(item,ins) in $t('header.navList')" :key="'menu_' + ins"><a href="javascript:void(0)" :class="{'nav_Active': activeNav === item.key}" @click.prevent.stop="changeNav(item, ins)"
         ><strong>{{item.name}}</strong></a></li>
-<!--        <li class="mLang-list">-->
-<!--          <span v-for="(item, i) in $t('header.langList')" :key="i"><strong  @click="changeLang(item)" :class="{'active': selectLang.tag === item.tag}">{{item.name}}</strong><i v-if="i < $t('header.langList').length - 1"> | </i></span>-->
-<!--        </li>-->
+        <li class="mLang-list">
+          <span v-for="(item, i) in $t('header.langList')" :key="i"><strong  @click="changeLang(item)" :class="{'active': selectLang.tag === item.tag}">{{item.name}}</strong><i v-if="i < $t('header.langList').length - 1"> | </i></span>
+        </li>
       </ul>
     </div>
   </div>

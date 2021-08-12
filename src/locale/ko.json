@@ -1,46 +1,46 @@
 {
 	"header": {
-		"Home": "Home",
-		"Solutions": "Solutions",
-	"RoadMap": "Roadmap",
-		"WhitePaper": "White Paper",
-		"GitHub": "GitHub",
-		"Wallet": "Wallet",
-		"JoinUs": "Follow Us",
+		"Home": "홈",
+		"Solutions": "솔루션",
+		"RoadMap": "로드맵",
+		"WhitePaper": "백서",
+		"GitHub": "깃헙",
+		"Wallet": "지갑",
+		"JoinUs": "팔로우",
 		"navList": [
 			{
 				"key": "home",
-				"name": "Home",
+				"name": "홈",
 				"path": "homeId"
 			},
 			{
 				"key": "solutions",
-				"name": "Solutions",
+				"name": "솔루션",
 				"path": "atomId"
 			},
 			{
 				"key": "RoadMap",
-				"name": "Roadmap",
+				"name": "로드맵",
 				"path": "roadMapId"
 			},
 			{
 				"key": "white",
-				"name": "White Paper",
+				"name": "백서",
 				"path": "https://files.maplabs.io/pdf/mapprotocol_whitepaper_en.pdf"
 			},
 			{
 				"key": "gitV",
-				"name": "GitHub",
+				"name": "깃헙",
 				"path": "https://github.com/mapprotocol"
 			},
 			{
 				"key": "wallet",
-				"name": "Wallet",
+				"name": "지갑",
 				"path": "https://www.maplabs.io/about"
 			},
 			{
 				"key": "join",
-				"name": "Follow Us",
+				"name": "팔로우",
 				"path": "footerId"
 			}
 		],
@@ -56,115 +56,91 @@
 				"subName": "Language",
 				"introduce": "韩文",
 				"tag": "ko"
-			},
-			{
-				"name": "Türk dili",
-				"subName": "Language",
-				"introduce": "土耳其语",
-				"tag": "tr"
-			},
-			{
-				"name": "русский",
-				"subName": "Language",
-				"introduce": "俄语",
-				"tag": "ru"
-			},
-			{
-				"name": "Tiếng việt nam",
-				"subName": "Language",
-				"introduce": "越南语",
-				"tag": "vn"
-			},
-			{
-				"name": "Português",
-				"subName": "Language",
-				"tag": "pt"
-			},
-			{
-				"name": "Orang indonesia",
-				"subName": "Language",
-				"introduce": "印尼语",
-				"tag": "ins"
-			},
-			{
-				"name": "日本語",
-				"subName": "Language",
-				"introduce": "日本语",
-				"tag": "jp"
-			},
-			{
-				"name": "中文繁體",
-				"subName": "Language",
-				"tag": "zh"
 			}
 		]
 	},
 	"Notice": {
-		"title": "Blockchain Assets Freeway",
+		"title": "블록체인 자산 고속도로",
 		"head": "MAP Protocol",
-		"info": "MAP protocol aims to be the secure end-to-end solution for any blockchain resident to move and exchange assets. To fulfill this role, MAP team is building on three layers simultaneously: a dedicated blockchain served as the infrastructure freeway connecting all kinds of blockchains to break the barriers, the MAP Assets layer where all kinds of assets are mapped to MAP chain in a non-custodial style via trustless smart contract, and the DeFi Application layer where all kinds of applications including but not limited to DEXes, games and NFTs can be built with the cross-chain capabilities enabled by the MAP chain and MAP assets."
+		"info": "MAP 프로토콜은 블록체인 사용자들이 자산을 이전∙교환하는 안전한 앤드 투 앤드 (END to END) 솔루션을 목표로 합니다. 이 역할을 실현하기 위해 MAP Protocol은 세단계를 동시에 구축합니다: 전용 블록체인은 장벽을 허물기 위해 모든 종류의 블록체인을 연결하는 인프라 고속도로, 모든 종류의 자산이 무신뢰(Trustless) 스마트 계약을 통해 비수탁형으로 MAP 체인에 맵핑되는 MAP 자산 계층 및 모든 DEX, 게임 및 NFT를 포함하며 서술된 분야 외 모든 종류의 애플리케이션 또한 MAP 체인 및 MAP 자산으로 활성화된 교차 체인 기능으로 구축할 수 있습니다."
 	},
 	"Strength": {
-		"title": "Our Strength",
+		"title": "강점",
 		"info": {
 			"one":{
-				"title":"Decentralized",
-				"info": "secured by 100+ validators and maintained by thousands of relayers"
+				"title":"분산형",
+				"info": "100개 이상의 검증자에 의해 보호되고 수천 개의 릴레이에 의해 유지 관리됨"
 			},
 			"two":{
-				"title":"Trustless",
-				"info": "driven only by cryptographic proof other than human decision"
+				"title":"신뢰할 필요없는",
+				"info": "인간의 결정이 아닌 암호증거에 의해서만 추진된다."
 			},
 			"three":{
-				"title":"Randomness",
-				"info": "unbiased on-chain randomness is supported by thousands of relayers"
+				"title":"무작위성",
+				"info": "수천 개의 릴레이에 의해 편향되지 않은 체인의 랜덤성이 지원됩니다."
 			},
 			"four":{
-				"title":"Feeless",
-				"info": "nearly-zero fees for cross-chain assets transfer or swap by MAP token compensation"
+				"title":"무수수료",
+				"info": "MAP 토큰 보상에 의한 교차 체인 자산 이전 또는 스왑에 대한 수수료가 거의 없습니다.\n"
 			}
 		}
 	},
 	"Atom": {
 		"info": {
 			"one": {
-				"title": "DeFi Application",
-				"a": "Cross-chain DeFi application can be easily built with the underlying light client and assets vault.",
-				"b": "Safely migrate all your digital assets from one chain to another without chain barriers.",
-				"c": "Fast trades of NFT tokens on cross-chain in decentralized manner even without the specified token in your wallet.",
-				"d": "Easy migration of your DeFi application to MAP chain to enjoy the aggregation of diverse assets."
+				"title": "DeFi 어플리케이션",
+				"a": "기본 라이트 클라이언트 및 자산 금고(assets vault)를 통해 크로스체인 DeFi 애플리케이션을 쉽게 구축할 수 있습니다.",
+				"b": "체인 장벽 없이 모든 디지털 자산을 체인 간에 안전하게 이동가능.",
+				"c": "지갑에 지정된 토큰이 없어도 크로스체인의 NFT 토큰을 분산 방식으로 빠르게 거래할 수 있습니다.",
+				"d": "DeFi 애플리케이션을 MAP 체인으로 쉽게 마이그레이션하여 다양한 자산 통합 가능."
 			},
 			"two": {
-				"title": "Assets Vault",
-				"a": "Bulletproof smart contract manages massive cross-chain assets itself other than by human.",
-				"b": "It is built-on the trustless light client to complete cross-chain message verification",
-				"c": "Assets movement can only be triggered by events backed by cryptographic proof.",
-				"d": "One-stop boundless assets transfer by wrapping all assets on MAP chain."
+				"title": "자산 금고",
+				"a": "강력한 스마트 계약으로 사람이 아닌 다른 대규모 크로스체인 자산을 스스로 관리.",
+				"b": "신뢰할 필요 없는 라이트 클라이언트를 기반으로 구축되어 교차 체인 메시지 검증을 완료합니다.",
+				"c": "암호화 증명으로 뒷받침되는 이벤트에 의해서만 자산 이동이 가능합니다.",
+				"d": "원스톱 무한 자산은 MAP 체인의 모든 자산을 래핑하여 전송합니다."
 			},
 			"three": {
-				"title": "MAP CHAIN",
-				"a": "Fully EVM compatible blockchain is secured by 100+ staked validators via BFT protocol.",
-				"b": "Maintaining light clients of interested blockchains is the foundation of cross-chain verification.",
-				"c": "Light clients are updated by 1000+ relayers with cryptographic proof following consensus.",
-				"d": "Fair and unbiased on-chain randomness is supported by massive relayers in the swarm model."
+				"title": "MAP 블록체인",
+				"a": "BFT 프로토콜을 통해 100개 이상의 Staked Validator를 통해 완벽한 EVM 호환 블록체인을 보호합니다.",
+				"b": "블록체인 이해관계가 있는  라이트 클리이언트(light clients) 의 유지 관리가 크로스체인 검증의 기반입니다.",
+				"c": "라이트 클라이언트는 1000개 이상의 릴레이에 의해 업데이트되며, 동의가 있다면 암호화 증명이 가능합니다.",
+				"d": "공정하고 편견이 없는 온체인 랜덤성은 군집 모델(swarm model)의 대규모 릴레이에 의해 지원됩니다."
 			}
 		}
 	},
 	"Roadmap": {
 		"title": "Roadmap",
-		"a": "Release MAP Protocol Gravity Version. Implement MAP-ULVP module and MAP-POS Consensus.",
-		"b": "Launch the mainnet; support decentralized cross-chain between multiple chains Support cross-chain swap and invite defi projects to join.",
-		"c": "Support decentralized cross-chain of any message Provide a more complete SDK, so that more blockchains can easily access cross-chain.",
-		"d": "Launch the Testnet,start the decentralized cross-chain tests with ETH Public Testing, invite more users to join the node to participate in the beta test.",
-		"e": "Access to more public chains,optimize protocols, and provide supports for cross-chain oracles, lending, and other DApps Support cross-chain of non-smart contract main chains such as BTC, and provide exchanges and swaps support for non-smart contract main chains.",
+		"one": {
+			"a": "1. 초경량 검증 프로토콜(Ultra-light Verification Protocol) 발표",
+			"b": "2. Map-PoS 컨센서스과 MAP-ULVP 모델 구현.",
+			"c": ""
+		},
+		"two":{
+			"a":"1. 테스트넷 런칭, 탈 중앙화 된 ETH 체인 간 연결 테스트.",
+			"b":"2. BETA버전 테스트, 더 많은 사용자에게 노드를 생성하여 BETA버전 테스트 진행 요청."
+		},
+		"three":{
+			"a":"1. 메인넷 공식 런칭, 복수의 체인 간 탈 중앙화 크로스체인 지원.",
+			"b":"2. 체인 간 Swap지원, 더 많은 DeFi 프로젝트 가입."
+		},
+		"four":{
+			"a":"1. 더 많은 퍼블릭 체인 간 연결, 프로토콜 최적화, 블록체인 오라클, 대출 등 여러 디앱 지원.",
+			"b":"2. BTC등의 비 스마트 계약의 메인넷 연결 지원, Exchange 및 Swap지원."
+		},
+		"five":{
+			"a":"1. 모든 메시지의 탈 중앙화 된 체인 간 전송 지원.",
+			"b":"2. 더 완벽한 SDK 지원, 더 많은 블록체인의 체인 간 연결 지원."
+		},
 		"part": "Partnerships"
 	},
 	"Footer": {
 		"title": "MAP Protocol",
 		"sub": {
-			"title": "Get the latest news from the MAP ecosystem",
-			"input": "Please fill in your email address",
-			"btn": "Subscribe"
+			"title": "MAP 에코시스템에서 최신 소식을 받아보세요.",
+			"input": "이메일 주소를 입력해 주세요.",
+			"btn": "구독"
 		}
 	},
 	"PointsWaves": {

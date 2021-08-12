@@ -19,7 +19,7 @@
     .notice-container {
       width: 1200px;
       margin: 0 auto;
-      padding-top: 60px;
+      padding-top: 70px;
       padding-bottom: 140px;
       display: flex;
       flex-direction: column;
@@ -46,28 +46,29 @@
     }
 
     .notice-bottom-title {
-      margin-top: 50px;
-      font-size: 38px;
+      //margin-top: 20px;
+      font-size: 30px;
       font-family: NexaBold;
       color: #E44E3A;
     }
 
 
     .notice-text {
-      padding-top: 68px;
-      padding-bottom: 104px;
+      padding-top: 55px;
+      padding-bottom: 131px;
       width: 100%;
-      font-size: 18px;
+      font-size: 14px;
       font-family: PingFangSC-Semibold, PingFang SC;
       font-weight: 600;
       color: #FFFFFF;
-      line-height: 48px;
+      line-height: 39px;;
       text-align: left;
       //text-indent: 36px;
     }
 
     .notice-btn {
-      width: 50%;
+      padding-top: 61px;
+      width: 39%;
       display: flex;
       flex-direction: row;
       align-items: center;
@@ -81,17 +82,17 @@
       font-family: PingFangSC-Semibold, PingFang SC;
       font-weight: 600;
       color: #FFFFFF;
-      line-height: 30px;
-      width: 253px;
-      height: 64px;
+      line-height: 53px;
+      width: 209px;
+      height: 53px;
       border-radius: 6px;
       border: 2px solid #E44E3A;
     }
 
     .notice-white {
       cursor: pointer;
-      width: 253px;
-      height: 64px;
+      width: 209px;
+      height: 53px;
       background: #E44E3A;
       border-radius: 6px;
       font-size: 22px;
@@ -101,7 +102,7 @@
     }
 
     .notice-title {
-      font-size: 49px;
+      font-size: 39px;
       font-family: PingFangSC-Regular, PingFang SC;
       font-weight: 400;
       color: #FFFFFF;

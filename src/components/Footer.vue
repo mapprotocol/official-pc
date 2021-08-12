@@ -13,7 +13,7 @@
       width: 100%;
       background: #0B0B0B;
       color: white;
-      padding: 85px 0 60px 0;
+      padding: 128px 0 128px 0;
       position: relative;
       z-index: 99;
     }
@@ -43,7 +43,7 @@
     }
 
     .footer-icon {
-      width: 80%;
+      width: 60%;
       display: flex;
       flex-direction: row;
       align-items: center;
@@ -85,7 +85,7 @@
 
     .footer-sub {
       width: 100%;
-      padding-top: 88px;
+      padding-top: 61px;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -97,13 +97,24 @@
       color: #FFFFFF;
     }
 
+    .footer-sub-contnt {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      justify-content: center;
+      img {
+        width: 33px;
+        margin-right: 7px;
+      }
+    }
+
     .footer-sub-input {
       outline-style: none;
       margin-top: 39px;
       width: 600px;
-      height: 60px;
+      height: 44px;
       background: #222222;
-      border-radius: 5px;
+      border-radius: 30px;
       display: flex;
       flex-direction: row;
       align-items: center;
@@ -114,7 +125,7 @@
         width: 70%;
         //height: 100%;
         outline-style: none;
-        font-size: 16px;
+        font-size: 14px;
         font-family: Helvetica;
         color: white;
         height: 40px;
@@ -124,11 +135,11 @@
 
       button {
         cursor: pointer;
-        width: 128px;
-        height: 50px;
+        width: 98px;
+        height: 37px;
         background: #E44E3A;
-        border-radius: 5px;
-        font-size: 16px;
+        border-radius: 25px;
+        font-size: 14px;
         font-family: PingFangSC-Semibold, PingFang SC;
         font-weight: 600;
         color: #0B0B0B;
@@ -138,7 +149,7 @@
 
     .footer-link {
       width: 40%;
-      padding-top: 68px;
+      padding-top: 39px;
       display: flex;
       flex-direction: row;
       align-items: center;
@@ -146,7 +157,7 @@
     }
 
     .footer-all {
-      padding-top: 18px;
+      padding-top: 38px;
       font-size: 16px;
       font-family: Helvetica;
       color: #595959;
@@ -169,6 +180,9 @@
     @media (max-width: 1200px) {
       .ft-container {
         width: 100%;
+      }
+      .footer-link {
+        width: 50%;
       }
     }
 
@@ -209,15 +223,15 @@
             </div>
             <div class="footer-sub">
               <div class="footer-sub-title">{{ $t('Footer.sub.title') }}</div>
-              <form action="https://maplabs.us5.list-manage.com/subscribe/post?u=d9020390cb31cbcdcfb9df2e9&amp;id=49e9121910" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                <div class="footer-sub-input">
-                  <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" required :placeholder="$t('Footer.sub.input')"/>
-<!--                  <div class="clear">-->
-                    <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">{{ $t('Footer.sub.btn') }}</button>
-<!--                  </div>-->
-<!--                  <button>{{ $t('Footer.sub.btn') }}</button>-->
-                </div>
-              </form>
+              <div class="footer-sub-contnt">
+                <img src="../assets/image/footer/ant.png"/>
+                <form action="https://maplabs.us5.list-manage.com/subscribe/post?u=d9020390cb31cbcdcfb9df2e9&amp;id=49e9121910" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                  <div class="footer-sub-input">
+                    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" required :placeholder="$t('Footer.sub.input')"/>
+                      <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">{{ $t('Footer.sub.btn') }}</button>
+                  </div>
+                </form>
+              </div>
             </div>
 
             <!--                link-->
@@ -227,16 +241,11 @@
               </div>
               <div class="link-line">|</div>
               <div class="link-title"><a href="mailto:cooperation@maplabs.io">Email: cooperation@maplabs.io</a></div>
-<!--              <div>|</div>-->
-<!--              <div>developers@MarcoPolo.link</div>-->
-<!--              <div>|</div>-->
-<!--              <div>developers@maplabs.io</div>-->
             </div>
             <!--            all right-->
             <div class="footer-all">
               © 2021 MarcoPolo Network Foundation, All Rights Reseved<br>
             </div>
-<!--            <span style="text-align: center;width: 100%;margin-top: 20px">Email: cooperation@maplabs.io</span>-->
           </div>
         </div>
       </div>
@@ -246,14 +255,14 @@
     <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
 
 
-    <script>
+<script>
 
     import axios from "axios";
 
     export default {
       name: 'Footer.vue',
       data() {
-        return {
+    return {
           email: ''
         }
       },

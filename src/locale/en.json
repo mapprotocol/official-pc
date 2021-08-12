@@ -56,46 +56,6 @@
 				"subName": "Language",
 				"introduce": "韩文",
 				"tag": "ko"
-			},
-			{
-				"name": "Türk dili",
-				"subName": "Language",
-				"introduce": "土耳其语",
-				"tag": "tr"
-			},
-			{
-				"name": "русский",
-				"subName": "Language",
-				"introduce": "俄语",
-				"tag": "ru"
-			},
-			{
-				"name": "Tiếng việt nam",
-				"subName": "Language",
-				"introduce": "越南语",
-				"tag": "vn"
-			},
-			{
-				"name": "Português",
-				"subName": "Language",
-				"tag": "pt"
-			},
-			{
-				"name": "Orang indonesia",
-				"subName": "Language",
-				"introduce": "印尼语",
-				"tag": "ins"
-			},
-			{
-				"name": "日本語",
-				"subName": "Language",
-				"introduce": "日本语",
-				"tag": "jp"
-			},
-			{
-				"name": "中文繁體",
-				"subName": "Language",
-				"tag": "zh"
 			}
 		]
 	},
@@ -152,11 +112,27 @@
 	},
 	"Roadmap": {
 		"title": "Roadmap",
-		"a": "Release MAP Protocol Gravity Version. Implement MAP-ULVP module and MAP-POS Consensus.",
-		"b": "Launch the mainnet; support decentralized cross-chain between multiple chains Support cross-chain swap and invite defi projects to join.",
-		"c": "Support decentralized cross-chain of any message Provide a more complete SDK, so that more blockchains can easily access cross-chain.",
-		"d": "Launch the Testnet,start the decentralized cross-chain tests with ETH Public Testing, invite more users to join the node to participate in the beta test.",
-		"e": "Access to more public chains,optimize protocols, and provide supports for cross-chain oracles, lending, and other DApps Support cross-chain of non-smart contract main chains such as BTC, and provide exchanges and swaps support for non-smart contract main chains.",
+		"one": {
+			"a": "1. Release MAP Protocol Gravity Version.",
+			"b": "2. Implement MAP-ULVP module and MAP-POS Consensus.",
+			"c": ""
+		},
+		"two":{
+			"a":"1. Launch the Testnet, start the decentralized cross-chain tests with ETH.",
+			"b":"2. Public Testing, invite more users to join the node to participate in the beta test."
+		},
+		"three":{
+			"a":"1. Launch the mainnet; support decentralized cross-chain between multiple chains.",
+			"b":"2. Support cross-chain swap and invite defi projects to join."
+		},
+		"four":{
+			"a":"1. Access to more public chains, optimize protocols, and provide supports for cross-chain oracles, lending, and other DApps.",
+			"b":"2. Support cross-chain of non-smart contract main chains such as BTC, and provide exchanges and swaps support for non-smart contract main chains."
+		},
+		"five":{
+			"a":"1. Support decentralized cross-chain of any message.",
+			"b":"2. Provide a more complete SDK, so that more blockchains can easily access cross-chain."
+		},
 		"part": "Partnerships"
 	},
 	"Footer": {

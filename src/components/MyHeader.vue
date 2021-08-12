@@ -37,14 +37,14 @@
                 </div>
               </div>
             </div>
-            <!--          <div class="lang-layout" @mouseover="selectLangVisible = true" @mouseout="selectLangVisible = false">-->
-            <!--            <span class="lang-show">{{ selectLang.name }}<i :class="['icon-select', {'up': selectLangVisible}]"></i></span>-->
-            <!--            <ul class="lang-list" v-show="selectLangVisible">-->
-            <!--              <li v-for="(item, i) in $t('header.langList')" :key="i" @click="changeLang(item)"-->
-            <!--                  :class="{active: selectLang.tag === item.tag}">{{ item.name }}-->
-            <!--              </li>-->
-            <!--            </ul>-->
-            <!--          </div>-->
+                      <div class="lang-layout" @mouseover="selectLangVisible = true" @mouseout="selectLangVisible = false">
+                        <span class="lang-show">{{ selectLang.name }}<i :class="['icon-select', {'up': selectLangVisible}]"></i></span>
+                        <ul class="lang-list" v-show="selectLangVisible">
+                          <li v-for="(item, i) in $t('header.langList')" :key="i" @click="changeLang(item)"
+                              :class="{active: selectLang.tag === item.tag}">{{ item.name }}
+                          </li>
+                        </ul>
+                      </div>
           </div>
         </div>
       </template>
@@ -184,7 +184,7 @@
       <style scoped lang="less">
       .my-header {
         width: 100%;
-        padding: 30px 0 24px 0;
+        padding: 40px 0 31px 0;
         background: #202020;
         position: relative;
         z-index: 888;

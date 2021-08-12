@@ -1,31 +1,31 @@
 {
 	"header": {
-		"Home": "Home",
-		"Solutions": "Solutions",
-	"RoadMap": "Roadmap",
-		"WhitePaper": "White Paper",
+		"Home": "主頁",
+		"Solutions": "解決方案",
+		"RoadMap": "Road Map",
+		"WhitePaper": "白皮書",
 		"GitHub": "GitHub",
-		"Wallet": "Wallet",
-		"JoinUs": "Follow Us",
+		"Wallet": "錢包",
+		"JoinUs": "關注我們",
 		"navList": [
 			{
 				"key": "home",
-				"name": "Home",
+				"name": "主頁",
 				"path": "homeId"
 			},
 			{
 				"key": "solutions",
-				"name": "Solutions",
+				"name": "解决方案",
 				"path": "atomId"
 			},
 			{
 				"key": "RoadMap",
-				"name": "Roadmap",
+				"name": "Road Map",
 				"path": "roadMapId"
 			},
 			{
 				"key": "white",
-				"name": "White Paper",
+				"name": "白皮書",
 				"path": "https://files.maplabs.io/pdf/mapprotocol_whitepaper_en.pdf"
 			},
 			{
@@ -35,12 +35,12 @@
 			},
 			{
 				"key": "wallet",
-				"name": "Wallet",
+				"name": "錢包",
 				"path": "https://www.maplabs.io/about"
 			},
 			{
 				"key": "join",
-				"name": "Follow Us",
+				"name": "關注我們",
 				"path": "footerId"
 			}
 		],
@@ -58,41 +58,6 @@
 				"tag": "ko"
 			},
 			{
-				"name": "Türk dili",
-				"subName": "Language",
-				"introduce": "土耳其语",
-				"tag": "tr"
-			},
-			{
-				"name": "русский",
-				"subName": "Language",
-				"introduce": "俄语",
-				"tag": "ru"
-			},
-			{
-				"name": "Tiếng việt nam",
-				"subName": "Language",
-				"introduce": "越南语",
-				"tag": "vn"
-			},
-			{
-				"name": "Português",
-				"subName": "Language",
-				"tag": "pt"
-			},
-			{
-				"name": "Orang indonesia",
-				"subName": "Language",
-				"introduce": "印尼语",
-				"tag": "ins"
-			},
-			{
-				"name": "日本語",
-				"subName": "Language",
-				"introduce": "日本语",
-				"tag": "jp"
-			},
-			{
 				"name": "中文繁體",
 				"subName": "Language",
 				"tag": "zh"
@@ -100,71 +65,87 @@
 		]
 	},
 	"Notice": {
-		"title": "Blockchain Assets Freeway",
+		"title": "區塊鏈資產高速公路",
 		"head": "MAP Protocol",
-		"info": "MAP protocol aims to be the secure end-to-end solution for any blockchain resident to move and exchange assets. To fulfill this role, MAP team is building on three layers simultaneously: a dedicated blockchain served as the infrastructure freeway connecting all kinds of blockchains to break the barriers, the MAP Assets layer where all kinds of assets are mapped to MAP chain in a non-custodial style via trustless smart contract, and the DeFi Application layer where all kinds of applications including but not limited to DEXes, games and NFTs can be built with the cross-chain capabilities enabled by the MAP chain and MAP assets."
+		"info": "MAP Protocal旨在為區塊鏈用戶轉移及交換資產提供安全的跨鏈解決方案。為實現該目標，MAP Protocol正同時構建三層模塊：專屬區塊鏈，建立鏈接所有類型區塊鏈的基礎建設高速公路；MAP資產Layer，利用去信任智能合約將各種資產以非託管方式映射到MAP鏈；DeFi應用Layer，利用MAP鍊和MAP資產的跨鏈功能，構建包括但不限於去中心化交易所、遊戲和NFT在內的各種應用程序。"
 	},
 	"Strength": {
-		"title": "Our Strength",
+		"title": "我們的優勢",
 		"info": {
 			"one":{
-				"title":"Decentralized",
-				"info": "secured by 100+ validators and maintained by thousands of relayers"
+				"title":"去中心化",
+				"info": "100+驗證者保障，1000+中繼者維護"
 			},
 			"two":{
-				"title":"Trustless",
-				"info": "driven only by cryptographic proof other than human decision"
+				"title":"去信任",
+				"info": "加密證明機制，無人為決定"
 			},
 			"three":{
-				"title":"Randomness",
-				"info": "unbiased on-chain randomness is supported by thousands of relayers"
+				"title":"隨機性",
+				"info": "中立的鏈上隨機性，1000+中繼者背書"
 			},
 			"four":{
-				"title":"Feeless",
-				"info": "nearly-zero fees for cross-chain assets transfer or swap by MAP token compensation"
+				"title":"零費用",
+				"info": "跨鏈資產轉移費用幾乎為零，MAP代幣Swap獎勵"
 			}
 		}
 	},
 	"Atom": {
 		"info": {
 			"one": {
-				"title": "DeFi Application",
-				"a": "Cross-chain DeFi application can be easily built with the underlying light client and assets vault.",
-				"b": "Safely migrate all your digital assets from one chain to another without chain barriers.",
-				"c": "Fast trades of NFT tokens on cross-chain in decentralized manner even without the specified token in your wallet.",
-				"d": "Easy migration of your DeFi application to MAP chain to enjoy the aggregation of diverse assets."
+				"title": "DeFi應用程序",
+				"a": "跨鏈DeFi應用程序，由底層輕客戶端與資產庫構建",
+				"b": "用戶可以安全地在各鏈之間轉移所有數字資產，無鏈間障礙",
+				"c": "去中心化的NFT代幣跨鏈快速交易，支持錢包中非具體代幣的交易",
+				"d": "DeFi應用程序輕鬆遷移至MAP鏈，聚合多種資產"
 			},
 			"two": {
-				"title": "Assets Vault",
-				"a": "Bulletproof smart contract manages massive cross-chain assets itself other than by human.",
-				"b": "It is built-on the trustless light client to complete cross-chain message verification",
-				"c": "Assets movement can only be triggered by events backed by cryptographic proof.",
-				"d": "One-stop boundless assets transfer by wrapping all assets on MAP chain."
+				"title": "資產庫",
+				"a": "利用防彈技術（Bulletproof）的智能合約可自行管理海量跨鏈資產，無需人工操作",
+				"b": "附帶去信任輕客戶端，可進行跨鏈消息驗證",
+				"c": "資產的遷移的觸發條件僅限加密證明支持的事件",
+				"d": "一站式無限資產轉移，可將全部資產打包於MAP鏈"
 			},
 			"three": {
-				"title": "MAP CHAIN",
-				"a": "Fully EVM compatible blockchain is secured by 100+ staked validators via BFT protocol.",
-				"b": "Maintaining light clients of interested blockchains is the foundation of cross-chain verification.",
-				"c": "Light clients are updated by 1000+ relayers with cryptographic proof following consensus.",
-				"d": "Fair and unbiased on-chain randomness is supported by massive relayers in the swarm model."
+				"title": "MAP區塊鏈",
+				"a": "完全兼容EVM區塊鏈，利用BFT Protocal，由100+質押驗證者護航",
+				"b": "相關區塊鏈的輕客戶端維護，鏈間驗證的基礎",
+				"c": "1000+中繼者參與輕客戶端的更新，達成共識後，利用加密證明機制進行",
+				"d": "公平、中立的鏈上隨機性，由Swarm模型中的大量中繼者背書"
 			}
 		}
 	},
 	"Roadmap": {
 		"title": "Roadmap",
-		"a": "Release MAP Protocol Gravity Version. Implement MAP-ULVP module and MAP-POS Consensus.",
-		"b": "Launch the mainnet; support decentralized cross-chain between multiple chains Support cross-chain swap and invite defi projects to join.",
-		"c": "Support decentralized cross-chain of any message Provide a more complete SDK, so that more blockchains can easily access cross-chain.",
-		"d": "Launch the Testnet,start the decentralized cross-chain tests with ETH Public Testing, invite more users to join the node to participate in the beta test.",
-		"e": "Access to more public chains,optimize protocols, and provide supports for cross-chain oracles, lending, and other DApps Support cross-chain of non-smart contract main chains such as BTC, and provide exchanges and swaps support for non-smart contract main chains.",
+		"one": {
+			"a": "超輕驗證協議;",
+			"b": "MAP-PoS共識;",
+			"c": "MAP-VM和SMART系統;"
+		},
+		"two":{
+			"a":"1. 測試網上線，啟動與eth的去中心化跨鏈測試;",
+			"b":"2. 開展公測，邀請更多用戶加入節點參與測試網公測;"
+		},
+		"three":{
+			"a":"1. 主網正式上線，支持多鏈間去中心化跨鏈;",
+			"b":"2. 支持跨鏈swap和更多defi項目加入;"
+		},
+		"four":{
+			"a":"1. 接入更多公鏈，優化協議，為跨鏈預言機、借貸等各種DApp提供支持;",
+			"b":"2. 支持BTC等非智能合約主鏈跨鏈，為非智能合約主鏈提供exchange和swap支持;"
+		},
+		"five":{
+			"a":"1. 支持任意消息的去中心化跨鏈;",
+			"b":"2. 提供更完善的SDK，讓更多區塊鏈可以更方便接入跨鏈;"
+		},
 		"part": "Partnerships"
 	},
 	"Footer": {
 		"title": "MAP Protocol",
 		"sub": {
-			"title": "Get the latest news from the MAP ecosystem",
-			"input": "Please fill in your email address",
-			"btn": "Subscribe"
+			"title": "獲取MAP生態系統的最新消息",
+			"input": "請輸入您的郵箱地址",
+			"btn": "訂閱"
 		}
 	},
 	"PointsWaves": {
