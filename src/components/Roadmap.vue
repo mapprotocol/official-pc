@@ -112,7 +112,7 @@ export default {
 }
 
 .title-line {
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 }
 
 .road-img {
@@ -152,16 +152,16 @@ export default {
 }
 
 .road-text-two {
-  //width: 20%;
+  width: 18%;
   position: absolute;
   left: 45%;
-  top: -100px;
+  top: -110px;
 }
 
 .road-text-three {
   position: absolute;
   left: 70%;
-  top: -105px;
+  top: -104px;
   //top: -47%;
 }
 
