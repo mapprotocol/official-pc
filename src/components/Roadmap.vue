@@ -152,10 +152,10 @@ export default {
 }
 
 .road-text-two {
-  width: 18%;
+  width: 16%;
   position: absolute;
   left: 45%;
-  top: -108px;
+  top: -102px;
 }
 
 .road-text-three {
