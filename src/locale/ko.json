@@ -56,6 +56,11 @@
 				"subName": "Language",
 				"introduce": "韩文",
 				"tag": "ko"
+			},
+			{
+				"name": "中文繁體",
+				"subName": "Language",
+				"tag": "zh"
 			}
 		]
 	},
