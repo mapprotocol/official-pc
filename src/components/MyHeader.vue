@@ -11,10 +11,10 @@
                   <span :class="listtext==0?'header-list-text-color':''">{{ $t('header.Home') }}</span>
                   <div class="header-line" v-show="listtext==0"></div>
                 </div>
-                <div @click="actionRelayer()" class="header-list-text">
-                  <span :class="listtext==7?'header-list-text-color':''">{{ $t('header.Relayer') }}</span>
-                  <div class="header-line" v-show="listtext==7"></div>
-                </div>
+<!--                <div @click="actionRelayer()" class="header-list-text">-->
+<!--                  <span :class="listtext==7?'header-list-text-color':''">{{ $t('header.Relayer') }}</span>-->
+<!--                  <div class="header-line" v-show="listtext==7"></div>-->
+<!--                </div>-->
                 <div @click="actionSolution()" class="header-list-text">
                   <span :class="listtext==1?'header-list-text-color':''">{{ $t('header.Solutions') }}</span>
                   <div class="header-line" v-show="listtext==1"></div>
