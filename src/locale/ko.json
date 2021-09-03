@@ -7,11 +7,17 @@
 		"GitHub": "깃헙",
 		"Wallet": "지갑",
 		"JoinUs": "팔로우",
+		"Relayer": "Relayers",
 		"navList": [
 			{
 				"key": "home",
 				"name": "홈",
 				"path": "homeId"
+			},
+			{
+				"key": "relayers",
+				"name": "Relayers",
+				"path": "https://relayer.mapdapp.net"
 			},
 			{
 				"key": "solutions",

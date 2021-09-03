@@ -7,11 +7,17 @@
 		"GitHub": "GitHub",
 		"Wallet": "錢包",
 		"JoinUs": "關注我們",
+		"Relayer": "Relayers",
 		"navList": [
 			{
 				"key": "home",
 				"name": "主頁",
 				"path": "homeId"
+			},
+			{
+				"key": "relayers",
+				"name": "Relayers",
+				"path": "https://relayer.mapdapp.net"
 			},
 			{
 				"key": "solutions",

@@ -11,6 +11,10 @@
                   <span :class="listtext==0?'header-list-text-color':''">{{ $t('header.Home') }}</span>
                   <div class="header-line" v-show="listtext==0"></div>
                 </div>
+                <div @click="actionRelayer()" class="header-list-text">
+                  <span :class="listtext==7?'header-list-text-color':''">{{ $t('header.Relayer') }}</span>
+                  <div class="header-line" v-show="listtext==7"></div>
+                </div>
                 <div @click="actionSolution()" class="header-list-text">
                   <span :class="listtext==1?'header-list-text-color':''">{{ $t('header.Solutions') }}</span>
                   <div class="header-line" v-show="listtext==1"></div>
@@ -102,6 +106,10 @@
           actionHome () {
             this.listtext = 0
             window.location.href = '/'
+          },
+          actionRelayer() {
+            this.listtext = 7
+            window.open('https://relayer.mapdapp.net','_blank')
           },
           actionSolution () {
             this.listtext = 1
@@ -235,7 +243,7 @@
             flex-direction: row;
             align-items: center;
             justify-content: space-between;
-            font-size: 16px;
+            font-size: 14px;
             font-family: PingFangSC-Semibold, PingFang SC;
             font-weight: 600;
             color: #FFFFFF;
@@ -246,7 +254,7 @@
               align-items: center;
               justify-content: flex-start;
               cursor: pointer;
-              margin-left: 30px;
+              margin-left: 15px;
 
               span {
                 line-height: 40px;

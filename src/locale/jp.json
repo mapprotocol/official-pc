@@ -2,16 +2,22 @@
 	"header": {
 		"Home": "Home",
 		"Solutions": "Solutions",
-	"RoadMap": "Roadmap",
+		"RoadMap": "Roadmap",
 		"WhitePaper": "White Paper",
 		"GitHub": "GitHub",
 		"Wallet": "Wallet",
 		"JoinUs": "Follow Us",
+		"Relayer": "Relayers",
 		"navList": [
 			{
 				"key": "home",
 				"name": "Home",
 				"path": "homeId"
+			},
+			{
+				"key": "relayers",
+				"name": "Relayers",
+				"path": "https://relayer.mapdapp.net"
 			},
 			{
 				"key": "solutions",
