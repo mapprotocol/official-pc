@@ -15,6 +15,11 @@
 				"path": "homeId"
 			},
 			{
+				"key": "relayers",
+				"name": "Relayer",
+				"path": "https://relayer.mapdapp.net"
+			},
+			{
 				"key": "solutions",
 				"name": "솔루션",
 				"path": "atomId"
