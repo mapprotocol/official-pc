@@ -128,7 +128,7 @@
         padding-top: 52px;
         padding-bottom: 47px;
         img {
-          width: 958px;
+          width: 820px;
         }
       }
 
