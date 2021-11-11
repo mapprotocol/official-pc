@@ -12,6 +12,10 @@ import './assets/less/map.less'
 import animate from 'animate.css'
 import api from './api/api'
 
+import { VueJsonp } from 'vue-jsonp'
+
+Vue.use(VueJsonp)
+
 Vue.config.productionTip = false
 Vue.prototype.THREE = THREE
 Vue.prototype.ThreeStats = ThreeStats

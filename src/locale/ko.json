@@ -123,6 +123,7 @@
 	},
 	"Roadmap": {
 		"title": "Roadmap",
+		"newsTitle": "MAP Protocol News",
 		"one": {
 			"a": "1. 초경량 검증 프로토콜(Ultra-light Verification Protocol) 발표.",
 			"b": "2. Map-PoS 컨센서스과 MAP-ULVP 모델 구현.",

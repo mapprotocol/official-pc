@@ -123,6 +123,7 @@
 	},
 	"Roadmap": {
 		"title": "Roadmap",
+		"newsTitle": "MAP Protocol News",
 		"one": {
 			"a": "超輕驗證協議;",
 			"b": "MAP-PoS共識;",

@@ -123,6 +123,7 @@
 	},
 	"Roadmap": {
 		"title": "Roadmap",
+		"newsTitle": "MAP Protocol News",
 		"one": {
 			"a": "1. Release MAP Protocol Gravity Version.",
 			"b": "2. Implement MAP-ULVP module and MAP-POS Consensus.",

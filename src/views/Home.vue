@@ -6,6 +6,8 @@
     <strength/>
     <atom/>
     <road-map/>
+    <new/>
+    <partner/>
     <my-footer/>
   </div>
 </template>
@@ -18,10 +20,14 @@ import MyFooter from '@/components/Footer'
 import Strength from "@/components/Strength";
 import Atom from "@/components/Atom";
 import RoadMap from "@/components/Roadmap";
+import New from '@/components/New'
+import Partner from '@/components/Partner'
 
 export default {
   name: 'home',
   components: {
+    Partner,
+    New,
     RoadMap,
     Atom,
     Strength,
