@@ -4,34 +4,49 @@
           <div class="title new-title">{{$t('Roadmap.newsTitle')}}</div>
           <div class="title-line"></div>
           <div class="new-content">
-            <div @click="goNewOne" class="new-detail-s">
+            <div @mousemove="showMore=0" @mouseout="showMore=-1" @click="goNewOne" class="new-detail-s">
               <div :style="{ backgroundImage: 'url('+ dataOne.src +')'}" class="new-detail"></div>
               <div class="new-text">
                 <span>{{dataOne.title}}</span>
                 <span>{{dataOne.time}}</span>
               </div>
               <div class="new-more new-more-one">
-                MORE<img src="../assets/image/new/add.png"/>
+                <div>
+                  <span v-if="showMore==0" style="color:#E44E3A">MORE</span>
+                  <span v-else >MORE</span>
+                </div>
+                <img v-if="showMore==0" src="../assets/image/new/add.png"/>
+                <img v-else src="../assets/image/new/add-white.png"/>
               </div>
             </div>
-            <div @click="goNewTwo" class="new-detail-s">
+            <div @mousemove="showMore=1" @mouseout="showMore=-1" @click="goNewTwo" class="new-detail-s">
               <div :style="{ backgroundImage: 'url('+ dataTwo.src +')'}" class="new-detail"></div>
               <div class="new-text">
                 <span>{{dataTwo.title}}</span>
                 <span>{{dataTwo.time}}</span>
               </div>
               <div class="new-more">
-                MORE<img src="../assets/image/new/add.png"/>
+                <div>
+                  <span v-if="showMore==1" style="color:#E44E3A">MORE</span>
+                  <span v-else >MORE</span>
+                </div>
+                <img v-if="showMore==1" src="../assets/image/new/add.png"/>
+                <img v-else src="../assets/image/new/add-white.png"/>
               </div>
             </div>
-            <div @click="goNewThree"  class="new-detail-s">
+            <div @mousemove="showMore=2" @mouseout="showMore=-1" @click="goNewThree"  class="new-detail-s">
               <div :style="{ backgroundImage: 'url('+ dataThree.src +')'}" class="new-detail"></div>
               <div class="new-text">
                 <span>{{dataThree.title}}</span>
                 <span>{{dataThree.time}}</span>
               </div>
               <div class="new-more">
-                MORE<img src="../assets/image/new/add.png"/>
+                <div>
+                  <span v-if="showMore==2" style="color:#E44E3A">MORE</span>
+                  <span v-else >MORE</span>
+                </div>
+                <img  v-if="showMore==2"  src="../assets/image/new/add.png"/>
+                <img v-else src="../assets/image/new/add-white.png"/>
               </div>
             </div>
           </div>
@@ -45,6 +60,7 @@
       name: "New",
         data() {
           return {
+            showMore:-1,
             dataOne:{
               src:'',
               time:''
