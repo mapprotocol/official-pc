@@ -1,9 +1,10 @@
 import Axios from 'axios'
-let baseURL = '' // 正式
+let baseURL = 'https://api.xangle.io/information/content/5ea00c14fff63ee1bf8e4dca' // 正式
 //区分开发环境 正式环境
 switch (process.env.NODE_ENV) {
     case 'development':
-        baseURL = '/';
+        // baseURL = '/';
+        baseURL = 'https://api.xangle.io/information/content/5ea00c14fff63ee1bf8e4dca';
         break;
 }
 Axios.defaults.headers['Content-Type'] = 'application/json';
