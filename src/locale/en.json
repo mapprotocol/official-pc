@@ -15,9 +15,14 @@
 				"path": "homeId"
 			},
 			{
-				"key": "relayers",
-				"name": "Relayer",
-				"path": "https://relayer.mapdapp.net"
+				"key": "ethereum",
+				"name": "Ethereum",
+				"path": "https://relayer.mapdapp.net/#/home"
+			},
+			{
+				"key": "bridge",
+				"name": "Bridge",
+				"path": "https://bridge.maplabs.io/#/home"
 			},
 			{
 				"key": "solutions",

@@ -11,10 +11,11 @@
                   <span :class="listtext==0?'header-list-text-color':''">{{ $t('header.Home') }}</span>
                   <div class="header-line" v-show="listtext==0"></div>
                 </div>
-                <div @click="actionRelayer()" class="header-list-text">
-                  <span :class="listtext==7?'header-list-text-color':''">{{ $t('header.Relayer') }}</span>
-                  <div class="header-line" v-show="listtext==7"></div>
-                </div>
+
+<!--                <div @click="actionRelayer()" class="header-list-text">-->
+<!--                  <span :class="listtext==7?'header-list-text-color':''">{{ $t('header.Relayer') }}</span>-->
+<!--                  <div class="header-line" v-show="listtext==7"></div>-->
+<!--                </div>-->
                 <div @click="actionSolution()" class="header-list-text">
                   <span :class="listtext==1?'header-list-text-color':''">{{ $t('header.Solutions') }}</span>
                   <div class="header-line" v-show="listtext==1"></div>
@@ -31,10 +32,19 @@
                   <span :class="listtext==4?'header-list-text-color':''">{{ $t('header.GitHub') }}</span>
                   <div class="header-line" v-show="listtext==4"></div>
                 </div>
-                <div @click="actionWallet()" class="header-list-text">
-                  <span :class="listtext==5?'header-list-text-color':''">{{ $t('header.Wallet') }}</span>
-                  <div class="header-line" v-show="listtext==5"></div>
+                <div class="lang-layout" @mouseover="showMakalu = true" @mouseout="showMakalu = false">
+                  <span class="lang-show" style="display: flex;flex-direction: row;align-items: center"><img style="width: 20px;margin-right: 5px" src="../assets/image/header/hot.png"/> Ecosystem <i :class="['icon-select', {'up': showMakalu}]"></i></span>
+                  <ul class="lang-list header-list-relay" v-show="showMakalu">
+<!--                    <li @click="goMakalu()">Makalu Relayer</li>-->
+                    <li @click="goEthereum()">Ethereum Relayer</li>
+                    <li @click="goBridge()">Bridge</li>
+                    <li @click="actionWallet()">{{ $t('header.Wallet') }}</li>
+                  </ul>
                 </div>
+<!--                <div @click="actionWallet()" class="header-list-text">-->
+<!--                  <span :class="listtext==5?'header-list-text-color':''">{{ $t('header.Wallet') }}</span>-->
+<!--                  <div class="header-line" v-show="listtext==5"></div>-->
+<!--                </div>-->
                 <div @click="actionJoin()" class="header-list-text">
                   <span :class="listtext==6?'header-list-text-color':''">{{ $t('header.JoinUs') }}</span>
                   <div class="header-line" v-show="listtext==6"></div>
@@ -60,6 +70,7 @@
         name: 'MyHeader.vue',
         data () {
           return {
+            showMakalu:false,
             listtext: 0,//选中
             activeNav: 'home',
             selectLangVisible: false, // 选择语言（默认不展示）
@@ -87,8 +98,16 @@
           }
         },
         methods: {
+          goMakalu () {
+            window.open('https://makalu-relayer.mapdapp.net/#/home','blank')
+          },
+          goEthereum () {
+            window.open('https://relayer.mapdapp.net/#/home','blank')
+          },
+          goBridge() {
+            window.open('https://bridge.maplabs.io/#/home','blank')
+          },
           actionWallet () {
-            // this.$router.push('/about')
             window.open('https://www.maplabs.io/about', '_blank')
           },
           actionJoin () {
@@ -388,6 +407,12 @@
                 background: #E44E3A;
                 color: #ffffff;
               }
+            }
+          }
+
+          .header-list-relay {
+            li:hover {
+              background: #E44E3A;
             }
           }
         }
