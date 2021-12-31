@@ -37,6 +37,7 @@
                   <ul class="lang-list header-list-relay" v-show="showMakalu">
 <!--                    <li @click="goMakalu()">Makalu Relayer</li>-->
                     <li @click="goEthereum()">Ethereum Relayer</li>
+                    <li @click="goMaEx()">Makalu  Explorer</li>
                     <li @click="goBridge()">Bridge</li>
                     <li @click="actionWallet()">{{ $t('header.Wallet') }}</li>
                   </ul>
@@ -98,6 +99,9 @@
           }
         },
         methods: {
+          goMaEx() {
+            window.open('https://makalu.mapscan.io/','blank')
+          },
           goMakalu () {
             window.open('https://makalu-relayer.mapdapp.net/#/home','blank')
           },

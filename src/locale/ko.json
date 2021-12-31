@@ -25,6 +25,11 @@
 				"path": "https://bridge.maplabs.io/#/home"
 			},
 			{
+				"key": "Makalu",
+				"name": "Makalu  Explorer",
+				"path": "https://makalu.mapscan.io/"
+			},
+			{
 				"key": "solutions",
 				"name": "솔루션",
 				"path": "atomId"

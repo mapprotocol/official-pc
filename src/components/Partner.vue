@@ -11,16 +11,16 @@
                 </div>
               <div class="partner-content partner-contents">
                 <img src="../assets/image/partner/img5.png"/>
-                <img src="../assets/image/partner/img6.png"/>
-                <img src="../assets/image/partner/img7.png"/>
-                <img src="../assets/image/partner/img8.png"/>
+<!--                <img src="../assets/image/partner/img6.png"/>-->
+<!--                <img src="../assets/image/partner/img7.png"/>-->
+<!--                <img src="../assets/image/partner/img8.png"/>-->
               </div>
-              <div class="partner-content partner-contents">
-                <img src="../assets/image/partner/img9.png"/>
-                <img src="../assets/image/partner/img10.png"/>
-                <img src="../assets/image/partner/img11.png"/>
-                <img src="../assets/image/partner/img12.png"/>
-              </div>
+<!--              <div class="partner-content partner-contents">-->
+<!--                <img src="../assets/image/partner/img9.png"/>-->
+<!--                <img src="../assets/image/partner/img10.png"/>-->
+<!--                <img src="../assets/image/partner/img11.png"/>-->
+<!--                <img src="../assets/image/partner/img12.png"/>-->
+<!--              </div>-->
             </div>
         </div>
     </template>
