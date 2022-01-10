@@ -244,7 +244,7 @@
             </div>
             <!--            all right-->
             <div class="footer-all">
-              © 2021 MarcoPolo Network Foundation, All Rights Reseved<br>
+              © 2022 Maplabs, All Rights Reseved<br>
             </div>
           </div>
         </div>
