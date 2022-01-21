@@ -24,20 +24,26 @@
                   <span :class="listtext==2?'header-list-text-color':''">{{ $t('header.RoadMap') }}</span>
                   <div class="header-line" v-show="listtext==2"></div>
                 </div>
-                <div id="RoadMapID" @click="actionWhitePaper()" class="header-list-text">
-                  <span :class="listtext==3?'header-list-text-color':''">{{ $t('header.WhitePaper') }}</span>
+                <div @click="actionGovernance()" class="header-list-text">
+                  <span :class="listtext==3?'header-list-text-color':''"> Governance </span>
                   <div class="header-line" v-show="listtext==3"></div>
                 </div>
-                <div @click="actionGitHub()" class="header-list-text">
-                  <span :class="listtext==4?'header-list-text-color':''">{{ $t('header.GitHub') }}</span>
-                  <div class="header-line" v-show="listtext==4"></div>
+                <div class="lang-layout" @mouseover="showDeve = true" @mouseout="showDeve = false">
+                  <span class="lang-show" style="display: flex;flex-direction: row;align-items: center">Developes
+                    <i :class="['icon-select', {'up': showDeve}]"></i>
+                  </span>
+                  <ul class="lang-list header-list-relay" v-show="showDeve">
+                    <li @click="goDocs()">Docs</li>
+                    <li @click="actionGitHub()">GitHub</li>
+                    <li @click="actionWhitePaper()">WhitePaper</li>
+                  </ul>
                 </div>
                 <div class="lang-layout" @mouseover="showMakalu = true" @mouseout="showMakalu = false">
                   <span class="lang-show" style="display: flex;flex-direction: row;align-items: center"><img style="width: 20px;margin-right: 5px" src="../assets/image/header/hot.png"/> Ecosystem <i :class="['icon-select', {'up': showMakalu}]"></i></span>
                   <ul class="lang-list header-list-relay" v-show="showMakalu">
-<!--                    <li @click="goMakalu()">Makalu Relayer</li>-->
                     <li @click="goEthereum()">Ethereum Relayer</li>
                     <li @click="goMaEx()">Makalu  Explorer</li>
+                    <li @click="goHiveSwap()">HiveSwap </li>
                     <li @click="goBridge()">Bridge</li>
                     <li @click="actionWallet()">{{ $t('header.Wallet') }}</li>
                   </ul>
@@ -52,7 +58,7 @@
                 </div>
               </div>
             </div>
-                      <div class="lang-layout" @mouseover="selectLangVisible = true" @mouseout="selectLangVisible = false">
+            <div class="lang-layout" @mouseover="selectLangVisible = true" @mouseout="selectLangVisible = false">
                         <span class="lang-show">{{ selectLang.name }}<i :class="['icon-select', {'up': selectLangVisible}]"></i></span>
                         <ul class="lang-list" v-show="selectLangVisible">
                           <li v-for="(item, i) in $t('header.langList')" :key="i" @click="changeLang(item)"
@@ -71,6 +77,7 @@
         name: 'MyHeader.vue',
         data () {
           return {
+            showDeve:false,
             showMakalu:false,
             listtext: 0,//选中
             activeNav: 'home',
@@ -99,6 +106,12 @@
           }
         },
         methods: {
+          goDocs() {
+            window.open('https://docs.maplabs.io','_blank')
+          },
+          goHiveSwap() {
+            window.open('https://swap.hiveswap.io','_blank')
+          },
           goMaEx() {
             window.open('https://makalu.mapscan.io/','blank')
           },
@@ -146,6 +159,9 @@
               behavior: 'smooth', // 平滑过渡
               block: 'start' // 上边框与视窗顶部平齐。默认值
             })
+          },
+          actionGovernance() {
+            window.open('https://dao.idavoll.network/project-detail/MAPProtocol','_blank')
           },
           actionRoadMap () {
             this.listtext = 2
