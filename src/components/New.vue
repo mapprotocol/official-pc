@@ -168,9 +168,12 @@
         width: 100%;
         height: 180px;
         box-sizing: border-box;
-        font-size: 24px;
+        font-size: 20px;
         font-weight: 700;
         color: #fff;
+        //span:nth-child(1) {
+        //  height: 120px;
+        //}
         span:nth-child(2) {
           font-size: 14px;
           opacity: 0.7;

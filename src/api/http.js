@@ -16,7 +16,7 @@ let request = function(path, params, isPost) {
         params = {}
     }
     let headers = {
-        'language': 'zh'
+        // 'language': 'zh'
     };
     return new Promise(resolve => {
         if (isPost) {
