@@ -42,6 +42,7 @@
                   <span class="lang-show" style="display: flex;flex-direction: row;align-items: center"><img style="width: 20px;margin-right: 5px" src="../assets/image/header/hot.png"/> Ecosystem <i :class="['icon-select', {'up': showMakalu}]"></i></span>
                   <ul class="lang-list header-list-relay" v-show="showMakalu">
                     <li @click="goEthereum()">Ethereum Relayer</li>
+                    <li @click="goMaRe()">Makalu Relayer</li>
                     <li @click="goMaEx()">Makalu  Explorer</li>
                     <li @click="goHiveSwap()">HiveSwap </li>
                     <li @click="goBridge()">Bridge</li>
@@ -120,6 +121,9 @@
           },
           goEthereum () {
             window.open('https://relayer.mapdapp.net/#/home','blank')
+          },
+          goMaRe() {
+            window.open('https://makalu-relayer.mapdapp.net/#/home','blank')
           },
           goBridge() {
             window.open('https://bridge.maplabs.io/#/home','blank')

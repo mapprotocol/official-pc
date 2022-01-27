@@ -16,8 +16,13 @@
 			},
 			{
 				"key": "ethereum",
-				"name": "Ethereum",
+				"name": "Ethereum Relayer",
 				"path": "https://relayer.mapdapp.net/#/home"
+			},
+			{
+				"key": "makalu",
+				"name": "Makalu Relayer",
+				"path": "https://makalu-relayer.mapdapp.net/#/home"
 			},
 			{
 				"key": "bridge",
