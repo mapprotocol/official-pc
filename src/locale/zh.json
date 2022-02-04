@@ -25,6 +25,11 @@
 				"path": "https://makalu-relayer.mapdapp.net/#/home"
 			},
 			{
+				"key": "forum",
+				"name": "MAP Forum",
+				"path": "https://forum.maplabs.io"
+			},
+			{
 				"key": "bridge",
 				"name": "Bridge",
 				"path": "https://bridge.maplabs.io/#/home"

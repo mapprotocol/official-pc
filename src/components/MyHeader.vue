@@ -42,15 +42,14 @@
                   <span class="lang-show" style="display: flex;flex-direction: row;align-items: center"><img style="width: 20px;margin-right: 5px" src="../assets/image/header/hot.png"/> Ecosystem <i :class="['icon-select', {'up': showMakalu}]"></i></span>
                   <ul class="lang-list header-list-relay" v-show="showMakalu">
                     <li @click="goEthereum()">Ethereum Relayer</li>
-
-                      <li @click="goMaRe()" style="display: flex;flex-direction: row;align-items: center">
+                    <li @click="goMaRe()" style="display: flex;flex-direction: row;align-items: center">
                         <span style="padding-left: 25px"> Makalu Relayer</span>
                         <img width="15px" style="margin-left: 5px;margin-top: -15px" src="../assets/image/header/new.png"/>
                       </li>
-
                     <li @click="goMaEx()">Makalu  Explorer</li>
                     <li @click="goHiveSwap()">HiveSwap </li>
                     <li @click="goBridge()">Bridge</li>
+                    <li @click="goForum()">MAP Forum</li>
                     <li @click="actionWallet()">{{ $t('header.Wallet') }}</li>
                   </ul>
                 </div>
@@ -112,6 +111,9 @@
           }
         },
         methods: {
+          goForum() {
+            window.open('https://forum.maplabs.io/','blank')
+          },
           goDocs() {
             window.open('https://docs.maplabs.io','_blank')
           },
