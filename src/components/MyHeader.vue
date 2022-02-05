@@ -20,8 +20,8 @@
                   <span :class="listtext==1?'header-list-text-color':''">{{ $t('header.Solutions') }}</span>
                   <div class="header-line" v-show="listtext==1"></div>
                 </div>
-                <div @click="actionRoadMap()" class="header-list-text">
-                  <span :class="listtext==2?'header-list-text-color':''">{{ $t('header.RoadMap') }}</span>
+                <div @click="goForum()" class="header-list-text">
+                  <span :class="listtext==2?'header-list-text-color':''">MAP Forum</span>
                   <div class="header-line" v-show="listtext==2"></div>
                 </div>
                 <div @click="actionGovernance()" class="header-list-text">
@@ -49,7 +49,7 @@
                     <li @click="goMaEx()">Makalu  Explorer</li>
                     <li @click="goHiveSwap()">HiveSwap </li>
                     <li @click="goBridge()">Bridge</li>
-                    <li @click="goForum()">MAP Forum</li>
+<!--                    <li @click="goForum()">MAP Forum</li>-->
                     <li @click="actionWallet()">{{ $t('header.Wallet') }}</li>
                   </ul>
                 </div>
