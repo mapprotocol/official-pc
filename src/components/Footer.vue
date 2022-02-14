@@ -31,14 +31,40 @@
     }
 
     .footer-title {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       img {
-        width: 58px;
+        width: 211px;
       }
 
       span {
         font-size: 23px;
         font-family: Helvetica;
         color: #FFFFFF;
+      }
+      a {
+        font-family: Helvetica;
+        color: #FFFFFF;
+        font-size: 14px !important;
+        cursor: pointer;
+        padding-bottom: 1px;
+      }
+    }
+
+    .footer-href {
+      padding-top: 40px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: 10px;
+        margin-right: 30px;
+      }
+      img:nth-child(3){
+        margin-right: 0;
+        margin-left:30px ;
       }
     }
 
@@ -206,7 +232,12 @@
         <div class="ft-container">
           <div class="footer-content">
             <div class="footer-title">
-              <span>{{ $t('Footer.title') }}</span>
+              <img src="../assets/image/header/logo.png"/>
+              <div class="footer-href">
+                <img src="../assets/image/footer/line-left.png"/>
+                <a href="https://sagroups.ieee.org/bdlsc/organization/#1584280317211-e5f00cec-aefb" target="_blank">Technical Board of IEEE Computer Society Blockchain and Distributed Ledger Standards Committee</a>
+                <img src="../assets/image/footer/line-right.png"/>
+              </div>
             </div>
             <div class="footer-icon">
               <a href="https://medium.com/marcopolo-protocol" target="_blank"><img src="../assets/image/footer/medium.png"/></a>

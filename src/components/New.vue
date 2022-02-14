@@ -105,7 +105,7 @@
             this.dataThree.src=this.dataThree.thumbnail_image_url
             this.dataThree.time=moment.utc(this.dataThree.updated_timestamp).local().format('YYYY-MM-DD HH:mm')
 
-            console.log(result)
+            // console.log(result)
           }
         },
         mounted () {
