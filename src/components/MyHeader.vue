@@ -16,8 +16,11 @@
 <!--                  <span :class="listtext==7?'header-list-text-color':''">{{ $t('header.Relayer') }}</span>-->
 <!--                  <div class="header-line" v-show="listtext==7"></div>-->
 <!--                </div>-->
-                <div @click="actionSolution()" class="header-list-text">
-                  <span :class="listtext==1?'header-list-text-color':''">{{ $t('header.Solutions') }}</span>
+                <div @click="actionStaking()" class="header-list-text">
+                  <div class="header-list-text-staking">
+                    <span :class="listtext==1?'header-list-text-color':''">Staking</span>
+                    <img width="15px" style="margin-left: 5px;margin-top: -15px" src="../assets/image/header/new.png"/>
+                  </div>
                   <div class="header-line" v-show="listtext==1"></div>
                 </div>
                 <div @click="goForum()" class="header-list-text">
@@ -111,6 +114,9 @@
           }
         },
         methods: {
+          actionStaking() {
+            window.open('https://staking.maplabs.io/','blank')
+          },
           goForum() {
             window.open('https://forum.maplabs.io/','blank')
           },
@@ -274,6 +280,16 @@
             font-size: 16px;
             font-family: Helvetica;
             color: #FFFFFF;
+          }
+
+          .header-list-text-staking {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            img {
+              width: 15px !important;
+              height: 15px !important;
+            }
           }
 
 

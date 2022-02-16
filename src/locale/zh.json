@@ -15,6 +15,11 @@
 				"path": "homeId"
 			},
 			{
+				"key": "Staking",
+				"name": "Staking",
+				"path": "https://staking.maplabs.io/"
+			},
+			{
 				"key": "ethereum",
 				"name": "Ethereum Relayer",
 				"path": "https://relayer.mapdapp.net/#/home"
