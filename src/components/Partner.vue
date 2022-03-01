@@ -6,11 +6,12 @@
                 <div class="partner-content">
                   <img src="../assets/image/partner/img1.png"/>
                   <img src="../assets/image/partner/img2.png"/>
-                  <img src="../assets/image/partner/img3.png"/>
-                  <img src="../assets/image/partner/img4.png"/>
+                  <img src="../assets/image/partner/img5.png"/>
+<!--                  <img src="../assets/image/partner/img3.png"/>-->
+<!--                  <img src="../assets/image/partner/img4.png"/>-->
                 </div>
               <div class="partner-content partner-contents">
-                <img src="../assets/image/partner/img5.png"/>
+
 <!--                <img src="../assets/image/partner/img6.png"/>-->
 <!--                <img src="../assets/image/partner/img7.png"/>-->
 <!--                <img src="../assets/image/partner/img8.png"/>-->
@@ -50,7 +51,7 @@
     }
 
     .partner-content {
-      width: 100%;
+      width: 80%;
       display: flex;
       flex-direction: row;
       align-items: center;
