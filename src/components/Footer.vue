@@ -241,7 +241,7 @@
             </div>
             <div class="footer-icon">
               <a href="https://medium.com/marcopolo-protocol" target="_blank"><img src="../assets/image/footer/medium.png"/></a>
-              <a href="https://t.me/MarcoPoloMAP" target="_blank"><img src="../assets/image/footer/telegram.png"/></a>
+              <a href="https://t.me/MAPprotocol" target="_blank"><img src="../assets/image/footer/telegram.png"/></a>
               <a href="https://twitter.com/MarcoPoloGlobal" target="_blank"><img src="../assets/image/footer/twitter.png"/></a>
               <a href="https://github.com/mapprotocol" target="_blank"><img src="../assets/image/footer/git.png"/></a>
 <!--              <a href="https://bitcointalk.org/index.php?topic=5215440.new#new" target="_blank"><img-->
