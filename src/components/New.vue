@@ -1,8 +1,7 @@
       <template>
         <!--      news-->
         <div class="news">
-          <div class="title new-title">{{$t('Roadmap.newsTitle')}}</div>
-          <div class="title-line"></div>
+          <div class="home-title">MAP Protocol in the media</div>
           <div class="new-content">
             <div @mousemove="showMore=0" @mouseout="showMore=-1" @click="goNewOne" class="new-detail-s">
               <div :style="{ backgroundImage: 'url('+ dataOne.src +')'}" class="new-detail"></div>
@@ -12,11 +11,10 @@
               </div>
               <div class="new-more new-more-one">
                 <div>
-                  <span v-if="showMore==0" style="color:#E44E3A">MORE</span>
-                  <span v-else >MORE</span>
+                  <span>MORE</span>
                 </div>
-                <img v-if="showMore==0" src="../assets/image/new/add.png"/>
-                <img v-else src="../assets/image/new/add-white.png"/>
+                <img v-if="showMore==0" src="../assets/new/arrow-right-orange.png"/>
+                <img v-else src="../assets/new/arrow-right.png"/>
               </div>
             </div>
             <div @mousemove="showMore=1" @mouseout="showMore=-1" @click="goNewTwo" class="new-detail-s">
@@ -27,11 +25,10 @@
               </div>
               <div class="new-more">
                 <div>
-                  <span v-if="showMore==1" style="color:#E44E3A">MORE</span>
-                  <span v-else >MORE</span>
+                  <span>MORE</span>
                 </div>
-                <img v-if="showMore==1" src="../assets/image/new/add.png"/>
-                <img v-else src="../assets/image/new/add-white.png"/>
+                <img v-if="showMore==1" src="../assets/new/arrow-right-orange.png"/>
+                <img v-else src="../assets/new/arrow-right.png"/>
               </div>
             </div>
             <div @mousemove="showMore=2" @mouseout="showMore=-1" @click="goNewThree"  class="new-detail-s">
@@ -42,11 +39,10 @@
               </div>
               <div class="new-more">
                 <div>
-                  <span v-if="showMore==2" style="color:#E44E3A">MORE</span>
-                  <span v-else >MORE</span>
+                  <span>MORE</span>
                 </div>
-                <img  v-if="showMore==2"  src="../assets/image/new/add.png"/>
-                <img v-else src="../assets/image/new/add-white.png"/>
+                <img v-if="showMore==2" src="../assets/new/arrow-right-orange.png"/>
+                <img v-else src="../assets/new/arrow-right.png"/>
               </div>
             </div>
           </div>
@@ -115,6 +111,7 @@
       </script>
 
       <style scoped lang="less">
+      @import "../views/newHome.less";
 
       img{
         vertical-align:top;
@@ -122,13 +119,11 @@
 
 
       .news{
+        padding: 0 0 102px 0;
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
-        background: url("../assets/image/new/bg.png")no-repeat;
-        background-size: 100% 100%;
-
       }
 
       .new-title {
@@ -137,7 +132,7 @@
 
 
       .new-content {
-        padding:79px 0 120px 0;
+       padding-top: 50px;
         width: 1200px;
         display: flex;
         flex-direction: row;
@@ -155,6 +150,7 @@
       .new-detail {
         width: 332px;
         height: 204px;
+        border-radius: 5px;
         background-position:center top;
         background-size: cover;
       }
@@ -166,18 +162,17 @@
         justify-content: flex-start;
         align-items: flex-start;
         width: 100%;
-        height: 180px;
+        height: 140px;
         box-sizing: border-box;
-        font-size: 20px;
-        font-weight: 700;
-        color: #fff;
-        //span:nth-child(1) {
-        //  height: 120px;
-        //}
+        font-size: 18px;
+        span:nth-child(1) {
+          font-weight: bold;
+        }
         span:nth-child(2) {
-          font-size: 14px;
-          opacity: 0.7;
-          padding-top: 12px;
+          padding-top: 15px;
+          opacity: 0.3;
+          font-size: 12px;
+          color: rgb(0, 0, 0);
         }
       }
 
@@ -185,13 +180,11 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        font-family: Poppins;
-        font-size: 16px;
-        font-weight: 500;
-        color: white;
-        img {
+        font-size: 14px;
+        font-weight: bold;
+        img:nth-child(2) {
           margin-left: 10px;
-          width: 16px;
+          width: 17px;
         }
       }
 

@@ -16,6 +16,9 @@ import { VueJsonp } from 'vue-jsonp'
 
 Vue.use(VueJsonp)
 
+import toastRegistry from './vendor/toast/index'
+Vue.use(toastRegistry)
+
 Vue.config.productionTip = false
 Vue.prototype.THREE = THREE
 Vue.prototype.ThreeStats = ThreeStats

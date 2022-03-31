@@ -1,13 +1,12 @@
     <template>
         <div class="partner">
             <div class="partner-container">
-                <div class="title">{{ $t('Roadmap.part') }}</div>
-                <div class="title-line"></div>
+                <div class="home-title">{{ $t('Roadmap.part') }}</div>
                 <div class="partner-content">
-                  <img src="../assets/image/partner/img1.png"/>
-                  <img src="../assets/image/partner/img2.png"/>
-                  <img src="../assets/image/partner/img5.png"/>
-<!--                  <img src="../assets/image/partner/img3.png"/>-->
+                  <img src="../assets/partner/micr.png"/>
+                  <img src="../assets/partner/soft.png"/>
+                  <img src="../assets/partner/ieee.png"/>
+                  <img src="../assets/partner/poly.png"/>
 <!--                  <img src="../assets/image/partner/img4.png"/>-->
                 </div>
               <div class="partner-content partner-contents">
@@ -16,12 +15,6 @@
 <!--                <img src="../assets/image/partner/img7.png"/>-->
 <!--                <img src="../assets/image/partner/img8.png"/>-->
               </div>
-<!--              <div class="partner-content partner-contents">-->
-<!--                <img src="../assets/image/partner/img9.png"/>-->
-<!--                <img src="../assets/image/partner/img10.png"/>-->
-<!--                <img src="../assets/image/partner/img11.png"/>-->
-<!--                <img src="../assets/image/partner/img12.png"/>-->
-<!--              </div>-->
             </div>
         </div>
     </template>
@@ -33,17 +26,17 @@
     </script>
 
     <style scoped lang="less">
+    @import "../views/newHome.less";
 
     .partner {
       position: relative;
-      background-color: rgb(37, 37, 37);
       display: flex;
       flex-direction: column;
       align-items: center;
     }
 
     .partner-container {
-      padding: 120px 0 132px 0;
+      padding: 80px 0;
       width: 1200px;
       display: flex;
       flex-direction: column;
@@ -51,12 +44,12 @@
     }
 
     .partner-content {
-      width: 80%;
+      width: 100%;
       display: flex;
       flex-direction: row;
       align-items: center;
       justify-content: space-between;
-      padding-top: 80px;
+      padding-top: 50px;
       img {
         width: 281px;
       }
