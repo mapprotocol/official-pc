@@ -108,6 +108,12 @@
                         <span>Github</span>
                       </div>
                     </div>
+                    <div class="header-drop">
+                      <div @click="goWhitepaper()" class="header-drop-item header-drop-item-one">
+                        <div class="header-relayer-icon header-white-icon"></div>
+                        <span>Whitepaper</span>
+                      </div>
+                    </div>
                   </div>
                 </div>
                 <div class="header-tab-item">
@@ -141,6 +147,9 @@
           },
           goPurchase() {
             this.$router.push('/purchase')
+          },
+          goWhitepaper(){
+            window.open('https://files.maplabs.io/pdf/mapprotocol_whitepaper_en.pdf','blank')
           },
           goRelayerEth() {
             window.open('https://relayer.mapdapp.net/','blank')

@@ -341,7 +341,7 @@
              let data = result.data.data
              v.crossChain = parseFloat(data.allCrossCount)
              v.totalAddress = parseFloat(data.totalAddress)
-             v.relayer = parseFloat(data.addressCount)-2600
+             v.relayer = parseFloat(data.addressCount)-3600
            }
           },
 

@@ -68,7 +68,7 @@
 
     .footer-right-item-tab {
       padding-top: 42px;
-      opacity: 0.41;
+      color: #CCCCCC;
       font-family: Helvetica;
       font-size: 16px;
       display: flex;
@@ -77,6 +77,7 @@
       a {
         padding-top: 22px;
         display: flex;
+        color: #CCCCCC;
         flex-direction: row;
         align-items: center;
         img {
@@ -321,6 +322,7 @@
                   <div class="footer-right-item-tab">
                     <a href="https://docs.maplabs.io/" target="_blank">Docs</a>
                     <a href="https://github.com/mapprotocol" target="_blank">Github</a>
+                    <a href="https://files.maplabs.io/pdf/mapprotocol_whitepaper_en.pdf" target="_blank">Whitepaper</a>
                   </div>
               </div>
               <div class="footer-right-item">
@@ -341,27 +343,6 @@
                   <a  href="https://polygonscan.com/address/0xBAbceE78586d3e9E80E0d69601A17f983663Ba6a" target="_blank">Official Polygon Address</a>
                 </div>
               </div>
-              <!--<div class="footer-icon">
-                <a href="https://medium.com/marcopolo-protocol" target="_blank"><img src="../assets/image/footer/medium.png"/></a>
-                <a href="https://t.me/MAPprotocol" target="_blank"><img src="../assets/image/footer/telegram.png"/></a>
-                <a href="https://twitter.com/MarcoPoloGlobal" target="_blank"><img src="../assets/image/footer/twitter.png"/></a>
-                <a href="https://github.com/mapprotocol" target="_blank"><img src="../assets/image/footer/git.png"/></a>
-                              <a href="https://bitcointalk.org/index.php?topic=5215440.new#new" target="_blank"><img
-                                  src="../assets/image/footer/bittalk.png" target="_blank"/></a>
-                <a href="https://open.kakao.com/o/gP9WduRb" target="_blank"><img src="../assets/image/footer/kakao.png"/></a>
-                <a href="https://blog.naver.com/marcopay" target="_blank"><img src="../assets/image/footer/naver.png"/></a>
-                <a href="https://www.coingecko.com/en/coins/map-protocol" target="_blank"> <img src="../assets/image/footer/fog.png"/></a>
-                                <a> <img src="../assets/image/footer/t.png"/></a>
-                                <a href="mailto:"> <img src="../assets/image/footer/email.png"/></a>
-              </div>
-                              link
-              <div class="footer-link">
-                <div class="link-title">
-                  <a target="_blank" href="https://etherscan.io/token/0x9e976f211daea0d652912ab99b0dc21a7fd728e4">Official ERC-20 Address</a>
-                </div>
-                <div class="link-line"></div>
-                <div class="link-title"><a href="mailto:cooperation@maplabs.io">Email: cooperation@maplabs.io</a></div>
-              </div> -->
             </div>
           </div>
           <div class="footer-line"></div>
