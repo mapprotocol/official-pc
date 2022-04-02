@@ -74,17 +74,21 @@
                   <!--                     下拉框-->
                   <div @mouseover="showHeaderTab=3" @mouseleave="showHeaderTab=-1"  v-show="showHeaderTab==3" class="header-item-drop header-drop-map">
                     <div class="header-drop">
+                      <div @click="goBridge()" class="header-drop-item header-drop-item-bridge">
+                        <div class="header-relayer-icon header-bridge-icon"></div>
+                        <span>Bridge<span class="header-drop-beta" style="color: white">Beta</span></span>
+                      </div>
                       <div @click="goHiveswapHome()" class="header-drop-item header-drop-item-one">
                         <div class="header-relayer-icon header-hiveswap-icon"></div>
                         <span>Hiveswap</span>
                       </div>
-                      <div @click="goIdavoll()" class="header-drop-item">
+                    </div>
+                    <div  class="header-drop">
+                      <div @click="goIdavoll()" class="header-drop-item header-drop-item-dao">
                         <div class="header-relayer-icon header-idavoll-icon"></div>
                         <span>Idavoll DAO</span>
                       </div>
-                    </div>
-                    <div @click="goBefi()" class="header-drop">
-                      <div class="header-drop-item header-drop-item-three">
+                      <div @click="goBefi()" class="header-drop-item header-drop-item-three">
                         <div class="header-relayer-icon header-befi-icon"></div>
                         <span>BeFi Wallet</span>
                       </div>
@@ -122,7 +126,7 @@
                   </div>
                 </div>
               </div>
-              <div @click="goBridge()" class="header-launch">Launch App</div>
+<!--              <div @click="goBridge()" class="header-launch">Launch App</div>-->
             </div>
           </div>
         </div>

@@ -12,9 +12,9 @@
                     <div class="forge-text">Forge a Borderless Blockchain-verse</div>
                     <div class="forge-lable">MAP Protocol is a decentralized cross-chain interoperability protocol backed by a dedicated blockchain which safeguards cross-chain assets and empowers Dapps to achieve full potential.</div>
                     <div class="forge-btn">
+                      <div @click="goBridge()" class="forge-btn-black forge-btn-orange">Bridge</div>
                       <div @click="goGithub()" class="forge-btn-black">GitHub</div>
                       <div @click="goScale()" class="forge-btn-black">Build</div>
-                      <div @click="goBridge()" class="forge-btn-black forge-btn-orange">Bridge</div>
                     </div>
                   </div>
                 </div>
@@ -23,64 +23,64 @@
 
 
 <!--            map-->
-              <div class="map">
-                  <div class="home-container">
-                    <div class="map-content">
-                     <!-- <div class="map-content-top">
-                        <div class="map-title">
-                          <span>MAP Protocol</span>
-                          <span>MAP Protocol is a decentralized cross-chain interoperability protocol backed by a dedicated blockchain which safeguards cross-chain assets and empowers Dapps to achieve full potential.</span>
-                        </div>
-                        <div class="">
-                          <img src="../assets/map/video.png"/>
-                        </div>
-                      </div> -->
-                      <div class="map-num">
-                          <div @click="goMapscan()" @mouseover="showMapLine=0" @mouseleave="showMapLine=-1" class="map-num-item">
-                              <div class="map-num-item-top">
-                                <span>Total Cross-Chain Trading Volume</span>
-                                <img src="../assets/map/arrow-bottom-orange.png"/>
-                              </div>
-                              <div class="map-num-item-bottom">
-                                <countTo :startVal='startVal' :endVal='crossChain' :duration='3000' :autoplay="showNum"></countTo>
-                              </div>
-                              <div v-show="showMapLine==0" class="map-num-line"></div>
-                          </div>
-                          <div @mouseover="showMapLine=1" @mouseleave="showMapLine=-1"  class="map-num-item">
-                          <div class="map-num-item-top">
-                            <span>Total Value Locked</span>
-                            <img src="../assets/map/arrow-bottom-orange.png"/>
-                          </div>
-                          <div class="map-num-item-bottom">
-                            <span>--</span>
-<!--                            <countTo :startVal='startVal' :endVal='vault' :duration='3000' :autoplay="showNum"></countTo>-->
-                          </div>
-                            <div v-show="showMapLine==1" class="map-num-line"></div>
-                        </div>
-                          <div @click="goMapscan()" @mouseover="showMapLine=2" @mouseleave="showMapLine=-1"  class="map-num-item">
-                            <div class="map-num-item-top">
-                              <span>Total Addresses</span>
-                              <img src="../assets/map/arrow-bottom-orange.png"/>
-                            </div>
-                            <div class="map-num-item-bottom">
-                              <countTo :startVal='startVal' :endVal='totalAddress' :duration='3000' :autoplay="showNum"></countTo>
-                            </div>
-                            <div v-show="showMapLine==2" class="map-num-line"></div>
-                          </div>
-                          <div @click="goRelayerMakalu()" @mouseover="showMapLine=3" @mouseleave="showMapLine=-1"  class="map-num-item">
-                          <div class="map-num-item-top">
-                            <span>Ralayer Nodes</span>
-                            <img src="../assets/map/arrow-bottom-orange.png"/>
-                          </div>
-                          <div class="map-num-item-bottom">
-                            <countTo :startVal='startVal' :endVal='relayer' :duration='3000' :autoplay="showNum"></countTo>
-                          </div>
-                            <div v-show="showMapLine==3" class="map-num-line"></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-              </div>
+            <!--  <div class="map">
+                 <div class="home-container">
+                   <div class="map-content">
+                    <div class="map-content-top">
+                       <div class="map-title">
+                         <span>MAP Protocol</span>
+                         <span>MAP Protocol is a decentralized cross-chain interoperability protocol backed by a dedicated blockchain which safeguards cross-chain assets and empowers Dapps to achieve full potential.</span>
+                       </div>
+                       <div class="">
+                         <img src="../assets/map/video.png"/>
+                       </div>
+                     </div>
+                     <div class="map-num">
+                         <div @click="goMapscan()" @mouseover="showMapLine=0" @mouseleave="showMapLine=-1" class="map-num-item">
+                             <div class="map-num-item-top">
+                               <span>Total Cross-Chain Trading Volume</span>
+                               <img src="../assets/map/arrow-bottom-orange.png"/>
+                             </div>
+                             <div class="map-num-item-bottom">
+                               <countTo :startVal='startVal' :endVal='crossChain' :duration='3000' :autoplay="showNum"></countTo>
+                             </div>
+                             <div v-show="showMapLine==0" class="map-num-line"></div>
+                         </div>
+                         <div @mouseover="showMapLine=1" @mouseleave="showMapLine=-1"  class="map-num-item">
+                         <div class="map-num-item-top">
+                           <span>Total Value Locked</span>
+                           <img src="../assets/map/arrow-bottom-orange.png"/>
+                         </div>
+                         <div class="map-num-item-bottom">
+                           <span>--</span>
+                           <countTo :startVal='startVal' :endVal='vault' :duration='3000' :autoplay="showNum"></countTo>
+                         </div>
+                           <div v-show="showMapLine==1" class="map-num-line"></div>
+                       </div>
+                         <div @click="goMapscan()" @mouseover="showMapLine=2" @mouseleave="showMapLine=-1"  class="map-num-item">
+                           <div class="map-num-item-top">
+                             <span>Total Addresses</span>
+                             <img src="../assets/map/arrow-bottom-orange.png"/>
+                           </div>
+                           <div class="map-num-item-bottom">
+                             <countTo :startVal='startVal' :endVal='totalAddress' :duration='3000' :autoplay="showNum"></countTo>
+                           </div>
+                           <div v-show="showMapLine==2" class="map-num-line"></div>
+                         </div>
+                         <div @click="goRelayerMakalu()" @mouseover="showMapLine=3" @mouseleave="showMapLine=-1"  class="map-num-item">
+                         <div class="map-num-item-top">
+                           <span>Ralayer Nodes</span>
+                           <img src="../assets/map/arrow-bottom-orange.png"/>
+                         </div>
+                         <div class="map-num-item-bottom">
+                           <countTo :startVal='startVal' :endVal='relayer' :duration='3000' :autoplay="showNum"></countTo>
+                         </div>
+                           <div v-show="showMapLine==3" class="map-num-line"></div>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+             </div> -->
 
 <!--              why-->
             <div class="why">
