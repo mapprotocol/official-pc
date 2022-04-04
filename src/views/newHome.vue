@@ -12,8 +12,8 @@
                     <div class="forge-text">Forge a Borderless Blockchain-verse</div>
                     <div class="forge-lable">MAP Protocol is a decentralized cross-chain interoperability protocol backed by a dedicated blockchain which safeguards cross-chain assets and empowers Dapps to achieve full potential.</div>
                     <div class="forge-btn">
-                      <div @click="goBridge()" class="forge-btn-black forge-btn-orange">Bridge</div>
                       <div @click="goGithub()" class="forge-btn-black">GitHub</div>
+                      <div @click="goWhitepaper()" class="forge-btn-black">Whitepaper</div>
                       <div @click="goScale()" class="forge-btn-black">Build</div>
                     </div>
                   </div>
@@ -306,6 +306,9 @@
           }
         },
         methods: {
+          goWhitepaper() {
+            window.open('https://files.maplabs.io/pdf/mapprotocol_whitepaper_en.pdf','blank')
+          },
           goMapscan() {
             window.open('https://makalu.mapscan.io/','blank')
           },
