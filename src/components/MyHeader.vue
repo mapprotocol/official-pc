@@ -24,7 +24,7 @@
                         <span>Relayer (Makalu)</span>
                       </div>
                     </div>
-                    <div class="header-drop">
+                   <!-- <div class="header-drop">
                       <div  @click="goVault()" class="header-drop-item header-drop-item-one header-drop-item-vault">
                         <div class="header-relayer-icon header-vault-icon"></div>
                         <span>Vault</span>
@@ -33,7 +33,7 @@
                         <div class="header-relayer-icon header-validator-icon"></div>
                         <span>Validator</span>
                       </div>
-                    </div>
+                    </div> -->
                     <div class="header-drop">
                       <div @click="goHiveswap()" class="header-drop-item">
                         <div class="header-relayer-icon header-defi-icon"></div>

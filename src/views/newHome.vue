@@ -89,33 +89,77 @@
                   <div class="home-title">Why MAP Protocol</div>
                   <div class="why-bottom">
                     <div class="why-bottom-item">
-                      <img src="../assets/why/one.png"/>
+                      <div class="why-bottom-item-top">
+                        <img src="../assets/why/one.png"/>
+                        <span>Industry Leading Decentralized Cross-chain Solution</span>
+                      </div>
+
                       <div class="why-bottom-item-right">
-                        <span>Truely Interoperability</span>
-                        <span>MAP Protocol enables cross-chain transfers of data,information,assets and smart-contract instructions among independent chains.</span>
+                        <div class="why-content-right-item">
+                          <div class="why-round"></div>
+                          <span>Non-custodial, non-MPC.</span>
+                        </div>
+                        <div class="why-content-right-item">
+                          <div class="why-round"></div>
+                          <span>Trustless and automation - do not rely on any trusted Oracle or Relayer.</span>
+                        </div>
+                        <div class="why-content-right-item why-content-right-item-two">
+                          <div class="why-round"></div>
+                          <span>Backed by a dedicated public chain adopting PoS and Byzantine Fault Tolerance consensus.</span>
+                        </div>
+                        <div class="why-content-right-item">
+                          <div class="why-round"></div>
+                          <span>Full on Light-client protocol integration.</span>
+                        </div>
                       </div>
                     </div>
-                    <div class="why-bottom-item">
-                      <img src="../assets/why/two.png"/>
+                    <div class="why-bottom-item why-bottom-item-two">
+                      <div class="why-bottom-item-top">
+                        <img src="../assets/why/two.png"/>
+                        <span>Universal Compatibility with EVM and Non-EVM Chains</span>
+                      </div>
+
                       <div class="why-bottom-item-right">
-                        <span>Security Guaranteed</span>
-                        <span>MAP Protocol has its own MAP Chain, and the security mechanism of ledger and fund custody is guaranteed by the decentralized chain.</span>
+                        <div class="why-content-right-item">
+                          <div class="why-round"></div>
+                          <span>Existing cross-chain solutions are only able to service limited chains.</span>
+                        </div>
+                        <div class="why-content-right-item why-content-right-item-two">
+                          <div class="why-round"></div>
+                          <span>MAP Protocol enables universal connections - the world’s FIRST cross-chain protocol to support both EVM compatible and non-EVM compatible chains.</span>
+                        </div>
                       </div>
-                      </div>
+                    </div>
                   </div>
                   <div class="why-bottom">
-                    <div class="why-bottom-item">
-                      <img src="../assets/why/three.png"/>
+                    <div class="why-bottom-item why-bottom-item-three">
+                      <div class="why-bottom-item-top">
+                        <img src="../assets/why/three.png"/>
+                        <span>Unified Liquidity Pool</span>
+                      </div>
+
                       <div class="why-bottom-item-right">
-                        <span>Seamless Cross-chain Integration</span>
-                        <span>Upgrade existing dApps for a cross-chain version by integrating them with MAP SDK.</span>
+                        <div class="why-content-right-item ">
+                          <div class="why-round"></div>
+                          <span>No lock & minting of synthetic assets on each target chain.</span>
+                        </div>
+                        <div class="why-content-right-item why-content-right-item-two">
+                          <div class="why-round"></div>
+                          <span>No fragmented liquidity - native assets pools are tied to all chains simultaneously.</span>
+                        </div>
                       </div>
                     </div>
-                    <div class="why-bottom-item">
-                      <img src="../assets/why/four.png"/>
+                    <div class="why-bottom-item why-bottom-item-four">
+                      <div class="why-bottom-item-top">
+                        <img src="../assets/why/four.png"/>
+                        <span>Thriving Cross-Chain Dapps Environment</span>
+                      </div>
+
                       <div class="why-bottom-item-right">
-                        <span>DAO Driven</span>
-                        <span>Governance system of MAP Protocol is run by DAO ,holders can participate in governance by proposals and discuss in forum.Cross chain profits generated will give back to the community.</span>
+                        <div class="why-content-right-item why-content-right-item-two">
+                          <div class="why-round"></div>
+                          <span>The design of MAP mainnet enables creators and builders to develop and deploy cross-chain dapps with ease.</span>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -136,10 +180,10 @@
                           <span>Help secure the network and earn rewards by providing computing resources.</span>
 <!--                          <span>APR: - -</span>-->
                         </div>
-                        <div @click="goValidator()" class="how-apr-btn">
-                          GET STARTED
-                          <img src="../assets/how/arrow-right.png"/>
-                        </div>
+<!--                        <div @click="goValidator()" class="how-apr-btn">-->
+<!--                          GET STARTED-->
+<!--                          <img src="../assets/how/arrow-right.png"/>-->
+<!--                        </div>-->
                       </div>
                       <div class="how-apr-item">
                         <img class="how-apr-img-two" src="../assets/how/two.png"/>
@@ -148,10 +192,10 @@
                           <span>Smart contract deployed on multiple chains to secure digital assets in transfer.</span>
 <!--                          <span>APR: &#45;&#45;</span>-->
                         </div>
-                        <div @click="goValidator()" class="how-apr-btn">
-                          GET STARTED
-                          <img src="../assets/how/arrow-right.png"/>
-                        </div>
+<!--                        <div @click="goValidator()" class="how-apr-btn">-->
+<!--                          GET STARTED-->
+<!--                          <img src="../assets/how/arrow-right.png"/>-->
+<!--                        </div>-->
                       </div>
                       <div class="how-apr-item">
                         <img class="how-apr-img-three" src="../assets/how/three.png"/>
@@ -160,10 +204,10 @@
                           <span>Messenger to deliver transaction information and prepay the gas fees.</span>
 <!--                          <span>APR: 36%</span>-->
                         </div>
-                        <div @click="goRelayerMakalu()" class="how-apr-btn">
-                          GET STARTED
-                          <img src="../assets/how/arrow-right.png"/>
-                        </div>
+<!--                        <div @click="goRelayerMakalu()" class="how-apr-btn">-->
+<!--                          GET STARTED-->
+<!--                          <img src="../assets/how/arrow-right.png"/>-->
+<!--                        </div>-->
                       </div>
                       <div class="how-apr-item">
                         <img class="how-apr-img-four" src="../assets/how/four.png"/>
@@ -172,10 +216,10 @@
                           <span>Participate in goverance and LP staking to earn MAP.</span>
 <!--                          <span>APR: 60%</span>-->
                         </div>
-                        <div @click="goHiveswap()" class="how-apr-btn">
-                          GET STARTED
-                          <img src="../assets/how/arrow-right.png"/>
-                        </div>
+<!--                        <div @click="goHiveswap()" class="how-apr-btn">-->
+<!--                          GET STARTED-->
+<!--                          <img src="../assets/how/arrow-right.png"/>-->
+<!--                        </div>-->
                       </div>
 
                     </div>
@@ -231,11 +275,10 @@
                 <div class="open-content">
                   <div class="open-content-item">
                     <div class="open-content-left">
-                      An open-source protocol built for everyone!<br>
-                      MAP Protocol is an open-source and a truly decentralized project.
+                      MAP Protocol’s cross-chain ecosystem is booming. Join us on the journey to a decentralized Web3 future with billions of creators, builders and users.
                     </div>
                     <div class="open-content-right">
-                      <span>Build apps capable of taking millions of users on journeys to web 3.0.</span>
+<!--                      <span>Build apps capable of taking millions of users on journeys to web 3.0.</span>-->
                       <div @click="goScale()" class="open-content-left-btn">Build on MAP Protocol</div>
                     </div>
                   </div>
