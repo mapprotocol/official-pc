@@ -6,7 +6,9 @@
                   <img src="../assets/partner/micr.png"/>
                   <img src="../assets/partner/soft.png"/>
                   <img src="../assets/partner/ieee.png"/>
+                  <img src="../assets/partner/block.png"/>
                   <img src="../assets/partner/poly.png"/>
+
 <!--                  <img src="../assets/image/partner/img4.png"/>-->
                 </div>
               <div class="partner-content partner-contents">
@@ -36,8 +38,8 @@
     }
 
     .partner-container {
-      padding: 80px 0;
-      width: 1200px;
+      padding: 100px 0 60px 0;
+      width: 1000px;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -51,12 +53,16 @@
       justify-content: space-between;
       padding-top: 50px;
       img {
-        width: 281px;
+        width: 185px;
       }
     }
 
     .partner-contents {
       padding-top: 34px;
+      img:nth-child(2){
+        margin-left: 77px;
+        margin-right: 0;
+      }
     }
 
 

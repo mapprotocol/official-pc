@@ -6,7 +6,7 @@
               <MyHeader/>
               <!--            forge-->
               <div class="forge">
-                <div class="home-container">
+                <div class="header-container">
                   <div class="forge-content">
 <!--                    <div class="forge-title">MAP Protocol</div>-->
                     <div class="forge-text">Forge a Borderless Blockchain-verse</div>
@@ -87,82 +87,91 @@
               <div class="home-container">
                 <div class="why-content">
                   <div class="home-title">Why MAP Protocol</div>
-                  <div class="why-bottom">
-                    <div class="why-bottom-item">
-                      <div class="why-bottom-item-top">
-                        <img src="../assets/why/one.png"/>
-                        <span>Industry Leading Decentralized Cross-chain Solution</span>
+                  <div class="why-bg">
+                    <div class="why-bottom">
+                      <div class="why-bottom-item why-bottom-item-four">
+                        <div class="why-bottom-item-top">
+                          <img src="../assets/why/four.png"/>
+                          <span>Thriving Cross-Chain Dapps Environment</span>
+                        </div>
+
+                        <div class="why-bottom-item-right">
+                          <div class="why-content-right-item why-content-right-item-two">
+                            <div class="why-round"></div>
+                            <span>The design of MAP mainnet enables creators and builders to develop and deploy cross-chain dapps with ease.</span>
+                          </div>
+                        </div>
                       </div>
 
-                      <div class="why-bottom-item-right">
-                        <div class="why-content-right-item">
-                          <div class="why-round"></div>
-                          <span>Non-custodial, non-MPC.</span>
+                      <div class="why-bottom-item why-bottom-item-two">
+                        <div class="why-bottom-item-top">
+                          <img src="../assets/why/two.png"/>
+                          <span>Universal Compatibility with EVM and Non-EVM Chains</span>
                         </div>
-                        <div class="why-content-right-item">
-                          <div class="why-round"></div>
-                          <span>Trustless and automation - do not rely on any trusted Oracle or Relayer.</span>
-                        </div>
-                        <div class="why-content-right-item why-content-right-item-two">
-                          <div class="why-round"></div>
-                          <span>Backed by a dedicated public chain adopting PoS and Byzantine Fault Tolerance consensus.</span>
-                        </div>
-                        <div class="why-content-right-item">
-                          <div class="why-round"></div>
-                          <span>Full on Light-client protocol integration.</span>
+
+                        <div class="why-bottom-item-right">
+                          <div class="why-content-right-item">
+                            <div class="why-round"></div>
+                            <span>Existing cross-chain solutions are only able to service limited chains.</span>
+                          </div>
+                          <div class="why-content-right-item why-content-right-item-two">
+                            <div class="why-round"></div>
+                            <span>MAP Protocol enables universal connections - the world’s FIRST cross-chain protocol to support both EVM compatible and non-EVM compatible chains.</span>
+                          </div>
                         </div>
                       </div>
                     </div>
-                    <div class="why-bottom-item why-bottom-item-two">
-                      <div class="why-bottom-item-top">
-                        <img src="../assets/why/two.png"/>
-                        <span>Universal Compatibility with EVM and Non-EVM Chains</span>
+                    <div class="why-bottom">
+                      <div class="why-bottom-item">
+                        <div class="why-bottom-item-top">
+                          <img src="../assets/why/one.png"/>
+                          <span>Industry Leading Decentralized Cross-chain Solution</span>
+                        </div>
+
+                        <div class="why-bottom-item-right">
+                          <div class="why-content-right-item">
+                            <div class="why-round"></div>
+                            <span>Non-custodial, non-MPC.</span>
+                          </div>
+                          <div class="why-content-right-item">
+                            <div class="why-round"></div>
+                            <span>Trustless and automation - do not rely on any trusted Oracle or Relayer.</span>
+                          </div>
+                          <div class="why-content-right-item why-content-right-item-two">
+                            <div class="why-round"></div>
+                            <span>Backed by a dedicated public chain adopting PoS and Byzantine Fault Tolerance consensus.</span>
+                          </div>
+                          <div class="why-content-right-item">
+                            <div class="why-round"></div>
+                            <span>Full on Light-client protocol integration.</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="why-bottom-item why-bottom-item-three">
+                        <div class="why-bottom-item-top">
+                          <img src="../assets/why/three.png"/>
+                          <span>Unified Liquidity in Asset Vaults</span>
+                        </div>
+
+                        <div class="why-bottom-item-right">
+                          <div class="why-content-right-item ">
+                            <div class="why-round"></div>
+                            <span>No lock & minting of synthetic assets on each target chain.</span>
+                          </div>
+                          <div class="why-content-right-item why-content-right-item-two">
+                            <div class="why-round"></div>
+                            <span>No fragmented liquidity - native assets pools are tied to all chains simultaneously.</span>
+                          </div>
+                          <div class="why-content-right-item why-content-right-item-two">
+                            <div class="why-round"></div>
+                            <span>Dapps developed on MAP mainnet have access to our unified cross-chain liquidity in asset vaults.</span>
+                          </div>
+                        </div>
                       </div>
 
-                      <div class="why-bottom-item-right">
-                        <div class="why-content-right-item">
-                          <div class="why-round"></div>
-                          <span>Existing cross-chain solutions are only able to service limited chains.</span>
-                        </div>
-                        <div class="why-content-right-item why-content-right-item-two">
-                          <div class="why-round"></div>
-                          <span>MAP Protocol enables universal connections - the world’s FIRST cross-chain protocol to support both EVM compatible and non-EVM compatible chains.</span>
-                        </div>
-                      </div>
                     </div>
                   </div>
-                  <div class="why-bottom">
-                    <div class="why-bottom-item why-bottom-item-three">
-                      <div class="why-bottom-item-top">
-                        <img src="../assets/why/three.png"/>
-                        <span>Unified Liquidity Pool</span>
-                      </div>
 
-                      <div class="why-bottom-item-right">
-                        <div class="why-content-right-item ">
-                          <div class="why-round"></div>
-                          <span>No lock & minting of synthetic assets on each target chain.</span>
-                        </div>
-                        <div class="why-content-right-item why-content-right-item-two">
-                          <div class="why-round"></div>
-                          <span>No fragmented liquidity - native assets pools are tied to all chains simultaneously.</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="why-bottom-item why-bottom-item-four">
-                      <div class="why-bottom-item-top">
-                        <img src="../assets/why/four.png"/>
-                        <span>Thriving Cross-Chain Dapps Environment</span>
-                      </div>
-
-                      <div class="why-bottom-item-right">
-                        <div class="why-content-right-item why-content-right-item-two">
-                          <div class="why-round"></div>
-                          <span>The design of MAP mainnet enables creators and builders to develop and deploy cross-chain dapps with ease.</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
@@ -170,119 +179,80 @@
 <!--            how-->
               <div class="how">
                 <div class="home-container">
-                  <div class="how-content">
-                    <div class="home-title">Participate in MAP Protocol</div>
-                    <div class="how-apr">
-                      <div class="how-apr-item">
-                        <img src="../assets/how/one.png"/>
-                        <div class="how-apr-title">
-                          <span>Validator</span>
-                          <span>Help secure the network and earn rewards by providing computing resources.</span>
-<!--                          <span>APR: - -</span>-->
-                        </div>
-<!--                        <div @click="goValidator()" class="how-apr-btn">-->
-<!--                          GET STARTED-->
-<!--                          <img src="../assets/how/arrow-right.png"/>-->
-<!--                        </div>-->
-                      </div>
-                      <div class="how-apr-item">
-                        <img class="how-apr-img-two" src="../assets/how/two.png"/>
-                        <div class="how-apr-title">
-                          <span >Asset Vaults</span>
-                          <span>Smart contract deployed on multiple chains to secure digital assets in transfer.</span>
-<!--                          <span>APR: &#45;&#45;</span>-->
-                        </div>
-<!--                        <div @click="goValidator()" class="how-apr-btn">-->
-<!--                          GET STARTED-->
-<!--                          <img src="../assets/how/arrow-right.png"/>-->
-<!--                        </div>-->
-                      </div>
-                      <div class="how-apr-item">
-                        <img class="how-apr-img-three" src="../assets/how/three.png"/>
-                        <div class="how-apr-title">
-                          <span>Relayer</span>
-                          <span>Messenger to deliver transaction information and prepay the gas fees.</span>
-<!--                          <span>APR: 36%</span>-->
-                        </div>
-<!--                        <div @click="goRelayerMakalu()" class="how-apr-btn">-->
-<!--                          GET STARTED-->
-<!--                          <img src="../assets/how/arrow-right.png"/>-->
-<!--                        </div>-->
-                      </div>
-                      <div class="how-apr-item">
-                        <img class="how-apr-img-four" src="../assets/how/four.png"/>
-                        <div class="how-apr-title">
-                          <span>DeFi</span>
-                          <span>Participate in goverance and LP staking to earn MAP.</span>
-<!--                          <span>APR: 60%</span>-->
-                        </div>
-<!--                        <div @click="goHiveswap()" class="how-apr-btn">-->
-<!--                          GET STARTED-->
-<!--                          <img src="../assets/how/arrow-right.png"/>-->
-<!--                        </div>-->
-                      </div>
-
-                    </div>
+                  <div class="how-bg">
+                    <img src="../assets/how/content.png"/>
                   </div>
+<!--                  <div class="how-content">-->
+<!--                    <div class="home-title">Participate in MAP Protocol</div>-->
+<!--                    <div class="how-apr">-->
+<!--                      <div class="how-apr-item">-->
+<!--                        <img src="../assets/how/one.png"/>-->
+<!--                        <div class="how-apr-title">-->
+<!--                          <span>Validator</span>-->
+<!--                          <span>Help secure the network and earn rewards by providing computing resources.</span>-->
+<!--&lt;!&ndash;                          <span>APR: - -</span>&ndash;&gt;-->
+<!--                        </div>-->
+<!--&lt;!&ndash;                        <div @click="goValidator()" class="how-apr-btn">&ndash;&gt;-->
+<!--&lt;!&ndash;                          GET STARTED&ndash;&gt;-->
+<!--&lt;!&ndash;                          <img src="../assets/how/arrow-right.png"/>&ndash;&gt;-->
+<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
+<!--                      </div>-->
+<!--                      <div class="how-apr-item">-->
+<!--                        <img class="how-apr-img-two" src="../assets/how/two.png"/>-->
+<!--                        <div class="how-apr-title">-->
+<!--                          <span >Asset Vaults</span>-->
+<!--                          <span>Smart contract deployed on multiple chains to secure digital assets in transfer.</span>-->
+<!--&lt;!&ndash;                          <span>APR: &#45;&#45;</span>&ndash;&gt;-->
+<!--                        </div>-->
+<!--&lt;!&ndash;                        <div @click="goValidator()" class="how-apr-btn">&ndash;&gt;-->
+<!--&lt;!&ndash;                          GET STARTED&ndash;&gt;-->
+<!--&lt;!&ndash;                          <img src="../assets/how/arrow-right.png"/>&ndash;&gt;-->
+<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
+<!--                      </div>-->
+<!--                      <div class="how-apr-item">-->
+<!--                        <img class="how-apr-img-three" src="../assets/how/three.png"/>-->
+<!--                        <div class="how-apr-title">-->
+<!--                          <span>Relayer</span>-->
+<!--                          <span>Messenger to deliver transaction information and prepay the gas fees.</span>-->
+<!--&lt;!&ndash;                          <span>APR: 36%</span>&ndash;&gt;-->
+<!--                        </div>-->
+<!--&lt;!&ndash;                        <div @click="goRelayerMakalu()" class="how-apr-btn">&ndash;&gt;-->
+<!--&lt;!&ndash;                          GET STARTED&ndash;&gt;-->
+<!--&lt;!&ndash;                          <img src="../assets/how/arrow-right.png"/>&ndash;&gt;-->
+<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
+<!--                      </div>-->
+<!--                      <div class="how-apr-item">-->
+<!--                        <img class="how-apr-img-four" src="../assets/how/four.png"/>-->
+<!--                        <div class="how-apr-title">-->
+<!--                          <span>DeFi</span>-->
+<!--                          <span>Participate in goverance and LP staking to earn MAP.</span>-->
+<!--&lt;!&ndash;                          <span>APR: 60%</span>&ndash;&gt;-->
+<!--                        </div>-->
+<!--&lt;!&ndash;                        <div @click="goHiveswap()" class="how-apr-btn">&ndash;&gt;-->
+<!--&lt;!&ndash;                          GET STARTED&ndash;&gt;-->
+<!--&lt;!&ndash;                          <img src="../assets/how/arrow-right.png"/>&ndash;&gt;-->
+<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
+<!--                      </div>-->
+
+<!--                    </div>-->
+<!--                  </div>-->
                 </div>
               </div>
-
-<!--            chart-->
-           <!--   <div class="chart">
-                <div class="home-container">
-                  <div class="chart-content">
-                      <div class="home-title">Technology comparison chart</div>
-                      <div class="chart-img">
-                        <img src="../assets/chart/content.png"/>
-                      </div>
-                    <div class="chart-vs">
-                        <div class="chart-vs-top">
-                          <div class="chart-vs-top-item">
-                            <img src="../assets/chart/logo.png"/>
-                          </div>
-                          <div class="chart-vs-top-other">
-                            Other projects with MPC solution<br>
-                           <span> (such as <span style="color: #ec6d27">Anyswap,Thorchain,Celer and Etc</span>)</span>
-                          </div>
-                        </div>
-
-                     <div class="chart-vs-content">
-                        <div class="chart-vs-bottom">
-                          <div class="chart-vs-bottom-item">
-                            <span>more than just a bridge,but also a truly decentralized cross-chain interoperability protocol for developers</span>
-                            <span>Only cross-chain bridge,no related to interoperability</span>
-                          </div>
-                        </div>
-                        <div class="chart-vs-img">
-                          <img src="../assets/chart/chart-content.png"/>
-                        </div>
-                        <div class="chart-vs-bottom">
-                          <div class="chart-vs-bottom-item">
-                            <span>backed by consensus and immutability of a fully decentralized “MAP Chain” to govern cross-chain Vaults and your transactions </span>
-                            <span>MPC-dominated, assets are flowing through centralized cold wallets controlled by a few super adminsistrators, giving hackers the chance to attack and steal your digital assets. </span>
-                          </div>
-                        </div>
-                      </div>
-
-                    </div>
-                  </div>
-                </div>
-              </div> -->
 
   <!--            open-->
             <div class="open">
               <div class="home-container">
                 <div class="open-content">
-                  <div class="open-content-item">
+                  <span>MAP Protocol’s cross-chain ecosystem is booming. Join us on the journey to a decentralized Web3 future with billions of creators, builders and users.</span>
+                  <div class="open-btn" @click="goScale()"><span>Build</span></div>
+                 <!-- <div class="open-content-item">
                     <div class="open-content-left">
                       MAP Protocol’s cross-chain ecosystem is booming. Join us on the journey to a decentralized Web3 future with billions of creators, builders and users.
                     </div>
                     <div class="open-content-right">
-<!--                      <span>Build apps capable of taking millions of users on journeys to web 3.0.</span>-->
                       <div @click="goScale()" class="open-content-left-btn">Build on MAP Protocol</div>
                     </div>
-                  </div>
-
+                  </div> -->
                 </div>
               </div>
             </div>

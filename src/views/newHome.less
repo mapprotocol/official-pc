@@ -5,7 +5,7 @@
     }
 
       .home-container {
-        width: 1200px;
+        width: 1000px;
         margin: 0 auto;
       }
 
@@ -60,7 +60,7 @@
 
       .header-tab-item {
         cursor: pointer;
-        padding-right: 66px;
+        padding-right: 30px;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -351,6 +351,11 @@
         //background-color: rgb(244, 244, 248);
       }
 
+      .forge-content {
+        //margin-left: -100px;
+        margin-left: 110px;
+      }
+
       .forge-title {
         font-style: normal;
         font-weight: 700;
@@ -491,9 +496,25 @@
       //how
 
       .how {
-        padding: 110px 0 110px 0;
         border-radius: 60px;
-        background-color: #F9F9FC;
+        width: 100%;
+        height: 800px;
+        background: url("../assets/how/bg.png")no-repeat;
+        background-size: 100% 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .how-bg {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img {
+          width: 1000px;
+        }
       }
 
       .how-content {
@@ -504,7 +525,7 @@
 
       .home-title {
         font-family: Helvetica;
-        font-size: 40px;
+        font-size: 36px;
         font-weight: bold;
       }
 
@@ -680,7 +701,7 @@
       //contract
 
       .contract {
-        padding: 100px 0;
+        padding: 100px 0 80px 0;
         img {
           width: 100%;
         }
@@ -698,64 +719,77 @@
         align-items: center;
       }
 
+      .why-bg {
+        margin-top: 65px;
+        width: 100%;
+        height: 480px;
+        background:url("../assets/why/bg.png")no-repeat;
+        background-size: 100% 100%;
+      }
+
       .why-bottom {
         width: 100%;
         display: flex;
         flex-direction: row;
         align-items: flex-start;
         justify-content: space-between;
-        padding-top: 52px;
       }
 
       .why-bottom:nth-child(2) {
-        padding-top: 82px;
+        padding-top: 20px;
       }
 
       .why-bottom-item {
-        width: 45%;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         justify-content: flex-start;
         font-size: 21px;
-        width: 579px;
-        height: 360px;
-        background: url("../assets/why/bg-one.png") no-repeat;
-        background-size: 100% 100%;
+        width: 480px;
+        height: 240px;
+        //background: url("../assets/why/bg-one.png") no-repeat;
+        //background-size: 100% 100%;
         box-sizing: border-box;
-        padding: 50px;
+        padding: 0 40px 0 15px ;
       }
 
-      .why-bottom-item-two {
-        background: url("../assets/why/bg-two.png") no-repeat;
-        background-size: 100% 100%;
+      .why-bottom-item:nth-child(2) {
+        padding-left: 45px;
+        padding-right: 0;
       }
 
-      .why-bottom-item-three {
-        background: url("../assets/why/bg-three.png") no-repeat;
-        background-size: 100% 100%;
-      }
-
-      .why-bottom-item-four {
-        background: url("../assets/why/bg-four.png") no-repeat;
-        background-size: 100% 100%;
-      }
+      //.why-bottom-item-two {
+      //  background: url("../assets/why/bg-two.png") no-repeat;
+      //  background-size: 100% 100%;
+      //}
+      //
+      //.why-bottom-item-three {
+      //  background: url("../assets/why/bg-three.png") no-repeat;
+      //  background-size: 100% 100%;
+      //}
+      //
+      //.why-bottom-item-four {
+      //  background: url("../assets/why/bg-four.png") no-repeat;
+      //  background-size: 100% 100%;
+      //}
 
       .why-bottom-item-top {
         display: flex;
         flex-direction: row;
         align-items: center;
         img {
-          width: 80px;
+          width: 60px;
         }
         span{
-          padding-left: 20px;
-          font-size: 24px;
+          width: 336px;
+          padding-left: 10px;
+          font-size: 20px;
           font-weight: bold;
         }
       }
 
       .why-bottom-item-right {
+        padding-left: 25px;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -763,7 +797,7 @@
       }
 
       .why-content-right-item {
-        padding-top: 18px;
+        padding-top: 10px;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -774,7 +808,7 @@
             background: #ff8a00;
         }
         span:nth-child(2) {
-          width: 98%;
+          width: 376px;
           padding-left: 15px;
           opacity: 0.7;
           font-size: 14px;
@@ -792,15 +826,44 @@
       //open
 
     .open {
-      padding:100px 0 0 0;
+      padding:100px 0 100px 0;
     }
 
     .open-content {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       align-items: center;
-      height: 332px;
-      background: url("../assets/open/bg.png")no-repeat;
+      span {
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+      }
+    }
+
+    .open-btn {
+      margin-top: 40px;
+      position: absolute;
+      cursor: pointer;
+      width: 160px;
+      height: 160px;
+      background: url("../assets/open/btn-one.png")no-repeat;
+      background-size: 100% 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      span {
+        font-size: 14px;
+        font-weight: bold;
+        color: white;
+        width: 105px;
+      }
+    }
+
+    .open-btn:hover {
+      width: 160px;
+      height: 160px;
+      background: url("../assets/open/btn-two.png")no-repeat;
       background-size: 100% 100%;
     }
 
@@ -860,7 +923,8 @@
     .roadmap {
       padding: 79px 0 53px 0;
       border-radius: 60px 60px;
-      background-color: #F9F9FC;
+      background:url("../assets/roadmap/bg.png")no-repeat;
+      background-size: 100% 100%;
     }
 
     .roadmap-content {
@@ -868,7 +932,7 @@
       flex-direction: column;
       align-items: center;
       img {
-        margin-top: 81px;
+        margin-top: 51px;
         width: 100%;
       }
     }

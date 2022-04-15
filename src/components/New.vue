@@ -133,7 +133,7 @@
 
       .new-content {
        padding-top: 50px;
-        width: 1200px;
+        width: 1000px;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -143,13 +143,13 @@
 
       .new-detail-s {
         cursor: pointer;
-        width: 332px;
+        width: 288px;
       }
 
 
       .new-detail {
-        width: 332px;
-        height: 204px;
+        width: 288px;
+        height: 161px;
         border-radius: 5px;
         background-position:center top;
         background-size: cover;
