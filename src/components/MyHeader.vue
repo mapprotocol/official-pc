@@ -116,7 +116,7 @@
                     <div class="header-drop">
                       <div @click="goWhitepaper()" class="header-drop-item header-drop-item-one">
                         <div class="header-relayer-icon header-white-icon"></div>
-                        <span>Whitepaper</span>
+                        <span>Litebook</span>
                       </div>
                     </div>
                   </div>
