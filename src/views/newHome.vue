@@ -13,7 +13,7 @@
                     <div class="forge-lable">MAP Protocol is a decentralized cross-chain interoperability protocol backed by a dedicated blockchain which safeguards cross-chain assets and empowers Dapps to achieve full potential.</div>
                     <div class="forge-btn">
                       <div @click="goGithub()" class="forge-btn-black">GitHub</div>
-                      <div @click="goWhitepaper()" class="forge-btn-black">Whitepaper</div>
+                      <div @click="goWhitepaper()" class="forge-btn-black">Litebook</div>
                       <div @click="goScale()" class="forge-btn-black">Build</div>
                     </div>
                   </div>
