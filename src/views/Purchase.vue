@@ -6,25 +6,25 @@
                     <div class="purchase-content-item">
                         <img src="../assets/purchase/eth.png"/>
                         <span>Ethereum</span>
-                        <span>Get MAP via <span style="color:#ec6d27;">Uniswap</span></span>
+                        <span>Get MAP via <span>Uniswap</span></span>
                         <button @click="goEthereum()">Purchase</button>
                     </div>
                     <div class="purchase-content-item">
                     <img src="../assets/purchase/bsc.png"/>
                     <span>Binance Smart Chain (BSC)</span>
-                      <span>Get MAP via <span style="color:#ec6d27;">Pancakeswap</span></span>
+                      <span>Get MAP via <span>Pancakeswap</span></span>
                     <button @click="goBsc()">Purchase</button>
                   </div>
                     <div class="purchase-content-item">
                       <img src="../assets/purchase/map.png"/>
                       <span>Makalu</span>
-                      <span>Get MAP via <span style="color:#ec6d27;">Hiveswap</span></span>
+                      <span>Get MAP via <span>Hiveswap</span></span>
                       <button @click="goMap()">Purchase</button>
                     </div>
                     <div class="purchase-content-item">
                     <img src="../assets/purchase/exchange.png"/>
                     <span>Exchange</span>
-                      <span>Get MAP via <span style="color:#ec6d27;">Exchanges</span></span>
+                      <span>Get MAP via <span>Exchanges</span></span>
                     <button @click="showDialog=true">Purchase</button>
                   </div>
                 </div>
@@ -76,25 +76,18 @@
           goBsc() {
             window.open('https://pancakeswap.finance/info/pool/0xd034e9294833d5739d852548a9b9724c4453db5f','blank')
           },
-
           goMap() {
             window.open('https://swap.hiveswap.io/#/swap','blank')
           },
-
-
           goKucoin() {
             window.open('https://www.kucoin.com/ko/trade/MAP-USDT?spm=kcWeb.B7FastTrade.Header4.1','blank')
           },
-
           goBithumb() {
             window.open('https://www.bithumb.com/trade/order/MAP_KRW','blank')
           },
-
           goCoinone() {
             window.open('https://coinone.co.kr/exchange/trade/map/krw','blank')
           },
-
-
         }
       }
       </script>
@@ -214,6 +207,46 @@
 
       .dialog-content-item:nth-child(3) {
         padding-right:30px ;
+      }
+
+      @media(max-width: 960px) {
+
+        .purchase-content {
+          padding-top: 30px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .purchase-content-item {
+          margin-top: 20px;
+        }
+        .dialog-content {
+          box-sizing: border-box;
+          width: 90%;
+          padding: 20px;
+        }
+
+        .dialog-content-eth {
+          width: 100%;
+        }
+        .dialog-content-item {
+          width: 30%;
+          img {
+            margin-top: 20px;
+            width: 55px;
+          }
+          button {
+            width: 80px;
+          }
+        }
+
+        .dialog-content-item:nth-child(2) {
+          padding: 0 10px;
+        }
+        .dialog-content-item:nth-child(3) {
+          padding-right: 0;
+        }
       }
 
 

@@ -12,12 +12,9 @@
     .footer {
       clear: both;
       width: 100%;
-      background: #0B0B0B;
-      color: white;
-      padding-top: 90px;
+      padding-top: 40px;
       position: relative;
       z-index: 99;
-      border-radius: 60px 60px 0 0 ;
     }
 
     .ft-container {
@@ -26,6 +23,8 @@
     }
 
     .footer-content {
+      position: relative;
+      z-index: 10;
       padding-bottom: 80px;
       display: flex;
       flex-direction: row;
@@ -68,16 +67,15 @@
 
     .footer-right-item-tab {
       padding-top: 42px;
-      color: #CCCCCC;
       font-family: Helvetica;
       font-size: 16px;
       display: flex;
       flex-direction: column;
       align-items: flex-start;
       a {
+        color: rgba(0,0,0,0.8);
         padding-top: 22px;
         display: flex;
-        color: #CCCCCC;
         flex-direction: row;
         align-items: center;
         img {
@@ -100,17 +98,6 @@
 
       span {
         font-size: 23px;
-        color: #FFFFFF;
-      }
-      a {
-        text-align: left;
-        width: 65%;
-        font-family: Helvetica;
-        color: #FFFFFF;
-        font-size: 14px !important;
-        cursor: pointer;
-        padding-bottom: 1px;
-        line-height: 28px;
       }
     }
 
@@ -119,6 +106,16 @@
       display: flex;
       flex-direction: row;
       justify-content: flex-start;
+      a {
+        text-align: left;
+        width: 80%;
+        font-size: 14px !important;
+        cursor: pointer;
+        padding-bottom: 1px;
+        line-height: 28px;
+        font-weight: bold;
+        color: #000;
+      }
       img {
         width: 10px;
         margin-right: 30px;
@@ -198,8 +195,8 @@
       margin-top: 18px;
       width: 422px;
       height: 44px;
-      background-color: rgba(244, 244, 248,0.2);
       border-radius: 5px;
+      background-color: #e5ebfb;
       display: flex;
       flex-direction: row;
       align-items: center;
@@ -223,7 +220,7 @@
         width: 98px;
         height: 37px;
         border-radius: 5px;
-        background-image: linear-gradient(to right, rgb(248, 77, 57) 0%, rgb(255, 178, 0) 100%), linear-gradient(to right, rgb(228, 78, 58) 0%, rgb(255, 177, 0) 100%), linear-gradient(to bottom, rgb(228, 78, 58), rgb(228, 78, 58));
+        background-color: #3772ff;
         font-size: 13px;
         color: white;
         margin-right: 3px;
@@ -240,18 +237,26 @@
     }
 
     .footer-all {
+      position: relative;
+      z-index: 10;
       font-size: 14px;
       font-family: Helvetica;
-      color: white;
-      padding: 24px 0 ;
+      padding: 13px 0 ;
+      background-color: #3772ff;
+    }
+
+    .footer-all-title {
       display: flex;
       flex-direction: row;
       align-items: center;
       justify-content: space-between;
+      color: white;
+      a {
+        color: white;
+      }
     }
 
     .link-title {
-      color: #FFFFFF;
       font-weight:400;
     }
     .link-line {
@@ -262,7 +267,6 @@
     }
 
     a {
-      color: #FFFFFF;
       font-size: 14px;
       text-decoration: none;
       outline-style: none;
@@ -278,7 +282,11 @@
     }
 
 
-    @media (max-width: 480px) {
+    @media (max-width: 960px) {
+
+      .footer {
+        padding-top: 0;
+      }
       .footer-content {
         display: flex;
         flex-direction: column;
@@ -286,9 +294,43 @@
         justify-content: center;
       }
 
-      .footer {
-        padding-top: 67px;
+      .footer-content-left {
+        width: 100%;
       }
+
+      .footer-sub-contnt {
+        width: 100%;
+      }
+
+      .validate {
+        width: 100%;
+      }
+
+      .footer-sub-input {
+        width: 100%;
+      }
+
+      .footer-content-right {
+        padding-top: 40px;
+        width: 100%;
+      }
+
+      .footer-all-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        span {
+          padding-top: 5px;
+        }
+      }
+
+      .footer-img-left {
+        bottom: 50px;
+        img {
+          width: 250px;
+        }
+      }
+
 
     }
     </style>
@@ -329,7 +371,7 @@
                 <div class="footer-right-item-title">LEARN</div>
                 <div class="footer-right-item-tab">
                   <a href="https://medium.com/marcopolo-protocol" target="_blank"><img src="../assets/footer/one.png"/>Medium</a>
-                  <a href="https://twitter.com/MapProtocol/status/1521349692336279552" target="_blank"><img src="../assets/footer/three.png"/>Twitter</a>
+                  <a href="https://mobile.twitter.com/MapProtocol" target="_blank"><img src="../assets/footer/three.png"/>Twitter</a>
                   <a href="https://t.me/MAPprotocol" target="_blank"><img src="../assets/footer/two.png"/>Telegram</a>
                   <a href="https://open.kakao.com/o/gP9WduRb" target="_blank"><img src="../assets/footer/four.png"/>KakaoTalk</a>
                   <a href="https://blog.naver.com/marcopay"  target="_blank"><img src="../assets/footer/five.png"/>Blog</a>
@@ -345,11 +387,18 @@
               </div>
             </div>
           </div>
-          <div class="footer-line"></div>
-          <div class="footer-all">
-            <a href="mailto:cooperation@maplabs.io" target="_blank">Email: cooperation@maplabs.io</a>
-            <span>© 2022 Maplabs, All Rights Reseved</span>
+        </div>
+        <div class="footer-all">
+          <div class="home-container">
+            <div class="footer-all-title">
+              <a href="mailto:cooperation@maplabs.io" target="_blank">Email: cooperation@maplabs.io</a>
+              <span>© 2022 Maplabs, All Rights Reseved</span>
+            </div>
           </div>
+
+        </div>
+        <div class="footer-img-left">
+          <img src="../assets/footer/img-left.png"/>
         </div>
         <!--                      all right-->
       </div>

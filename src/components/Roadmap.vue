@@ -187,7 +187,7 @@
       max-width: 1600px;
       width: 100%;
       height: 220px;
-      background: url("../assets/image/roadmap/content.png") no-repeat;
+      background: url("../assets/roadmap/content.png") no-repeat;
       background-size: 100%;
     }
 
@@ -200,7 +200,6 @@
       font-size: 14px;
       font-family: PingFangSC-Semibold, PingFang SC;
       font-weight: 600;
-      color: #FFFFFF;
       line-height: 20px;
       max-width: 350px;
     }
@@ -250,7 +249,6 @@
       text-align: center;
       font-size: 20px;
       font-family: Helvetica;
-      color: #FFFFFF;
     }
 
 
@@ -307,16 +305,12 @@
     }
 
     @media (max-width: 960px) {
-
-    }
-
-    @media (max-width: 480px) {
       .road-content {
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-left: 0px;
-        padding-top: 40px;
+        padding-top: 20px;
       }
 
       .road-container {
@@ -327,12 +321,8 @@
       .road-title {
         font-size: 32px;
       }
-
-      .new-content {
-
-      }
-
     }
+
 
 
     </style>

@@ -9,13 +9,6 @@
                 <span>{{dataOne.title}}</span>
                 <span>{{dataOne.time}}</span>
               </div>
-              <div class="new-more new-more-one">
-                <div>
-                  <span>MORE</span>
-                </div>
-                <img v-if="showMore==0" src="../assets/new/arrow-right-orange.png"/>
-                <img v-else src="../assets/new/arrow-right.png"/>
-              </div>
             </div>
             <div @mousemove="showMore=1" @mouseout="showMore=-1" @click="goNewTwo" class="new-detail-s">
               <div :style="{ backgroundImage: 'url('+ dataTwo.src +')'}" class="new-detail"></div>
@@ -23,26 +16,12 @@
                 <span>{{dataTwo.title}}</span>
                 <span>{{dataTwo.time}}</span>
               </div>
-              <div class="new-more">
-                <div>
-                  <span>MORE</span>
-                </div>
-                <img v-if="showMore==1" src="../assets/new/arrow-right-orange.png"/>
-                <img v-else src="../assets/new/arrow-right.png"/>
-              </div>
             </div>
             <div @mousemove="showMore=2" @mouseout="showMore=-1" @click="goNewThree"  class="new-detail-s">
               <div :style="{ backgroundImage: 'url('+ dataThree.src +')'}" class="new-detail"></div>
               <div class="new-text">
                 <span>{{dataThree.title}}</span>
                 <span>{{dataThree.time}}</span>
-              </div>
-              <div class="new-more">
-                <div>
-                  <span>MORE</span>
-                </div>
-                <img v-if="showMore==2" src="../assets/new/arrow-right-orange.png"/>
-                <img v-else src="../assets/new/arrow-right.png"/>
               </div>
             </div>
           </div>
@@ -119,12 +98,15 @@
 
 
       .news{
+        position: relative;
+        z-index: 10;
         padding: 0 0 102px 0;
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
       }
+
 
       .new-title {
         padding-top: 119px;
@@ -150,7 +132,7 @@
       .new-detail {
         width: 288px;
         height: 161px;
-        border-radius: 5px;
+        border-radius: 15px;
         background-position:center top;
         background-size: cover;
       }
@@ -167,6 +149,7 @@
         font-size: 18px;
         span:nth-child(1) {
           font-weight: bold;
+          height: 70px;
         }
         span:nth-child(2) {
           padding-top: 15px;
@@ -201,15 +184,23 @@
           align-items: center;
         }
 
+
+      }
+
+      @media (max-width: 960px) {
+        .new-content {
+          padding-top: 30px;
+        }
         .new-detail {
           margin-top: 30px;
         }
-
-
         .new-detail-s {
-          margin-top: 50px;
+          margin-top: 10px;
         }
 
+        .news {
+          padding-bottom: 50px;
+        }
       }
 
 

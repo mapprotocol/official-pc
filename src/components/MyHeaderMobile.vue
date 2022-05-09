@@ -98,7 +98,7 @@ export default {
     display: block;
     width: 211px;
     height: 50px;
-    background-image: url("../assets/image/header/logo2.png");
+    background-image: url("../assets/header/logo2.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin-left: 9px;
@@ -107,7 +107,7 @@ export default {
     display: block;
     width: 20px;
     height: 18px;
-    background-image: url("../assets/image/header/menu.png");
+    background-image: url("../assets/header/menu.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin-right: 22px;

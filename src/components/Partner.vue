@@ -8,14 +8,15 @@
                   <img src="../assets/partner/ieee.png"/>
                   <img src="../assets/partner/block.png"/>
                   <img src="../assets/partner/poly.png"/>
-
-<!--                  <img src="../assets/image/partner/img4.png"/>-->
                 </div>
-              <div class="partner-content partner-contents">
-
-<!--                <img src="../assets/image/partner/img6.png"/>-->
-<!--                <img src="../assets/image/partner/img7.png"/>-->
-<!--                <img src="../assets/image/partner/img8.png"/>-->
+              <div class="partner-content partner-content-h5">
+                <img src="../assets/partner/micr.png"/>
+                <img src="../assets/partner/soft.png"/>
+                <img src="../assets/partner/ieee.png"/>
+              </div>
+              <div class="partner-content partner-content-h5">
+                <img src="../assets/partner/block.png"/>
+                <img src="../assets/partner/poly.png"/>
               </div>
             </div>
         </div>
@@ -65,23 +66,43 @@
       }
     }
 
+    .partner-content-h5 {
+        display: none;
+    }
+
 
     @media (max-width: 1200px) {
       .partner-container {
-        width: 100%;
+        width: 90%;
       }
+    }
+
+    @media (max-width: 960px) {
+
       .partner-content {
+        display: none;
+      }
+
+      .partner-content-h5 {
+        position: relative;
+        z-index: 10;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
+        justify-content: center;
         img {
-          margin-top: 30px;
+          width: 110px;
         }
       }
+
+      .partner-content-h5:nth-child(4) {
+        padding-top: 10px;
+      }
+
       .partner-contents {
         padding-top: 0;
       }
-
     }
+
 
     </style>

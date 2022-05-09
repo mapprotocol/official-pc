@@ -1,285 +1,196 @@
       <template>
           <div class="home">
-
-            <div class="home-bg">
+<!--            img-->
+            <div class="home-img">
+              <img src="../assets/home/img-header.png"/>
+            </div>
+            <div class="home-img-left">
+              <img src="../assets/home/img-left.png"/>
+            </div>
+            <div class="home-img-right">
+              <img src="../assets/home/img-right.png"/>
+            </div>
               <!--            header-->
               <MyHeader/>
-              <!--            forge-->
-              <div class="forge">
-                <div class="header-container">
-                  <div class="forge-content">
-<!--                    <div class="forge-title">MAP Protocol</div>-->
-                    <div class="forge-text">Forge a Borderless Blockchain-verse</div>
-                    <div class="forge-lable">MAP Protocol is a decentralized cross-chain interoperability protocol backed by a dedicated blockchain which safeguards cross-chain assets and empowers Dapps to achieve full potential.</div>
-                    <div class="forge-btn">
-                      <div @click="goGithub()" class="forge-btn-black">GitHub</div>
-                      <div @click="goWhitepaper()" class="forge-btn-black">Litebook</div>
-                      <div @click="goScale()" class="forge-btn-black">Build</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
 
-
-<!--            map-->
-            <!--  <div class="map">
-                 <div class="home-container">
-                   <div class="map-content">
-                    <div class="map-content-top">
-                       <div class="map-title">
-                         <span>MAP Protocol</span>
-                         <span>MAP Protocol is a decentralized cross-chain interoperability protocol backed by a dedicated blockchain which safeguards cross-chain assets and empowers Dapps to achieve full potential.</span>
-                       </div>
-                       <div class="">
-                         <img src="../assets/map/video.png"/>
-                       </div>
-                     </div>
-                     <div class="map-num">
-                         <div @click="goMapscan()" @mouseover="showMapLine=0" @mouseleave="showMapLine=-1" class="map-num-item">
-                             <div class="map-num-item-top">
-                               <span>Total Cross-Chain Trading Volume</span>
-                               <img src="../assets/map/arrow-bottom-orange.png"/>
-                             </div>
-                             <div class="map-num-item-bottom">
-                               <countTo :startVal='startVal' :endVal='crossChain' :duration='3000' :autoplay="showNum"></countTo>
-                             </div>
-                             <div v-show="showMapLine==0" class="map-num-line"></div>
-                         </div>
-                         <div @mouseover="showMapLine=1" @mouseleave="showMapLine=-1"  class="map-num-item">
-                         <div class="map-num-item-top">
-                           <span>Total Value Locked</span>
-                           <img src="../assets/map/arrow-bottom-orange.png"/>
-                         </div>
-                         <div class="map-num-item-bottom">
-                           <span>--</span>
-                           <countTo :startVal='startVal' :endVal='vault' :duration='3000' :autoplay="showNum"></countTo>
-                         </div>
-                           <div v-show="showMapLine==1" class="map-num-line"></div>
-                       </div>
-                         <div @click="goMapscan()" @mouseover="showMapLine=2" @mouseleave="showMapLine=-1"  class="map-num-item">
-                           <div class="map-num-item-top">
-                             <span>Total Addresses</span>
-                             <img src="../assets/map/arrow-bottom-orange.png"/>
-                           </div>
-                           <div class="map-num-item-bottom">
-                             <countTo :startVal='startVal' :endVal='totalAddress' :duration='3000' :autoplay="showNum"></countTo>
-                           </div>
-                           <div v-show="showMapLine==2" class="map-num-line"></div>
-                         </div>
-                         <div @click="goRelayerMakalu()" @mouseover="showMapLine=3" @mouseleave="showMapLine=-1"  class="map-num-item">
-                         <div class="map-num-item-top">
-                           <span>Ralayer Nodes</span>
-                           <img src="../assets/map/arrow-bottom-orange.png"/>
-                         </div>
-                         <div class="map-num-item-bottom">
-                           <countTo :startVal='startVal' :endVal='relayer' :duration='3000' :autoplay="showNum"></countTo>
-                         </div>
-                           <div v-show="showMapLine==3" class="map-num-line"></div>
-                       </div>
-                     </div>
-                   </div>
-                 </div>
-             </div> -->
-
-<!--              why-->
-            <div class="why">
-              <div class="home-container">
-                <div class="why-content">
-                  <div class="home-title">Why MAP Protocol</div>
-                  <div class="why-bg">
-                    <div class="why-bottom">
-                      <div class="why-bottom-item why-bottom-item-four">
-                        <div class="why-bottom-item-top">
-                          <img src="../assets/why/four.png"/>
-                          <span>Thriving Cross-Chain Dapps Environment</span>
-                        </div>
-
-                        <div class="why-bottom-item-right">
-                          <div class="why-content-right-item why-content-right-item-two">
-                            <div class="why-round"></div>
-                            <span>The design of MAP mainnet enables creators and builders to develop and deploy cross-chain dapps with ease.</span>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="why-bottom-item why-bottom-item-two">
-                        <div class="why-bottom-item-top">
-                          <img src="../assets/why/two.png"/>
-                          <span>Universal Compatibility with EVM and Non-EVM Chains</span>
-                        </div>
-
-                        <div class="why-bottom-item-right">
-                          <div class="why-content-right-item">
-                            <div class="why-round"></div>
-                            <span>Existing cross-chain solutions are only able to service limited chains.</span>
-                          </div>
-                          <div class="why-content-right-item why-content-right-item-two">
-                            <div class="why-round"></div>
-                            <span>MAP Protocol enables universal connections - the world’s FIRST cross-chain protocol to support both EVM compatible and non-EVM compatible chains.</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="why-bottom">
-                      <div class="why-bottom-item">
-                        <div class="why-bottom-item-top">
-                          <img src="../assets/why/one.png"/>
-                          <span>Industry Leading Decentralized Cross-chain Solution</span>
-                        </div>
-
-                        <div class="why-bottom-item-right">
-                          <div class="why-content-right-item">
-                            <div class="why-round"></div>
-                            <span>Non-custodial, non-MPC.</span>
-                          </div>
-                          <div class="why-content-right-item">
-                            <div class="why-round"></div>
-                            <span>Trustless and automation - do not rely on any trusted Oracle or Relayer.</span>
-                          </div>
-                          <div class="why-content-right-item why-content-right-item-two">
-                            <div class="why-round"></div>
-                            <span>Backed by a dedicated public chain adopting PoS and Byzantine Fault Tolerance consensus.</span>
-                          </div>
-                          <div class="why-content-right-item">
-                            <div class="why-round"></div>
-                            <span>Full on Light-client protocol integration.</span>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="why-bottom-item why-bottom-item-three">
-                        <div class="why-bottom-item-top">
-                          <img src="../assets/why/three.png"/>
-                          <span>Unified Liquidity in Asset Vaults</span>
-                        </div>
-
-                        <div class="why-bottom-item-right">
-                          <div class="why-content-right-item ">
-                            <div class="why-round"></div>
-                            <span>No lock & minting of synthetic assets on each target chain.</span>
-                          </div>
-                          <div class="why-content-right-item why-content-right-item-two">
-                            <div class="why-round"></div>
-                            <span>No fragmented liquidity - native assets pools are tied to all chains simultaneously.</span>
-                          </div>
-                          <div class="why-content-right-item why-content-right-item-two">
-                            <div class="why-round"></div>
-                            <span>Dapps developed on MAP mainnet have access to our unified cross-chain liquidity in asset vaults.</span>
-                          </div>
-                        </div>
-                      </div>
-
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-
-<!--            how-->
-              <div class="how">
+<!--            The Ultimate Cross-chain-->
+              <div class="cross">
                 <div class="home-container">
-                  <div class="how-bg">
-                    <img src="../assets/how/content.png"/>
+                  <div class="cross-content">
+                    <div class="cross-title">
+                      <img src="../assets/cross/title.png"/>
+<!--                      <span>The Ultimate Cross-chain Infrastructure</span>-->
+<!--                      <span>Empowering the Future of Cross-chain Dapps</span>-->
+<!--                      <span>Not one chain, not some chains, but connecting all chains</span>-->
+                    </div>
+                    <div class="cross-btn">
+                      <span @click="goGithub()">GitHub</span>
+                      <span @click="goWhitepaper()">Litebook</span>
+                      <span @click="goScale()">Build</span>
+                    </div>
                   </div>
-<!--                  <div class="how-content">-->
-<!--                    <div class="home-title">Participate in MAP Protocol</div>-->
-<!--                    <div class="how-apr">-->
-<!--                      <div class="how-apr-item">-->
-<!--                        <img src="../assets/how/one.png"/>-->
-<!--                        <div class="how-apr-title">-->
-<!--                          <span>Validator</span>-->
-<!--                          <span>Help secure the network and earn rewards by providing computing resources.</span>-->
-<!--&lt;!&ndash;                          <span>APR: - -</span>&ndash;&gt;-->
-<!--                        </div>-->
-<!--&lt;!&ndash;                        <div @click="goValidator()" class="how-apr-btn">&ndash;&gt;-->
-<!--&lt;!&ndash;                          GET STARTED&ndash;&gt;-->
-<!--&lt;!&ndash;                          <img src="../assets/how/arrow-right.png"/>&ndash;&gt;-->
-<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
-<!--                      </div>-->
-<!--                      <div class="how-apr-item">-->
-<!--                        <img class="how-apr-img-two" src="../assets/how/two.png"/>-->
-<!--                        <div class="how-apr-title">-->
-<!--                          <span >Asset Vaults</span>-->
-<!--                          <span>Smart contract deployed on multiple chains to secure digital assets in transfer.</span>-->
-<!--&lt;!&ndash;                          <span>APR: &#45;&#45;</span>&ndash;&gt;-->
-<!--                        </div>-->
-<!--&lt;!&ndash;                        <div @click="goValidator()" class="how-apr-btn">&ndash;&gt;-->
-<!--&lt;!&ndash;                          GET STARTED&ndash;&gt;-->
-<!--&lt;!&ndash;                          <img src="../assets/how/arrow-right.png"/>&ndash;&gt;-->
-<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
-<!--                      </div>-->
-<!--                      <div class="how-apr-item">-->
-<!--                        <img class="how-apr-img-three" src="../assets/how/three.png"/>-->
-<!--                        <div class="how-apr-title">-->
-<!--                          <span>Relayer</span>-->
-<!--                          <span>Messenger to deliver transaction information and prepay the gas fees.</span>-->
-<!--&lt;!&ndash;                          <span>APR: 36%</span>&ndash;&gt;-->
-<!--                        </div>-->
-<!--&lt;!&ndash;                        <div @click="goRelayerMakalu()" class="how-apr-btn">&ndash;&gt;-->
-<!--&lt;!&ndash;                          GET STARTED&ndash;&gt;-->
-<!--&lt;!&ndash;                          <img src="../assets/how/arrow-right.png"/>&ndash;&gt;-->
-<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
-<!--                      </div>-->
-<!--                      <div class="how-apr-item">-->
-<!--                        <img class="how-apr-img-four" src="../assets/how/four.png"/>-->
-<!--                        <div class="how-apr-title">-->
-<!--                          <span>DeFi</span>-->
-<!--                          <span>Participate in goverance and LP staking to earn MAP.</span>-->
-<!--&lt;!&ndash;                          <span>APR: 60%</span>&ndash;&gt;-->
-<!--                        </div>-->
-<!--&lt;!&ndash;                        <div @click="goHiveswap()" class="how-apr-btn">&ndash;&gt;-->
-<!--&lt;!&ndash;                          GET STARTED&ndash;&gt;-->
-<!--&lt;!&ndash;                          <img src="../assets/how/arrow-right.png"/>&ndash;&gt;-->
-<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
-<!--                      </div>-->
-
-<!--                    </div>-->
-<!--                  </div>-->
                 </div>
               </div>
 
-  <!--            open-->
-            <div class="open">
-              <div class="home-container">
-                <div class="open-content">
-                  <span>MAP Protocol’s cross-chain ecosystem is booming. Join us on the journey to a decentralized Web3 future with billions of creators, builders and users.</span>
-                  <div class="open-btn" @click="goScale()"><span>Build</span></div>
-                 <!-- <div class="open-content-item">
-                    <div class="open-content-left">
-                      MAP Protocol’s cross-chain ecosystem is booming. Join us on the journey to a decentralized Web3 future with billions of creators, builders and users.
+
+<!--              map-->
+              <div class="map">
+                <div class="home-container">
+                  <div class="map-content">
+                    <div class="map-title">
+                      <span class="">The Blockchain Interoperable Protocol Designated for Cross-chain Dapps</span>
                     </div>
-                    <div class="open-content-right">
-                      <div @click="goScale()" class="open-content-left-btn">Build on MAP Protocol</div>
+                    <div class="map-right">
+                      <div class="map-right-content">
+                        <div class="map-right-item">
+                          <img src="../assets/map/one.png"/>
+                          <span>Application-Ready</span>
+                        </div>
+                        <div class="map-right-item">
+                          <img src="../assets/map/two.png"/>
+                          <span>All-Chain Coverage</span>
+                        </div>
+                      </div>
+                      <div class="map-right-content">
+                        <div class="map-right-item">
+                          <img src="../assets/map/three.png"/>
+                          <span>Cost-Efficient</span>
+                        </div>
+                        <div class="map-right-item">
+                          <img src="../assets/map/four.png"/>
+                          <span>Security-Finality</span>
+                        </div>
+                      </div>
                     </div>
-                  </div> -->
+                    <div class="map-left">
+                      MAP Protocol provides verification finality by Light-client, supports smart contract development on MAP Relay Chain,
+                      offers cross-chain services components for Dapp's convenient deployment,
+                      and enables universal connections with all chains by proactively embedding other chains' feature as pre-compiled contracts in EVM layer of MAP Relay Chain.
+                      MAP Protocol maintains a cost-efficient network by simply charging MAP Relay Chain's gas fee for cross-chain transactions.
+                    </div>
+                  </div>
                 </div>
+              </div>
+
+
+<!--            Technical Structure-->
+              <div class="technical">
+                <div class="home-container">
+                  <div class="technical-content">
+                      <div class="home-title">Technical Structure</div>
+                      <div class="tech-text">
+                        Developers can deploy cross-chain Dapps on MAP Relay Chain to achieve interoperability.
+                      </div>
+                      <div class="technical-img">
+                        <img src="../assets/technnical/content.png"/>
+                      </div>
+                  </div>
+                </div>
+                <div class="technical-img-left">
+                  <img src="../assets/technnical/img-left.png"/>
+                </div>
+                <div class="technical-img-right">
+                    <img src="../assets/technnical/img-right.png"/>
+                </div>
+              </div>
+
+
+<!--            Ecosystems-->
+            <div class="eco">
+              <div class="home-container">
+                <div class="home-title">Ecosystem</div>
+                <div class="eco-content">
+                  <div class="eco-left">
+                    <img src="../assets/eco/content.png"/>
+                  </div>
+                  <div class="eco-right">
+                    <div class="eco-dev">
+                      <div @click="goDevelopers()" class="eco-dev-item">
+                        <img src="../assets/eco/one.png"/>
+                        <div class="eco-dev-item-title">
+                          <span>Developers</span>
+                          <span>Build a cross-chain ecosystem with MAP Protocol.</span>
+                        </div>
+                      </div>
+                      <div @click="goValidators()" class="eco-dev-item">
+                        <img src="../assets/eco/two.png"/>
+                        <div class="eco-dev-item-title">
+                          <span>Validators</span>
+                          <span>Help secure MAP Relay Chain and earn rewards.</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="eco-dev">
+                      <div @click="goMaintainers()" class="eco-dev-item">
+                        <img src="../assets/eco/three.png"/>
+                        <div class="eco-dev-item-title">
+                          <span>Maintainers</span>
+                          <span>Update Light-Clients on our connected chains and get incentives.</span>
+                        </div>
+                      </div>
+                      <div @click="goMessengers()" class="eco-dev-item">
+                        <img src="../assets/eco/four.png"/>
+                        <div class="eco-dev-item-title">
+                          <span>Messengers</span>
+                          <span>Listen and transmit events, build proof and prepay gas fees with additional rewards.</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="eco-dev">
+                      <div @click="goLiquidityProviders()" class="eco-dev-item">
+                        <img src="../assets/eco/five.png"/>
+                        <div class="eco-dev-item-title">
+                          <span>Liquidity Providers</span>
+                          <span>Provide liquidity to Vaults deployed on our connected chains with rewards.</span>
+                        </div>
+                      </div>
+                      <div @click="goEndUsers()" class="eco-dev-item">
+                        <img src="../assets/eco/six.png"/>
+                        <div class="eco-dev-item-title">
+                          <span>End Users</span>
+                          <span>Enjoy the safe,  fast and cost-effective cross-chain experience.</span>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="eco-text">
+                  <img src="../assets/eco/img-round.png"/>
+                  <span>MAP Protocol’s cross-chain ecosystem is booming. <br>
+                    Join us on the journey to a decentralized Web3 with worldwide builders and users.</span>
+                  <button @click="goScale()">Build</button>
+                </div>
+              </div>
+              <div class="eco-img-right">
+                <img src="../assets/eco/img-right.png"/>
               </div>
             </div>
-
-<!--            contract-->
-              <div class="contract">
-                <div class="home-container">
-                  <img src="../assets/content/content.png"/>
-                </div>
-              </div>
-
 
 
 <!--            roadmap-->
-              <div class="roadmap">
-                <div class="home-container">
-                  <div class="roadmap-content">
-                    <div class="home-title">Roadmap</div>
-                    <img src="../assets/roadmap/content.png"/>
-                  </div>
-
+            <div class="roadmap">
+              <div class="home-title">Roadmap</div>
+              <div class="home-container">
+                <div class="roadmap-img">
+                  <img src="../assets/roadmap/content.png"/>
                 </div>
               </div>
+              <div class="roadmap-left">
+                <img src="../assets/roadmap/img-left.png"/>
+              </div>
+            </div>
+
 
               <Partner/>
 
+            <div class="new-bg">
               <New/>
+              <div class="new-img-right">
+                <img src="../assets/map/img-right.png"/>
+              </div>
+            </div>
+
 
               <Footer/>
 
@@ -319,6 +230,28 @@
           }
         },
         methods: {
+          goDevelopers() {
+            window.open('https://docs.maplabs.io/develop','blank')
+          },
+          goValidators() {
+            window.open('https://docs.maplabs.io/run/howtobecomeanewvalidator','blank')
+          },
+
+          goMaintainers() {
+            window.open('https://docs.maplabs.io/learn/overiew/verification','blank')
+          },
+          goMessengers() {
+            window.open('https://docs.maplabs.io/learn/overiew/mcs#messenger','blank')
+          },
+          goLiquidityProviders() {
+            window.open('https://docs.maplabs.io/learn/overiew/mcs','blank')
+          },
+          goEndUsers() {
+            window.open('https://docs.maplabs.io/learn/overiew','blank')
+          },
+
+
+
           goWhitepaper() {
             window.open('https://files.maplabs.io/pdf/mapprotocol_whitepaper_en.pdf','blank')
           },

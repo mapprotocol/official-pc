@@ -10,8 +10,8 @@ export default {
 <style lang="less">
 .app {
   font-family: Helvetica;
-  background-color: rgb(244, 244, 248);
-  color: rgb(29, 38, 43);
+  background-color: #f9f9fb;
+  ccolor: #000;
 }
 </style>
 <!-- Global site tag (gtag.js) - Google Analytics -->
