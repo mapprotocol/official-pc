@@ -61,11 +61,11 @@
                     <div class="header-drop">
                       <div @click="goRelayerEth()" class="header-drop-item header-drop-item-one">
                         <div class="header-relayer-icon"></div>
-                        <span>Messengers(Ethereum)</span>
+                        <span>Messengers (Ethereum)</span>
                       </div>
                       <div  @click="goRelayerMakalu()" class="header-drop-item">
                         <div class="header-relayer-icon"></div>
-                        <span>Messengers(Makalu)</span>
+                        <span>Messengers (Makalu)</span>
                       </div>
                     </div>
                   </div>
@@ -109,63 +109,82 @@
                   <div  @click="goHome()" class="header-tab-title">
                     Home
                   </div>
-                  <div class="header-line"></div>
-                  <div  @click="goPurchase()" class="header-tab-title">
-                    Purchase
-                  </div>
+
                   <div class="header-line"></div>
                   <div  @click="goMapscan()" class="header-tab-title">
                     Explorer
                   </div>
-                  <div  class="header-line"></div>
-                  <div  @click="goForum()" class="header-tab-title">
-                    Forum
+
+                  <div class="header-line"></div>
+                  <div  @click="actionGovernance()" class="header-tab-title">
+                    Governance <img src="../assets/header/arrow-bottom-two.png"/>
                   </div>
-                  <div  class="header-line"></div>
-                  <div  @click="goDao()" class="header-tab-title">
-                    DAO
+                  <div v-show="showHeaderTab==2" class="header-tab-show">
+                    <div  class="header-line"></div>
+                    <div  @click="goForum()" class="header-tab-title">
+                      Forum
+                    </div>
+                    <div  class="header-line"></div>
+                    <div  @click="goDao()" class="header-tab-title">
+                      DAO
+                    </div>
                   </div>
-                  <div  class="header-line"></div>
-                  <div  @click="goBridge()" class="header-tab-title">
-                    Bridge
+
+                  <div class="header-line"></div>
+                  <div  @click="actionEcosystem()" class="header-tab-title">
+                    Ecosystem <img src="../assets/header/arrow-bottom-two.png"/>
                   </div>
-                  <div  class="header-line"></div>
-                  <div  @click="goDao()" class="header-tab-title">
-                    DAO
+                  <div v-show="showHeaderTab==3" class="header-tab-show">
+                    <div  class="header-line"></div>
+                    <div  @click="goBridge()" class="header-tab-title">
+                      Bridge
+                    </div>
+                    <div  class="header-line"></div>
+                    <div  @click="goHiveswapHome()" class="header-tab-title">
+                      Hiveswap
+                    </div>
+                    <div  class="header-line"></div>
+                    <div  @click="goIdavoll()" class="header-tab-title">
+                      Idavoll DAO
+                    </div>
+                    <div  class="header-line"></div>
+                    <div  @click="goBefi()" class="header-tab-title">
+                      BeFi Wallet
+                    </div>
+                    <div  class="header-line"></div>
+                    <div  @click="goRelayerEth()" class="header-tab-title">
+                      Messengers (Ethereum)
+                    </div>
+                    <div  class="header-line"></div>
+                    <div  @click="goRelayerMakalu()" class="header-tab-title">
+                      Messengers (Makalu)
+                    </div>
                   </div>
-                  <div  class="header-line"></div>
-                  <div  @click="goHiveswapHome()" class="header-tab-title">
-                    Hiveswap
+
+                  <div class="header-line"></div>
+                  <div  @click="actionDeveloper()" class="header-tab-title">
+                    Developer <img src="../assets/header/arrow-bottom-two.png"/>
                   </div>
-                  <div  class="header-line"></div>
-                  <div  @click="goIdavoll()" class="header-tab-title">
-                    Idavoll DAO
+                  <div v-show="showHeaderTab==4" class="header-tab-show">
+                    <div  class="header-line"></div>
+                    <div  @click="goDocs()" class="header-tab-title">
+                      Docs
+                    </div>
+                    <div  class="header-line"></div>
+                    <div  @click="goGithub()" class="header-tab-title">
+                      Github
+                    </div>
+                    <div  class="header-line"></div>
+                    <div  @click="goWhitepaper()" class="header-tab-title">
+                      Litebook
+                    </div>
+                    <div  class="header-line"></div>
                   </div>
-                  <div  class="header-line"></div>
-                  <div  @click="goBefi()" class="header-tab-title">
-                    BeFi Wallet
+
+                  <div class="header-line"></div>
+                  <div  @click="goPurchase()" class="header-tab-title">
+                    Purchase
                   </div>
-                  <div  class="header-line"></div>
-                  <div  @click="goRelayerEth()" class="header-tab-title">
-                    Messengers(Ethereum)
-                  </div>
-                  <div  class="header-line"></div>
-                  <div  @click="goRelayerMakalu()" class="header-tab-title">
-                    Messengers(Makalu)
-                  </div>
-                  <div  class="header-line"></div>
-                  <div  @click="goDocs()" class="header-tab-title">
-                    Docs
-                  </div>
-                  <div  class="header-line"></div>
-                  <div  @click="goGithub()" class="header-tab-title">
-                    Github
-                  </div>
-                  <div  class="header-line"></div>
-                  <div  @click="goWhitepaper()" class="header-tab-title">
-                    Litebook
-                  </div>
-                  <div  class="header-line"></div>
                 </div>
               </div>
             </div>
@@ -189,6 +208,31 @@
 
         },
         methods: {
+          actionDeveloper() {
+            if ( this.showHeaderTab!=4){
+              this.showHeaderTab=4
+            }
+            else  if (this.showHeaderTab==4) {
+              this.showHeaderTab=-1
+            }
+          },
+          actionEcosystem() {
+            if ( this.showHeaderTab!=3){
+              this.showHeaderTab=3
+            }
+            else  if (this.showHeaderTab==3) {
+              this.showHeaderTab=-1
+            }
+          },
+
+          actionGovernance() {
+            if ( this.showHeaderTab!=2){
+              this.showHeaderTab=2
+            }
+            else  if (this.showHeaderTab==2) {
+              this.showHeaderTab=-1
+            }
+          },
           actionTabs() {
             this.showTab = !this.showTab
             if (this.showTab) {

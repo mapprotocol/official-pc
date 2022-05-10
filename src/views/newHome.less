@@ -198,11 +198,11 @@
       }
 
       .header-drop-item-bridge {
-        padding-right:120px;
+        padding-right:124px;
       }
 
       .header-drop-item-dao {
-        padding-right: 125px;
+        padding-right: 129px;
       }
 
       .header-drop-item-one {
@@ -454,7 +454,28 @@
         text-align: center;
         color: black;
         //color: ;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        img {
+          margin-left: 10px;
+          width: 10px;
+        }
       }
+
+
+      .header-tab-show {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .header-tab-title {
+          color: #3772ff;
+          font-weight: bold;
+        }
+      }
+
 
       .header-list-text-s {
         color: #ECC011;
@@ -682,19 +703,27 @@
        .eco-dev-item {
          position: relative;
          z-index: 10;
-         cursor: pointer;
          display: flex;
          flex-direction: row;
-         align-items: center;
+         align-items: flex-start;
          width: 381px;
          height: 197px;
          background: url("../assets/eco/bg.png")no-repeat;
          background-size: 100% 100%;
-         padding: 40px 58px 62px 21px;
          box-sizing: border-box;
          img {
             width: 85px;
          }
+       }
+
+       .eco-dev-item-cur {
+         padding-left: 20px;
+         width: 321px;
+         height: 157px;
+         cursor: pointer;
+         display: flex;
+         flex-direction: row;
+         align-items: center;
        }
 
        .eco-dev-item-title {
@@ -968,7 +997,7 @@
           align-items: flex-start;
           width: 182px;
           height: 190px;
-          padding: 21px 17px 24px 10px;
+          //padding: 21px 17px 24px 10px;
           img {
             width: 40px;
           }
@@ -978,6 +1007,11 @@
           span:nth-child(2) {
             line-height: 1.3;
           }
+        }
+
+        .eco-dev-item-cur {
+          padding-left: 10px;
+          width: 140px;
         }
 
         .eco-right {

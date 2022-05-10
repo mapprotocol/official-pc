@@ -105,50 +105,62 @@
                   </div>
                   <div class="eco-right">
                     <div class="eco-dev">
-                      <div @click="goDevelopers()" class="eco-dev-item">
-                        <img src="../assets/eco/one.png"/>
-                        <div class="eco-dev-item-title">
-                          <span>Developers</span>
-                          <span>Build a cross-chain ecosystem with MAP Protocol.</span>
+                      <div class="eco-dev-item">
+                        <div @click="goDevelopers()"  class="eco-dev-item-cur">
+                          <img src="../assets/eco/one.png"/>
+                          <div class="eco-dev-item-title">
+                            <span>Developers</span>
+                            <span>Build a cross-chain ecosystem with MAP Protocol.</span>
+                          </div>
                         </div>
                       </div>
-                      <div @click="goValidators()" class="eco-dev-item">
-                        <img src="../assets/eco/two.png"/>
-                        <div class="eco-dev-item-title">
+                      <div  class="eco-dev-item">
+                        <div @click="goValidators()" class="eco-dev-item-cur">
+                          <img src="../assets/eco/two.png"/>
+                          <div class="eco-dev-item-title">
                           <span>Validators</span>
                           <span>Help secure MAP Relay Chain and earn rewards.</span>
                         </div>
+                        </div>
                       </div>
                     </div>
                     <div class="eco-dev">
-                      <div @click="goMaintainers()" class="eco-dev-item">
-                        <img src="../assets/eco/three.png"/>
-                        <div class="eco-dev-item-title">
+                      <div  class="eco-dev-item">
+                        <div @click="goMaintainers()" class="eco-dev-item-cur">
+                          <img src="../assets/eco/three.png"/>
+                          <div class="eco-dev-item-title">
                           <span>Maintainers</span>
                           <span>Update Light-Clients on our connected chains and get incentives.</span>
                         </div>
+                        </div>
                       </div>
-                      <div @click="goMessengers()" class="eco-dev-item">
-                        <img src="../assets/eco/four.png"/>
-                        <div class="eco-dev-item-title">
+                      <div  class="eco-dev-item">
+                        <div @click="goMessengers()" class="eco-dev-item-cur">
+                          <img src="../assets/eco/four.png"/>
+                          <div class="eco-dev-item-title">
                           <span>Messengers</span>
                           <span>Listen and transmit events, build proof and prepay gas fees with additional rewards.</span>
+                        </div>
                         </div>
                       </div>
                     </div>
                     <div class="eco-dev">
-                      <div @click="goLiquidityProviders()" class="eco-dev-item">
-                        <img src="../assets/eco/five.png"/>
-                        <div class="eco-dev-item-title">
+                      <div  class="eco-dev-item">
+                        <div @click="goLiquidityProviders()" class="eco-dev-item-cur">
+                          <img src="../assets/eco/five.png"/>
+                          <div class="eco-dev-item-title">
                           <span>Liquidity Providers</span>
                           <span>Provide liquidity to Vaults deployed on our connected chains with rewards.</span>
                         </div>
+                        </div>
                       </div>
-                      <div @click="goEndUsers()" class="eco-dev-item">
-                        <img src="../assets/eco/six.png"/>
-                        <div class="eco-dev-item-title">
+                      <div  class="eco-dev-item">
+                        <div @click="goEndUsers()" class="eco-dev-item-cur">
+                          <img src="../assets/eco/six.png"/>
+                          <div class="eco-dev-item-title">
                           <span>End Users</span>
                           <span>Enjoy the safe,  fast and cost-effective cross-chain experience.</span>
+                        </div>
                         </div>
                       </div>
                     </div>
