@@ -1,7 +1,7 @@
     <template>
         <div class="partner">
             <div class="partner-container">
-                <div class="home-title">{{ $t('Roadmap.part') }}</div>
+                <div class="home-title">Backed by</div>
                 <div class="partner-content">
                   <img src="../assets/partner/micr.png"/>
                   <img src="../assets/partner/soft.png"/>

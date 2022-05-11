@@ -167,15 +167,134 @@
 
                   </div>
                 </div>
-                <div class="eco-text">
+                <!--<div class="eco-text">
                   <img src="../assets/eco/img-round.png"/>
                   <span>MAP Protocol’s cross-chain ecosystem is booming. <br>
                     Join us on the journey to a decentralized Web3 with worldwide builders and users.</span>
                   <button @click="goScale()">Build</button>
-                </div>
+                </div> -->
               </div>
               <div class="eco-img-right">
                 <img src="../assets/eco/img-right.png"/>
+              </div>
+            </div>
+
+<!--              compar-->
+            <div class="technical compar">
+              <div class="home-container">
+                <div class="technical-content">
+                  <div class="home-title">Other Cross-chain Solutions</div>
+                  <div class="technical-img compar-img">
+                    <img src="../assets/compar/content.png"/>
+                  </div>
+                </div>
+              </div>
+              <div class="compar-img-left">
+                <img src="../assets/compar/img-left.png"/>
+              </div>
+            </div>
+
+
+<!--            Cross-chain Application-->
+            <div class="chain">
+              <div class="home-container">
+                <div class="chain-content">
+                  <div class="chain-top">
+                    <div class="chain-top-title">
+                      <span>Cross-chain Application</span>
+                      <span>Dapp developers can easily build their own cross-chain Dapps (e.g.half an hour for a cross-chain bridge) using MAP Cross-chain Service toolkits on the EVM-compatible MAP Relay Chain. Start embracing the Cross-chain Dapp Era today!</span>
+                    </div>
+                    <img src="../assets/chain/img1.png"/>
+                  </div>
+                  <div class="chain-img2">
+                    <img src="../assets/chain/img2.png"/>
+                  </div>
+                  <div class="chain-bottom">
+                    <div class="chain-bottom-img">
+                      <button @click="goScale()">Build</button>
+                      <img src="../assets/chain/img3.png"/>
+                    </div>
+                    <div class="chain-layer">
+                        <div class="chain-layer-item">
+                          <div class="chain-layer-title">Application Layer</div>
+                          <div class="chain-layer-text">
+                            <span></span>
+                            <span>Assets and data are assembled on MAP Relay Chain.</span>
+                          </div>
+                          <div class="chain-layer-text">
+                            <span></span>
+                            <span>Interoperability is achieved because of MCS.</span>
+                          </div>
+                          <div class="chain-layer-text chain-layer-text-s">
+                            <span></span>
+                            <span>The finality of verification network is conducted on MAP Protocol Layer.</span>
+                          </div>
+                        </div>
+                        <div class="chain-layer-item">
+                          <div class="chain-layer-title">Cross-chain Services (MCS) Layer</div>
+                          <div class="chain-layer-text">
+                            <span></span>
+                            <span>The execution layer for cross-chain asset and data.</span>
+                          </div>
+                          <div class="chain-layer-text">
+                            <span></span>
+                            <span>Similar to Google Mobile Services.</span>
+                          </div>
+                          <div class="chain-layer-text chain-layer-text-s">
+                            <span></span>
+                            <span>Dapp developers can build their components or use MCS.</span>
+                          </div>
+                          <div class="chain-layer-text chain-layer-text-s">
+                            <span></span>
+                            <span>Consists of Vaults and Data deployed on each chain, and Messenger Program to transmit messages between chains.</span>
+                          </div>
+                          <div class="chain-layer-text chain-layer-text-s">
+                            <span></span>
+                            <span>Developers can share Vaults and Data liquidity with others.</span>
+                          </div>
+                          <div class="chain-layer-text chain-layer-text-s">
+                            <span></span>
+                            <span>Messenger Program is an SDK deployed, operated, incentivized and maintained by Dapp developers.</span>
+                          </div>
+                          <div class="chain-layer-text chain-layer-text-s">
+                            <span></span>
+                            <span>Dapps provide incentives for liquidity providers.</span>
+                          </div>
+                        </div>
+                        <div class="chain-layer-item">
+                        <div class="chain-layer-title">Protocol Layer</div>
+                        <div class="chain-layer-text chain-layer-text-s">
+                          <span></span>
+                          <span>The layer to conduct the cross-chain verification network and Dapp deployment.</span>
+                        </div>
+                        <div class="chain-layer-text chain-layer-text-s">
+                          <span></span>
+                          <span> Consists of MAP Relay Chain, Light-Client deployed on each chain, and inter-chain Maintainer Program.</span>
+                        </div>
+                        <div class="chain-layer-text chain-layer-text-s">
+                          <span></span>
+                          <span>MAP Relay Chain proactively extends and supports heterogeneous blockchains' features in virtual machine.</span>
+                        </div>
+                          <div class="chain-layer-text chain-layer-text-s">
+                            <span></span>
+                            <span>Light-Client deployed on each chain has the characteristics of independent self-verification and verification finality.</span>
+                          </div>
+                          <div class="chain-layer-text chain-layer-text-s">
+                            <span></span>
+                            <span>The Maintainer is an independent inter-chain program responsible for updating the status of Light Clients.</span>
+                          </div>
+                          <div class="chain-layer-text chain-layer-text-s">
+                            <span></span>
+                            <span>MAP Protocol provides incentives to validators on MAP Relay Chain and Maintainers for updating Light-Client status.</span>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="chain-btn">
+                    <button @click="goTokenInfo()">Token Info</button>
+                    <button @click="goDaoGovernance()">DAO Governance</button>
+                  </div>
+                </div>
               </div>
             </div>
 
@@ -192,6 +311,7 @@
                 <img src="../assets/roadmap/img-left.png"/>
               </div>
             </div>
+
 
 
               <Partner/>
@@ -242,6 +362,12 @@
           }
         },
         methods: {
+          goTokenInfo() {
+            window.open('https://docs.maplabs.io/learn/tokenomics','blank')
+          },
+          goDaoGovernance() {
+            window.open('https://docs.maplabs.io/learn/dao','blank')
+          },
           goDevelopers() {
             window.open('https://docs.maplabs.io/develop','blank')
           },
@@ -250,7 +376,7 @@
           },
 
           goMaintainers() {
-            window.open('https://docs.maplabs.io/learn/overiew/verification','blank')
+            window.open('https://docs.maplabs.io/learn/overiew/protocollayer/verification','blank')
           },
           goMessengers() {
             window.open('https://docs.maplabs.io/learn/overiew/mcs#messenger','blank')
