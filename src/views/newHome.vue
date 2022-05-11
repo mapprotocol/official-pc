@@ -369,10 +369,10 @@
             window.open('https://docs.maplabs.io/learn/dao','blank')
           },
           goDevelopers() {
-            window.open('https://docs.maplabs.io/develop','blank')
+            window.open('https://docs.maplabs.io/learn/construction/developers','blank')
           },
           goValidators() {
-            window.open('https://docs.maplabs.io/run/howtobecomeanewvalidator','blank')
+            window.open('https://docs.maplabs.io/learn/construction/validators','blank')
           },
 
           goMaintainers() {
