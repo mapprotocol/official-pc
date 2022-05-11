@@ -183,7 +183,7 @@
             <div class="technical compar">
               <div class="home-container">
                 <div class="technical-content">
-                  <div class="home-title">Other Cross-chain Solutions</div>
+                  <div class="home-title">Comparison with Other Cross-chain Solutions</div>
                   <div class="technical-img compar-img">
                     <img src="../assets/compar/content.png"/>
                   </div>
