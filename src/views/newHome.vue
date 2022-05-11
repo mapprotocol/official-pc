@@ -376,16 +376,16 @@
           },
 
           goMaintainers() {
-            window.open('https://docs.maplabs.io/learn/overiew/protocollayer/verification','blank')
+            window.open('https://docs.maplabs.io/learn/construction/maintainer','blank')
           },
           goMessengers() {
-            window.open('https://docs.maplabs.io/learn/overiew/mcs#messenger','blank')
+            window.open('https://docs.maplabs.io/learn/construction/messengers','blank')
           },
           goLiquidityProviders() {
-            window.open('https://docs.maplabs.io/learn/overiew/mcs','blank')
+            window.open('https://docs.maplabs.io/learn/construction/liquidityprovider','blank')
           },
           goEndUsers() {
-            window.open('https://docs.maplabs.io/learn/overiew','blank')
+            window.open('https://docs.maplabs.io/learn/construction/enduser','blank')
           },
 
 
