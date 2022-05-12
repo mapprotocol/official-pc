@@ -7,9 +7,9 @@
       <!--                  tab-->
       <div class="header-right">
         <div class="header-tab">
-          <div @click="goMapscan()" class="header-tab-item">
+          <div class="header-tab-item">
             <div  class="header-item-top">
-              <span>Explorer</span>
+              <a href="https://makalu.mapscan.io/" target="_blank"><span>Explorer</span></a>
             </div>
           </div>
           <div @mouseover="showHeaderTab=2" @mouseleave="showHeaderTab=-1" class="header-tab-item">

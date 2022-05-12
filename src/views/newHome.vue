@@ -18,15 +18,15 @@
                 <div class="home-container">
                   <div class="cross-content">
                     <div class="cross-title">
-                      <img src="../assets/cross/title.png"/>
-<!--                      <span>The Ultimate Cross-chain Infrastructure</span>-->
+                     <h1><img src="../assets/cross/title.png"/></h1>
+                      <!--                      <span>The Ultimate Cross-chain Infrastructure</span>-->
 <!--                      <span>Empowering the Future of Cross-chain Dapps</span>-->
 <!--                      <span>Not one chain, not some chains, but connecting all chains</span>-->
                     </div>
                     <div class="cross-btn">
-                      <span @click="goGithub()">GitHub</span>
-                      <span @click="goWhitepaper()">Litebook</span>
-                      <span @click="goScale()">Build</span>
+                      <a href="https://github.com/mapprotocol" target="_blank">GitHub</a>
+                      <a href="https://files.maplabs.io/pdf/mapprotocol_whitepaper_en.pdf" target="_blank">Litebook</a>
+                      <a href="https://docs.maplabs.io/" target="_blank">Build</a>
                     </div>
                   </div>
                 </div>
@@ -43,21 +43,21 @@
                     <div class="map-right">
                       <div class="map-right-content">
                         <div class="map-right-item">
-                          <img src="../assets/map/one.png"/>
+                          <img src="../assets/map/one.png" alt="Application-Ready"/>
                           <span>Application-Ready</span>
                         </div>
                         <div class="map-right-item">
-                          <img src="../assets/map/two.png"/>
+                          <img src="../assets/map/two.png" alt="All-Chain Coverage"/>
                           <span>All-Chain Coverage</span>
                         </div>
                       </div>
                       <div class="map-right-content">
                         <div class="map-right-item">
-                          <img src="../assets/map/three.png"/>
+                          <img src="../assets/map/three.png" alt="Cost-Efficient"/>
                           <span>Cost-Efficient</span>
                         </div>
                         <div class="map-right-item">
-                          <img src="../assets/map/four.png"/>
+                          <img src="../assets/map/four.png" alt="Security-Finality"/>
                           <span>Security-Finality</span>
                         </div>
                       </div>
@@ -77,7 +77,7 @@
               <div class="technical">
                 <div class="home-container">
                   <div class="technical-content">
-                      <div class="home-title">Technical Structure</div>
+                    <div class="home-title"><h2>Technical Structure</h2></div>
                       <div class="tech-text">
                         Developers can deploy cross-chain Dapps on MAP Relay Chain to achieve interoperability.
                       </div>
@@ -98,7 +98,7 @@
 <!--            Ecosystems-->
             <div class="eco">
               <div class="home-container">
-                <div class="home-title">Ecosystem</div>
+                <div class="home-title"><h2>Ecosystem</h2></div>
                 <div class="eco-content">
                   <div class="eco-left">
                     <img src="../assets/eco/content.png"/>
@@ -183,7 +183,7 @@
             <div class="technical compar">
               <div class="home-container">
                 <div class="technical-content">
-                  <div class="home-title">Comparison with Other Cross-chain Solutions</div>
+                  <div class="home-title"><h2>Comparison with Other Cross-chain Solutions</h2></div>
                   <div class="technical-img compar-img">
                     <img src="../assets/compar/content.png"/>
                   </div>
@@ -201,7 +201,7 @@
                 <div class="chain-content">
                   <div class="chain-top">
                     <div class="chain-top-title">
-                      <span>Cross-chain Application</span>
+                      <span><h2>Cross-chain Application</h2></span>
                       <span>Dapp developers can easily build their own cross-chain Dapps (e.g.half an hour for a cross-chain bridge) using MAP Cross-chain Service toolkits on the EVM-compatible MAP Relay Chain. Start embracing the Cross-chain Dapp Era today!</span>
                     </div>
                     <img src="../assets/chain/img1.png"/>
@@ -301,7 +301,7 @@
 
 <!--            roadmap-->
             <div class="roadmap">
-              <div class="home-title">Roadmap</div>
+              <div class="home-title"><h2>Roadmap</h2></div>
               <div class="home-container">
                 <div class="roadmap-img">
                   <img src="../assets/roadmap/content.png"/>
