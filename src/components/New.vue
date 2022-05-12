@@ -7,21 +7,21 @@
               <div :style="{ backgroundImage: 'url('+ dataOne.src +')'}" class="new-detail"></div>
               <div class="new-text">
                 <span>{{dataOne.title}}</span>
-                <span>{{dataOne.time}}</span>
+<!--                <span>{{dataOne.time}}</span>-->
               </div>
             </div>
             <div @mousemove="showMore=1" @mouseout="showMore=-1" @click="goNewTwo" class="new-detail-s">
               <div :style="{ backgroundImage: 'url('+ dataTwo.src +')'}" class="new-detail"></div>
               <div class="new-text">
                 <span>{{dataTwo.title}}</span>
-                <span>{{dataTwo.time}}</span>
+<!--                <span>{{dataTwo.time}}</span>-->
               </div>
             </div>
             <div @mousemove="showMore=2" @mouseout="showMore=-1" @click="goNewThree"  class="new-detail-s">
               <div :style="{ backgroundImage: 'url('+ dataThree.src +')'}" class="new-detail"></div>
               <div class="new-text">
                 <span>{{dataThree.title}}</span>
-                <span>{{dataThree.time}}</span>
+<!--                <span>{{dataThree.time}}</span>-->
               </div>
             </div>
           </div>
