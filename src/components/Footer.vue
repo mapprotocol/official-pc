@@ -370,7 +370,7 @@
               <div class="footer-right-item">
                 <div class="footer-right-item-title">LEARN</div>
                 <div class="footer-right-item-tab">
-                  <a href="https://medium.com/marcopolo-protocol" target="_blank"><img src="../assets/footer/one.png"/>Medium</a>
+                  <a href="https://medium.com/@mapprotocolofficial" target="_blank"><img src="../assets/footer/one.png"/>Medium</a>
                   <a href="https://mobile.twitter.com/MapProtocol" target="_blank"><img src="../assets/footer/three.png"/>Twitter</a>
                   <a href="https://t.me/MAPprotocol" target="_blank"><img src="../assets/footer/two.png"/>Telegram</a>
                   <a href="https://open.kakao.com/o/gP9WduRb" target="_blank"><img src="../assets/footer/four.png"/>KakaoTalk</a>
