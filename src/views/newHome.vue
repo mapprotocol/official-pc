@@ -290,10 +290,10 @@
                       </div>
                     </div>
                   </div>
-                  <div class="chain-btn">
+                 <!-- <div class="chain-btn">
                     <button @click="goTokenInfo()">Token Info</button>
                     <button @click="goDaoGovernance()">DAO Governance</button>
-                  </div>
+                  </div> -->
                 </div>
               </div>
             </div>
@@ -301,10 +301,29 @@
 
 <!--            roadmap-->
             <div class="roadmap">
-              <div class="home-title"><h2>Roadmap</h2></div>
+<!--              <div class="home-title"><h2>Roadmap</h2></div>-->
               <div class="home-container">
                 <div class="roadmap-img">
-                  <img src="../assets/roadmap/content.png"/>
+                  <div class="roadmap-img-top">
+                    <div class="roadmap-img-top-item">
+                      <div  @click="goTokenInfo()" class="roadmap-img-top-text">
+                        <span>Token Info</span>
+                        <img src="../assets/roadmap/arrow-right.png"/>
+                      </div>
+                    </div>
+                    <div class="roadmap-img-top-item roadmap-img-top-item-two">
+                      <div  @click="goDaoGovernance()" class="roadmap-img-top-text">
+                        <span >DAO Governance</span>
+                        <img src="../assets/roadmap/arrow-right.png"/>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="roadmap-img-bottom">
+                    <div  @click="goRoadmap()" class="roadmap-img-top-text roadmap-img-top-text-two">
+                      <span>Roadmap</span>
+                      <img src="../assets/roadmap/arrow-right.png"/>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div class="roadmap-left">
@@ -362,6 +381,9 @@
           }
         },
         methods: {
+          goRoadmap() {
+            window.open('https://docs.maplabs.io/learn/roadmap','blank')
+          },
           goTokenInfo() {
             window.open('https://docs.maplabs.io/learn/tokenomics','blank')
           },
