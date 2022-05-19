@@ -50,8 +50,6 @@
                           <img src="../assets/map/two.png" alt="All-Chain Coverage"/>
                           <span>All-Chain Coverage</span>
                         </div>
-                      </div>
-                      <div class="map-right-content">
                         <div class="map-right-item">
                           <img src="../assets/map/three.png" alt="Cost-Efficient"/>
                           <span>Cost-Efficient</span>
@@ -59,6 +57,34 @@
                         <div class="map-right-item">
                           <img src="../assets/map/four.png" alt="Security-Finality"/>
                           <span>Security-Finality</span>
+                        </div>
+                        <div class="map-right-item">
+                          <img src="../assets/map/five.png" alt="Instant Confirmation"/>
+                          <span>Instant Confirmation</span>
+                        </div>
+                      </div>
+                     <div class="map-right-content map-right-content-h5">
+                       <div class="map-right-item">
+                         <img src="../assets/map/one.png" alt="Application-Ready"/>
+                         <span>Application-Ready</span>
+                       </div>
+                       <div class="map-right-item">
+                         <img src="../assets/map/two.png" alt="All-Chain Coverage"/>
+                         <span>All-Chain Coverage</span>
+                       </div>
+                       <div class="map-right-item">
+                         <img src="../assets/map/three.png" alt="Cost-Efficient"/>
+                         <span>Cost-Efficient</span>
+                       </div>
+                      </div>
+                      <div class="map-right-content map-right-content-h5">
+                        <div class="map-right-item">
+                          <img src="../assets/map/four.png" alt="Security-Finality"/>
+                          <span>Security-Finality</span>
+                        </div>
+                        <div class="map-right-item">
+                          <img src="../assets/map/five.png" alt="Instant Confirmation"/>
+                          <span>Instant Confirmation</span>
                         </div>
                       </div>
                     </div>
@@ -206,7 +232,7 @@
                     </div>
                     <img src="../assets/chain/img1.png"/>
                   </div>
-                  <div class="chain-img2">
+                  <div @click="goScale()" class="chain-img2">
                     <img src="../assets/chain/img2.png"/>
                   </div>
                   <div class="chain-bottom">
