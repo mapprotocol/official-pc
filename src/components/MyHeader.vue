@@ -101,6 +101,9 @@
               <span>Purchase</span>
             </div>
           </div>
+          <div class="header-tab-item">
+            <a href="https://docs.maplabs.io/" target="_blank"><button>Build Now</button></a>
+          </div>
         </div>
         <div @click="actionTabs()" class="header-menu">
           <img src="../assets/header/menu.png"/>
@@ -185,6 +188,10 @@
             <div class="header-line"></div>
             <div  @click="goPurchase()" class="header-tab-title">
               Purchase
+            </div>
+            <div class="header-line"></div>
+            <div  @click="goDocs()" class="header-tab-title">
+              Build Now
             </div>
           </div>
         </div>

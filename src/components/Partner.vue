@@ -11,7 +11,7 @@
               <div class="partner-content">
                 <img src="../assets/partner/poly.png"/>
                 <img src="../assets/partner/certik.png"/>
-                <img src="../assets/partner/kucon.png"/>
+<!--                <img src="../assets/partner/kucon.png"/>-->
 
               </div>
               <div class="partner-content partner-content-h5">
@@ -23,7 +23,7 @@
               <div class="partner-content partner-content-h5">
                 <img src="../assets/partner/poly.png"/>
                 <img src="../assets/partner/certik.png"/>
-                <img src="../assets/partner/kucon.png"/>
+<!--                <img src="../assets/partner/kucon.png"/>-->
               </div>
             </div>
         </div>

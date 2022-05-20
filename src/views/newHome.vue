@@ -26,7 +26,7 @@
                     <div class="cross-btn">
                       <a href="https://github.com/mapprotocol" target="_blank">GitHub</a>
                       <a href="https://files.maplabs.io/pdf/mapprotocol_whitepaper_en.pdf" target="_blank">Litebook</a>
-                      <a href="https://docs.maplabs.io/" target="_blank">Build</a>
+<!--                      <a href="https://docs.maplabs.io/" target="_blank">Build</a>-->
                     </div>
                   </div>
                 </div>
@@ -89,9 +89,7 @@
                       </div>
                     </div>
                     <div class="map-left">
-                      MAP Protocol provides verification finality by Light-client, supports smart contract development on MAP Relay Chain,
-                      offers cross-chain services components for Dapp's convenient deployment,
-                      and enables universal connections with all chains by proactively embedding other chains' feature as pre-compiled contracts in EVM layer of MAP Relay Chain.
+                      MAP Protocol provides instant confirmation and verification finality by Light-client,supports smart contract development on MAP Relay Chain, offers cross-chain services components for Dapp's convenient deployment, and enables universal connections with all chains by proactively embedding other chains' feature as pre-compiled contracts in EVM layer of MAP Relay Chain.<br>
                       MAP Protocol maintains a cost-efficient network by simply charging MAP Relay Chain's gas fee for cross-chain transactions.
                     </div>
                   </div>
