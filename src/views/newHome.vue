@@ -230,12 +230,12 @@
                     </div>
                     <img src="../assets/chain/img1.png"/>
                   </div>
-                  <div @click="goScale()" class="chain-img2">
+                  <div @click="goApplication()" class="chain-img2">
                     <img src="../assets/chain/img2.png"/>
                   </div>
                   <div class="chain-bottom">
                     <div class="chain-bottom-img">
-                      <button @click="goScale()">Build</button>
+                      <button @click="goApplication()">Build</button>
                       <img src="../assets/chain/img3.png"/>
                     </div>
                     <div class="chain-layer">
@@ -405,6 +405,9 @@
           }
         },
         methods: {
+         goApplication() {
+           window.open('https://docs.maplabs.io/learn/overiew/application','blank')
+         },
           goRoadmap() {
             window.open('https://docs.maplabs.io/learn/roadmap','blank')
           },
