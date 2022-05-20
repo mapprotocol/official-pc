@@ -290,7 +290,7 @@
           },
           goWhitepaper(){
             this.showTab=false
-            window.open('https://files.maplabs.io/pdf/mapprotocol_whitepaper_en.pdf','blank')
+            window.open('https://files.maplabs.io/pdf/mapprotocol_Litebook_en.pdf','blank')
             this.actionDefault()
           },
           goDefi() {
