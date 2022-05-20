@@ -25,7 +25,7 @@
                     </div>
                     <div class="cross-btn">
                       <a href="https://github.com/mapprotocol" target="_blank">GitHub</a>
-                      <a href="https://files.maplabs.io/pdf/mapprotocol_whitepaper_en.pdf" target="_blank">Litebook</a>
+                      <a href="https://files.maplabs.io/pdf/mapprotocol_Litebook_en.pdf" target="_blank">Litebook</a>
 <!--                      <a href="https://docs.maplabs.io/" target="_blank">Build</a>-->
                     </div>
                   </div>
