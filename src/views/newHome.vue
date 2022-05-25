@@ -464,46 +464,10 @@
             this.$toast('Look Forward To')
           },
 
-          async actionSetTimeData() {
-          this.timeData = setInterval(()=> {
-              this.actionTotalAddress()
-            },30000)
-          },
-
-         async actionTotalAddress() {
-           let v = this
-           let result = await Axios.get('https://makalu-api.mapscan.io/scan/queryData')
-           if (result.data.code==200) {
-             let data = result.data.data
-             v.crossChain = parseFloat(data.allCrossCount)
-             v.totalAddress = parseFloat(data.totalAddress)
-             v.relayer = parseFloat(data.addressCount)-3600
-           }
-          },
-
-
-
         },
         beforeDestroy() {
-          this.timeData = null
-          clearInterval(this.timeData)
         },
         mounted() {
-
-          this.timeData = null
-          clearInterval(this.timeData)
-          this.actionTotalAddress()
-          this.actionSetTimeData()
-          // window.onscroll = function() {
-          //   //为了保证兼容性，这里取两个值，哪个有值取哪一个
-          //   //scrollTop就是触发滚轮事件时滚轮的高度
-          //   var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-          //   console.log("滚动距离" + scrollTop);
-          //   if (scrollTop>500) {
-          //     v.showNum = true
-          //     v.actionTotalAddress()
-          //   }
-          // }
 
         }
       }
