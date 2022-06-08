@@ -38,7 +38,7 @@
                 <div class="home-container">
                   <div class="map-content">
                     <div class="map-title">
-                      <span class="">The Blockchain Interoperable Protocol Designated for Cross-chain Dapps</span>
+                      <span class="">The Blockchain Interoperable Protocol Designated for Cross-chain dApps</span>
                     </div>
                     <div class="map-right">
                       <div class="map-right-content">
@@ -89,7 +89,7 @@
                       </div>
                     </div>
                     <div class="map-left">
-                      MAP Protocol provides instant confirmation and verification finality by Light-client,supports smart contract development on MAP Relay Chain, offers cross-chain services components for Dapp's convenient deployment, and enables universal connections with all chains by proactively embedding other chains' feature as pre-compiled contracts in EVM layer of MAP Relay Chain.<br>
+                      MAP Protocol provides instant confirmation and verification finality by Light-client,supports smart contract development on MAP Relay Chain, offers cross-chain services components for dApps convenient deployment, and enables universal connections with all chains by proactively embedding other chains' feature as pre-compiled contracts in EVM layer of MAP Relay Chain.<br>
                       MAP Protocol maintains a cost-efficient network by simply charging MAP Relay Chain's gas fee for cross-chain transactions.
                     </div>
                   </div>
@@ -103,7 +103,7 @@
                   <div class="technical-content">
                     <div class="home-title"><h2>Technical Structure</h2></div>
                       <div class="tech-text">
-                        Developers can deploy cross-chain Dapps on MAP Relay Chain to achieve interoperability.
+                        Developers can deploy cross-chain dApps on MAP Relay Chain to achieve interoperability.
                       </div>
                       <div class="technical-img">
                         <img src="../assets/technnical/content.png"/>
@@ -226,7 +226,7 @@
                   <div class="chain-top">
                     <div class="chain-top-title">
                       <span><h2>Cross-chain Application</h2></span>
-                      <span>Dapp developers can easily build their own cross-chain Dapps (e.g.half an hour for a cross-chain bridge) using MAP Cross-chain Service toolkits on the EVM-compatible MAP Relay Chain. Start embracing the Cross-chain Dapp Era today!</span>
+                      <span>Dapp developers can easily build their own cross-chain dApps (e.g.half an hour for a cross-chain bridge) using MAP Cross-chain Service toolkits on the EVM-compatible MAP Relay Chain. Start embracing the Cross-chain Dapp Era today!</span>
                     </div>
                     <img src="../assets/chain/img1.png"/>
                   </div>
@@ -282,7 +282,7 @@
                           </div>
                           <div class="chain-layer-text chain-layer-text-s">
                             <span></span>
-                            <span>Dapps provide incentives for liquidity providers.</span>
+                            <span>dApps provide incentives for liquidity providers.</span>
                           </div>
                         </div>
                         <div class="chain-layer-item">
