@@ -37,11 +37,61 @@
               <div class="map">
                 <div class="home-container">
                   <div class="map-content">
-                    <div class="map-title">
-                      <span class="">The Blockchain Interoperable Protocol Designated for Cross-chain dApps</span>
-                    </div>
+                    <img src="../assets/map/content.png"/>
                     <div class="map-right">
+<!--                      one-->
                       <div class="map-right-content">
+                        <div class="map-right-item">
+                          <div class="map-item-top">
+                            <img src="../assets/map/four.png" alt="Security-Finality"/>
+                          </div>
+                          <div class="map-item-text">
+                            <span>Security-Finality</span>
+                            <span>Guarantee blockchain-level security through an independent self-verification network formed by light clients on every public blockchain.</span>
+                          </div></div>
+                        <div class="map-right-item">
+                          <div class="map-item-top">
+                            <img src="../assets/map/two.png" alt="All-Chain Coverage"/>
+                          </div>
+                          <div class="map-item-text">
+                            <span>All-Chain Coverage</span>
+                            <span>Embed heterogeneous chains' signing and hashing algorithm into the EVM layer of the MAP Relay Chain to ensure seamless communication between all chains.</span></div>
+                        </div>
+                      </div>
+<!--                      two-->
+                      <div class="map-right-content">
+                        <div class="map-right-item">
+                          <div class="map-item-top">
+                            <img src="../assets/map/one.png" alt="Instant Confirmation"/>
+
+                          </div>
+                          <div class="map-item-text">
+                            <span>Instant Confirmation</span>
+                            <span>Inter-chain communication programs and on-chain smart contracts work together efficiently to ensure that speed is only related to each chain's block time.</span></div>
+                        </div>
+                        <div class="map-right-item">
+                          <div class="map-item-top">
+                            <img src="../assets/map/three.png" alt="Minimum Cos"/>
+
+                          </div>
+                          <div class="map-item-text">
+                            <span>Minimum Cost</span>
+                            <span>MAP Protocol only charge the gas fee of MAP Relay Chain and other related chains with no additional cost.</span></div>
+                        </div>
+                      </div>
+<!--                      three-->
+                      <div class="map-right-content ">
+                        <div class="map-right-item map-right-item-two">
+                          <div class="map-item-top">
+                            <img src="../assets/map/five.png" alt="Developer-Ready"/>
+                          </div>
+                          <div class="map-item-text">
+                            <span>Developer-Ready</span>
+                            <span>Through MAP Cross-Chain Service (MCS) deployed on and between public chains, dAPPs can share the liquidity of MCS's Vaults on different chains, and customize the entry threshold and incentive model of inter-chain program: messenger. Alternatively, we can use the MCS open source code to build dAPP-related Omnichain components.</span></div>
+                        </div>
+                      </div>
+
+                     <!-- <div class="map-right-content map-right-content-h5">
                         <div class="map-right-item">
                           <img src="../assets/map/one.png" alt="Application-Ready"/>
                           <span>Application-Ready</span>
@@ -54,28 +104,6 @@
                           <img src="../assets/map/three.png" alt="Cost-Efficient"/>
                           <span>Cost-Efficient</span>
                         </div>
-                        <div class="map-right-item">
-                          <img src="../assets/map/four.png" alt="Security-Finality"/>
-                          <span>Security-Finality</span>
-                        </div>
-                        <div class="map-right-item">
-                          <img src="../assets/map/five.png" alt="Instant Confirmation"/>
-                          <span>Instant Confirmation</span>
-                        </div>
-                      </div>
-                     <div class="map-right-content map-right-content-h5">
-                       <div class="map-right-item">
-                         <img src="../assets/map/one.png" alt="Application-Ready"/>
-                         <span>Application-Ready</span>
-                       </div>
-                       <div class="map-right-item">
-                         <img src="../assets/map/two.png" alt="All-Chain Coverage"/>
-                         <span>All-Chain Coverage</span>
-                       </div>
-                       <div class="map-right-item">
-                         <img src="../assets/map/three.png" alt="Cost-Efficient"/>
-                         <span>Cost-Efficient</span>
-                       </div>
                       </div>
                       <div class="map-right-content map-right-content-h5">
                         <div class="map-right-item">
@@ -86,11 +114,7 @@
                           <img src="../assets/map/five.png" alt="Instant Confirmation"/>
                           <span>Instant Confirmation</span>
                         </div>
-                      </div>
-                    </div>
-                    <div class="map-left">
-                      MAP Protocol provides instant confirmation and verification finality by Light-client,supports smart contract development on MAP Relay Chain, offers cross-chain services components for dApps convenient deployment, and enables universal connections with all chains by proactively embedding other chains' feature as pre-compiled contracts in EVM layer of MAP Relay Chain.<br>
-                      MAP Protocol maintains a cost-efficient network by simply charging MAP Relay Chain's gas fee for cross-chain transactions.
+                      </div> -->
                     </div>
                   </div>
                 </div>
@@ -101,10 +125,6 @@
               <div class="technical">
                 <div class="home-container">
                   <div class="technical-content">
-                    <div class="home-title"><h2>Technical Structure</h2></div>
-                      <div class="tech-text">
-                        Developers can deploy cross-chain dApps on MAP Relay Chain to achieve interoperability.
-                      </div>
                       <div class="technical-img">
                         <img src="../assets/technnical/content.png"/>
                       </div>
@@ -134,7 +154,7 @@
                           <img src="../assets/eco/one.png"/>
                           <div class="eco-dev-item-title">
                             <span>Developers</span>
-                            <span>Build a cross-chain ecosystem with MAP Protocol.</span>
+                            <span>Build an omnichain ecosystem with MAP Protocol.</span>
                           </div>
                         </div>
                       </div>
@@ -174,7 +194,7 @@
                           <img src="../assets/eco/five.png"/>
                           <div class="eco-dev-item-title">
                           <span>Liquidity Providers</span>
-                          <span>Provide liquidity to Vaults deployed on our connected chains with rewards.</span>
+                          <span>Provide liquidity to Vaults deployed on MAP omnichain network with rewards.</span>
                         </div>
                         </div>
                       </div>
@@ -203,30 +223,18 @@
               </div>
             </div>
 
-<!--              compar-->
-            <div class="technical compar">
-              <div class="home-container">
-                <div class="technical-content">
-                  <div class="home-title"><h2>Comparison with Other Cross-chain Solutions</h2></div>
-                  <div class="technical-img compar-img">
-                    <img src="../assets/compar/content.png"/>
-                  </div>
-                </div>
-              </div>
-              <div class="compar-img-left">
-                <img src="../assets/compar/img-left.png"/>
-              </div>
-            </div>
-
-
 <!--            Cross-chain Application-->
             <div class="chain">
               <div class="home-container">
                 <div class="chain-content">
                   <div class="chain-top">
                     <div class="chain-top-title">
-                      <span><h2>Cross-chain Application</h2></span>
-                      <span>Dapp developers can easily build their own cross-chain dApps (e.g.half an hour for a cross-chain bridge) using MAP Cross-chain Service toolkits on the EVM-compatible MAP Relay Chain. Start embracing the Cross-chain Dapp Era today!</span>
+                      <span><h2>Omnichain Application</h2></span>
+                      <span>
+                         Developers can easily build their omnichain applications deployed on any chain in just two steps:<br>
+                        <span class="text-blue">1.</span>Build inter-chain messenger using our SDK.<br>
+                        <span class="text-blue">2.</span>Interact with on-chain vault and data through our API.
+                      </span>
                     </div>
                     <img src="../assets/chain/img1.png"/>
                   </div>
@@ -238,7 +246,7 @@
                       <button @click="goApplication()">Build</button>
                       <img src="../assets/chain/img3.png"/>
                     </div>
-                    <div class="chain-layer">
+                    <!--<div class="chain-layer">
                         <div class="chain-layer-item">
                           <div class="chain-layer-title">Application Layer</div>
                           <div class="chain-layer-text">
@@ -312,12 +320,8 @@
                             <span>MAP Protocol provides incentives to validators on MAP Relay Chain and Maintainers for updating Light-Client status.</span>
                           </div>
                       </div>
-                    </div>
+                    </div> -->
                   </div>
-                 <!-- <div class="chain-btn">
-                    <button @click="goTokenInfo()">Token Info</button>
-                    <button @click="goDaoGovernance()">DAO Governance</button>
-                  </div> -->
                 </div>
               </div>
             </div>
@@ -331,7 +335,7 @@
                   <div class="roadmap-img-top">
                     <div class="roadmap-img-top-item">
                       <div  @click="goTokenInfo()" class="roadmap-img-top-text">
-                        <span>Token Info</span>
+                        <span>Tokenomics</span>
                         <img src="../assets/roadmap/arrow-right.png"/>
                       </div>
                     </div>
