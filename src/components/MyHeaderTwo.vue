@@ -55,7 +55,7 @@
                       </div>
                       <div @click="goBefi()" class="header-drop-item header-drop-item-three">
                         <div class="header-relayer-icon header-befi-icon"></div>
-                        <span>BeFi Wallet</span>
+                        <span>BeFi Wallet Dao </span>
                       </div>
                     </div>
                     <div class="header-drop">
@@ -152,7 +152,7 @@
                     </div>
                     <div  class="header-line"></div>
                     <div  @click="goBefi()" class="header-tab-title">
-                      BeFi Wallet
+                      BeFi Wallet Dao
                     </div>
                     <div  class="header-line"></div>
                     <div  @click="goRelayerEth()" class="header-tab-title">
