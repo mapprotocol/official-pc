@@ -232,7 +232,7 @@
                       <span><h2>Omnichain Application</h2></span>
                       <span>
                          Developers can easily build their omnichain applications deployed on any chain in just two steps:<br>
-                        <span class="text-blue">1.</span>Build inter-chain messenger<br>
+                        <span class="text-blue">1.</span>Build inter-chain messenger.<br>
                         <span class="text-blue">2.</span>Interact with on-chain vault and data through our SDK.
                       </span>
                     </div>
