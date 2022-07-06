@@ -153,7 +153,7 @@
               </div>
               <div  class="header-line"></div>
               <div  @click="goBefi()" class="header-tab-title">
-                BeFi Wallet Dao
+                BeFi Wallet
               </div>
               <div  class="header-line"></div>
               <div  @click="goRelayerEth()" class="header-tab-title">
