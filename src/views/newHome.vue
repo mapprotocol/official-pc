@@ -18,7 +18,8 @@
                 <div class="home-container">
                   <div class="cross-content">
                     <div class="cross-title">
-                     <h1><img src="../assets/cross/title.png"/></h1>
+                     <h1><img alt="Omnichain Layer of Web3 with Absolutely Secure Cross-chain Communication Built upon Light-client and zk-SNARK" src="../assets/cross/title.png"/></h1>
+                     <h1><img alt="Build omnichain dApps in simple steps. Let cryptocurrency, NFT, and data flow around all chains securely and seamlessly at minimum cost." src="../assets/cross/title-two.png"/></h1>
                       <!--                      <span>The Ultimate Cross-chain Infrastructure</span>-->
 <!--                      <span>Empowering the Future of Cross-chain Dapps</span>-->
 <!--                      <span>Not one chain, not some chains, but connecting all chains</span>-->
