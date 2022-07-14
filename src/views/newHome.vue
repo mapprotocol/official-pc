@@ -21,7 +21,7 @@
 <!--                     <h1><img alt="Omnichain Layer of Web3 with Absolutely Secure Cross-chain Communication Built upon Light-client and zk-SNARK" src="../assets/cross/title.png"/></h1>-->
 <!--                     <h1><img alt="Build omnichain dApps in simple steps. Let cryptocurrency, NFT, and data flow around all chains securely and seamlessly at minimum cost." src="../assets/cross/title-two.png"/></h1>-->
                         <span>Omnichain Layer of Web3 with Absolutely Secure Cross-chain Communication Built upon Light-client and zk-SNARK</span>
-                        <span>Build omnichain dApps in simple steps. Let cryptocurrency, NFT, and data flow around all chains securely and seamlessly at minimum cost.</span>
+                        <span>Build omnichain dApps to cover all chains' users in simple steps. Let cryptocurrency, NFT, and data flow around all chains securely and seamlessly at minimum cost.</span>
                     </div>
                     <div class="cross-btn">
                       <a href="https://github.com/mapprotocol" target="_blank">GitHub</a>
@@ -139,6 +139,24 @@
               </div>
 
 
+
+            <div class="technical">
+              <div class="home-container">
+                <div class="home-title">
+                  Comparing to Other Cross-Chains
+                </div>
+                <div class="technical-content">
+                  <div class="technical-img compar-img">
+                    <img src="../assets/compar/content.png"/>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+
+
 <!--            Ecosystems-->
             <div class="eco">
               <div class="home-container">
@@ -246,81 +264,6 @@
                       <button @click="goApplication()">Build</button>
                       <img src="../assets/chain/img3.png"/>
                     </div>
-                    <!--<div class="chain-layer">
-                        <div class="chain-layer-item">
-                          <div class="chain-layer-title">Application Layer</div>
-                          <div class="chain-layer-text">
-                            <span></span>
-                            <span>Assets and data are assembled on MAP Relay Chain.</span>
-                          </div>
-                          <div class="chain-layer-text">
-                            <span></span>
-                            <span>Interoperability is achieved because of MCS.</span>
-                          </div>
-                          <div class="chain-layer-text chain-layer-text-s">
-                            <span></span>
-                            <span>The finality of verification network is conducted on MAP Protocol Layer.</span>
-                          </div>
-                        </div>
-                        <div class="chain-layer-item">
-                          <div class="chain-layer-title">Cross-chain Services (MCS) Layer</div>
-                          <div class="chain-layer-text">
-                            <span></span>
-                            <span>The execution layer for cross-chain asset and data.</span>
-                          </div>
-                          <div class="chain-layer-text">
-                            <span></span>
-                            <span>Similar to Google Mobile Services.</span>
-                          </div>
-                          <div class="chain-layer-text chain-layer-text-s">
-                            <span></span>
-                            <span>Dapp developers can build their components or use MCS.</span>
-                          </div>
-                          <div class="chain-layer-text chain-layer-text-s">
-                            <span></span>
-                            <span>Consists of Vaults and Data deployed on each chain, and Messenger Program to transmit messages between chains.</span>
-                          </div>
-                          <div class="chain-layer-text chain-layer-text-s">
-                            <span></span>
-                            <span>Developers can share Vaults and Data liquidity with others.</span>
-                          </div>
-                          <div class="chain-layer-text chain-layer-text-s">
-                            <span></span>
-                            <span>Messenger Program is an SDK deployed, operated, incentivized and maintained by Dapp developers.</span>
-                          </div>
-                          <div class="chain-layer-text chain-layer-text-s">
-                            <span></span>
-                            <span>dApps provide incentives for liquidity providers.</span>
-                          </div>
-                        </div>
-                        <div class="chain-layer-item">
-                        <div class="chain-layer-title">Protocol Layer</div>
-                        <div class="chain-layer-text chain-layer-text-s">
-                          <span></span>
-                          <span>The layer to conduct the cross-chain verification network and Dapp deployment.</span>
-                        </div>
-                        <div class="chain-layer-text chain-layer-text-s">
-                          <span></span>
-                          <span> Consists of MAP Relay Chain, Light-Client deployed on each chain, and inter-chain Maintainer Program.</span>
-                        </div>
-                        <div class="chain-layer-text chain-layer-text-s">
-                          <span></span>
-                          <span>MAP Relay Chain proactively extends and supports heterogeneous blockchains' features in virtual machine.</span>
-                        </div>
-                          <div class="chain-layer-text chain-layer-text-s">
-                            <span></span>
-                            <span>Light-Client deployed on each chain has the characteristics of independent self-verification and verification finality.</span>
-                          </div>
-                          <div class="chain-layer-text chain-layer-text-s">
-                            <span></span>
-                            <span>The Maintainer is an independent inter-chain program responsible for updating the status of Light Clients.</span>
-                          </div>
-                          <div class="chain-layer-text chain-layer-text-s">
-                            <span></span>
-                            <span>MAP Protocol provides incentives to validators on MAP Relay Chain and Maintainers for updating Light-Client status.</span>
-                          </div>
-                      </div>
-                    </div> -->
                   </div>
                 </div>
               </div>
