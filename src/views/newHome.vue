@@ -154,9 +154,6 @@
             </div>
 
 
-
-
-
 <!--            Ecosystems-->
             <div class="eco">
               <div class="home-container">
@@ -240,6 +237,52 @@
                 <img src="../assets/eco/img-right.png"/>
               </div>
             </div>
+
+
+            <div class="on">
+                <div class="home-container">
+                  <div class="home-title">On the way to integrate every chain</div>
+                  <div class="on-content">
+                    <div class="on-item">
+                      <img src="../assets/on/ethereum.png"/>
+                      <img src="../assets/on/binance.png"/>
+                      <img src="../assets/on/polygon.png"/>
+                      <img src="../assets/on/flow.png"/>
+                      <img src="../assets/on/near.png"/>
+                    </div>
+                    <div class="on-item">
+                      <img src="../assets/on/klaytn.png"/>
+                      <img src="../assets/on/kcc.png"/>
+                      <img src="../assets/on/harmony.png"/>
+                      <img src="../assets/on/lotex.png"/>
+                      <img src="../assets/on/okc.png"/>
+                    </div>
+                    <div class="on-item">
+                      <img src="../assets/on/polkadot.png"/>
+                      <img src="../assets/on/cosmos.png"/>
+                      <img src="../assets/on/cube.png"/>
+                      <img src="../assets/on/elrond.png"/>
+                      <img src="../assets/on/algorand.png"/>
+                    </div>
+                    <div class="on-item">
+                      <img src="../assets/on/eosio.png"/>
+                      <img src="../assets/on/tron.png"/>
+                      <img src="../assets/on/waves.png"/>
+                      <img src="../assets/on/wax.png"/>
+                      <img src="../assets/on/avalanche.png"/>
+                    </div>
+                    <div class="on-item">
+                      <img src="../assets/on/solrnr.png"/>
+                      <img src="../assets/on/cronos.png"/>
+                      <img src="../assets/on/fantom.png"/>
+                      <img src="../assets/on/celo.png"/>
+                      <img src="../assets/on/optimism.png"/>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+
 
 <!--            Cross-chain Application-->
             <div class="chain">
