@@ -89,9 +89,13 @@
                 </div>
               </div>
               <div class="header-drop">
-                <div @click="goWhitepaper()" class="header-drop-item header-drop-item-one">
+                <div @click="goWhitepaper()" class="header-drop-item header-drop-item-brand">
                   <div class="header-relayer-icon header-white-icon"></div>
                   <span>Litebook</span>
+                </div>
+                <div @click="goBrand()" class="header-drop-item ">
+                  <div class="header-relayer-icon header-brand-icon"></div>
+                  <span>Brand Assets</span>
                 </div>
               </div>
             </div>
@@ -183,6 +187,10 @@
                 Litebook
               </div>
               <div  class="header-line"></div>
+              <div  @click="goBrand()" class="header-tab-title">
+                Brand Assets
+              </div>
+              <div  class="header-line"></div>
             </div>
 
             <div class="header-line"></div>
@@ -263,6 +271,11 @@ export default {
       };
       document.body.style.overflow = '';//出现滚动条
       document.removeEventListener("touchmove", mos, false);
+    },
+    goBrand() {
+      this.showTab=false
+      this.$router.push('/brand')
+      this.actionDefault()
     },
     goHome() {
       this.showTab=false

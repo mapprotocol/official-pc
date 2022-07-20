@@ -17,6 +17,11 @@ const router = new Router({
       path: '/purchase',
       name: 'purchase',
       component: () => import('@/views/Purchase.vue')
+    },
+    {
+      path: '/brand',
+      name: 'brand',
+      component: () => import('@/views/Brand.vue')
     }
   ]
 })

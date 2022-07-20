@@ -143,7 +143,7 @@
             <div class="technical">
               <div class="home-container">
                 <div class="home-title">
-                  Comparing to Other Cross-Chains
+                  MAP Protocol Vs. Alternatives
                 </div>
                 <div class="technical-content">
                   <div class="technical-img compar-img">
