@@ -185,6 +185,10 @@
 
     @import "./newHome.less";
 
+    .brand {
+      font-family: Helvetica;
+    }
+
 
     .logo {
       padding: 120px 0;
