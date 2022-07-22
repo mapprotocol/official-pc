@@ -47,7 +47,7 @@
                           </div>
                           <div class="map-item-text">
                             <span>Security-Finality</span>
-                            <span>Guarantee blockchain-level security through an independent self-verification network formed by light clients on every public blockchain.</span>
+                            <span>Best-in-class blockchain-level security via independent self-verification cross-chain verification network with light-client and zk-SNARK.</span>
                           </div></div>
                         <div class="map-right-item">
                           <div class="map-item-top">
@@ -55,7 +55,7 @@
                           </div>
                           <div class="map-item-text">
                             <span>All-Chain Coverage</span>
-                            <span>Embed heterogeneous chains' signing and hashing algorithm into the EVM layer of the MAP Relay Chain to ensure seamless communication between all chains.</span></div>
+                            <span>Embed heterogeneous chains' signing and hashing algorithm into the EVM layer of the MAP Relay Chain to ensure seamless communication among all EVM and Non-EVM chains.</span></div>
                         </div>
                       </div>
 <!--                      two-->
@@ -76,7 +76,7 @@
                           </div>
                           <div class="map-item-text">
                             <span>Minimum Cost</span>
-                            <span>MAP Protocol only charge the gas fee of MAP Relay Chain and other related chains with no additional cost.</span></div>
+                            <span>No additional cost for cross-chain transactions other than gas fees.By zk-SNARK, gas fee is further reduced to minimum.</span></div>
                         </div>
                       </div>
 <!--                      three-->
@@ -87,7 +87,7 @@
                           </div>
                           <div class="map-item-text">
                             <span>Developer-Ready</span>
-                            <span>Through MAP Cross-Chain Service (MCS) deployed on and between public chains, dAPPs can share the liquidity of MCS's Vaults on different chains, and customize the entry threshold and incentive model of inter-chain program: messenger. Alternatively, we can use the MCS open source code to build dAPP-related Omnichain components.</span></div>
+                            <span>No matter on which chain dApp’s main smart contracts are deployed, dApps can easily connect to MAP's omnichain network through MAP's SDKs, thus naturally inherit the omnichain capabilities of MAP Protocol. dApps can also choose to develop their own tailored version by forking MAP Cross-chain Service (MCS) and installing Messenger SDK.</span></div>
                         </div>
                       </div>
 

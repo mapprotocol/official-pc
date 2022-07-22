@@ -4,18 +4,18 @@
                 <div class="home-title">Backed by</div>
                 <div class="partner-content">
                   <img src="../assets/partner/ieee.png"/>
-                  <img src="../assets/partner/block.png"/>
-                  <img src="../assets/partner/poly.png"/>
                   <img src="../assets/partner/certik.png"/>
+                  <img src="../assets/partner/poly.png"/>
+                  <img src="../assets/partner/block.png"/>
 
                 </div>
               <div class="partner-content">
               </div>
               <div class="partner-content partner-content-h5">
                 <img src="../assets/partner/ieee.png"/>
-                <img src="../assets/partner/block.png"/>
-                <img src="../assets/partner/poly.png"/>
                 <img src="../assets/partner/certik.png"/>
+                <img src="../assets/partner/poly.png"/>
+                <img src="../assets/partner/block.png"/>
               </div>
               <div class="partner-content partner-content-h5">
               </div>
