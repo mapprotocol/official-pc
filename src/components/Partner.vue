@@ -1,12 +1,12 @@
     <template>
         <div class="partner">
-            <div class="home-container">
+            <div class="home-container partner-container">
                 <div class="home-title">Backed by</div>
                 <div class="partner-content">
                   <img src="../assets/partner/ieee.png"/>
                   <img src="../assets/partner/certik.png"/>
-                  <img src="../assets/partner/poly.png"/>
-                  <img src="../assets/partner/block.png"/>
+<!--                  <img src="../assets/partner/poly.png"/>-->
+<!--                  <img src="../assets/partner/block.png"/>-->
 
                 </div>
               <div class="partner-content">
@@ -14,8 +14,8 @@
               <div class="partner-content partner-content-h5">
                 <img src="../assets/partner/ieee.png"/>
                 <img src="../assets/partner/certik.png"/>
-                <img src="../assets/partner/poly.png"/>
-                <img src="../assets/partner/block.png"/>
+<!--                <img src="../assets/partner/poly.png"/>-->
+<!--                <img src="../assets/partner/block.png"/>-->
               </div>
               <div class="partner-content partner-content-h5">
               </div>
@@ -41,19 +41,18 @@
     }
 
     .partner-container {
-      padding: 100px 0 60px 0;
-      width: 1000px;
       display: flex;
       flex-direction: column;
       align-items: center;
+      justify-content: center;
     }
 
     .partner-content {
-      width: 100%;
+      width: 50%;
       display: flex;
       flex-direction: row;
       align-items: center;
-      justify-content: space-between;
+      justify-content: center;
       padding-top: 50px;
       img {
         width: 276px;
