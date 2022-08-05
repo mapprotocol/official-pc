@@ -1,7 +1,7 @@
       <template>
         <!--      news-->
         <div class="news">
-          <div class="home-title">MAP Protocol in the media</div>
+          <div class="home-title"><h2>MAP Protocol in the media</h2></div>
           <div class="new-content">
             <a :href="dataOne.source_url" target="_blank">
               <div @mousemove="showMore=0" @mouseout="showMore=-1"  class="new-detail-s">

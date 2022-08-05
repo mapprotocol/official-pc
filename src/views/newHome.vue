@@ -20,7 +20,8 @@
                     <div class="cross-title">
 <!--                     <h1><img alt="Omnichain Layer of Web3 with Absolutely Secure Cross-chain Communication Built upon Light-client and zk-SNARK" src="../assets/cross/title.png"/></h1>-->
 <!--                     <h1><img alt="Build omnichain dApps in simple steps. Let cryptocurrency, NFT, and data flow around all chains securely and seamlessly at minimum cost." src="../assets/cross/title-two.png"/></h1>-->
-                        <span>Omnichain Layer of Web3 with Absolutely Secure Cross-chain Communication Built upon Light-client and zk-SNARK</span>
+                        <h1>Omnichain Layer of Web3 with Absolutely Secure Cross-chain Communication Built upon Light-client and zk-SNARK</h1>
+<!--                        <span>Omnichain Layer of Web3 with Absolutely Secure Cross-chain Communication Built upon Light-client and zk-SNARK</span>-->
                         <span>Build omnichain dApps to cover all chains' users in simple steps. Let cryptocurrency, NFT, and data flow around all chains securely and seamlessly at minimum cost.</span>
                     </div>
                     <div class="cross-btn">
@@ -38,7 +39,22 @@
               <div class="map">
                 <div class="home-container">
                   <div class="map-content">
-                    <img src="../assets/map/content.png"/>
+                    <div class="map-left">
+                      <div class="map-left-item">
+                        <img src="../assets/map/single.png"/>
+                        <span>Single-chain dApp</span>
+                      </div>
+                      <div class="map-logo">
+                        <img src="../assets/map/logo.png"/>
+                        <img src="../assets/map/line.png"/>
+                        <span>Simple steps for dApp to transform into an omnichain dApp</span>
+                      </div>
+                      <div class="map-left-item map-left-item-two">
+                        <img src="../assets/map/omni.png"/>
+                        <span>Omni-chain dApp</span>
+                      </div>
+                    </div>
+
                     <div class="map-right">
 <!--                      one-->
                       <div class="map-right-content">
@@ -126,6 +142,9 @@
               <div class="technical">
                 <div class="home-container">
                   <div class="technical-content">
+                      <div class="home-title technical-title">
+                        <h2>Omnichain Network</h2>
+                      </div>
                       <div class="technical-img">
                         <img src="../assets/technnical/content.png"/>
                       </div>
@@ -144,7 +163,7 @@
             <div class="technical">
               <div class="home-container">
                 <div class="home-title">
-                  MAP Protocol Vs. Alternatives
+                 <h2>MAP Protocol Vs. Alternatives</h2>
                 </div>
                 <div class="technical-content">
                   <div class="technical-img compar-img">
@@ -161,78 +180,89 @@
                 <div class="home-title"><h2>Ecosystem</h2></div>
                 <div class="eco-content">
                   <div class="eco-left">
-                    <img src="../assets/eco/content.png"/>
+                    <span>MAP Protocol</span>
+                    <span>Ecosystem</span>
+                    <div class="eco-left-bottom">
+                      <div class="eco-left-line"></div>
+                      <div class="eco-left-round"></div>
+                    </div>
                   </div>
                   <div class="eco-right">
                     <div class="eco-dev">
                       <div class="eco-dev-item">
-                        <div @click="goDevelopers()"  class="eco-dev-item-cur">
-                          <img src="../assets/eco/one.png"/>
-                          <div class="eco-dev-item-title">
-                            <span>Developers</span>
-                            <span>Build an omnichain ecosystem with MAP Protocol.</span>
+                        <a href="https://docs.maplabs.io/learn/construction/developers" target="_blank">
+                          <div class="eco-dev-item-cur">
+                            <img src="../assets/eco/one.png"/>
+                            <div class="eco-dev-item-title">
+                              <span>Developers</span>
+                              <span>Build an omnichain ecosystem with MAP Protocol.</span>
+                            </div>
                           </div>
-                        </div>
+                        </a>
                       </div>
                       <div  class="eco-dev-item">
-                        <div @click="goValidators()" class="eco-dev-item-cur">
+                        <a href="https://docs.maplabs.io/learn/construction/validators" target="_blank">
+                          <div class="eco-dev-item-cur">
                           <img src="../assets/eco/two.png"/>
                           <div class="eco-dev-item-title">
                           <span>Validators</span>
                           <span>Help secure MAP Relay Chain and earn rewards.</span>
                         </div>
                         </div>
+                        </a>
                       </div>
                     </div>
                     <div class="eco-dev">
                       <div  class="eco-dev-item">
-                        <div @click="goMaintainers()" class="eco-dev-item-cur">
+                        <a href="https://docs.maplabs.io/learn/construction/maintainer" target="_blank">
+                          <div class="eco-dev-item-cur">
                           <img src="../assets/eco/three.png"/>
                           <div class="eco-dev-item-title">
                           <span>Maintainers</span>
                           <span>Update Light-Clients on our connected chains and get incentives.</span>
                         </div>
                         </div>
+                        </a>
                       </div>
                       <div  class="eco-dev-item">
-                        <div @click="goMessengers()" class="eco-dev-item-cur">
+                        <a href="https://docs.maplabs.io/learn/construction/messengers" target="_blank">
+                          <div class="eco-dev-item-cur">
                           <img src="../assets/eco/four.png"/>
                           <div class="eco-dev-item-title">
                           <span>Messengers</span>
                           <span>Listen and transmit events, build proof and prepay gas fees with additional rewards.</span>
                         </div>
                         </div>
+                        </a>
                       </div>
                     </div>
                     <div class="eco-dev">
                       <div  class="eco-dev-item">
-                        <div @click="goLiquidityProviders()" class="eco-dev-item-cur">
+                        <a href="https://docs.maplabs.io/learn/construction/liquidityprovider" target="_blank">
+                          <div class="eco-dev-item-cur">
                           <img src="../assets/eco/five.png"/>
                           <div class="eco-dev-item-title">
                           <span>Liquidity Providers</span>
                           <span>Provide liquidity to Vaults deployed on MAP omnichain network with rewards.</span>
                         </div>
                         </div>
+                        </a>
                       </div>
                       <div  class="eco-dev-item">
-                        <div @click="goEndUsers()" class="eco-dev-item-cur">
+                        <a href="https://docs.maplabs.io/learn/construction/enduser" target="_blank">
+                           <div class="eco-dev-item-cur">
                           <img src="../assets/eco/six.png"/>
                           <div class="eco-dev-item-title">
                           <span>End Users</span>
                           <span>Enjoy the safe,  fast and cost-effective cross-chain experience.</span>
                         </div>
                         </div>
+                        </a>
                       </div>
                     </div>
 
                   </div>
                 </div>
-                <!--<div class="eco-text">
-                  <img src="../assets/eco/img-round.png"/>
-                  <span>MAP Protocol’s cross-chain ecosystem is booming. <br>
-                    Join us on the journey to a decentralized Web3 with worldwide builders and users.</span>
-                  <button @click="goScale()">Build</button>
-                </div> -->
               </div>
               <div class="eco-img-right">
                 <img src="../assets/eco/img-right.png"/>
@@ -242,42 +272,42 @@
 
             <div class="on">
                 <div class="home-container">
-                  <div class="home-title">On the way to integrate every chain</div>
+                  <div class="home-title"><h2>On the way to integrate every chain</h2></div>
                   <div class="on-content">
                     <div class="on-item">
-                      <img src="../assets/on/ethereum.png"/>
-                      <img src="../assets/on/binance.png"/>
-                      <img src="../assets/on/polygon.png"/>
-                      <img src="../assets/on/flow.png"/>
-                      <img src="../assets/on/near.png"/>
+                      <img alt="ethereum" title="ethereum" src="../assets/on/ethereum.png"/>
+                      <img alt="binance" title="binance" src="../assets/on/binance.png"/>
+                      <img alt="polygon" title="polygon" src="../assets/on/polygon.png"/>
+                      <img alt="flow" title="flow"  src="../assets/on/flow.png"/>
+                      <img alt="near" title="near"  src="../assets/on/near.png"/>
                     </div>
                     <div class="on-item">
-                      <img src="../assets/on/klaytn.png"/>
-                      <img src="../assets/on/kcc.png"/>
-                      <img src="../assets/on/harmony.png"/>
-                      <img src="../assets/on/lotex.png"/>
-                      <img src="../assets/on/okc.png"/>
+                      <img alt="klaytn" title="klaytn" src="../assets/on/klaytn.png"/>
+                      <img alt="kcc" title="kcc" src="../assets/on/kcc.png"/>
+                      <img alt="harmony" title="harmony" src="../assets/on/harmony.png"/>
+                      <img alt="lotex" title="lotex" src="../assets/on/lotex.png"/>
+                      <img alt="okc" title="okc" src="../assets/on/okc.png"/>
                     </div>
                     <div class="on-item">
-                      <img src="../assets/on/polkadot.png"/>
-                      <img src="../assets/on/cosmos.png"/>
-                      <img src="../assets/on/cube.png"/>
-                      <img src="../assets/on/elrond.png"/>
-                      <img src="../assets/on/algorand.png"/>
+                      <img alt="polkadot" title="polkadot"  src="../assets/on/polkadot.png"/>
+                      <img alt="cosmos" title="cosmos"  src="../assets/on/cosmos.png"/>
+                      <img alt="cube" title="cube"  src="../assets/on/cube.png"/>
+                      <img alt="elrond" title="elrond"  src="../assets/on/elrond.png"/>
+                      <img alt="algorand" title="algorand" src="../assets/on/algorand.png"/>
                     </div>
                     <div class="on-item">
-                      <img src="../assets/on/eosio.png"/>
-                      <img src="../assets/on/tron.png"/>
-                      <img src="../assets/on/waves.png"/>
-                      <img src="../assets/on/wax.png"/>
-                      <img src="../assets/on/avalanche.png"/>
+                      <img alt="eosio" title="eosio" src="../assets/on/eosio.png"/>
+                      <img alt="tron" title="tron" src="../assets/on/tron.png"/>
+                      <img alt="waves" title="waves" src="../assets/on/waves.png"/>
+                      <img alt="wax" title="wax" src="../assets/on/wax.png"/>
+                      <img alt="avalanche" title="avalanche" src="../assets/on/avalanche.png"/>
                     </div>
                     <div class="on-item">
-                      <img src="../assets/on/solrnr.png"/>
-                      <img src="../assets/on/cronos.png"/>
-                      <img src="../assets/on/fantom.png"/>
-                      <img src="../assets/on/celo.png"/>
-                      <img src="../assets/on/optimism.png"/>
+                      <img alt="solrnr" title="solrnr" src="../assets/on/solrnr.png"/>
+                      <img alt="cronos" title="cronos" src="../assets/on/cronos.png"/>
+                      <img alt="fantom" title="fantom" src="../assets/on/fantom.png"/>
+                      <img alt="celo" title="celo" src="../assets/on/celo.png"/>
+                      <img alt="optimism" title="optimism" src="../assets/on/optimism.png"/>
                     </div>
                   </div>
                 </div>
@@ -321,23 +351,29 @@
                 <div class="roadmap-img">
                   <div class="roadmap-img-top">
                     <div class="roadmap-img-top-item">
-                      <div  @click="goTokenInfo()" class="roadmap-img-top-text">
+                      <a href="https://docs.maplabs.io/learn/tokenomics" target="_blank">
+                        <div  class="roadmap-img-top-text">
                         <span>Tokenomics</span>
                         <img src="../assets/roadmap/arrow-right.png"/>
                       </div>
+                      </a>
                     </div>
                     <div class="roadmap-img-top-item roadmap-img-top-item-two">
-                      <div  @click="goDaoGovernance()" class="roadmap-img-top-text">
+                      <a href="https://docs.maplabs.io/learn/dao" target="_blank">
+                      <div  class="roadmap-img-top-text">
                         <span >DAO Governance</span>
                         <img src="../assets/roadmap/arrow-right.png"/>
                       </div>
+                      </a>
                     </div>
                   </div>
                   <div class="roadmap-img-bottom">
-                    <div  @click="goRoadmap()" class="roadmap-img-top-text roadmap-img-top-text-two">
+                    <a href="https://docs.maplabs.io/learn/roadmap" target="_blank" style="width: 100%">
+                       <div class="roadmap-img-top-text roadmap-img-top-text-two">
                       <span>Roadmap</span>
                       <img src="../assets/roadmap/arrow-right.png"/>
                     </div>
+                    </a>
                   </div>
                 </div>
               </div>

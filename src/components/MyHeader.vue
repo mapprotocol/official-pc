@@ -39,35 +39,47 @@
             <!--                     下拉框-->
             <div @mouseover="showHeaderTab=3" @mouseleave="showHeaderTab=-1"  v-show="showHeaderTab==3" class="header-item-drop header-drop-map header-drop-map-h5">
               <div class="header-drop">
-                <div @click="goBridge()" class="header-drop-item header-drop-item-bridge">
-                  <div class="header-relayer-icon header-bridge-icon"></div>
-                  <span>Bridge<span class="header-drop-beta" style="color: white">Beta</span></span>
-                </div>
-                <div @click="goHiveswapHome()" class="header-drop-item header-drop-item-one">
-                  <div class="header-relayer-icon header-hiveswap-icon"></div>
-                  <span>Hiveswap</span>
-                </div>
+                <a href="https://bridge.maplabs.io/" target="_blank">
+                  <div class="header-drop-item header-drop-item-bridge">
+                      <div class="header-relayer-icon header-bridge-icon"></div>
+                      <span>Bridge<span class="header-drop-beta" style="color: white">Beta</span></span>
+                  </div>
+                </a>
+                <a href="https://swap.hiveswap.io" target="_blank">
+                  <div @click="goHiveswapHome()" class="header-drop-item header-drop-item-one">
+                    <div class="header-relayer-icon header-hiveswap-icon"></div>
+                    <span>Hiveswap</span>
+                  </div>
+                </a>
 
               </div>
               <div class="header-drop">
-                <div @click="goIdavoll()" class="header-drop-item header-drop-item-dao">
-                  <div class="header-relayer-icon header-idavoll-icon "></div>
-                  <span>Idavoll DAO</span>
-                </div>
-                <div @click="goBefi()"  class="header-drop-item ">
+                <a href="https://dao.idavoll.network/" target="_blank">
+                  <div class="header-drop-item header-drop-item-dao">
+                    <div class="header-relayer-icon header-idavoll-icon "></div>
+                    <span>Idavoll DAO</span>
+                  </div>
+                </a>
+                <a href="https://befiwalletdao.com/#/" target="_blank">
+                  <div  class="header-drop-item ">
                   <div class="header-relayer-icon header-befi-icon"></div>
                   <span>BeFi Wallet</span>
                 </div>
+                </a>
               </div>
               <div class="header-drop">
-                <div @click="goRelayerEth()" class="header-drop-item header-drop-item-one">
-                  <div class="header-relayer-icon"></div>
-                  <span>Messengers (Ethereum)</span>
-                </div>
-                <div  @click="goRelayerMakalu()" class="header-drop-item">
+                <a href="https://relayer.mapdapp.net/" target="_blank">
+                  <div class="header-drop-item header-drop-item-one">
+                    <div class="header-relayer-icon"></div>
+                    <span>Messengers (Ethereum)</span>
+                  </div>
+                </a>
+                <a href="https://makalu-relayer.mapdapp.net/" target="_blank">
+                  <div class="header-drop-item">
                   <div class="header-relayer-icon"></div>
                   <span>Messengers (Makalu)</span>
                 </div>
+                </a>
               </div>
             </div>
           </div>
@@ -96,6 +108,12 @@
                 <div @click="goBrand()" class="header-drop-item ">
                   <div class="header-relayer-icon header-brand-icon"></div>
                   <span>Brand Assets</span>
+                </div>
+              </div>
+              <div class="header-drop">
+                <div @click="goBlog()" class="header-drop-item header-drop-item-brand">
+                  <div class="header-relayer-icon header-blog-icon"></div>
+                  <span>Blog</span>
                 </div>
               </div>
             </div>
@@ -191,6 +209,10 @@
                 Brand Assets
               </div>
               <div  class="header-line"></div>
+              <div  @click="goBlog()" class="header-tab-title">
+                Blog
+              </div>
+              <div  class="header-line"></div>
             </div>
 
             <div class="header-line"></div>
@@ -224,6 +246,11 @@ export default {
 
   },
   methods: {
+    goBlog() {
+      this.showTab=false
+      window.open('https://www.maplabs.io/blog/','blank')
+      this.actionDefault()
+    },
     actionDeveloper() {
       if ( this.showHeaderTab!=4){
         this.showHeaderTab=4
