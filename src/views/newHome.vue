@@ -159,6 +159,18 @@
               </div>
 
 
+            <div class="technical">
+              <div class="home-container">
+                <div class="home-title">
+                  <h2>How Light-client works on MAP Protocol</h2>
+                </div>
+                <div class="technical-content">
+                  <div class="technical-img compar-img">
+                    <img src="../assets/light/content.png"/>
+                  </div>
+                </div>
+              </div>
+            </div>
 
             <div class="technical">
               <div class="home-container">
