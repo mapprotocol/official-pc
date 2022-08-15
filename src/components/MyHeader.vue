@@ -60,7 +60,7 @@
                     <span>Idavoll DAO</span>
                   </div>
                 </a>
-                <a href="https://befiwalletdao.com/#/" target="_blank">
+                <a href="http://befiwallet.io/" target="_blank">
                   <div  class="header-drop-item ">
                   <div class="header-relayer-icon header-befi-icon"></div>
                   <span>BeFi Wallet</span>
@@ -371,7 +371,7 @@ export default {
     },
     goBefi() {
       this.showTab=false
-      window.open('https://befiwalletdao.com/#/','blank')
+      window.open('http://befiwallet.io/','blank')
       this.actionDefault()
     },
     goDocs() {
