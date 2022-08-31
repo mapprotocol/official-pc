@@ -482,7 +482,7 @@
             window.open('https://files.maplabs.io/pdf/mapprotocol_Litebook_en.pdf','blank')
           },
           goMapscan() {
-            window.open('https://makalu.mapscan.io/','blank')
+            window.open('https://mapscan.io','blank')
           },
           goGithub() {
             window.open('https://github.com/mapprotocol','blank')

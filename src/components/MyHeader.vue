@@ -9,7 +9,7 @@
         <div class="header-tab">
           <div class="header-tab-item">
             <div  class="header-item-top">
-              <a href="https://makalu.mapscan.io/" target="_blank"><span>Explorer</span></a>
+              <a href="https://mapscan.io" target="_blank"><span>Explorer</span></a>
             </div>
           </div>
           <div @mouseover="showHeaderTab=2" @mouseleave="showHeaderTab=-1" class="header-tab-item">
@@ -341,7 +341,7 @@ export default {
     },
     goMapscan() {
       this.showTab=false
-      window.open('https://makalu.mapscan.io/','blank')
+      window.open('https://mapscan.io','blank')
       this.actionDefault()
     },
     goForum() {
