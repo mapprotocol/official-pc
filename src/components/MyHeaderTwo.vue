@@ -12,6 +12,16 @@
                     <a href="https://mapscan.io" target="_blank"><span>Explorer</span></a>
                   </div>
                 </div>
+
+                <div @mouseover="showHeaderTab=5" @mouseleave="showHeaderTab=-1" class="header-tab-item">
+                  <div  class="header-item-top">
+                    <a href="https://staking.maplabs.io" target="_blank">
+                      <span>Staking</span>
+                      <img class="header-hot" src="../assets/header/hot.png"/>
+                    </a>
+                  </div>
+                </div>
+
                 <div @mouseover="showHeaderTab=2" @mouseleave="showHeaderTab=-1" class="header-tab-item">
                   <div  class="header-item-top">
                     <span>Governance</span>
@@ -142,6 +152,12 @@
                   </div>
 
                   <div class="header-line"></div>
+                  <div  @click="goStaking()" class="header-tab-title">
+                    Staking
+                    <img class="header-hot" src="../assets/header/hot.png"/>
+                  </div>
+
+                  <div class="header-line"></div>
                   <div  @click="actionGovernance()" class="header-tab-title">
                     Governance <img src="../assets/header/arrow-bottom-two.png"/>
                   </div>
@@ -246,6 +262,11 @@
 
         },
         methods: {
+          goStaking() {
+            this.showTab=false
+            window.open('https://staking.maplabs.io','blank')
+            this.actionDefault()
+          },
           goBlog() {
             this.showTab=false
             window.open('https://www.maplabs.io/blog/','blank')
