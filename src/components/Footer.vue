@@ -374,7 +374,7 @@
                   <a href="https://mobile.twitter.com/MapProtocol" target="_blank"><img src="../assets/footer/two.png"/>Twitter</a>
                   <a href="https://t.me/MAPprotocol" target="_blank"><img src="../assets/footer/three.png"/>Telegram</a>
                   <a href="https://open.kakao.com/o/gP9WduRb" target="_blank"><img src="../assets/footer/four.png"/>KakaoTalk</a>
-                  <a href="https://discord.gg/zjjTk5Cp" target="_blank"><img src="../assets/footer/discord.png"/>Discord</a>
+                  <a href="https://discord.gg/MtYjv9jh4u" target="_blank"><img src="../assets/footer/discord.png"/>Discord</a>
                   <a href="https://www.maplabs.io/blog/"  target="_blank"><img src="../assets/footer/five.png"/>Blog</a>
                 </div>
               </div>
