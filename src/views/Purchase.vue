@@ -17,7 +17,7 @@
                   </div>
                     <div class="purchase-content-item">
                       <img src="../assets/purchase/map.png"/>
-                      <span>Makalu</span>
+                      <span>MAP Relay Chain</span>
                       <span>Get MAP via <span>Hiveswap</span></span>
                       <button @click="goMap()">Purchase</button>
                     </div>
