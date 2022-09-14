@@ -62,7 +62,7 @@
 
               </div>
               <div class="header-drop">
-                <a href="https://dao.idavoll.network/" target="_blank">
+                <a href="https://alpen.idavoll.network/" target="_blank">
                   <div class="header-drop-item header-drop-item-dao">
                     <div class="header-relayer-icon header-idavoll-icon "></div>
                     <span>Idavoll DAO</span>
@@ -76,16 +76,10 @@
                 </a>
               </div>
               <div class="header-drop">
-                <a href="https://relayer.mapdapp.net/" target="_blank">
-                  <div class="header-drop-item header-drop-item-one">
-                    <div class="header-relayer-icon"></div>
-                    <span>Messengers (Ethereum)</span>
-                  </div>
-                </a>
                 <a href="https://makalu-relayer.mapdapp.net/" target="_blank">
                   <div class="header-drop-item">
                   <div class="header-relayer-icon"></div>
-                  <span>Messengers (Makalu)</span>
+                  <span>Messengers</span>
                 </div>
                 </a>
               </div>
@@ -192,12 +186,9 @@
                 BeFi Wallet
               </div>
               <div  class="header-line"></div>
-              <div  @click="goRelayerEth()" class="header-tab-title">
-                Messengers (Ethereum)
-              </div>
               <div  class="header-line"></div>
               <div  @click="goRelayerMakalu()" class="header-tab-title">
-                Messengers (Makalu)
+                Messengers
               </div>
             </div>
 
@@ -385,7 +376,7 @@ export default {
     },
     goIdavoll() {
       this.showTab=false
-      window.open('https://dao.idavoll.network/','blank')
+      window.open('https://alpen.idavoll.network/','blank')
       this.actionDefault()
     },
     goBefi() {

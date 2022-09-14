@@ -20,7 +20,7 @@
                     <div class="cross-title">
 <!--                     <h1><img alt="Omnichain Layer of Web3 with Absolutely Secure Cross-chain Communication Built upon Light-client and zk-SNARK" src="../assets/cross/title.png"/></h1>-->
 <!--                     <h1><img alt="Build omnichain dApps in simple steps. Let cryptocurrency, NFT, and data flow around all chains securely and seamlessly at minimum cost." src="../assets/cross/title-two.png"/></h1>-->
-                        <h1>Omnichain Layer for Web3 with Fully Secure Cross-chain Communication Built upon Light-client & zk-SNARK</h1>
+                        <h1>Omnichain Layer for Web3 with Provably Secure Cross-chain Communication Built upon Light-client & zk-SNARK</h1>
 <!--                        <span>Omnichain Layer of Web3 with Absolutely Secure Cross-chain Communication Built upon Light-client and zk-SNARK</span>-->
                         <span>Build omnichain dApps to cover all chains' users in simple steps. Let cryptocurrency, NFT, and data flow around all chains securely and seamlessly at minimum cost.</span>
                     </div>
