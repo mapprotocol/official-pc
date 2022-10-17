@@ -4,7 +4,7 @@ const Trusted = () => {
   return (
     <div className='pt-8 pb-12 text-center'>
       <div className='my-12 text-3xl font-bold '>Backed by</div>
-      <div className='flex flex-row justify-center '>
+      <div className='flex flex-row justify-evenly '>
         <Image
           className=''
           src='/map/Partnerships/ieee.png'
