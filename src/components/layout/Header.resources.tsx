@@ -48,7 +48,7 @@ const Others = [
 
 export default function Example() {
   return (
-    <Menu as='li' className='relative inline-block text-left'>
+    <Menu as='li' className='relative inline-block text-left text-white'>
       <div>
         <Menu.Button className='inline-flex w-full justify-center rounded-md bg-black bg-opacity-20 px-4 py-2 text-sm font-medium text-white hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75'>
           Resources
@@ -94,7 +94,7 @@ export default function Example() {
               );
             })}
           </div>
-          <div className='px-1 py-1 '>
+          <div className='px-1 py-1'>
             {Others.map((item, key) => {
               return (
                 <Menu.Item key={key}>
