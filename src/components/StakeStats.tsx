@@ -13,10 +13,10 @@ function convertToInternationalCurrencySystem(labelValue: number) {
     : Math.abs(Number(labelValue));
 }
 
-const Value = ({ data }: { data: StatData }) => {
+const Value = ({ data, styles = '' }: { data: StatData; styles?: string }) => {
   if (data.value || data.valueString)
     return (
-      <div className='stat'>
+      <div className={`stat ${styles}`}>
         <div className='stat-title'>{data.title}</div>
         <div className='stat-value'>
           {data.value ? convertToInternationalCurrencySystem(data.value) : ''}
@@ -26,7 +26,7 @@ const Value = ({ data }: { data: StatData }) => {
     );
   else
     return (
-      <div className='stat w-40 animate-pulse'>
+      <div className={`stat w-40 animate-pulse ${styles}`}>
         <div className='flex-1 space-y-6 py-1'>
           <div className='h-2 rounded bg-slate-700'></div>
           <div className='space-y-3'>
@@ -42,7 +42,7 @@ const Value = ({ data }: { data: StatData }) => {
 };
 const StakeStats = ({ data }: { data: StakeData | null }) => {
   return (
-    <div className='layout mt-12 text-center font-primary'>
+    <div className='pt-8 text-center font-primary'>
       <div className='stats shadow'>
         <Value data={{ title: 'Total supply', value: data?.supply }} />
         <Value
@@ -51,6 +51,22 @@ const StakeStats = ({ data }: { data: StakeData | null }) => {
             value: data?.staking,
           }}
         />
+        <Value
+          styles='hidden lg:inline'
+          data={{
+            title: 'Validators',
+            value: data?.validators,
+          }}
+        />
+        <Value
+          styles='hidden lg:inline'
+          data={{
+            title: 'Average APY',
+            valueString: data?.apy,
+          }}
+        />
+      </div>
+      <div className='stats visible mt-4 shadow lg:hidden'>
         <Value
           data={{
             title: 'Validators',

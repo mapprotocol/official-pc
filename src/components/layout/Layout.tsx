@@ -16,9 +16,9 @@ export default function MainLayout({
     <ThemeProvider>
       <Layout>
         <Header />
-        <Content>
+        <Content className='pt-[64px]'>
           <div
-            className='bg bg-cover bg-fixed'
+            className='bg bg-cover bg-fixed '
             style={{ backgroundImage: 'url(/map/hero.jpg)' }}
           >
             <div className='layout'>{children}</div>

@@ -24,11 +24,15 @@ export default function HomePage() {
       });
       Promise.all(requests).then((responses) => {
         const stakeItems = responses[1].data.data;
+
         const apys = stakeItems
           .filter((item: any) => item.apy > 0)
           .map((item: any) => item.apy);
+        console.log(apys);
+
         const average = (array: number[]) =>
           array.reduce((a: number, b: number) => a + b) / array.length;
+
         setStats({
           staking: responses[0].data.data.staking / 1000000000000000000,
           supply: responses[0].data.data.supply / 1000000000000000000,
@@ -44,7 +48,7 @@ export default function HomePage() {
       <Seo />
       <Stats data={stats} />
       <Divider />
-      <div className='mx-auto w-96 rounded bg-black font-primary'>
+      <div className='mx-auto rounded bg-black font-primary lg:w-[600px]'>
         <h2 className=''>$MAP distribution</h2>
         <div className=''>
           The following pie chart shows how $MAP protocol is distributed. 30% of

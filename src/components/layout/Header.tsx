@@ -15,6 +15,7 @@ const links = [
     href: '/purchase',
     label: 'Get $MAP',
   },
+  { href: 'https://mapscan.io/', label: 'Explorer' },
 ];
 
 export default function MainHeader() {
@@ -23,8 +24,8 @@ export default function MainHeader() {
       className='bg-bg'
       style={{ position: 'fixed', zIndex: 1, width: '100%' }}
     >
-      <div className='layout navbar'>
-        <div className='navbar-start '>
+      <div className='layout navbar flex justify-between'>
+        <div className=''>
           <Link href='/' className='hover:text-gray-600'>
             <div className='mt-2'>
               <Image
@@ -36,7 +37,7 @@ export default function MainHeader() {
             </div>
           </Link>
         </div>
-        <div className='navbar-end hidden lg:inline'>
+        <div className='hidden lg:inline'>
           <ul className='flex items-center justify-between space-x-8 '>
             {links.map(({ href, label }) => (
               <li key={`${href}${label}`}>

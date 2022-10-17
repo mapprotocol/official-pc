@@ -18,7 +18,7 @@ function FullOption(props: any) {
   const lineWidth = 60;
 
   return (
-    <div className='flex h-[56rem] flex-col pt-12 pb-4 lg:h-[48rem] lg:flex-row'>
+    <div className='flex h-[56rem] flex-col pt-12 pb-4 lg:h-[52rem] lg:flex-row'>
       <PieChart
         style={{
           fontSize: '3px',
@@ -54,7 +54,7 @@ function FullOption(props: any) {
               setSelected(index === selected ? undefined : index)
             }
             className={`my-4 cursor-default ${
-              selected == index ? 'scale-105 text-white' : 'text-gray-500'
+              selected == index ? 'text-white' : 'text-gray-500'
             }`}
             key={index}
           >
