@@ -18,7 +18,7 @@ function FullOption(props: any) {
   const lineWidth = 60;
 
   return (
-    <div className='flex h-[56rem] flex-col pt-12 pb-4 lg:h-[52rem] lg:flex-row'>
+    <div className='flex flex-col pt-12 pb-4 lg:flex-row'>
       <PieChart
         style={{
           fontSize: '3px',
