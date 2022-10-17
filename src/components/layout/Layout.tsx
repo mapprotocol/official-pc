@@ -4,20 +4,29 @@ import Footer from '@/components/layout/Footer';
 import Header from '@/components/layout/Header';
 import { ThemeProvider } from '@/components/layout/ThemeContext.jsx';
 
-export default function Layout({ children }: { children: React.ReactNode }) {
+import { Layout } from 'antd';
+const { Content } = Layout;
+
+export default function MainLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   // Put Header or Footer Here
   return (
     <ThemeProvider>
-      <div className='black overflow-hidden bg-bg'>
+      <Layout>
         <Header />
-        <div
-          className='bg h-screen w-screen overflow-auto bg-cover'
-          style={{ backgroundImage: 'url(/map/hero.jpg)' }}
-        >
-          <div className='layout'>{children}</div>
-          <Footer />
-        </div>
-      </div>
+        <Content>
+          <div
+            className='bg bg-cover bg-fixed'
+            style={{ backgroundImage: 'url(/map/hero.jpg)' }}
+          >
+            <div className='layout'>{children}</div>
+            <Footer />
+          </div>
+        </Content>
+      </Layout>
     </ThemeProvider>
   );
 }
