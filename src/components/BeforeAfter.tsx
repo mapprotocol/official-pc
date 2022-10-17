@@ -117,7 +117,7 @@ const BeforeAfter = () => {
         if (visible && !isVisible) setIsVisible(true);
       }}
     >
-      <div className='my-4 min-h-[500px] bg-black lg:min-h-[700px]'>
+      <div className='my-4 min-h-[500px] lg:min-h-[700px]'>
         <div className='text-1xl mb-8 p-8  text-center font-bold text-white lg:text-3xl'>
           Before and After using MAP
         </div>

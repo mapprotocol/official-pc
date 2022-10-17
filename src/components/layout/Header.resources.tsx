@@ -94,7 +94,7 @@ export default function Example() {
               );
             })}
           </div>
-          <div className='px-1 py-1'>
+          <div className='px-1 py-1 text-white'>
             {Others.map((item, key) => {
               return (
                 <Menu.Item key={key}>
