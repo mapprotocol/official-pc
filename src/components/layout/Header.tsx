@@ -7,6 +7,7 @@ const { Header } = Layout;
 
 import HeaderMobile from './Header.mobile';
 import Resources from './Header.resources';
+import Flags from './Header.Flags';
 
 const links = [
   { href: '/stake', label: 'Stake 🔥' },
@@ -50,9 +51,11 @@ export default function MainHeader() {
               </li>
             ))}
             <Resources />
+            <Flags />
           </ul>
         </div>
         <div className='navbar-end lg:hidden'>
+          <Flags />
           <HeaderMobile />
         </div>
       </div>

@@ -29,6 +29,7 @@
     "next": "^12.3.0",
     "react": "^18.2.0",
     "react-before-after-slider-component": "^1.1.5",
+    "react-country-flag": "^3.0.2",
     "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",
     "react-minimal-pie-chart": "^8.3.0",
