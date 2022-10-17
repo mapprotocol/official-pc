@@ -49,12 +49,12 @@ export default function HomePage() {
       <Stats data={stats} />
       <Divider />
       <div className='mx-auto rounded bg-black font-primary lg:w-[600px]'>
-        <h2 className=''>$MAP distribution</h2>
-        <div className=''>
+        <h1 className=''>$MAP distribution</h1>
+        <h4 className='font-normal'>
           The following pie chart shows how $MAP protocol is distributed. 30% of
-          the $MAP pool is aloccated to validators. Validators earn rewards by
+          the $MAP pool is allocated to validators. Validators earn rewards by
           staking $MAP
-        </div>
+        </h4>
       </div>
       <Chart data={stakeData} />
     </Layout>
