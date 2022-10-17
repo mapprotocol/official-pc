@@ -1,8 +1,8 @@
+import { Typography } from 'antd';
+
 import Link from '@/components/links/Link';
 
 import Stake from '~/map/stake.svg';
-
-import { Typography } from 'antd';
 const { Title } = Typography;
 
 const HeroTitle = () => {
@@ -14,7 +14,9 @@ const HeroTitle = () => {
             Convert single chain dApps into Ominichain dApps
           </div>
           <div className='my-4 text-xl font-bold leading-loose text-gray-300 lg:text-3xl'>
-            Built upon light-client and zk-SNARK
+            Built upon{' '}
+            <div className='inline text-blue-300'> light-client </div> and
+            <div className='inline text-blue-300'> zk-Technology </div>
           </div>
 
           <div className='flex'>

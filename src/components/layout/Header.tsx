@@ -1,9 +1,8 @@
+import { Layout } from 'antd';
 import Image from 'next/image';
 import * as React from 'react';
 
 import Link from '@/components/links/Link';
-
-import { Layout } from 'antd';
 const { Header } = Layout;
 
 import HeaderMobile from './Header.mobile';
