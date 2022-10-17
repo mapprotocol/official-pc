@@ -2,6 +2,30 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.1.4 (2022-10-17)
+
+
+### Features
+
+* add additional links to dropdown and navbar ([4a02f42](https://github.com/mapprotocol/official-pc/commit/4a02f422e40cb71f4347f3173aa1d8a3990dcd60))
+* add country drop down ([3f112b4](https://github.com/mapprotocol/official-pc/commit/3f112b46e49882ead11bab082dc847b9893c7ce0))
+* before-after animation changed, made faster, and disabled userclick ([3af0ed4](https://github.com/mapprotocol/official-pc/commit/3af0ed49aaeb364f76039db545c90713923892ac))
+* initial import ([14c7445](https://github.com/mapprotocol/official-pc/commit/14c7445ee189a193140d4074d4506243759aa32b))
+* update hero-title text and color on some workds ([d895c7d](https://github.com/mapprotocol/official-pc/commit/d895c7dc4040bd79932af2a4a7bf6cd28712be80))
+* upgrade header, content and footer to antd ([6520e2d](https://github.com/mapprotocol/official-pc/commit/6520e2d74558031eb98b55a2175f86c1219e636a))
+
+
+### Bug Fixes
+
+* add space between trusted exchanges ([9c04111](https://github.com/mapprotocol/official-pc/commit/9c04111b2aa452c7c8acb332df96bec05a19210d))
+* add text under IEEE ([c0f215c](https://github.com/mapprotocol/official-pc/commit/c0f215c685c5c2807fa322bf3919ce13722c235c))
+* hero title: change font. add blue. fix padding with top ([053826d](https://github.com/mapprotocol/official-pc/commit/053826d7c9ae76124a2f73b372ae14de87c1bafa))
+* remove black bg from beforeafter ([e32c75d](https://github.com/mapprotocol/official-pc/commit/e32c75d668ccabaa4e5605109c2fb36fa838801f))
+* stake page font and typo fix ([ca8bf8f](https://github.com/mapprotocol/official-pc/commit/ca8bf8f444b31d273dfda3b18dd20d29e8a8359f))
+* stake page: fix navbar. Make stats responsive. Fix chart text overflow on mobile ([f225f81](https://github.com/mapprotocol/official-pc/commit/f225f819c8f0f57dc59ed051c024caf214562d09))
+* stake text rectangle height ([8db3a3d](https://github.com/mapprotocol/official-pc/commit/8db3a3da617d9be016c56d757a5f75da1502118d))
+* try to fix resources bug not showing ([9299e15](https://github.com/mapprotocol/official-pc/commit/9299e1522b6934e11115080bd5bfcfb194f7b35b))
+
 ### [0.1.3](https://github.com/piotryordanov/mapwebsite/compare/v0.1.2...v0.1.3) (2022-09-28)
 
 
