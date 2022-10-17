@@ -13,15 +13,14 @@ function timePhaseToCoordinadeDifferenceCoefficient(x: number) {
   return (Math.sin(x * Math.PI - Math.PI / 2) + 1) / 2;
 }
 
-const DEFAULT_DURATION = 800;
+const DEFAULT_DURATION = 1000;
 type Animation = {
   start: number;
   end: number;
   duration: number;
 };
-const START_POSITION = 55;
-const END_POSITION_1 = 35;
-const END_POSITION_2 = 80;
+const START_POSITION = 80;
+const END_POSITION_1 = 25;
 const ANIMATIONS: Animation[] = [
   {
     start: START_POSITION,
@@ -31,16 +30,11 @@ const ANIMATIONS: Animation[] = [
   // pause
   {
     start: END_POSITION_1,
-    end: END_POSITION_1,
-    duration: 30,
-  },
-  {
-    start: END_POSITION_1,
-    end: END_POSITION_2,
+    end: START_POSITION,
     duration: DEFAULT_DURATION,
   },
   {
-    start: END_POSITION_2,
+    start: START_POSITION,
     end: START_POSITION,
     duration: DEFAULT_DURATION,
   },
@@ -59,10 +53,12 @@ const BeforeAfter = () => {
     let animationPositions = animationPositionsRef.current;
 
     if (!animationPositions) {
-      const currentAnimation = allAnimationsRef.current.shift();
+      let currentAnimation = allAnimationsRef.current.shift();
       if (!currentAnimation) {
-        return;
+        allAnimationsRef.current = [...ANIMATIONS];
+        currentAnimation = allAnimationsRef.current.shift();
       }
+      // @ts-ignore
       animationPositions = animationPositionsRef.current = currentAnimation;
     }
 
@@ -72,8 +68,11 @@ const BeforeAfter = () => {
     }
 
     const {
+      // @ts-ignore
       start: animationStartPosition,
+      // @ts-ignore
       end: animationEndPosition,
+      // @ts-ignore
       duration: animationDuration,
     } = animationPositions;
 
@@ -105,12 +104,10 @@ const BeforeAfter = () => {
 
   useEffect(() => {
     if (!isVisible) {
-      console.log('demonstrating');
       demonstrate();
-      setInterval(demonstrate, 5000);
       setIsVisible(true);
     }
-  }, [isVisible]);
+  }, []);
 
   return (
     <div className='my-4 min-h-[500px] lg:min-h-[700px]'>
@@ -121,6 +118,7 @@ const BeforeAfter = () => {
         currentPercentPosition={delimiterPercentPosition}
         firstImage={FIRST_IMAGE}
         secondImage={SECOND_IMAGE}
+        feelsOnlyTheDelimiter={true}
       />
     </div>
   );
