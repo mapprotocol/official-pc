@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
 import ReactBeforeSliderComponent from 'react-before-after-slider-component';
-import VisibilitySensor from 'react-visibility-sensor';
 
 import 'react-before-after-slider-component/dist/build.css';
 
@@ -105,30 +104,25 @@ const BeforeAfter = () => {
   const [isVisible, setIsVisible] = useState<boolean>(false);
 
   useEffect(() => {
-    if (isVisible) {
+    if (!isVisible) {
+      console.log('demonstrating');
       demonstrate();
       setInterval(demonstrate, 5000);
+      setIsVisible(true);
     }
   }, [isVisible]);
 
   return (
-    <VisibilitySensor
-      onChange={(visible: boolean) => {
-        if (visible && !isVisible) setIsVisible(true);
-      }}
-    >
-      <div className='my-4 min-h-[500px] lg:min-h-[700px]'>
-        <div className='text-1xl mb-8 p-8  text-center font-bold text-white lg:text-3xl'>
-          Before and After using MAP
-        </div>
-        <ReactBeforeSliderComponent
-          currentPercentPosition={delimiterPercentPosition}
-          firstImage={FIRST_IMAGE}
-          secondImage={SECOND_IMAGE}
-          onVisible={demonstrate}
-        />
+    <div className='my-4 min-h-[500px] lg:min-h-[700px]'>
+      <div className='text-1xl mb-8 p-8  text-center font-bold text-white lg:text-3xl'>
+        Before and After using MAP
       </div>
-    </VisibilitySensor>
+      <ReactBeforeSliderComponent
+        currentPercentPosition={delimiterPercentPosition}
+        firstImage={FIRST_IMAGE}
+        secondImage={SECOND_IMAGE}
+      />
+    </div>
   );
 };
 

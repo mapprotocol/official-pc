@@ -10,6 +10,7 @@ const links = [
     href: 'https://coinmarketcap.com/currencies/map-protocol/markets/',
     name: 'Get $MAP',
   },
+  { href: 'https://mapscan.io/', name: 'Explorer' },
 ];
 const MainLinks = [
   {
@@ -19,6 +20,10 @@ const MainLinks = [
   {
     href: 'https://files.maplabs.io/pdf/mapprotocol_Litebook_en.pdf',
     name: 'Litebook',
+  },
+  {
+    href: 'https://forum.maplabs.io/',
+    name: 'Forum',
   },
 ];
 

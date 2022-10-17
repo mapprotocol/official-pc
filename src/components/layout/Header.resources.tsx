@@ -13,6 +13,10 @@ const MainLinks = [
     href: 'https://files.maplabs.io/pdf/mapprotocol_Litebook_en.pdf',
     name: 'Litebook',
   },
+  {
+    href: 'https://forum.maplabs.io/',
+    name: 'Forum',
+  },
 ];
 
 const SocialLinks = [
