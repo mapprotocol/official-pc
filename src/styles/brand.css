@@ -1,0 +1,98 @@
+.brand {
+  font-family: Helvetica;
+}
+.logo {
+  padding: 120px 0;
+}
+.logo-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo-title span:nth-child(1) {
+  font-family: 'BigerOver';
+  font-size: 36px;
+}
+.logo-title span:nth-child(2) {
+  padding-top: 17px;
+  opacity: 0.6;
+  font-size: 14px;
+  line-height: 1.86;
+  text-align: center;
+  width: 75%;
+}
+.logo-title a {
+  width: 260px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #1f2226;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.logo-title-two {
+  padding-top: 100px;
+}
+.logo-content {
+  padding-top: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.logo-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 10px;
+}
+.logo-item img {
+  width: 278px;
+}
+.logo-item-down {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.logo-item-down a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.logo-item-down span {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  color: #898b90;
+  padding-right: 20px;
+}
+.logo-item-down img {
+  cursor: pointer;
+  width: 35px;
+  margin-right: 5px;
+}
+@media (max-width: 960px) {
+  .logo-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .logo {
+    padding: 50px 0;
+  }
+  .logo-item {
+    margin-top: 50px;
+  }
+  .logo-title span:nth-child(1) {
+    font-size: 24px;
+    text-align: center;
+  }
+  .logo-item:nth-child(1) {
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,67 @@
+/* Inspiration: https://levelup.gitconnected.com/how-to-create-a-before-after-image-slider-with-css-and-js-a609d9ba77bf */
+.before-after-slider {
+  width: 300px !important;
+  margin: auto;
+}
+.before-after-slider img {
+  height: 300px !important;
+  width: 300px !important;
+}
+/* Au niveau le plus haut du code */
+@media screen and (min-width: 900px) {
+  .before-after-slider {
+    width: 500px !important;
+    margin: auto;
+  }
+  .before-after-slider img {
+    height: 500px !important;
+    width: 500px !important;
+  }
+}
+
+.before-after-slider__first-photo-container {
+  filter: opacity(0.3);
+}
+.before-after-slider__delimiter {
+  border: 2px solid white;
+  background-color: white;
+  width: 10px !important;
+  border-radius: 25px;
+}
+.before-after-slider__delimiter:hover {
+  cursor: grab;
+}
+
+.before-after-slider__delimiter-icon:hover {
+  cursor: grab;
+}
+.before-after-slider__delimiter-icon {
+  pointer-events: none;
+  position: absolute;
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 50%;
+  background-color: white;
+  left: calc(50% - 20px);
+  top: calc(50% - 18px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.before-after-slider__delimiter-icon::before {
+  content: '';
+  padding: 4px;
+  display: inline-block;
+  border: solid #5d5d5d;
+  border-width: 0 2px 2px 0;
+  transform: rotate(135deg);
+}
+.before-after-slider__delimiter-icon::after {
+  content: '';
+  padding: 4px;
+  display: inline-block;
+  border: solid #5d5d5d;
+  border-width: 0 2px 2px 0;
+  transform: rotate(-45deg);
+}
