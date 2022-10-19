@@ -5,9 +5,9 @@ import * as React from 'react';
 import Link from '@/components/links/Link';
 const { Header } = Layout;
 
+import Flags from './Header.Flags';
 import HeaderMobile from './Header.mobile';
 import Resources from './Header.resources';
-import Flags from './Header.Flags';
 
 const links = [
   { href: '/stake', label: 'Stake 🔥' },

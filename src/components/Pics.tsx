@@ -4,7 +4,7 @@ const Pics = () => {
       <div className=''>
         <img src='/images/omnichain-network.jpg' alt='' />
       </div>
-      <div className='mt-50'>
+      <div className='mt-40'>
         <img src='/images/howitworks.jpg' alt='' />
       </div>
     </div>

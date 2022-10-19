@@ -1,8 +1,7 @@
-import ReactCountryFlag from 'react-country-flag';
-import { useState } from 'react';
 import { Menu, Transition } from '@headlessui/react';
-import { ChevronDownIcon } from '@heroicons/react/20/solid';
+import { useState } from 'react';
 import { Fragment } from 'react';
+import ReactCountryFlag from 'react-country-flag';
 
 const Flags = () => {
   const [countryCode, setCountryCode] = useState<string>('GB');

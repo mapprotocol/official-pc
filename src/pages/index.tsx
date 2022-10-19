@@ -10,8 +10,8 @@ import Divider from '@/components/Divider';
 import Features from '@/components/Features';
 import HeroTitle from '@/components/HeroTitle';
 import Layout from '@/components/layout/Layout';
-import Seo from '@/components/Seo';
 import Pics from '@/components/Pics';
+import Seo from '@/components/Seo';
 import Trusted from '@/components/Trusted';
 
 export default function HomePage() {

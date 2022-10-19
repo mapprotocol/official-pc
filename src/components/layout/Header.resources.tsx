@@ -37,16 +37,16 @@ const SocialLinks = [
 const Others = [
   {
     href: 'https://etherscan.io/token/0x9e976f211daea0d652912ab99b0dc21a7fd728e4',
-    name: 'Official ERC-20 Address',
+    name: 'ERC-20',
   },
 
   {
     href: 'https://bscscan.com/address/0x8105ECe4ce08B6B6449539A5db23e23b973DfA8f',
-    name: 'Official BSC Address',
+    name: 'BSC',
   },
   {
     href: 'https://polygonscan.com/address/0xBAbceE78586d3e9E80E0d69601A17f983663Ba6a',
-    name: 'Official Polygon Address',
+    name: 'Polygon',
   },
 ];
 
@@ -99,17 +99,24 @@ export default function Example() {
             })}
           </div>
           <div className='px-1 py-1 text-white'>
-            {Others.map((item, key) => {
-              return (
-                <Menu.Item key={key}>
-                  <div className='px-2 py-2'>
-                    <UnderlineLink className='w-full' href={`${item.href}`}>
-                      {item.name}
-                    </UnderlineLink>
-                  </div>
-                </Menu.Item>
-              );
-            })}
+            <Menu.Item>
+              <div className='px-2 py-2'>
+                <div className='mb-2 text-gray-400'>Official Addresses</div>
+                <div className='flex flex-row'>
+                  {Others.map((item, key) => {
+                    return (
+                      <UnderlineLink
+                        className='mx-2 '
+                        key={key}
+                        href={`${item.href}`}
+                      >
+                        {item.name}
+                      </UnderlineLink>
+                    );
+                  })}
+                </div>
+              </div>
+            </Menu.Item>
           </div>
         </Menu.Items>
       </Transition>
