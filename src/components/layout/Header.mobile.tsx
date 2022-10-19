@@ -22,7 +22,7 @@ const MainLinks = [
     name: 'Litebook',
   },
   {
-    href: 'https://forum.maplabs.io/',
+    href: 'https://forum.maplabs.io/latest',
     name: 'Forum',
   },
 ];

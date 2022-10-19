@@ -11,6 +11,7 @@ import Features from '@/components/Features';
 import HeroTitle from '@/components/HeroTitle';
 import Layout from '@/components/layout/Layout';
 import Seo from '@/components/Seo';
+import Pics from '@/components/Pics';
 import Trusted from '@/components/Trusted';
 
 export default function HomePage() {
@@ -24,6 +25,9 @@ export default function HomePage() {
 
         <Divider />
         <Features />
+
+        <Divider />
+        <Pics />
 
         <Divider />
         <Trusted />
