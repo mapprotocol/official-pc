@@ -11,7 +11,9 @@ const HeroTitle = () => {
       <div className='mx-auto flex h-screen content-center items-center justify-center text-center font-primary'>
         <div className=''>
           <div className='text-4xl font-bold text-blue-100 lg:text-5xl lg:leading-relaxed'>
-            Convert single chain dApps into Ominichain dApps
+            Convert single chain dApps
+            <br />
+            into Ominichain dApps
           </div>
           <div className='my-4 text-xl font-bold leading-loose text-gray-300 lg:text-2xl'>
             Built upon{' '}
@@ -21,7 +23,7 @@ const HeroTitle = () => {
 
           <div className='flex'>
             <Link href='/stake' className='mx-auto '>
-              <Stake className='hover:pointer text-[14rem] transition-all duration-100 hover:scale-125 lg:text-[24rem]' />
+              <Stake className='hover:pointer text-[10rem] transition-all duration-100 hover:scale-125 lg:text-[15rem]' />
             </Link>
           </div>
         </div>
