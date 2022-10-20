@@ -2,10 +2,10 @@ const Pics = () => {
   return (
     <div className=''>
       <div className=''>
-        <img src='/images/omnichain-network.jpg' alt='' />
+        <img src='/images/1.png' alt='' />
       </div>
       <div className='mt-40'>
-        <img src='/images/howitworks.jpg' alt='' />
+        <img src='/images/2.png' alt='' />
       </div>
     </div>
   );
