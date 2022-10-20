@@ -45,7 +45,7 @@ const SocialLinks = [
 const Others = [
   {
     href: 'https://etherscan.io/token/0x9e976f211daea0d652912ab99b0dc21a7fd728e4',
-    name: 'ERC-20',
+    name: 'ERC20',
   },
   {
     href: 'https://bscscan.com/address/0x8105ECe4ce08B6B6449539A5db23e23b973DfA8f',

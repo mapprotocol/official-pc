@@ -37,7 +37,7 @@ const SocialLinks = [
 const Others = [
   {
     href: 'https://etherscan.io/token/0x9e976f211daea0d652912ab99b0dc21a7fd728e4',
-    name: 'ERC-20',
+    name: 'ERC20',
   },
 
   {
