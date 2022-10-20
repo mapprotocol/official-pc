@@ -11,7 +11,7 @@ import Resources from './Header.resources';
 
 const links = [
   { href: '/stake', label: 'Stake 🔥' },
-  { href: 'https://docs.maplabs.io/develop', label: 'Build' },
+  { href: 'https://forum.maplabs.io/latest', label: 'Forum' },
   {
     href: '/purchase',
     label: 'Get $MAP',

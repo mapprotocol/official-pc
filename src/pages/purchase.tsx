@@ -96,7 +96,7 @@ const Purchase = () => {
     <Layout>
       {/* <Seo templateTitle='Home' /> */}
       <Seo />
-      <div className='flex flex-row gap-x-1 bg-black py-12 font-primary lg:flex-col'>
+      <div className='flex flex-row gap-x-1 py-12 font-primary lg:flex-col'>
         <div className='mx-auto w-[300px] lg:w-[600px]'>
           <h2 className=''>How to purchase $MAP</h2>
           <div className=''>

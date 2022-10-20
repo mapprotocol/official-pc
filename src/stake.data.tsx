@@ -35,15 +35,15 @@ const data = [
     info: (
       <ul className='list-disc'>
         <li>
-          To reward validators on MAP Relay ChainandMaintainer for updating
+          To reward validators on MAP Relay Chain and Maintainer for updating
           Light-Clients
         </li>
         <li>
           Released by 1% p.a. for the first 2 years, then 2% forthe next 14
           years. Among which:
           <ul className='ml-8 list-disc'>
-            <li>70% of the release are for validators</li>
-            <li>30% of the release are for maintainers</li>
+            <li>70% for validators</li>
+            <li>30% for maintainers</li>
           </ul>
         </li>
         <li>Will issue new shares after 16 years</li>

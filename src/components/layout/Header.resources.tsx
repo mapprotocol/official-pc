@@ -17,6 +17,8 @@ const MainLinks = [
     href: 'https://forum.maplabs.io/latest',
     name: 'Forum',
   },
+
+  { href: 'https://docs.maplabs.io/develop', name: 'Build' },
 ];
 
 const SocialLinks = [

@@ -47,7 +47,7 @@ function FullOption(props: any) {
           setHovered(undefined);
         }}
       />
-      <div className='mt-12 rounded-lg bg-bg px-8 font-primary lg:w-1/2'>
+      <div className='mt-12 rounded-lg bg-bg px-8 font-primary lg:w-[80%]'>
         {data.map((item: any, index: number) => (
           <div
             onMouseEnter={() =>

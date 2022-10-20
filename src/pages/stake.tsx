@@ -25,19 +25,11 @@ export default function HomePage() {
       Promise.all(requests).then((responses) => {
         const stakeItems = responses[1].data.data;
 
-        const apys = stakeItems
-          .filter((item: any) => item.apy > 0)
-          .map((item: any) => item.apy);
-        console.log(apys);
-
-        const average = (array: number[]) =>
-          array.reduce((a: number, b: number) => a + b) / array.length;
-
         setStats({
           staking: responses[0].data.data.staking / 1000000000000000000,
           supply: responses[0].data.data.supply / 1000000000000000000,
-          validators: stakeItems.length,
-          apy: `${average(apys).toFixed(1)} %`,
+          validators: stakeItems.list.length,
+          apy: `${stakeItems.avgApy.toFixed(1)} %`,
         });
       });
     }
@@ -48,13 +40,8 @@ export default function HomePage() {
       <Seo />
       <Stats data={stats} />
       <Divider />
-      <div className='mx-auto rounded bg-black font-primary lg:w-[600px]'>
+      <div className='mx-auto rounded bg-black text-center font-primary lg:w-[600px]'>
         <h1 className=''>$MAP distribution</h1>
-        <h4 className='font-normal'>
-          The following pie chart shows how $MAP protocol is distributed. 30% of
-          the $MAP pool is allocated to validators. Validators earn rewards by
-          staking $MAP
-        </h4>
       </div>
       <Chart data={stakeData} />
     </Layout>
