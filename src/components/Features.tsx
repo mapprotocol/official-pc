@@ -14,38 +14,36 @@ const Features = () => {
         <SectionCard>
           <SectionCardContent
             icon={Security}
-            title='Security-Finality'
-            content='Best-in-class blockchain-level security via independent self-verification cross-chain verification network with light-client and zk-SNARK.'
+            title='Best-in-class Security'
+            content='MAP Protocol offers the highest blockchain-level security built by Light-client network and ZK (STARK and SNARK) technology.'
           />
         </SectionCard>
         <SectionCard>
           <SectionCardContent
             icon={All}
-            title='All-Chain Coverage'
-            content="Embed heterogeneous chains' signing and hashing algorithm into the EVM layer of the MAP Relay Chain to ensure seamless communication among all EVM and Non-EVM chains."
+            title=' Real Omnichain Network'
+            content="MAP Protocol embeds heterogeneous chains' algorithms into MAP Relay Chain (PoS, EVM-compatible) to achieve seamless communication among EVM & Non-EVM chains."
+          />
+        </SectionCard>
+        <SectionCard>
+          <SectionCardContent
+            icon={Dev}
+            title='Full Developer Support'
+            content='No matter on which chains dApps deployed, they can achieve interoperability and become omnichain dApps by integrating with MAP SDKs.'
+          />
+        </SectionCard>
+        <SectionCard>
+          <SectionCardContent
+            icon={Min}
+            title='Minimum Transaction Cost'
+            content='No additional cost for cross-chain transactions other than connected chains’ gas fees. By implementing ZK technology, gas fees are further reduced to minimum.'
           />
         </SectionCard>
         <SectionCard>
           <SectionCardContent
             icon={Instant}
-            title='Instant Confirmation'
-            content="Inter-chain communication programs and on-chain smart contracts work together efficiently to ensure that speed is only related to each chain's block time."
-          />
-        </SectionCard>
-      </div>
-      <div className='align-center -mt-4 -mb-10 flex flex-col justify-evenly sm:-m-4 lg:-mx-4 lg:flex-row '>
-        <SectionCard w='w-2/5'>
-          <SectionCardContent
-            icon={Min}
-            title='Minimum Cost'
-            content='No additional cost for cross-chain transactions other than gas fees.By zk-SNARK, gas fee is further reduced to minimum.'
-          />
-        </SectionCard>
-        <SectionCard w='w-3/5'>
-          <SectionCardContent
-            icon={Dev}
-            title='Developer-Ready'
-            content="No matter on which chain dApp’s main smart contracts are deployed, dApps can easily connect to MAP's omnichain network through MAP's SDKs, thus naturally inherit the omnichain capabilities of MAP Protocol. dApps can also choose to develop their own tailored version by forking MAP Cross-chain Service (MCS) and installing Messenger SDK."
+            title='Instant Transaction Confirmation'
+            content="Inter-chain programs and on-chain smart contracts work efficiently to ensure the cross-chain speed is only related to each chain's block time."
           />
         </SectionCard>
       </div>

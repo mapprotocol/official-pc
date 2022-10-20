@@ -44,10 +44,10 @@ const StakeStats = ({ data }: { data: StakeData | null }) => {
   return (
     <div className='pt-8 text-center font-primary'>
       <div className='stats shadow'>
-        <Value data={{ title: 'Total supply', value: data?.supply }} />
+        <Value data={{ title: 'Genesis Total supply', value: data?.supply }} />
         <Value
           data={{
-            title: 'Current Coins Staked',
+            title: 'Current Tokens Staked',
             value: data?.staking,
           }}
         />
