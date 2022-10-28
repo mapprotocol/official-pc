@@ -14,7 +14,7 @@ type Item = {
 
 const Card = ({ item }: { item: Item }) => {
   return (
-    <div className='mx-auto mb-4 rounded bg-gray-600 px-4 py-4 text-center transition hover:scale-105 hover:cursor-pointer'>
+    <div className='mx-auto mb-4 rounded bg-white px-4 py-4 text-center text-gray-800 transition hover:scale-105 hover:cursor-pointer dark:text-black'>
       <Image src={item.icon} height={50} width={50} alt={item.title} />
       <div className='flex flex-col'>
         <div className='text-1xl'>{item.title}</div>
@@ -22,7 +22,7 @@ const Card = ({ item }: { item: Item }) => {
         <a
           target='_blank'
           href={item.url}
-          className='rounded bg-black p-2'
+          className='rounded bg-gray-300 p-2'
           rel='noreferrer'
         >
           Purchase
@@ -96,7 +96,7 @@ const Purchase = () => {
     <Layout>
       {/* <Seo templateTitle='Home' /> */}
       <Seo />
-      <div className='flex flex-row gap-x-1 py-12 font-primary lg:flex-col'>
+      <div className='flex flex-row gap-x-1 py-12  font-primary text-gray-300 dark:text-black lg:flex-col'>
         <div className='mx-auto w-[300px] lg:w-[600px]'>
           <h2 className=''>How to purchase $MAP</h2>
           <div className=''>

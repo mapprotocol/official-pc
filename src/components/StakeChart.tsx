@@ -47,14 +47,14 @@ function FullOption(props: any) {
           setHovered(undefined);
         }}
       />
-      <div className='mt-12 rounded-lg bg-bg px-8 font-primary lg:w-[80%]'>
+      <div className='mt-12 rounded-lg bg-white px-8 font-primary lg:w-[80%]'>
         {data.map((item: any, index: number) => (
           <div
             onMouseEnter={() =>
               setSelected(index === selected ? undefined : index)
             }
             className={`my-4 cursor-default ${
-              selected == index ? 'text-white' : 'text-gray-500'
+              selected == index ? 'text-black' : 'text-gray-400'
             }`}
             key={index}
           >

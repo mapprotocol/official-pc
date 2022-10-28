@@ -17,11 +17,8 @@ export default function MainLayout({
       <Layout>
         <Header />
         <Content className='pt-[64px]'>
-          <div
-            className='bg bg-cover bg-fixed '
-            style={{ backgroundImage: 'url(/map/hero.jpg)' }}
-          >
-            <div className='layout'>{children}</div>
+          <div className='bg bg-[url("/map/hero.jpg")] bg-cover bg-fixed dark:bg-[url("/map-light/background.jpg")]'>
+            <div className=''>{children}</div>
             <Footer />
           </div>
         </Content>

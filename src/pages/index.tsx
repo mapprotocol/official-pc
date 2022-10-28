@@ -26,10 +26,8 @@ export default function HomePage() {
         <Divider />
         <Features />
 
-        <Divider />
         <Pics />
 
-        <Divider />
         <Trusted />
 
         <Divider />

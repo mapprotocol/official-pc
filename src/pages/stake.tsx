@@ -37,13 +37,15 @@ export default function HomePage() {
 
   return (
     <Layout>
-      <Seo />
-      <Stats data={stats} />
-      <Divider />
-      <div className='mx-auto rounded bg-black text-center font-primary lg:w-[600px]'>
-        <h1 className=''>$MAP distribution</h1>
+      <div className='layout'>
+        <Seo />
+        <Stats data={stats} />
+        <Divider />
+        <div className='mx-auto rounded text-center font-primary text-white dark:text-black lg:w-[600px]'>
+          <h1 className=''>$MAP distribution</h1>
+        </div>
+        <Chart data={stakeData} />
       </div>
-      <Chart data={stakeData} />
     </Layout>
   );
 }

@@ -6,9 +6,9 @@ const Divider = () => (
         xmlns='http://www.w3.org/2000/svg'
         fill='none'
         viewBox='0 0 24 24'
-        stroke='white'
         width='24'
         height='24'
+        className='stroke-white dark:stroke-black'
       >
         <path
           strokeLinecap='round'

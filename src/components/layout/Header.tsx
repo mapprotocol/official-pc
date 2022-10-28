@@ -5,6 +5,8 @@ import * as React from 'react';
 import Link from '@/components/links/Link';
 const { Header } = Layout;
 
+import Toggle from '@/components/layout/ThemeToggle';
+
 import Flags from './Header.Flags';
 import HeaderMobile from './Header.mobile';
 import Resources from './Header.resources';
@@ -52,6 +54,7 @@ export default function MainHeader() {
             ))}
             <Resources />
             <Flags />
+            <Toggle />
           </ul>
         </div>
         <div className='navbar-end lg:hidden'>

@@ -3,6 +3,12 @@ import ReactBeforeSliderComponent from 'react-before-after-slider-component';
 
 import 'react-before-after-slider-component/dist/build.css';
 
+const FIRST_IMAGE_DARK = {
+  imageUrl: '/map-light/before.png',
+};
+const SECOND_IMAGE_DARK = {
+  imageUrl: '/map-light/after.png',
+};
 const FIRST_IMAGE = {
   imageUrl: '/map/before.png',
 };
@@ -111,15 +117,25 @@ const BeforeAfter = () => {
 
   return (
     <div className='my-4 min-h-[500px] lg:min-h-[700px]'>
-      <div className='text-1xl mb-8 p-8  text-center font-bold text-white lg:text-3xl'>
+      <div className='text-1xl mb-8 p-8  text-center font-bold text-white dark:text-black lg:text-3xl'>
         Before and After using MAP
       </div>
-      <ReactBeforeSliderComponent
-        currentPercentPosition={delimiterPercentPosition}
-        firstImage={FIRST_IMAGE}
-        secondImage={SECOND_IMAGE}
-        feelsOnlyTheDelimiter={true}
-      />
+      <div className='dark:hidden'>
+        <ReactBeforeSliderComponent
+          currentPercentPosition={delimiterPercentPosition}
+          firstImage={FIRST_IMAGE}
+          secondImage={SECOND_IMAGE}
+          feelsOnlyTheDelimiter={true}
+        />
+      </div>
+      <div className='hidden dark:flex'>
+        <ReactBeforeSliderComponent
+          currentPercentPosition={delimiterPercentPosition}
+          firstImage={FIRST_IMAGE_DARK}
+          secondImage={SECOND_IMAGE_DARK}
+          feelsOnlyTheDelimiter={true}
+        />
+      </div>
     </div>
   );
 };

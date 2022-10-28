@@ -17,11 +17,11 @@ const Value = ({ data, styles = '' }: { data: StatData; styles?: string }) => {
   if (data.value || data.valueString)
     return (
       <div className={`stat ${styles}`}>
-        <div className='stat-title'>{data.title}</div>
-        <div className='stat-value'>
+        <div className='stat-title text-black'>{data.title}</div>
+        <div className='stat-value text-black'>
           {data.value ? convertToInternationalCurrencySystem(data.value) : ''}
         </div>
-        <div className='stat-value'>{data.valueString}</div>
+        <div className='stat-value text-black'>{data.valueString}</div>
       </div>
     );
   else
@@ -43,7 +43,7 @@ const Value = ({ data, styles = '' }: { data: StatData; styles?: string }) => {
 const StakeStats = ({ data }: { data: StakeData | null }) => {
   return (
     <div className='pt-8 text-center font-primary'>
-      <div className='stats shadow'>
+      <div className='stats bg-white shadow'>
         <Value data={{ title: 'Genesis Total supply', value: data?.supply }} />
         <Value
           data={{

@@ -19,12 +19,12 @@ type PostType = {
 
 const Post = (post: PostType, index: number) => (
   <div
-    className='p-6 font-primary transition hover:scale-105 lg:w-1/3'
+    className='p-6 font-primary transition hover:scale-105 lg:w-1/3 '
     key={index}
   >
-    <div className='mx-auto max-w-lg text-white'>
+    <div className='mx-auto max-w-lg text-black'>
       <a href={post.link} target='_blank' rel='noreferrer'>
-        <div className='mb-5 max-w-sm rounded-lg border border-gray-800 bg-gray-800 shadow-md'>
+        <div className='mb-5 max-w-sm rounded-lg border border-gray-800 bg-white  shadow-md'>
           <img alt='' className='h-[200px] rounded-t-lg' src={post.thumbnail} />
           <div className='p-5 '>
             <h5 className='mb-2 truncate text-xl font-bold tracking-tight'>
@@ -76,7 +76,7 @@ const BlogPosts = () => {
   }
 
   return (
-    <div className='flex flex-col lg:flex-row'>
+    <div className='layout flex flex-col lg:flex-row'>
       {posts.slice(0, 3).map((item, index) => {
         return Post(item, index);
       })}

@@ -9,7 +9,7 @@ import Security from '~/features/security.svg';
 
 const Features = () => {
   return (
-    <div className='mt-8'>
+    <div className='layout my-32'>
       <div className='align-center -mt-4 -mb-10 flex flex-col justify-evenly font-primary sm:-m-4 lg:-mx-4 lg:flex-row'>
         <SectionCard>
           <SectionCardContent
