@@ -65,3 +65,18 @@
   border-width: 0 2px 2px 0;
   transform: rotate(-45deg);
 }
+
+@media screen and (min-width: 900px) {
+  .mobile_mapAndChains {
+    display: none!important;
+  }
+  .pc_mapAndChains {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 899px) {
+  .pc_mapAndChains {
+    display: none;
+  }
+}

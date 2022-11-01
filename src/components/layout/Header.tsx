@@ -13,11 +13,11 @@ import Resources from './Header.resources';
 
 const links = [
   { href: '/stake', label: 'Stake 🔥' },
-  { href: 'https://forum.maplabs.io/latest', label: 'Forum' },
   {
     href: '/purchase',
     label: 'Get $MAP',
   },
+  { href: 'https://forum.maplabs.io/latest', label: 'Forum' },
   { href: 'https://mapscan.io/', label: 'Explorer' },
 ];
 

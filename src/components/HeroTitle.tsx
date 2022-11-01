@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from '@/components/links/Link';
 
 import Stake from '~/map/stake.svg';
-const { Title } = Typography;
+// const { Title } = Typography;
 
 const HeroTitle = () => {
   return (
@@ -18,12 +18,18 @@ const HeroTitle = () => {
           </div>
           <div className='my-4 text-xl font-bold leading-loose lg:text-2xl'>
             Built upon{' '}
-            <div className='inline text-blue-300 dark:text-blue-500'>
+            <div
+              style={{ color: 'rgb(60, 247, 242)' }}
+              className='inline text-blue-300 dark:text-blue-500'
+            >
               {' '}
               light-client{' '}
             </div>{' '}
             and
-            <div className='inline text-blue-300 dark:text-blue-500'>
+            <div
+              style={{ color: 'rgb(60, 247, 242)' }}
+              className='inline text-blue-300 dark:text-blue-500'
+            >
               {' '}
               zk-Technology{' '}
             </div>

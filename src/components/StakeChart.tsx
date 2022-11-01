@@ -5,15 +5,17 @@ function FullOption(props: any) {
   const [selected, setSelected] = useState<number | undefined>(0);
   const [hovered, setHovered] = useState<number | undefined>(undefined);
 
-  const data = props.data.map((entry: any, i: any) => {
-    if (hovered === i) {
-      return {
-        ...entry,
-        color: 'grey',
-      };
-    }
-    return entry;
-  });
+  const data = props.data
+    .map((entry: any, i: any) => {
+      if (hovered === i) {
+        return {
+          ...entry,
+          color: 'grey',
+        };
+      }
+      return entry;
+    })
+    .reverse();
 
   const lineWidth = 60;
 
@@ -24,6 +26,7 @@ function FullOption(props: any) {
           fontSize: '3px',
           color: 'black',
         }}
+        startAngle={270}
         data={data}
         radius={40}
         lineWidth={60}
@@ -44,7 +47,9 @@ function FullOption(props: any) {
           setSelected(index === selected ? undefined : index);
         }}
         onMouseOut={() => {
-          setHovered(undefined);
+          setTimeout(() => {
+            setHovered(undefined);
+          }, 300);
         }}
       />
       <div className='mt-12 rounded-lg bg-white px-8 font-primary lg:w-[80%]'>

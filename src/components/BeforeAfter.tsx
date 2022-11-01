@@ -5,12 +5,14 @@ import 'react-before-after-slider-component/dist/build.css';
 
 const FIRST_IMAGE_DARK = {
   imageUrl: '/map-light/before.png',
+  // imageUrl: '/map_part2/before_dark.png',
 };
 const SECOND_IMAGE_DARK = {
   imageUrl: '/map-light/after.png',
 };
 const FIRST_IMAGE = {
   imageUrl: '/map/before.png',
+  // imageUrl: '/map_part2/before_light.png',
 };
 const SECOND_IMAGE = {
   imageUrl: '/map/after.png',
@@ -25,8 +27,8 @@ type Animation = {
   end: number;
   duration: number;
 };
-const START_POSITION = 80;
-const END_POSITION_1 = 25;
+const START_POSITION = 100;
+const END_POSITION_1 = 0;
 const ANIMATIONS: Animation[] = [
   {
     start: START_POSITION,
@@ -120,7 +122,37 @@ const BeforeAfter = () => {
       <div className='text-1xl mb-8 p-8  text-center font-bold text-white dark:text-black lg:text-3xl'>
         Before and After using MAP
       </div>
-      <div className='dark:hidden'>
+      <div
+        style={{
+          gap: '50px',
+          margin: '0 auto',
+          justifyContent: 'center',
+        }}
+        className='pc_mapAndChains'
+      >
+        <img
+          className='hidden w-[400px] dark:flex'
+          src={'/map_part2/before_light.png'}
+          alt=''
+        />
+        <img
+          className='hidden w-[400px] dark:flex'
+          src={'/map_part2/after_light.png'}
+          alt=''
+        />
+        <img
+          className='h-[400px] w-[400px] dark:hidden'
+          src={'/map_part2/before_dark.png'}
+          alt=''
+        />
+        <img
+          className='h-[400px] w-[400px]  dark:hidden'
+          src={'/map_part2/after_dark.png'}
+          alt=''
+        />
+      </div>
+
+      <div className='mobile_mapAndChains dark:hidden'>
         <ReactBeforeSliderComponent
           currentPercentPosition={delimiterPercentPosition}
           firstImage={FIRST_IMAGE}
@@ -128,7 +160,7 @@ const BeforeAfter = () => {
           feelsOnlyTheDelimiter={true}
         />
       </div>
-      <div className='hidden dark:flex'>
+      <div className='mobile_mapAndChains hidden dark:flex'>
         <ReactBeforeSliderComponent
           currentPercentPosition={delimiterPercentPosition}
           firstImage={FIRST_IMAGE_DARK}

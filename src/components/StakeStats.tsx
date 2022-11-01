@@ -14,7 +14,29 @@ function convertToInternationalCurrencySystem(labelValue: number) {
 }
 
 const Value = ({ data, styles = '' }: { data: StatData; styles?: string }) => {
-  if (data.value || data.valueString)
+  if (data.value || data.valueString) {
+    if (data.title === 'Validators') {
+      return (
+        <div className={`stat ${styles}`}>
+          <a href='https://mapscan.io/validators'>
+            <div
+              style={{ borderBottom: '1px solid #000' }}
+              className='stat-title text-black'
+            >
+              {data.title}
+            </div>
+          </a>
+          <div className='stat-value text-black'>
+            <a href='https://mapscan.io/validators'>
+              {data.value
+                ? convertToInternationalCurrencySystem(data.value)
+                : ''}
+            </a>
+          </div>
+          <div className='stat-value text-black'>{data.valueString}</div>
+        </div>
+      );
+    }
     return (
       <div className={`stat ${styles}`}>
         <div className='stat-title text-black'>{data.title}</div>
@@ -24,7 +46,7 @@ const Value = ({ data, styles = '' }: { data: StatData; styles?: string }) => {
         <div className='stat-value text-black'>{data.valueString}</div>
       </div>
     );
-  else
+  } else
     return (
       <div className={`stat w-40 animate-pulse ${styles}`}>
         <div className='flex-1 space-y-6 py-1'>

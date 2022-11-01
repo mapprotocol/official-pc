@@ -87,7 +87,7 @@ export default function Header() {
         <div className='mt-8 text-center'>
           © {new Date().getFullYear()} By{' '}
           <UnderlineLink href='https://theodorusclarence.com?ref=tsnextstarter'>
-            MapLabs, All Rights reserved
+            MAP Labs, All Rights Reserved
           </UnderlineLink>
         </div>
       </div>
