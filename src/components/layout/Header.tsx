@@ -7,18 +7,20 @@ const { Header } = Layout;
 
 import Toggle from '@/components/layout/ThemeToggle';
 
-import Flags from './Header.Flags';
 import HeaderMobile from './Header.mobile';
 import Resources from './Header.resources';
+import Community from './Header.community';
+import Grants from './Header.grants';
+import Ecosystem from './Header.ecosystem';
 
 const links = [
-  { href: '/stake', label: 'Stake 🔥' },
-  {
-    href: '/purchase',
-    label: 'Get $MAP',
-  },
-  { href: 'https://forum.maplabs.io/latest', label: 'Forum' },
+  // {
+  //   href: '/purchase',
+  //   label: 'Get $MAP',
+  // },
+  // { href: 'https://forum.maplabs.io/latest', label: 'Forum' },
   { href: 'https://mapscan.io/', label: 'Explorer' },
+  { href: '/stake', label: 'Stake 🔥' },
 ];
 
 export default function MainHeader() {
@@ -40,25 +42,30 @@ export default function MainHeader() {
             </div>
           </Link>
         </div>
-        <div className='hidden lg:inline'>
-          <ul className='flex items-center justify-between space-x-8 '>
+        <div className='hidden font-primary lg:inline'>
+          <ul className='flex items-center justify-between space-x-4 '>
+            <Community />
+            <Grants />
+            <Ecosystem />
+
             {links.map(({ href, label }) => (
               <li key={`${href}${label}`}>
                 <Link
                   href={href}
-                  className='text-sm font-medium text-white hover:text-gray-600'
+                  className='text-xs text-white hover:text-gray-600'
                 >
                   {label}
                 </Link>
               </li>
             ))}
+
             <Resources />
-            <Flags />
+            {/* <Flags /> */}
             <Toggle />
           </ul>
         </div>
-        <div className='navbar-end lg:hidden'>
-          <Flags />
+        <div className='navbar-end font-primary lg:hidden'>
+          {/* <Flags /> */}
           <HeaderMobile />
         </div>
       </div>

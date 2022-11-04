@@ -1,6 +1,8 @@
 import { SectionCard } from '@/components/SectionCard';
 import SectionCardContent from '@/components/SectionCardContent';
 
+import Link from '@/components/links/Link';
+
 import All from '~/features/all.svg';
 import Dev from '~/features/dev.svg';
 import Instant from '~/features/instant.svg';
@@ -10,41 +12,68 @@ import Security from '~/features/security.svg';
 const Features = () => {
   return (
     <div className='layout my-32'>
+      <div className='mb-20 text-center text-gray-300 dark:text-black'>
+        <div className='text-1xl lg:text-3xl '>
+          MAP is the Super Connector of Blockchains. How?
+        </div>
+        <div className='mt-4'>Core pillars to MAP Omnichain Infrastructure</div>
+      </div>
       <div className='align-center -mt-4 -mb-10 flex flex-col justify-evenly font-primary sm:-m-4 lg:-mx-4 lg:flex-row'>
         <SectionCard>
-          <SectionCardContent
-            icon={Security}
-            title='Best-in-class Security'
-            content='MAP Protocol offers the highest blockchain-level security built by Light-client network and ZK (STARK and SNARK) technology.'
-          />
+          <div>
+            Expandable and decentralized MAP Relay Chain to support both EVM and
+            Non-EVM chains connections
+          </div>
+          <div className='mt-4'>
+            <Link
+              className='text-cyan-400 dark:text-sky-700'
+              href='https://docs.maplabs.io/develop'
+            >
+              Read more
+            </Link>
+          </div>
         </SectionCard>
         <SectionCard>
-          <SectionCardContent
-            icon={All}
-            title=' Real Omnichain Network'
-            content="MAP Protocol embeds heterogeneous chains' algorithms into MAP Relay Chain (PoS, EVM-compatible) to achieve seamless communication among EVM & Non-EVM chains."
-          />
+          <div>
+            Light-Client technology to verify all cross-chain transactions with
+            definite and unambiguous results
+          </div>
+          <div className='mt-4'>
+            <Link
+              className='text-cyan-400 dark:text-sky-700'
+              href='https://docs.maplabs.io/develop'
+            >
+              Read more
+            </Link>
+          </div>
         </SectionCard>
         <SectionCard>
-          <SectionCardContent
-            icon={Dev}
-            title='Full Developer Support'
-            content='No matter on which chains dApps deployed, they can achieve interoperability and become omnichain dApps by integrating with MAP SDKs.'
-          />
+          <div>
+            Zero-Knowledge technolgy to optimize and peed up verification
+            process and reduce transaction costs
+          </div>
+          <div className='mt-4'>
+            <Link
+              className='text-cyan-400 dark:text-sky-700'
+              href='https://docs.maplabs.io/develop'
+            >
+              Read more
+            </Link>
+          </div>
         </SectionCard>
         <SectionCard>
-          <SectionCardContent
-            icon={Min}
-            title='Minimum Transaction Cost'
-            content='No additional cost for cross-chain transactions other than connected chains’ gas fees. By implementing ZK technology, gas fees are further reduced to minimum.'
-          />
-        </SectionCard>
-        <SectionCard>
-          <SectionCardContent
-            icon={Instant}
-            title='Instant Transaction Confirmation'
-            content="Inter-chain programs and on-chain smart contracts work efficiently to ensure the cross-chain speed is only related to each chain's block time."
-          />
+          <div>
+            MAP Omnichain Service (MOS) and SDKs to offer built-in
+            interoperability features for omnichain applications
+          </div>
+          <div className='mt-4'>
+            <Link
+              className='text-cyan-400 dark:text-sky-700'
+              href='https://docs.maplabs.io/develop'
+            >
+              Read more
+            </Link>
+          </div>
         </SectionCard>
       </div>
     </div>

@@ -2,17 +2,16 @@ import React, { useEffect, useRef, useState } from 'react';
 import ReactBeforeSliderComponent from 'react-before-after-slider-component';
 
 import 'react-before-after-slider-component/dist/build.css';
+import Image from 'next/image';
 
 const FIRST_IMAGE_DARK = {
   imageUrl: '/map-light/before.png',
-  // imageUrl: '/map_part2/before_dark.png',
 };
 const SECOND_IMAGE_DARK = {
   imageUrl: '/map-light/after.png',
 };
 const FIRST_IMAGE = {
   imageUrl: '/map/before.png',
-  // imageUrl: '/map_part2/before_light.png',
 };
 const SECOND_IMAGE = {
   imageUrl: '/map/after.png',
@@ -122,50 +121,21 @@ const BeforeAfter = () => {
       <div className='text-1xl mb-8 p-8  text-center font-bold text-white dark:text-black lg:text-3xl'>
         Before and After using MAP
       </div>
-      <div
-        style={{
-          gap: '50px',
-          margin: '0 auto',
-          justifyContent: 'center',
-        }}
-        className='pc_mapAndChains'
-      >
-        <img
-          className='hidden w-[400px] dark:flex'
-          src={'/map_part2/before_light.png'}
-          alt=''
-        />
-        <img
-          className='hidden w-[400px] dark:flex'
-          src={'/map_part2/after_light.png'}
-          alt=''
-        />
-        <img
-          className='h-[400px] w-[400px] dark:hidden'
-          src={'/map_part2/before_dark.png'}
-          alt=''
-        />
-        <img
-          className='h-[400px] w-[400px]  dark:hidden'
-          src={'/map_part2/after_dark.png'}
-          alt=''
-        />
-      </div>
 
-      <div className='mobile_mapAndChains dark:hidden'>
-        <ReactBeforeSliderComponent
-          currentPercentPosition={delimiterPercentPosition}
-          firstImage={FIRST_IMAGE}
-          secondImage={SECOND_IMAGE}
-          feelsOnlyTheDelimiter={true}
+      <div className='relative dark:hidden'>
+        <img
+          className='w-[300px] lg:w-[500px]'
+          style={{ margin: '0 auto' }}
+          src='/map-light/mutilChain_dark.gif'
+          alt=''
         />
       </div>
-      <div className='mobile_mapAndChains hidden dark:flex'>
-        <ReactBeforeSliderComponent
-          currentPercentPosition={delimiterPercentPosition}
-          firstImage={FIRST_IMAGE_DARK}
-          secondImage={SECOND_IMAGE_DARK}
-          feelsOnlyTheDelimiter={true}
+      <div className='relative hidden dark:flex'>
+        <img
+          className='w-[300px] lg:w-[500px]'
+          style={{ margin: '0 auto' }}
+          src='/map-light/mutilChain_light.gif'
+          alt=''
         />
       </div>
     </div>

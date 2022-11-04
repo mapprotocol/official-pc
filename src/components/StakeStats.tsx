@@ -18,20 +18,9 @@ const Value = ({ data, styles = '' }: { data: StatData; styles?: string }) => {
     if (data.title === 'Validators') {
       return (
         <div className={`stat ${styles}`}>
-          <a href='https://mapscan.io/validators'>
-            <div
-              style={{ borderBottom: '1px solid #000' }}
-              className='stat-title text-black'
-            >
-              {data.title}
-            </div>
-          </a>
+          <div className='stat-title text-black'>{data.title}</div>
           <div className='stat-value text-black'>
-            <a href='https://mapscan.io/validators'>
-              {data.value
-                ? convertToInternationalCurrencySystem(data.value)
-                : ''}
-            </a>
+            {data.value ? convertToInternationalCurrencySystem(data.value) : ''}
           </div>
           <div className='stat-value text-black'>{data.valueString}</div>
         </div>
@@ -66,7 +55,7 @@ const StakeStats = ({ data }: { data: StakeData | null }) => {
   return (
     <div className='pt-8 text-center font-primary'>
       <div className='stats bg-white shadow'>
-        <Value data={{ title: 'Genesis Total supply', value: data?.supply }} />
+        <Value data={{ title: 'Genesis Token supply', value: data?.supply }} />
         <Value
           data={{
             title: 'Current Tokens Staked',

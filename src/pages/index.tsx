@@ -4,6 +4,8 @@ import * as React from 'react';
 // Before you begin editing, follow all comments with `STARTERCONF`,
 // to customize the default configuration.
 //
+
+import Introduction from '@/components/Introduction';
 import BeforeAfter from '@/components/BeforeAfter';
 import BlogPosts from '@/components/BlogPosts';
 import Divider from '@/components/Divider';
@@ -21,12 +23,15 @@ export default function HomePage() {
       <Seo />
       <div className=''>
         <HeroTitle />
-        <BeforeAfter />
+
+        <Introduction />
 
         <Divider />
         <Features />
 
-        <Pics />
+        <BeforeAfter />
+
+        {/* <Pics /> */}
 
         <Trusted />
 
