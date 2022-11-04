@@ -18,6 +18,52 @@ const Build = [
     label: 'WhitePaper',
   },
 ];
+const Community = [
+  {
+    href: 'https://forum.maplabs.io/latest',
+    label: 'Forum',
+  },
+  {
+    href: '',
+    label: 'DAO',
+  },
+];
+const Grants = [
+  {
+    href: 'https://forum.maplabs.io/t/map-omnichain-builder-grants-program/3980',
+    label: 'Builder Grant',
+  },
+  {
+    href: 'https://forum.maplabs.io/t/about-the-academy-category/3989',
+    label: 'Research Grant',
+  },
+  {
+    href: 'https://forum.maplabs.io/t/map-community-contributor-grants-program/3988',
+    label: 'Community Grant',
+  },
+];
+const Ecosystem = [
+  {
+    href: 'https://swap.hiveswap.io/#/swap',
+    label: 'Hiveswap',
+  },
+  {
+    href: 'https://about.playverse.center/',
+    label: 'Playverse',
+  },
+  {
+    href: '',
+    label: 'Barternetwork',
+  },
+  {
+    href: '',
+    label: 'Barter Bridge (testing)',
+  },
+  {
+    href: 'https://befiwallet.io/',
+    label: 'BeFi Wallet',
+  },
+];
 const Social = [
   {
     href: 'https://medium.com/@mapprotocolofficial/',
@@ -42,14 +88,14 @@ const Social = [
 export default function Header() {
   return (
     <footer
-      className='h-[42rem] bg-black font-primary text-white lg:h-[24rem]'
+      className=' bg-black font-primary text-white lg:h-[24rem]'
       style={{
         backgroundColor: 'black',
       }}
     >
       <div className='layout pt-12'>
         <div className='flex flex-col justify-evenly lg:flex-row'>
-          <div className='mx-12'>
+          <div className='mx-8'>
             <div className='text-3xl font-bold'>BUILD</div>
             {Build.map((item, key) => {
               return (
@@ -64,7 +110,61 @@ export default function Header() {
               );
             })}
           </div>
-          <div className='mx-12'>
+          <div className='mx-8'>
+            <div className='text-3xl font-bold'>Community</div>
+            {Community.map((item, key) => {
+              return (
+                <div className='group my-4 flex h-4 transition ' key={key}>
+                  <UnderlineLink
+                    className='mt-[-6px] text-sm transition '
+                    href={item.href}
+                  >
+                    <div className='flex ' key={key}>
+                      {/* <Icon className='text-sm text-primary transition' /> */}
+                      <div className='text-sm'>{item.label}</div>
+                    </div>
+                  </UnderlineLink>
+                </div>
+              );
+            })}
+          </div>
+          <div className='mx-8'>
+            <div className='text-3xl font-bold'>Grants</div>
+            {Grants.map((item, key) => {
+              return (
+                <div className='group my-4 flex h-4 transition ' key={key}>
+                  <UnderlineLink
+                    className='mt-[-6px] text-sm transition '
+                    href={item.href}
+                  >
+                    <div className='flex ' key={key}>
+                      {/* <Icon className='text-sm text-primary transition' /> */}
+                      <div className='text-sm'>{item.label}</div>
+                    </div>
+                  </UnderlineLink>
+                </div>
+              );
+            })}
+          </div>
+          <div className='mx-8'>
+            <div className='text-3xl font-bold'>Ecosystem</div>
+            {Ecosystem.map((item, key) => {
+              return (
+                <div className='group my-4 flex h-4 transition ' key={key}>
+                  <UnderlineLink
+                    className='mt-[-6px] text-sm transition '
+                    href={item.href}
+                  >
+                    <div className='flex ' key={key}>
+                      {/* <Icon className='text-sm text-primary transition' /> */}
+                      <div className='text-sm'>{item.label}</div>
+                    </div>
+                  </UnderlineLink>
+                </div>
+              );
+            })}
+          </div>
+          <div className='mx-8'>
             <div className='text-3xl font-bold'>SOCIAL</div>
             {Social.map((item, key) => {
               const Icon = item.icon;
@@ -87,7 +187,7 @@ export default function Header() {
         <div className='mt-8 text-center'>
           © {new Date().getFullYear()} By{' '}
           <UnderlineLink href='https://theodorusclarence.com?ref=tsnextstarter'>
-            MAP Labs, All Rights Reserved
+            All rights reservied by MAP Labs.
           </UnderlineLink>
         </div>
       </div>
