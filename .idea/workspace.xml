@@ -20,52 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="edc03491-c109-4b2c-be9c-84c9a3a6668b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/official-pc 2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/map-light/Litepaper_dark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/map-light/Litepaper_light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/map-light/mutilChain_dark.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/map-light/mutilChain_light.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/map-light/sdks_dark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/map-light/sdks_light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/map-light/stake_dark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/map-light/stake_dark_old.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/map/logo_dark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/map/logo_light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stake/1_dark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stake/1_light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stake/2_dark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stake/2_light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stake/3_dark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stake/3_light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stake/Hiveswap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stake/Pancakeswap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stake/Uniswap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stake/pieChart_dark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stake/pieChart_light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Introduction.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/layout/Header.community.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/layout/Header.ecosystem.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/layout/Header.grants.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.husky/pre-commit" beforeDir="false" afterPath="$PROJECT_DIR$/.husky/pre-commit" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BeforeAfter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BeforeAfter.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Divider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Divider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Features.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Features.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/HeroTitle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroTitle.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/StakeChart.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StakeChart.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/StakeStats.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StakeStats.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/Header.resources.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Header.resources.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/purchase.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/purchase.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/stake.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/stake.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +53,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667576335157</updated>
-      <workItem from="1667576336461" duration="1630000" />
+      <workItem from="1667576336461" duration="3049000" />
     </task>
     <servers />
   </component>
