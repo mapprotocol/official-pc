@@ -78,7 +78,6 @@ const HeroTitle = () => {
               href='/stake'
               className='hover:pointer mx-auto flex items-center text-[10rem] transition-all duration-100 hover:scale-125 lg:text-[15rem]'
             >
-              {/* <Stake className='hover:pointer text-[10rem] transition-all duration-100 hover:scale-125 lg:text-[15rem]' /> */}
               <Image
                 className=''
                 src='/map-light/stake_dark.png'

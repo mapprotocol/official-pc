@@ -54,7 +54,7 @@ const Value = ({ data, styles = '' }: { data: StatData; styles?: string }) => {
 const StakeStats = ({ data }: { data: StakeData | null }) => {
   return (
     <div className='pt-8 text-center font-primary'>
-      <div className='stats bg-white shadow'>
+      <div className='stats w-[100%] bg-white shadow'>
         <Value data={{ title: 'Genesis Token supply', value: data?.supply }} />
         <Value
           data={{
