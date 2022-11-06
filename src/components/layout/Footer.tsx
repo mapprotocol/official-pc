@@ -96,7 +96,7 @@ export default function Header() {
       <div className='layout pt-12'>
         <div className='flex flex-col justify-evenly lg:flex-row'>
           <div className='mx-8'>
-            <div className='text-3xl font-bold'>BUILD</div>
+            <div className='text-2xl font-bold'>BUILD</div>
             {Build.map((item, key) => {
               return (
                 <div className='group my-4 flex h-4 transition ' key={key}>
@@ -111,7 +111,7 @@ export default function Header() {
             })}
           </div>
           <div className='mx-8'>
-            <div className='text-3xl font-bold'>Community</div>
+            <div className='text-2xl font-bold'>Community</div>
             {Community.map((item, key) => {
               return (
                 <div className='group my-4 flex h-4 transition ' key={key}>
@@ -129,7 +129,7 @@ export default function Header() {
             })}
           </div>
           <div className='mx-8'>
-            <div className='text-3xl font-bold'>Grants</div>
+            <div className='text-2xl font-bold'>Grants</div>
             {Grants.map((item, key) => {
               return (
                 <div className='group my-4 flex h-4 transition ' key={key}>
@@ -147,7 +147,7 @@ export default function Header() {
             })}
           </div>
           <div className='mx-8'>
-            <div className='text-3xl font-bold'>Ecosystem</div>
+            <div className='text-2xl font-bold'>Ecosystem</div>
             {Ecosystem.map((item, key) => {
               return (
                 <div className='group my-4 flex h-4 transition ' key={key}>
@@ -165,7 +165,7 @@ export default function Header() {
             })}
           </div>
           <div className='mx-8'>
-            <div className='text-3xl font-bold'>SOCIAL</div>
+            <div className='text-2xl font-bold'>SOCIAL</div>
             {Social.map((item, key) => {
               const Icon = item.icon;
               return (

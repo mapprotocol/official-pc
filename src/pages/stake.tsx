@@ -22,7 +22,7 @@ type Item = {
 
 const Card = ({ item }: { item: Item }) => {
   return (
-    <div className='mx-auto mb-4 h-[200px] w-[170px] rounded bg-white px-4 py-4 text-center font-primary text-gray-800 transition hover:scale-105 hover:cursor-pointer dark:text-black'>
+    <div className='mx-auto mb-4 w-[160px] rounded bg-white px-4 py-4 text-center font-primary text-gray-800 transition hover:scale-105 hover:cursor-pointer dark:text-black'>
       <Image src={item.icon} height={50} width={50} alt={item.title} />
       <div className='flex flex-col'>
         <div className='text-1xl h-[60px]'>{item.title}</div>
@@ -78,19 +78,19 @@ const exchanges = {
     },
     {
       icon: '/stake/Uniswap.png',
-      title: 'Ethereum',
+      title: 'Uniswap',
       // subtitle: 'Get MAP via Uniswap',
       url: '',
     },
     {
       icon: '/stake/Hiveswap.png',
-      title: 'Map Relay Chain',
+      title: 'Hiveswap',
       // subtitle: 'Get MAP via Hiveswap',
       url: 'https://swap.hiveswap.io/#/swap',
     },
     {
       icon: '/stake/Pancakeswap.png',
-      title: ' Binance Smart Chain (BSC)',
+      title: 'Pancakeswap',
       // subtitle: 'Get MAP via Pancakeswap',
       url: 'https://pancakeswap.finance/info/pool/0xd034e9294833d5739d852548a9b9724c4453db5f',
     },
@@ -128,15 +128,23 @@ export default function HomePage() {
         <Stats data={stats} />
         <div className='mx-auto mt-10 flex justify-center rounded text-center font-primary text-white dark:text-black'>
           <div className='hidden gap-10 dark:flex'>
-            <Image width='200' height='50' src={'/stake/1_light.png'}></Image>
-            <Image width='200' height='50' src={'/stake/2_light.png'}></Image>
+            <Link href='https://staking.maplabs.io'>
+              <Image width='200' height='50' src={'/stake/1_light.png'}></Image>
+            </Link>
+            <Link href='https://mapscan.io/validators'>
+              <Image width='200' height='50' src={'/stake/2_light.png'}></Image>
+            </Link>
             <Link href='https://docs.maplabs.io/run/howtobecomeanewvalidator'>
               <Image width='200' height='50' src={'/stake/3_light.png'}></Image>
             </Link>
           </div>
           <div className='flex gap-10 dark:hidden'>
-            <Image width='200' height='50' src={'/stake/1_dark.png'}></Image>
-            <Image width='200' height='50' src={'/stake/2_dark.png'}></Image>
+            <Link href='https://staking.maplabs.io'>
+              <Image width='200' height='50' src={'/stake/1_dark.png'}></Image>
+            </Link>
+            <Link href='https://mapscan.io/validators'>
+              <Image width='200' height='50' src={'/stake/2_dark.png'}></Image>
+            </Link>
             <Link href='https://docs.maplabs.io/run/howtobecomeanewvalidator'>
               <Image width='200' height='50' src={'/stake/3_dark.png'}></Image>
             </Link>
@@ -147,7 +155,7 @@ export default function HomePage() {
         <div className='mx-auto rounded text-center font-primary text-white dark:text-black lg:w-[600px]'>
           <h1 className=''>MAP Tokenomics</h1>
         </div>
-        <div className='mt-10 flex flex-col items-center gap-10 font-primary lg:flex-row'>
+        <div className='mt-10 flex flex-col items-center gap-10 font-primary'>
           <div className='text-white dark:text-black'>
             <div className='mt-4'>
               The native utility token of MAP Protocol is MAP token. MAP
@@ -155,37 +163,39 @@ export default function HomePage() {
               monetary flow of the entire MAP economic system. Core use cases of
               the MAP token include:
             </div>
-            <div className='mt-4'>
-              <b>Gas Metering:</b> MAP token is the native token for paying
-              transaction fees. Users need to specify a certain amount of
-              transaction fee in MAP so the transaction can be successfully
-              processed and included in the blockchain. MAP token is used as the
-              gas metering of smart contract execution.
-            </div>
-            <div className='mt-4'>
-              <b>Protocol Security:</b> MAP Relay Chain is a Proof-of-Stake
-              blockchain which means the security of the network is protected by
-              staked tokens. MAP token is used to incentivize token holders and
-              power the mechanics around the creation of a decentralized node
-              infrastructure on which the blockchain can run.
-            </div>
-            <div className='mt-4'>
-              <b>On-chain Governance:</b> MAP Protocol is a permissionless and
-              decentralized network which is governed by the community. Any
-              protocol level decisions or improvements will be put as a proposal
-              which will go through the open governance process to finalize. MAP
-              is the only accepted token used as the measure in the governance
-              process, including proposing referenda, electing council members,
-              voting, etc
+            <div className='mt-4 flex gap-4'>
+              <div className='mt-4 flex-1 basis-1/5 rounded bg-gray-800 p-4'>
+                <b>Gas Metering:</b> MAP token is the native token for paying
+                transaction fees. Users need to specify a certain amount of
+                transaction fee in MAP so the transaction can be successfully
+                processed and included in the blockchain. MAP token is used as
+                the gas metering of smart contract execution.
+              </div>
+              <div className='mt-4 flex-1 basis-1/5 rounded bg-gray-800 p-4'>
+                <b>Protocol Security:</b> MAP Relay Chain is a Proof-of-Stake
+                blockchain which means the security of the network is protected
+                by staked tokens. MAP token is used to incentivize token holders
+                and power the mechanics around the creation of a decentralized
+                node infrastructure on which the blockchain can run.
+              </div>
+              <div className='mt-4 flex-1 basis-1/5 rounded bg-gray-800 p-4'>
+                <b>On-chain Governance:</b> MAP Protocol is a permissionless and
+                decentralized network which is governed by the community. Any
+                protocol level decisions or improvements will be put as a
+                proposal which will go through the open governance process to
+                finalize. MAP is the only accepted token used as the measure in
+                the governance process, including proposing referenda, electing
+                council members, voting, etc
+              </div>
             </div>
           </div>
           <img
-            className='mt-10 w-[100%] dark:hidden lg:w-[50%]'
+            className='mt-10 w-[100%] dark:hidden lg:w-[80%]'
             src='/stake/pieChart_dark.png'
             alt=''
           />
           <img
-            className='mt-10 hidden w-[100%] dark:flex lg:w-[50%]'
+            className='mt-10 hidden w-[100%] dark:flex lg:w-[80%]'
             src='/stake/pieChart_light.png'
             alt=''
           />

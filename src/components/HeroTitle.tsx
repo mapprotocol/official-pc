@@ -14,10 +14,10 @@ const HeroTitle = () => {
           <div className='text-4xl font-bold lg:text-5xl lg:leading-relaxed'>
             Empower Web3 Apps to Thrive
             <br />
-            in Omnichain Future.
+            in Omnichain Future
           </div>
           <div className='my-4 text-xl font-bold leading-loose lg:text-2xl'>
-            by MAP Protocol’s Provably Secure and Most <br /> Versatile
+            by MAP Protocol’s Provably Secure and <br /> Most Versatile
             Omnichain Infrastructure
           </div>
 
