@@ -14,7 +14,7 @@ const MainLinks = [
     name: 'Playverse',
   },
   {
-    href: '',
+    href: 'https://www.barternetwork.io/',
     name: 'Barternetwork',
   },
   {

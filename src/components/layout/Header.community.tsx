@@ -10,7 +10,7 @@ const MainLinks = [
     name: 'Forum',
   },
   {
-    href: 'https://docs.maplabs.io/learn/dao',
+    href: 'https://newspace.idavoll.network/project-staking-detail/MAPProtocol',
     name: 'DAO',
   },
 ];

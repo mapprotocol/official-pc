@@ -14,7 +14,7 @@ const Introduction = () => {
           The Provably Secure Omnichain Layer of Web3
         </div>
       </div>
-      <div className='flex-1'>
+      <div className='flex-1 font-primary'>
         <div className=''>
           Today’s blockchain developers are building applications on top of
           dozens of competing and non-interoperable blockchains. The future is
