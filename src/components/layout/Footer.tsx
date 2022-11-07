@@ -47,10 +47,10 @@ const Ecosystem = [
     href: 'https://swap.hiveswap.io/#/swap',
     label: 'Hiveswap',
   },
-  {
-    href: 'https://about.playverse.center/',
-    label: 'Playverse',
-  },
+  // {
+  //   href: 'https://about.playverse.center/',
+  //   label: 'Playverse',
+  // },
   {
     href: '',
     label: 'Barternetwork',

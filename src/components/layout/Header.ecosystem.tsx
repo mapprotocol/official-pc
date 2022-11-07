@@ -9,10 +9,10 @@ const MainLinks = [
     href: 'https://swap.hiveswap.io/#/swap',
     name: 'Hiveswap',
   },
-  {
-    href: 'https://about.playverse.center/',
-    name: 'Playverse',
-  },
+  // {
+  //   href: 'https://about.playverse.center/',
+  //   name: 'Playverse',
+  // },
   {
     href: 'https://www.barternetwork.io/',
     name: 'Barternetwork',
