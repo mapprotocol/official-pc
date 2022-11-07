@@ -14,7 +14,11 @@ const Features = () => {
     <div className='layout my-32'>
       <div className='mb-20 text-center text-gray-300 dark:text-black'>
         <div className='text-1xl lg:text-3xl '>
-          MAP is the Super Connector of Blockchains
+          MAP is the{' '}
+          <span className='text-cyan-400 dark:text-sky-700'>
+            Super Connector
+          </span>{' '}
+          of Blockchains
         </div>
         <div className='mt-4 font-primary'>
           Core pillars to MAP Omnichain Infrastructure
@@ -22,24 +26,36 @@ const Features = () => {
       </div>
       <div className='align-center -mt-4 -mb-10 flex flex-col justify-evenly font-primary sm:-m-4 lg:-mx-4 lg:flex-row'>
         <SectionCard>
+          <div className='mb-2 text-center font-bold text-cyan-400 dark:text-sky-700'>
+            Full Chain Coverage
+          </div>
           <div>
             Expandable and decentralized MAP Relay Chain to support both EVM and
             Non-EVM chains connections
           </div>
         </SectionCard>
         <SectionCard>
+          <div className='mb-2 text-center font-bold text-cyan-400 dark:text-sky-700'>
+            Self-verifiable Light-Client
+          </div>
           <div>
             Light-Client technology to verify all cross-chain transactions with
             definite and unambiguous results
           </div>
         </SectionCard>
         <SectionCard>
+          <div className='mb-2 text-center font-bold text-cyan-400 dark:text-sky-700'>
+            Advance ZK Technology
+          </div>
           <div>
             Zero-Knowledge technolgy to optimize and peed up verification
             process and reduce transaction costs
           </div>
         </SectionCard>
         <SectionCard>
+          <div className='mb-2 text-center font-bold text-cyan-400 dark:text-sky-700'>
+            Comprehensive SDKs
+          </div>
           <div>
             MAP Omnichain Service (MOS) and SDKs to offer built-in
             interoperability features for omnichain applications

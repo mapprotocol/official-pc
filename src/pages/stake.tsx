@@ -127,7 +127,7 @@ export default function HomePage() {
         <Seo />
         <Stats data={stats} />
         <div className='mx-auto mt-10 flex justify-center rounded text-center font-primary text-white dark:text-black'>
-          <div className='hidden gap-10 dark:flex'>
+          <div className='hidden flex-col gap-10 dark:flex lg:flex-row'>
             <Link href='https://staking.maplabs.io'>
               <Image width='200' height='50' src={'/stake/1_light.png'}></Image>
             </Link>
@@ -138,7 +138,7 @@ export default function HomePage() {
               <Image width='200' height='50' src={'/stake/3_light.png'}></Image>
             </Link>
           </div>
-          <div className='flex gap-10 dark:hidden'>
+          <div className='flex flex-col gap-10  dark:hidden lg:flex-row'>
             <Link href='https://staking.maplabs.io'>
               <Image width='200' height='50' src={'/stake/1_dark.png'}></Image>
             </Link>
@@ -163,29 +163,37 @@ export default function HomePage() {
               monetary flow of the entire MAP economic system. Core use cases of
               the MAP token include:
             </div>
-            <div className='mt-4 flex gap-4'>
-              <div className='mt-4 flex-1 basis-1/5 rounded bg-gray-800 p-4'>
-                <b>Gas Metering:</b> MAP token is the native token for paying
-                transaction fees. Users need to specify a certain amount of
-                transaction fee in MAP so the transaction can be successfully
-                processed and included in the blockchain. MAP token is used as
-                the gas metering of smart contract execution.
+            <div className='mt-4 flex flex-col gap-4 lg:flex-row'>
+              <div className='mt-4 flex-1 basis-1/5 rounded bg-gray-800 p-4  text-white dark:bg-white dark:text-black'>
+                <div className='mb-2 text-center font-bold text-cyan-400 dark:text-sky-700'>
+                  Gas Metering
+                </div>{' '}
+                MAP token is the native token for paying transaction fees. Users
+                need to specify a certain amount of transaction fee in MAP so
+                the transaction can be successfully processed and included in
+                the blockchain. MAP token is used as the gas metering of smart
+                contract execution.
               </div>
-              <div className='mt-4 flex-1 basis-1/5 rounded bg-gray-800 p-4'>
-                <b>Protocol Security:</b> MAP Relay Chain is a Proof-of-Stake
-                blockchain which means the security of the network is protected
-                by staked tokens. MAP token is used to incentivize token holders
-                and power the mechanics around the creation of a decentralized
-                node infrastructure on which the blockchain can run.
+              <div className='mt-4 flex-1 basis-1/5 rounded bg-gray-800 p-4 text-white dark:bg-white dark:text-black'>
+                <div className='mb-2 text-center font-bold text-cyan-400 dark:text-sky-700'>
+                  Protocol Security
+                </div>{' '}
+                MAP Relay Chain is a Proof-of-Stake blockchain which means the
+                security of the network is protected by staked tokens. MAP token
+                is used to incentivize token holders and power the mechanics
+                around the creation of a decentralized node infrastructure on
+                which the blockchain can run.
               </div>
-              <div className='mt-4 flex-1 basis-1/5 rounded bg-gray-800 p-4'>
-                <b>On-chain Governance:</b> MAP Protocol is a permissionless and
-                decentralized network which is governed by the community. Any
-                protocol level decisions or improvements will be put as a
-                proposal which will go through the open governance process to
-                finalize. MAP is the only accepted token used as the measure in
-                the governance process, including proposing referenda, electing
-                council members, voting, etc
+              <div className='mt-4 flex-1 basis-1/5 rounded bg-gray-800 p-4 text-white dark:bg-white dark:text-black'>
+                <div className='mb-2 text-center font-bold text-cyan-400 dark:text-sky-700'>
+                  On-chain Governance
+                </div>{' '}
+                MAP Protocol is a permissionless and decentralized network which
+                is governed by the community. Any protocol level decisions or
+                improvements will be put as a proposal which will go through the
+                open governance process to finalize. MAP is the only accepted
+                token used as the measure in the governance process, including
+                proposing referenda, electing council members, voting, etc
               </div>
             </div>
           </div>
