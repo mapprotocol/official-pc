@@ -10,11 +10,11 @@ const getInitialTheme = () => {
 
     const userMedia = window.matchMedia('(prefers-color-scheme: dark)');
     if (userMedia.matches) {
-      return 'dark';
+      return 'light';
     }
   }
 
-  return 'dark'; // light theme as the default;
+  return 'light'; // light theme as the default;
 };
 
 export const ThemeContext = React.createContext(null);
