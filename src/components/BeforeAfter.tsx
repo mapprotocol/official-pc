@@ -127,7 +127,7 @@ const BeforeAfter = () => {
           className='w-[300px] lg:w-[500px]'
           style={{ margin: '0 auto' }}
           src='/map-light/mutilChain_dark.gif'
-          alt=''
+          alt='Map protocol cross chain connection'
         />
       </div>
       <div className='relative hidden dark:flex'>
@@ -135,7 +135,7 @@ const BeforeAfter = () => {
           className='w-[300px] lg:w-[500px]'
           style={{ margin: '0 auto' }}
           src='/map-light/mutilChain_light.gif'
-          alt=''
+          alt='Map protocol cross chain connection'
         />
       </div>
     </div>

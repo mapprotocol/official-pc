@@ -10,14 +10,14 @@ const Trusted = () => {
           src='/map-light/ieee.png'
           width='240'
           height='50'
-          alt=''
+          alt='Blockchain and distributed ledger standards committee'
         />
         <Image
           className='m-4 mt-4 rounded'
           src='/map-light/certik.png'
           width='250'
           height='60'
-          alt=''
+          alt='Certik respectively'
         />
       </div>
       <div className='visible flex justify-evenly dark:hidden lg:flex-row'>
@@ -26,14 +26,14 @@ const Trusted = () => {
           src='/map/Partnerships/ieee.png'
           width='240'
           height='50'
-          alt=''
+          alt='Blockchain and distributed ledger standards committee'
         />
         <Image
           className='m-4 mt-4 rounded'
           src='/map/Partnerships/certik.png'
           width='250'
           height='60'
-          alt=''
+          alt='Certik respectively'
         />
       </div>
       <div className='flex flex-row justify-evenly '>

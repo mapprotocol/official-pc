@@ -19,7 +19,7 @@ const MainLinks = [
   },
   {
     href: '',
-    name: 'Barter Bridge (testing)',
+    name: 'Barter Bridge (beta)',
   },
   {
     href: 'https://befiwallet.io/',

@@ -24,7 +24,7 @@ const Community = [
     label: 'Forum',
   },
   {
-    href: '',
+    href: 'https://newspace.idavoll.network/project-staking-detail/MAPProtocol',
     label: 'DAO',
   },
 ];
@@ -52,12 +52,12 @@ const Ecosystem = [
   //   label: 'Playverse',
   // },
   {
-    href: '',
+    href: 'https://www.barternetwork.io/',
     label: 'Barternetwork',
   },
   {
     href: '',
-    label: 'Barter Bridge (testing)',
+    label: 'Barter Bridge (beta)',
   },
   {
     href: 'https://befiwallet.io/',
@@ -81,7 +81,11 @@ const Social = [
     label: 'KakaoTalk',
     icon: RiKakaoTalkFill,
   },
-  { href: 'https://discord.gg/MtYjv9jh4u/', label: 'Discord', icon: FaDiscord },
+  {
+    href: 'https://discord.com/invite/W3RnfZE6DV',
+    label: 'Discord',
+    icon: FaDiscord,
+  },
   { href: 'https://www.maplabs.io/blog/', label: 'Blog', icon: FaBlog },
 ];
 

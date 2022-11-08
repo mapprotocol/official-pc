@@ -13,13 +13,20 @@ const Features = () => {
   return (
     <div className='layout my-32'>
       <div className='mb-20 text-center text-gray-300 dark:text-black'>
-        <div className='text-1xl lg:text-3xl '>
+        {/* <div className='text-1xl lg:text-3xl '>
           MAP is the{' '}
           <span className='text-cyan-400 dark:text-sky-700'>
             Super Connector
           </span>{' '}
           of Blockchains
-        </div>
+        </div> */}
+        <h2 style={{ fontFamily: 'BigerOver' }}>
+          MAP is the{' '}
+          <span className='text-cyan-400 dark:text-sky-700'>
+            Super Connector
+          </span>{' '}
+          of Blockchains
+        </h2>
         <div className='mt-4 font-primary'>
           Core pillars to MAP Omnichain Infrastructure
         </div>
@@ -48,7 +55,7 @@ const Features = () => {
             Advance ZK Technology
           </div>
           <div>
-            Zero-Knowledge technolgy to optimize and peed up verification
+            Zero-Knowledge technolgy to optimize and speed up verification
             process and reduce transaction costs
           </div>
         </SectionCard>
