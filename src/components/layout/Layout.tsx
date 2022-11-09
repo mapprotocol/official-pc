@@ -24,7 +24,8 @@ export default function MainLayout({
               style={{
                 background:
                   'url("/map-light/background.jpg") center 0 no-repeat',
-                backgroundSize: '100% 100%',
+                backgroundSize: 'auto 100%',
+                backgroundPosition: '0 0',
                 position: 'fixed',
                 zIndex: -1,
                 top: 0,
@@ -37,7 +38,8 @@ export default function MainLayout({
               className='dark:hidden '
               style={{
                 background: 'url("/map/hero.jpg") center 0 no-repeat',
-                backgroundSize: '100% 100%',
+                backgroundSize: 'auto 100%',
+                backgroundPosition: '0 0',
                 position: 'fixed',
                 zIndex: -1,
                 top: 0,

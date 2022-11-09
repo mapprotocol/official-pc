@@ -3,7 +3,7 @@ import React from 'react';
 
 const getInitialTheme = () => {
   if (typeof window !== 'undefined' && window.localStorage) {
-    const storedPrefs = window.localStorage.getItem('color-theme');
+    const storedPrefs = window.localStorage.getItem('color-theme_v2');
     if (typeof storedPrefs === 'string') {
       return storedPrefs;
     }
@@ -29,7 +29,7 @@ export const ThemeProvider = ({ children }) => {
     root.classList.remove(isDark ? 'light' : 'dark');
     root.classList.add(rawTheme);
 
-    localStorage.setItem('color-theme', rawTheme);
+    localStorage.setItem('color-theme_v2', rawTheme);
   };
 
   React.useEffect(() => {
