@@ -38,7 +38,7 @@ const Trusted = () => {
       </div>
       <div className='flex flex-row justify-evenly '>
         <div className='w-40 font-primary lg:w-56'>
-          Blochchain and Distributed Ledger Standards Committee
+          Blockchain and Distributed Ledger Standards Committee
         </div>
         <div className='w-40 font-primary'></div>
       </div>
