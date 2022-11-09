@@ -61,10 +61,7 @@ const Others = [
 
 export default function Example() {
   return (
-    <Menu
-      as='li'
-      className='relative z-50 inline-block flex text-left text-white'
-    >
+    <Menu as='li' className='relative z-50 inline-block text-left text-white'>
       <div>
         <Menu.Button className='inline-flex w-full justify-center rounded-md bg-black bg-opacity-20 font-medium text-white hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75'>
           <label tabIndex={0} className='btn-ghost btn-circle btn'>
@@ -85,7 +82,7 @@ export default function Example() {
           </label>
         </Menu.Button>
       </div>
-      <Toggle />
+      {/* <Toggle /> */}
       <Transition
         as={Fragment}
         enter='transition ease-out duration-100'
