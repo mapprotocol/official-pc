@@ -2,6 +2,7 @@
 module.exports = {
   images: {
     domains: ['cdn-images-1.medium.com'],
+    unoptimized: true,
   },
   eslint: {
     dirs: ['src'],

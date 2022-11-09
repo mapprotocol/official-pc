@@ -20,9 +20,24 @@ export default function MainLayout({
           {/* <div className='bg bg-[url("/map/hero.jpg")] bg-cover bg-fixed dark:bg-[url("/map-light/background.jpg")]'> */}
           <div className=''>
             <div
-              className='bg-[url("/map/hero.jpg")] dark:bg-[url("/map-light/background.jpg")]'
+              className='hidden dark:inline'
               style={{
-                backgroundSize: 'cover',
+                background:
+                  'url("/map-light/background.jpg") center 0 no-repeat',
+                backgroundSize: '100% 100%',
+                position: 'fixed',
+                zIndex: -1,
+                top: 0,
+                right: 0,
+                bottom: 0,
+                left: 0,
+              }}
+            ></div>
+            <div
+              className='dark:hidden '
+              style={{
+                background: 'url("/map/hero.jpg") center 0 no-repeat',
+                backgroundSize: '100% 100%',
                 position: 'fixed',
                 zIndex: -1,
                 top: 0,
