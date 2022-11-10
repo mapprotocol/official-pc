@@ -17,7 +17,7 @@ const HeroTitle = () => {
             in the Omnichain Future
           </h1>
           <div className='my-4 text-xl font-bold leading-loose lg:text-2xl'>
-            With the MAP Protocol’s Provably Secure and Most <br /> Composable
+            With the MAP Protocol’s Provably Secure and Most Composable
             Omnichain Infrastructure
           </div>
           <div className='mt-24 hidden flex-wrap dark:flex'>

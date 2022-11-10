@@ -13,21 +13,21 @@ function convertToInternationalCurrencySystem(labelValue: number) {
     : Math.abs(Number(labelValue));
 }
 
-const Value = ({ data, styles = '' }: { data: StatData; styles?: string }) => {
+const Value = ({
+  data,
+  styles = '',
+  index,
+}: {
+  data: StatData;
+  styles?: string;
+  index: number;
+}) => {
   if (data.value || data.valueString) {
-    if (data.title === 'Validators') {
-      return (
-        <div className={`stat ${styles}`}>
-          <div className='stat-title text-black'>{data.title}</div>
-          <div className='stat-value text-black'>
-            {data.value ? convertToInternationalCurrencySystem(data.value) : ''}
-          </div>
-          <div className='stat-value text-black'>{data.valueString}</div>
-        </div>
-      );
-    }
     return (
-      <div className={`stat ${styles}`}>
+      <div
+        // style={{ paddingTop: index >= 1 ? '0' : '1rem' }}
+        className={`stat ${styles}`}
+      >
         <div className='stat-title text-black'>{data.title}</div>
         <div className='stat-value text-black'>
           {data.value ? convertToInternationalCurrencySystem(data.value) : ''}
@@ -37,7 +37,10 @@ const Value = ({ data, styles = '' }: { data: StatData; styles?: string }) => {
     );
   } else
     return (
-      <div className={`stat w-40 animate-pulse ${styles}`}>
+      <div
+        // style={{ paddingTop: index >= 1 ? '0' : '1rem' }}
+        className={`stat w-40 animate-pulse ${styles}`}
+      >
         <div className='flex-1 space-y-6 py-1'>
           <div className='h-2 rounded bg-slate-700'></div>
           <div className='space-y-3'>
@@ -54,37 +57,46 @@ const Value = ({ data, styles = '' }: { data: StatData; styles?: string }) => {
 const StakeStats = ({ data }: { data: StakeData | null }) => {
   return (
     <div className='pt-8 text-center font-primary'>
-      <div className='stats w-[100%] bg-white shadow'>
-        <Value data={{ title: 'Genesis Token supply', value: data?.supply }} />
+      <div className='stats flex w-[100%] flex-col bg-white shadow lg:inline-grid'>
         <Value
+          index={0}
+          data={{ title: 'Genesis Token supply', value: data?.supply }}
+        />
+        <Value
+          index={1}
+          styles={'pt-0 lg:pt-4'}
           data={{
             title: 'Current Tokens Staked',
             value: data?.staking,
           }}
         />
         <Value
-          styles='hidden lg:inline'
+          index={2}
+          styles='lg:inline pt-0 lg:pt-4'
           data={{
             title: 'Validators',
             value: data?.validators,
           }}
         />
         <Value
-          styles='hidden lg:inline'
+          index={3}
+          styles='lg:inline pt-0 lg:pt-4'
           data={{
             title: 'Average APY',
             valueString: data?.apy,
           }}
         />
       </div>
-      <div className='stats visible mt-4 shadow lg:hidden'>
+      <div className='stats visible mt-4 hidden shadow lg:hidden'>
         <Value
+          index={0}
           data={{
             title: 'Validators',
             value: data?.validators,
           }}
         />
         <Value
+          index={0}
           data={{
             title: 'Average APY',
             valueString: data?.apy,

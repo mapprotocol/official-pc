@@ -22,7 +22,7 @@ const Features = () => {
         </div> */}
         <h2 style={{ fontFamily: 'BigerOver' }}>
           MAP is the{' '}
-          <span className='text-cyan-400 dark:text-sky-700'>
+          <span className='whitespace-nowrap text-cyan-400 dark:text-sky-700'>
             Super Connector
           </span>{' '}
           of Blockchains
