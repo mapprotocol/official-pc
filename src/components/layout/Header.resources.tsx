@@ -18,6 +18,7 @@ const MainLinks = [
   //   name: 'Forum',
   // },
   { href: 'https://docs.maplabs.io', name: 'Docs' },
+  { href: '/brand', name: 'Brands' },
 ];
 
 const SocialLinks = [

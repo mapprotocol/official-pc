@@ -70,6 +70,7 @@ const ecosystem = [
     name: 'Litebook',
   },
   { href: 'https://docs.maplabs.io', name: 'Docs' },
+  { href: '/brand', name: 'Brands' },
   // {
   //   href: 'https://forum.maplabs.io/latest',
   //   name: 'Forum',
