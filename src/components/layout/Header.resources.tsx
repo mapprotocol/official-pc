@@ -17,7 +17,7 @@ const MainLinks = [
   //   href: 'https://forum.maplabs.io/latest',
   //   name: 'Forum',
   // },
-  { href: 'https://docs.maplabs.io', name: 'Docs' },
+  { href: 'https://www.mapprotocol.io/blog/', name: 'Docs' },
   { href: '/brand', name: 'Brands' },
 ];
 

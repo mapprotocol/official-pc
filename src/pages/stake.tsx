@@ -134,7 +134,7 @@ export default function HomePage() {
             <Link href='https://mapscan.io/validators'>
               <Image width='200' height='50' src={'/stake/2_light.png'}></Image>
             </Link>
-            <Link href='https://docs.maplabs.io/run/howtobecomeanewvalidator'>
+            <Link href='https://docs.mapprotocol.io/run/howtobecomeanewvalidator'>
               <Image width='200' height='50' src={'/stake/3_light.png'}></Image>
             </Link>
           </div>
@@ -145,7 +145,7 @@ export default function HomePage() {
             <Link href='https://mapscan.io/validators'>
               <Image width='200' height='50' src={'/stake/2_dark.png'}></Image>
             </Link>
-            <Link href='https://docs.maplabs.io/run/howtobecomeanewvalidator'>
+            <Link href='https://docs.mapprotocol.io/run/howtobecomeanewvalidator'>
               <Image width='200' height='50' src={'/stake/3_dark.png'}></Image>
             </Link>
           </div>
@@ -153,36 +153,36 @@ export default function HomePage() {
 
         <Divider />
         <div className='mx-auto rounded text-center font-primary text-white dark:text-black lg:w-[600px]'>
-          <h1 className=''>MAP Tokenomics</h1>
+          <h1 className=''>MAPO Tokenomics</h1>
         </div>
         <div className='mt-10 flex flex-col items-center gap-10 font-primary'>
           <div className='text-white dark:text-black'>
             <div className='mt-4'>
-              The native utility token of MAP Protocol is MAP token. MAP
-              Protocol has its own relay chain (PoS) and MAP token supports the
-              monetary flow of the entire MAP economic system. Core use cases of
-              the MAP token include:
+              The native utility token of MAP Protocol is MAPO token. MAP
+              Protocol has its own relay chain (PoS) and MAPO token supports the
+              monetary flow of the entire MAPO economic system. Core use cases
+              of the MAPO token include:
             </div>
             <div className='mt-4 flex flex-col gap-4 lg:flex-row'>
               <div className='mt-4 flex-1 basis-1/5 rounded bg-gray-800 p-4  text-white dark:bg-white dark:text-black'>
                 <div className='mb-2 text-center font-bold text-cyan-400 dark:text-sky-700'>
                   Gas Metering
                 </div>{' '}
-                MAP token is the native token for paying transaction fees. Users
-                need to specify a certain amount of transaction fee in MAP so
-                the transaction can be successfully processed and included in
-                the blockchain. MAP token is used as the gas metering of smart
-                contract execution.
+                MAPO token is the native token for paying transaction fees.
+                Users need to specify a certain amount of transaction fee in
+                MAPO so the transaction can be successfully processed and
+                included in the blockchain. MAPO token is used as the gas
+                metering of smart contract execution.
               </div>
               <div className='mt-4 flex-1 basis-1/5 rounded bg-gray-800 p-4 text-white dark:bg-white dark:text-black'>
                 <div className='mb-2 text-center font-bold text-cyan-400 dark:text-sky-700'>
                   Protocol Security
                 </div>{' '}
-                MAP Relay Chain is a Proof-of-Stake blockchain which means the
-                security of the network is protected by staked tokens. MAP token
-                is used to incentivize token holders and power the mechanics
-                around the creation of a decentralized node infrastructure on
-                which the blockchain can run.
+                MAPO Relay Chain is a Proof-of-Stake blockchain which means the
+                security of the network is protected by staked tokens. MAPO
+                token is used to incentivize token holders and power the
+                mechanics around the creation of a decentralized node
+                infrastructure on which the blockchain can run.
               </div>
               <div className='mt-4 flex-1 basis-1/5 rounded bg-gray-800 p-4 text-white dark:bg-white dark:text-black'>
                 <div className='mb-2 text-center font-bold text-cyan-400 dark:text-sky-700'>
@@ -191,7 +191,7 @@ export default function HomePage() {
                 MAP Protocol is a permissionless and decentralized network which
                 is governed by the community. Any protocol level decisions or
                 improvements will be put as a proposal which will go through the
-                open governance process to finalize. MAP is the only accepted
+                open governance process to finalize. MAPO is the only accepted
                 token used as the measure in the governance process, including
                 proposing referenda, electing council members, voting, etc
               </div>
@@ -212,7 +212,7 @@ export default function HomePage() {
 
         <Divider />
         <div className='mx-auto mb-20 text-center font-primary text-white dark:text-black'>
-          <h1 className=''>Get $MAP Token</h1>
+          <h1 className=''>Get $MAPO Token</h1>
           <Section title='' exchanges={exchanges.centralized} />
         </div>
       </div>

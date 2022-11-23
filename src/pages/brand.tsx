@@ -12,9 +12,10 @@ const Brand = () => {
         <div className='logo-title text-gray-300 dark:text-black'>
           <span>MAP Protocol Logo</span>
           <span style={{ maxWidth: '713px' }}>
-            The MAP logo is displayed in the official colors and usage patterns.
-            Do not place the logo on top of other objects and leave a reasonable
-            amount of margin around the outside so the logo is clearly visible.
+            The MAP Protocol logo is displayed in the official colors and usage
+            patterns. Do not place the logo on top of other objects and leave a
+            reasonable amount of margin around the outside so the logo is
+            clearly visible.
           </span>
 
           <a
@@ -299,8 +300,8 @@ const Brand = () => {
         <div className='logo-title logo-title-two mt-12 text-gray-300 dark:text-black'>
           <span>MAP Protocol Badges</span>
           <span>
-            Projects using MAP should display this badge on their pages and
-            apps.
+            Projects using MAP Protocol should display this badge on their pages
+            and apps.
             <br />
             Here you can download the badge in PNG format.
           </span>

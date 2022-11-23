@@ -119,7 +119,7 @@ const BeforeAfter = () => {
   return (
     <div className='my-4 min-h-[500px] lg:min-h-[700px]'>
       <div className='text-1xl mb-8 p-8  text-center font-bold text-white dark:text-black lg:text-3xl'>
-        Before and After using MAP
+        Before and After using MAPO
       </div>
 
       <div className='relative dark:hidden'>

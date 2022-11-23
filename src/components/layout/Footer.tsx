@@ -11,7 +11,7 @@ import { RiKakaoTalkFill } from 'react-icons/ri';
 import UnderlineLink from '@/components/links/UnderlineLink';
 
 const Build = [
-  { href: 'https://docs.maplabs.io/', label: 'Docs' },
+  { href: 'https://www.mapprotocol.io/blog/', label: 'Docs' },
   { href: 'https://github.com/mapprotocol', label: 'Github' },
   {
     href: 'https://files.maplabs.io/pdf/mapprotocol_whitepaper_en.pdf',
@@ -191,7 +191,7 @@ export default function Header() {
         <div className='mt-8 text-center'>
           © {new Date().getFullYear()} By{' '}
           <UnderlineLink href='https://theodorusclarence.com?ref=tsnextstarter'>
-            All rights reservied by MAP Labs.
+            All rights reservied by MAP Protocol.
           </UnderlineLink>
         </div>
       </div>

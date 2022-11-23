@@ -69,7 +69,7 @@ const ecosystem = [
     href: 'https://files.maplabs.io/pdf/mapprotocol_Litebook_en.pdf',
     name: 'Litebook',
   },
-  { href: 'https://docs.maplabs.io', name: 'Docs' },
+  { href: 'https://www.mapprotocol.io/blog/', name: 'Docs' },
   { href: '/brand', name: 'Brands' },
   // {
   //   href: 'https://forum.maplabs.io/latest',

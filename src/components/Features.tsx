@@ -21,14 +21,14 @@ const Features = () => {
           of Blockchains
         </div> */}
         <h2 style={{ fontFamily: 'BigerOver' }}>
-          MAP is the{' '}
+          MAPO is the{' '}
           <span className='whitespace-nowrap text-cyan-400 dark:text-sky-700'>
             Super Connector
           </span>{' '}
           of Blockchains
         </h2>
         <div className='mt-4 font-primary'>
-          Core pillars to MAP Omnichain Infrastructure
+          Core pillars to MAPO Omnichain Infrastructure
         </div>
       </div>
       <div className='align-center -mt-4 -mb-10 flex flex-col justify-evenly font-primary sm:-m-4 lg:-mx-4 lg:flex-row'>
@@ -37,8 +37,8 @@ const Features = () => {
             Full Chain Coverage
           </div>
           <div>
-            Expandable and decentralized MAP Relay Chain to support both EVM and
-            Non-EVM chains connections
+            Expandable and decentralized MAPO Relay Chain to support both EVM
+            and Non-EVM chains connections
           </div>
         </SectionCard>
         <SectionCard>
@@ -64,7 +64,7 @@ const Features = () => {
             Comprehensive SDKs
           </div>
           <div>
-            MAP Omnichain Service (MOS) and SDKs to offer built-in
+            MAPO Omnichain Service (MOS) and SDKs to offer built-in
             interoperability features for omnichain applications
           </div>
         </SectionCard>
