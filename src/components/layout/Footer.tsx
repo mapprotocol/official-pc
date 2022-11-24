@@ -1,4 +1,5 @@
 import * as React from 'react';
+import Image from 'next/image';
 import {
   FaBlog,
   FaDiscord,
@@ -87,6 +88,13 @@ const Social = [
     icon: FaDiscord,
   },
   { href: 'https://www.maplabs.io/blog/', label: 'Blog', icon: FaBlog },
+  {
+    href: 'https://blog.naver.com/mapprotocol',
+    label: 'Naver Blog',
+    icon: () => (
+      <img className='h-[14px] w-[14px]' src={'/map-light/naverBlog.png'} />
+    ),
+  },
 ];
 
 export default function Header() {
