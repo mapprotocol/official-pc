@@ -103,7 +103,7 @@ export default function HomePage() {
     if (stats == null) {
       const urls = [
         'https://mainnet-api.mapscan.io/scan/queryMapChainData?typeStr=supply,staking,address,transfer,block,epoch',
-        'https://staking.maplabs.io/api/apy/list',
+        'https://staking.mapprotocol.io/api/apy/list',
       ];
       const requests = urls.map((url) => {
         return axios.get(url);
