@@ -48,7 +48,7 @@ const HeroTitle = () => {
             </Link>
 
             <Link
-              href='/'
+              href='http://test-bridge.butternetwork.io/'
               className='hover:pointer mx-auto text-[10rem] transition-all duration-100 hover:scale-125 lg:text-[15rem]'
             >
               <Image
@@ -86,7 +86,7 @@ const HeroTitle = () => {
               />
             </Link>
             <Link
-              href='/'
+              href='http://test-bridge.butternetwork.io/'
               className='hover:pointer mx-auto flex items-center text-[10rem] transition-all duration-100 hover:scale-125 lg:text-[15rem]'
             >
               <Image

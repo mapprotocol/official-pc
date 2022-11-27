@@ -54,12 +54,12 @@ const Ecosystem = [
   // },
   {
     href: 'https://www.barternetwork.io/',
-    label: 'Barternetwork',
+    label: 'Butter Network',
   },
-  {
-    href: '',
-    label: 'Barter Bridge (beta)',
-  },
+  // {
+  //   href: '',
+  //   label: 'Barter Bridge (beta)',
+  // },
   {
     href: 'https://befiwallet.io/',
     label: 'BeFi Wallet',

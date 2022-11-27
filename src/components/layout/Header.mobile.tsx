@@ -39,12 +39,12 @@ const MainLinks = [
   // },
   {
     href: 'https://www.barternetwork.io/',
-    name: 'Barternetwork',
+    name: 'Butter Network',
   },
-  {
-    href: '',
-    name: 'Barter Bridge (beta)',
-  },
+  // {
+  //   href: '',
+  //   name: 'Barter Bridge (beta)',
+  // },
   {
     href: 'https://befiwallet.io/',
     name: 'BeFi Wallet',

@@ -10,16 +10,16 @@ const MainLinks = [
     name: 'Hiveswap',
   },
   // {
-  //   href: 'https://about.playverse.center/',
-  //   name: 'Playverse',
+  //   href: 'https://www.barternetwork.io/',
+  //   name: 'Barternetwork',
+  // },
+  // {
+  //   href: '',
+  //   name: 'Barter Bridge (beta)',
   // },
   {
     href: 'https://www.barternetwork.io/',
-    name: 'Barternetwork',
-  },
-  {
-    href: '',
-    name: 'Barter Bridge (beta)',
+    name: 'Butter Network',
   },
   {
     href: 'https://befiwallet.io/',
