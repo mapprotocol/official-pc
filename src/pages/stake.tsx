@@ -131,7 +131,7 @@ export default function HomePage() {
             <Link href='https://staking.maplabs.io'>
               <Image width='200' height='50' src={'/stake/1_light.png'}></Image>
             </Link>
-            <Link href='https://mapscan.io/validators'>
+            <Link href='https://maposcan.io/validators'>
               <Image width='200' height='50' src={'/stake/2_light.png'}></Image>
             </Link>
             <Link href='https://docs.mapprotocol.io/run/howtobecomeanewvalidator'>
@@ -142,7 +142,7 @@ export default function HomePage() {
             <Link href='https://staking.maplabs.io'>
               <Image width='200' height='50' src={'/stake/1_dark.png'}></Image>
             </Link>
-            <Link href='https://mapscan.io/validators'>
+            <Link href='https://maposcan.io/validators'>
               <Image width='200' height='50' src={'/stake/2_dark.png'}></Image>
             </Link>
             <Link href='https://docs.mapprotocol.io/run/howtobecomeanewvalidator'>

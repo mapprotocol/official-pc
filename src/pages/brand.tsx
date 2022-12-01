@@ -23,7 +23,7 @@ const Brand = () => {
             className='flex flex-col items-center justify-center dark:hidden'
             href='https://files.maplabs.io/bigfiles/MapProtocolLogo.zip'
           >
-            Download Logo & Symbol 1
+            Download Logos
           </a>
           <a
             style={{
@@ -34,7 +34,7 @@ const Brand = () => {
             className='hidden flex-col items-center justify-center dark:flex'
             href='https://files.maplabs.io/bigfiles/MapProtocolLogo.zip'
           >
-            Download Logo & Symbol 2
+            Download Logos
           </a>
         </div>
 

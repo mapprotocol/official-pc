@@ -18,8 +18,9 @@ const MainLinks = [
   //   name: 'Barter Bridge (beta)',
   // },
   {
-    href: 'https://www.barternetwork.io/',
-    name: 'Butter Network',
+    // href: 'https://www.barternetwork.io/',
+    href: '',
+    name: 'Butter Network (coming soon)',
   },
   {
     href: 'https://befiwallet.io/',
