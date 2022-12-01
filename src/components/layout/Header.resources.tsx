@@ -17,7 +17,8 @@ const MainLinks = [
   //   href: 'https://forum.maplabs.io/latest',
   //   name: 'Forum',
   // },
-  { href: 'https://www.mapprotocol.io/blog/', name: 'Docs' },
+  { href: 'https://docs.mapprotocol.io', name: 'Docs' },
+  { href: 'https://github.com/mapprotocol', name: 'Github' },
   { href: '/brand', name: 'Brands' },
 ];
 
@@ -30,10 +31,10 @@ const SocialLinks = [
     href: 'https://github.com/mapprotocol/awesome-map#amas',
     name: 'AMAs',
   },
-  {
-    href: 'https://github.com/mapprotocol/awesome-map#presentations',
-    name: 'Presentations',
-  },
+  // {
+  //   href: 'https://github.com/mapprotocol/awesome-map#presentations',
+  //   name: 'Presentations',
+  // },
 ];
 
 const Others = [

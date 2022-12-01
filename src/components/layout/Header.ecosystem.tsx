@@ -20,7 +20,7 @@ const MainLinks = [
   {
     // href: 'https://www.barternetwork.io/',
     href: '',
-    name: 'Butter Network (coming soon)',
+    name: 'Butter Network(coming soon)',
   },
   {
     href: 'https://befiwallet.io/',

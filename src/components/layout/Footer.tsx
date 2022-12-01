@@ -12,7 +12,7 @@ import { RiKakaoTalkFill } from 'react-icons/ri';
 import UnderlineLink from '@/components/links/UnderlineLink';
 
 const Build = [
-  { href: 'https://www.mapprotocol.io/blog/', label: 'Docs' },
+  { href: 'https://docs.mapprotocol.io', label: 'Docs' },
   { href: 'https://github.com/mapprotocol', label: 'Github' },
   {
     href: 'https://files.maplabs.io/pdf/mapprotocol_whitepaper_en.pdf',
@@ -53,8 +53,9 @@ const Ecosystem = [
   //   label: 'Playverse',
   // },
   {
-    href: 'https://www.barternetwork.io/',
-    label: 'Butter Network',
+    // href: 'https://www.barternetwork.io/',
+    href: '',
+    label: 'Butter Network(coming soon)',
   },
   // {
   //   href: '',

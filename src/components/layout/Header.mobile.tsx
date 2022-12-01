@@ -38,8 +38,9 @@ const MainLinks = [
   //   name: 'Playverse',
   // },
   {
-    href: 'https://www.barternetwork.io/',
-    name: 'Butter Network',
+    // href: 'https://www.barternetwork.io/',
+    href: '',
+    name: 'Butter Network(coming soon)',
   },
   // {
   //   href: '',
@@ -69,7 +70,8 @@ const ecosystem = [
     href: 'https://files.maplabs.io/pdf/mapprotocol_Litebook_en.pdf',
     name: 'Litebook',
   },
-  { href: 'https://www.mapprotocol.io/blog/', name: 'Docs' },
+  { href: 'https://docs.mapprotocol.io', name: 'Docs' },
+  { href: 'https://github.com/mapprotocol', name: 'Github' },
   { href: '/brand', name: 'Brands' },
   // {
   //   href: 'https://forum.maplabs.io/latest',
@@ -87,10 +89,10 @@ const SocialLinks = [
     href: 'https://github.com/mapprotocol/awesome-map#amas',
     name: 'AMAs',
   },
-  {
-    href: 'https://github.com/mapprotocol/awesome-map#presentations',
-    name: 'Presentations',
-  },
+  // {
+  //   href: 'https://github.com/mapprotocol/awesome-map#presentations',
+  //   name: 'Presentations',
+  // },
 ];
 
 const Others = [
