@@ -80,7 +80,7 @@ const exchanges = {
       icon: '/stake/Uniswap.png',
       title: 'Uniswap',
       // subtitle: 'Get MAP via Uniswap',
-      url: '',
+      url: 'https://app.uniswap.org/#/swap?outputCurrency=0x9e976f211daea0d652912ab99b0dc21a7fd728e4',
     },
     {
       icon: '/stake/Hiveswap.png',
@@ -92,7 +92,7 @@ const exchanges = {
       icon: '/stake/Pancakeswap.png',
       title: 'Pancakeswap',
       // subtitle: 'Get MAP via Pancakeswap',
-      url: 'https://pancakeswap.finance/info/pool/0xd034e9294833d5739d852548a9b9724c4453db5f',
+      url: 'https://pancakeswap.finance/swap?inputCurrency=0x8105ECe4ce08B6B6449539A5db23e23b973DfA8f&outputCurrency=BNB',
     },
   ],
 };
