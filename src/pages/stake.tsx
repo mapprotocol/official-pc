@@ -2,6 +2,8 @@ import axios from 'axios';
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import Link from '@/components/links/Link';
+import { useRouter } from 'next/router';
+import TEXT from '../i18n';
 
 import Divider from '@/components/Divider';
 import Layout from '@/components/layout/Layout';
@@ -21,6 +23,10 @@ type Item = {
 };
 
 const Card = ({ item }: { item: Item }) => {
+  const { locale } = useRouter();
+  // @ts-ignore
+  const t = TEXT[locale];
+
   return (
     <div className='mx-auto mb-4 w-[160px] rounded bg-white px-4 py-4 text-center font-primary text-gray-800 transition hover:scale-105 hover:cursor-pointer dark:text-black'>
       <Image src={item.icon} height={50} width={50} alt={item.title} />
@@ -33,7 +39,7 @@ const Card = ({ item }: { item: Item }) => {
           className='rounded bg-gray-300 p-2'
           rel='noreferrer'
         >
-          Purchase
+          {t['purchase']}
         </a>
       </div>
     </div>
@@ -98,6 +104,10 @@ const exchanges = {
 };
 
 export default function HomePage() {
+  const { locale } = useRouter();
+  // @ts-ignore
+  const t = TEXT[locale];
+
   const [stats, setStats] = useState<StakeData | null>(null);
   useEffect(() => {
     if (stats == null) {
@@ -153,47 +163,29 @@ export default function HomePage() {
 
         <Divider />
         <div className='mx-auto rounded text-center font-primary text-white dark:text-black lg:w-[600px]'>
-          <h1 className=''>MAPO Tokenomics</h1>
+          <h1 className=''>{t['mapoTokenomics']}</h1>
         </div>
         <div className='mt-10 flex flex-col items-center gap-10 font-primary'>
           <div className='text-white dark:text-black'>
-            <div className='mt-4'>
-              The native utility token of MAP Protocol is MAPO token. MAP
-              Protocol has its own relay chain (PoS) and MAPO token supports the
-              monetary flow of the entire MAPO economic system. Core use cases
-              of the MAPO token include:
-            </div>
+            <div className='mt-4'>{t['mapoTokenomics.text']}</div>
             <div className='mt-4 flex flex-col gap-4 lg:flex-row'>
               <div className='mt-4 flex-1 basis-1/5 rounded bg-gray-800 p-4  text-white dark:bg-white dark:text-black'>
                 <div className='mb-2 text-center font-bold text-cyan-400 dark:text-sky-700'>
-                  Gas Metering
+                  {t['gasMetering']}
                 </div>{' '}
-                MAPO token is the native token for paying transaction fees.
-                Users need to specify a certain amount of transaction fee in
-                MAPO so the transaction can be successfully processed and
-                included in the blockchain. MAPO token is used as the gas
-                metering of smart contract execution.
+                {t['gasMetering.text']}
               </div>
               <div className='mt-4 flex-1 basis-1/5 rounded bg-gray-800 p-4 text-white dark:bg-white dark:text-black'>
                 <div className='mb-2 text-center font-bold text-cyan-400 dark:text-sky-700'>
-                  Protocol Security
+                  {t['protocolSecurity']}
                 </div>{' '}
-                MAPO Relay Chain is a Proof-of-Stake blockchain which means the
-                security of the network is protected by staked tokens. MAPO
-                token is used to incentivize token holders and power the
-                mechanics around the creation of a decentralized node
-                infrastructure on which the blockchain can run.
+                {t['protocolSecurity.text']}
               </div>
               <div className='mt-4 flex-1 basis-1/5 rounded bg-gray-800 p-4 text-white dark:bg-white dark:text-black'>
                 <div className='mb-2 text-center font-bold text-cyan-400 dark:text-sky-700'>
-                  On-chain Governance
+                  {t['onChaingove']}
                 </div>{' '}
-                MAP Protocol is a permissionless and decentralized network which
-                is governed by the community. Any protocol level decisions or
-                improvements will be put as a proposal which will go through the
-                open governance process to finalize. MAPO is the only accepted
-                token used as the measure in the governance process, including
-                proposing referenda, electing council members, voting, etc
+                {t['onChaingove.text']}
               </div>
             </div>
           </div>
@@ -212,7 +204,7 @@ export default function HomePage() {
 
         <Divider />
         <div className='mx-auto mb-20 text-center font-primary text-white dark:text-black'>
-          <h1 className=''>Get $MAPO Token</h1>
+          <h1 className=''>{t['getMapoToken']}</h1>
           <Section title='' exchanges={exchanges.centralized} />
         </div>
       </div>

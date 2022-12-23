@@ -8,97 +8,103 @@ import {
   FaTwitter,
 } from 'react-icons/fa';
 import { RiKakaoTalkFill } from 'react-icons/ri';
+import { useRouter } from 'next/router';
+import TEXT from '../../i18n';
 
 import UnderlineLink from '@/components/links/UnderlineLink';
 
-const Build = [
-  { href: 'https://docs.mapprotocol.io', label: 'Docs' },
-  { href: 'https://github.com/mapprotocol', label: 'Github' },
-  {
-    href: 'https://files.maplabs.io/pdf/mapprotocol_whitepaper_en.pdf',
-    label: 'WhitePaper',
-  },
-];
-const Community = [
-  {
-    href: 'https://forum.maplabs.io/latest',
-    label: 'Forum',
-  },
-  {
-    href: 'https://newspace.idavoll.network/project-staking-detail/MAPProtocol',
-    label: 'DAO',
-  },
-];
-const Grants = [
-  {
-    href: 'https://forum.maplabs.io/t/map-omnichain-builder-grants-program/3980',
-    label: 'Builder Grant',
-  },
-  {
-    href: 'https://forum.maplabs.io/t/about-the-academy-category/3989',
-    label: 'Research Grant',
-  },
-  {
-    href: 'https://forum.maplabs.io/t/map-community-contributor-grants-program/3988',
-    label: 'Community Grant',
-  },
-];
-const Ecosystem = [
-  {
-    href: 'https://swap.hiveswap.io/#/swap',
-    label: 'Hiveswap',
-  },
-  // {
-  //   href: 'https://about.playverse.center/',
-  //   label: 'Playverse',
-  // },
-  {
-    // href: 'https://www.barternetwork.io/',
-    href: '',
-    label: 'Butter Network(coming soon)',
-  },
-  // {
-  //   href: '',
-  //   label: 'Barter Bridge (beta)',
-  // },
-  {
-    href: 'https://befiwallet.io/',
-    label: 'BeFi Wallet',
-  },
-];
-const Social = [
-  {
-    href: 'https://medium.com/@mapprotocolofficial/',
-    label: 'Medium',
-    icon: FaMedium,
-  },
-  {
-    href: 'https://mobile.twitter.com/MapProtocol/',
-    label: 'Twitter',
-    icon: FaTwitter,
-  },
-  { href: 'https://t.me/MAPprotocol/', label: 'Telegram', icon: FaTelegram },
-  {
-    href: 'https://open.kakao.com/o/gP9WduRb/',
-    label: 'KakaoTalk',
-    icon: RiKakaoTalkFill,
-  },
-  {
-    href: 'https://discord.com/invite/W3RnfZE6DV',
-    label: 'Discord',
-    icon: FaDiscord,
-  },
-  { href: 'https://www.maplabs.io/blog/', label: 'Blog', icon: FaBlog },
-  {
-    href: 'https://blog.naver.com/mapprotocol',
-    label: 'Naver Blog',
-    icon: () => (
-      <img className='h-[14px] w-[14px]' src={'/map-light/naverBlog.png'} />
-    ),
-  },
-];
-
 export default function Header() {
+  const { locale } = useRouter();
+  // @ts-ignore
+  const t = TEXT[locale];
+
+  const Build = [
+    { href: 'https://docs.mapprotocol.io', label: t['footer.docs'] },
+    { href: 'https://github.com/mapprotocol', label: t['footer.github'] },
+    {
+      href: 'https://files.maplabs.io/pdf/mapprotocol_whitepaper_en.pdf',
+      label: t['footer.whitepaper'],
+    },
+  ];
+  const Community = [
+    {
+      href: 'https://forum.maplabs.io/latest',
+      label: t['footer.forum'],
+    },
+    {
+      href: 'https://newspace.idavoll.network/project-staking-detail/MAPProtocol',
+      label: t['footer.dao'],
+    },
+  ];
+  const Grants = [
+    {
+      href: 'https://forum.maplabs.io/t/map-omnichain-builder-grants-program/3980',
+      label: t['footer.builderGrants'],
+    },
+    {
+      href: 'https://forum.maplabs.io/t/about-the-academy-category/3989',
+      label: t['footer.researchGrants'],
+    },
+    {
+      href: 'https://forum.maplabs.io/t/map-community-contributor-grants-program/3988',
+      label: t['footer.communityGrants'],
+    },
+  ];
+  const Ecosystem = [
+    {
+      href: 'https://swap.hiveswap.io/#/swap',
+      label: t['footer.hiveswap'],
+    },
+    {
+      // href: 'https://www.barternetwork.io/',
+      href: '',
+      label: t['footer.butter'],
+    },
+    {
+      href: 'https://befiwallet.io/',
+      label: t['footer.befi'],
+    },
+  ];
+  const Social = [
+    {
+      href: 'https://medium.com/@mapprotocolofficial/',
+      label: t['footer.medium'],
+      icon: FaMedium,
+    },
+    {
+      href: 'https://mobile.twitter.com/MapProtocol/',
+      label: t['footer.twitter'],
+      icon: FaTwitter,
+    },
+    {
+      href: 'https://t.me/MAPprotocol/',
+      label: t['footer.telegram'],
+      icon: FaTelegram,
+    },
+    {
+      href: 'https://open.kakao.com/o/gP9WduRb/',
+      label: t['footer.kakao'],
+      icon: RiKakaoTalkFill,
+    },
+    {
+      href: 'https://discord.com/invite/W3RnfZE6DV',
+      label: t['footer.discord'],
+      icon: FaDiscord,
+    },
+    {
+      href: 'https://www.maplabs.io/blog/',
+      label: t['footer.blog'],
+      icon: FaBlog,
+    },
+    {
+      href: 'https://blog.naver.com/mapprotocol',
+      label: t['footer.naver'],
+      icon: () => (
+        <img className='h-[14px] w-[14px]' src={'/map-light/naverBlog.png'} />
+      ),
+    },
+  ];
+
   return (
     <footer
       className=' bg-black font-primary text-white lg:h-[24rem]'
@@ -109,7 +115,7 @@ export default function Header() {
       <div className='layout pt-12'>
         <div className='flex flex-col justify-evenly lg:flex-row'>
           <div className='mx-8'>
-            <div className='text-2xl font-bold'>BUILD</div>
+            <div className='text-2xl font-bold'>{t['footer.build']}</div>
             {Build.map((item, key) => {
               return (
                 <div className='group my-4 flex h-4 transition ' key={key}>
@@ -124,7 +130,7 @@ export default function Header() {
             })}
           </div>
           <div className='mx-8'>
-            <div className='text-2xl font-bold'>Community</div>
+            <div className='text-2xl font-bold'>{t['footer.community']}</div>
             {Community.map((item, key) => {
               return (
                 <div className='group my-4 flex h-4 transition ' key={key}>
@@ -142,7 +148,7 @@ export default function Header() {
             })}
           </div>
           <div className='mx-8'>
-            <div className='text-2xl font-bold'>Grants</div>
+            <div className='text-2xl font-bold'>{t['footer.grants']}</div>
             {Grants.map((item, key) => {
               return (
                 <div className='group my-4 flex h-4 transition ' key={key}>
@@ -160,7 +166,7 @@ export default function Header() {
             })}
           </div>
           <div className='mx-8'>
-            <div className='text-2xl font-bold'>Ecosystem</div>
+            <div className='text-2xl font-bold'>{t['footer.ecosystem']}</div>
             {Ecosystem.map((item, key) => {
               return (
                 <div className='group my-4 flex h-4 transition ' key={key}>
@@ -178,7 +184,7 @@ export default function Header() {
             })}
           </div>
           <div className='mx-8'>
-            <div className='text-2xl font-bold'>SOCIAL</div>
+            <div className='text-2xl font-bold'>{t['footer.social']}</div>
             {Social.map((item, key) => {
               const Icon = item.icon;
               return (

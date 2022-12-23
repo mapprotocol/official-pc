@@ -1,64 +1,62 @@
 import { Menu, Transition } from '@headlessui/react';
 import { ChevronDownIcon } from '@heroicons/react/20/solid';
 import { Fragment } from 'react';
+import { useRouter } from 'next/router';
+import TEXT from '../../i18n';
 
 import UnderlineLink from '../links/UnderlineLink';
 
-const MainLinks = [
-  {
-    href: 'https://docsend.com/view/3ugtsz5mut39juc6',
-    name: 'Introduction',
-  },
-  {
-    href: 'https://files.maplabs.io/pdf/mapprotocol_Litebook_en.pdf',
-    name: 'Litebook',
-  },
-  // {
-  //   href: 'https://forum.maplabs.io/latest',
-  //   name: 'Forum',
-  // },
-  { href: 'https://docs.mapprotocol.io', name: 'Docs' },
-  { href: 'https://github.com/mapprotocol', name: 'Github' },
-  { href: '/brand', name: 'Brands' },
-];
-
-const SocialLinks = [
-  {
-    href: 'https://github.com/mapprotocol/awesome-map#articles',
-    name: 'Blog',
-  },
-  {
-    href: 'https://github.com/mapprotocol/awesome-map#amas',
-    name: 'AMAs',
-  },
-  // {
-  //   href: 'https://github.com/mapprotocol/awesome-map#presentations',
-  //   name: 'Presentations',
-  // },
-];
-
-const Others = [
-  {
-    href: 'https://etherscan.io/token/0x9e976f211daea0d652912ab99b0dc21a7fd728e4',
-    name: 'ERC20',
-  },
-
-  {
-    href: 'https://bscscan.com/address/0x8105ECe4ce08B6B6449539A5db23e23b973DfA8f',
-    name: 'BSC',
-  },
-  {
-    href: 'https://polygonscan.com/address/0xBAbceE78586d3e9E80E0d69601A17f983663Ba6a',
-    name: 'Polygon',
-  },
-];
-
 export default function Example() {
+  const { locale } = useRouter();
+  // @ts-ignore
+  const t = TEXT[locale];
+
+  const MainLinks = [
+    {
+      href: 'https://docsend.com/view/3ugtsz5mut39juc6',
+      name: t['introduction'],
+    },
+    {
+      href: 'https://files.maplabs.io/pdf/mapprotocol_Litebook_en.pdf',
+      name: t['litebook'],
+    },
+    { href: 'https://docs.mapprotocol.io', name: t['docs'] },
+    { href: 'https://github.com/mapprotocol', name: t['github'] },
+    { href: '/brand', name: t['brands'] },
+  ];
+
+  const SocialLinks = [
+    {
+      href: 'https://github.com/mapprotocol/awesome-map#articles',
+      name: t['blog'],
+    },
+    {
+      href: 'https://github.com/mapprotocol/awesome-map#amas',
+      name: t['amas'],
+    },
+  ];
+
+  const Others = [
+    {
+      href: 'https://etherscan.io/token/0x9e976f211daea0d652912ab99b0dc21a7fd728e4',
+      name: 'ERC20',
+    },
+
+    {
+      href: 'https://bscscan.com/address/0x8105ECe4ce08B6B6449539A5db23e23b973DfA8f',
+      name: 'BSC',
+    },
+    {
+      href: 'https://polygonscan.com/address/0xBAbceE78586d3e9E80E0d69601A17f983663Ba6a',
+      name: 'Polygon',
+    },
+  ];
+
   return (
     <Menu as='li' className='relative inline-block text-left text-white'>
       <div>
         <Menu.Button className='inline-flex w-full items-center justify-center rounded-md bg-opacity-20 px-2 py-2 text-xs font-medium text-white hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75'>
-          Resources
+          {t['resources']}
           <ChevronDownIcon
             className='ml-2 -mr-1 h-5 w-5 text-violet-200 hover:text-violet-100'
             aria-hidden='true'

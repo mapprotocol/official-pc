@@ -1,5 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import ReactBeforeSliderComponent from 'react-before-after-slider-component';
+import { useRouter } from 'next/router';
+import TEXT from '../i18n';
 
 import 'react-before-after-slider-component/dist/build.css';
 import Image from 'next/image';
@@ -48,6 +50,10 @@ const ANIMATIONS: Animation[] = [
 ];
 
 const BeforeAfter = () => {
+  const { locale } = useRouter();
+  // @ts-ignore
+  const t = TEXT[locale];
+
   /** Delimiter start */
   const [delimiterPercentPosition, setDelimiterPercentPosition] =
     useState<number>(START_POSITION);
@@ -119,7 +125,7 @@ const BeforeAfter = () => {
   return (
     <div className='my-4 min-h-[500px] lg:min-h-[700px]'>
       <div className='text-1xl mb-8 p-8  text-center font-bold text-white dark:text-black lg:text-3xl'>
-        Before and After using MAPO
+        {t['beforeAndAfterTitle']}
       </div>
 
       <div className='relative dark:hidden'>

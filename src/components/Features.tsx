@@ -1,5 +1,7 @@
 import { SectionCard } from '@/components/SectionCard';
 import SectionCardContent from '@/components/SectionCardContent';
+import { useRouter } from 'next/router';
+import TEXT from '../i18n';
 
 import Link from '@/components/links/Link';
 
@@ -10,63 +12,47 @@ import Min from '~/features/min.svg';
 import Security from '~/features/security.svg';
 
 const Features = () => {
+  const { locale } = useRouter();
+  // @ts-ignore
+  const t = TEXT[locale];
+
   return (
     <div className='layout my-32'>
       <div className='mb-20 text-center text-gray-300 dark:text-black'>
-        {/* <div className='text-1xl lg:text-3xl '>
-          MAP is the{' '}
-          <span className='text-cyan-400 dark:text-sky-700'>
-            Super Connector
-          </span>{' '}
-          of Blockchains
-        </div> */}
-        <h2 style={{ fontFamily: 'BigerOver' }}>
+        {/* <h2 style={{ fontFamily: 'BigerOver' }}>
           MAPO is the{' '}
           <span className='whitespace-nowrap text-cyan-400 dark:text-sky-700'>
             Super Connector
           </span>{' '}
           of Blockchains
-        </h2>
-        <div className='mt-4 font-primary'>
-          Core pillars to MAPO Omnichain Infrastructure
-        </div>
+        </h2> */}
+        <h2 style={{ fontFamily: 'BigerOver' }}>{t['featureTitle']}</h2>
+        <div className='mt-4 font-primary'>{t['featureSubTitle']}</div>
       </div>
       <div className='align-center -mt-4 -mb-10 flex flex-col justify-evenly font-primary sm:-m-4 lg:-mx-4 lg:flex-row'>
         <SectionCard>
           <div className='mb-2 text-center font-bold text-cyan-400 dark:text-sky-700'>
-            Full Chain Coverage
+            {t['fullChainCover']}
           </div>
-          <div>
-            Expandable and decentralized MAPO Relay Chain to support both EVM
-            and Non-EVM chains connections
-          </div>
+          <div>{t['fullChainCover.text']}</div>
         </SectionCard>
         <SectionCard>
           <div className='mb-2 text-center font-bold text-cyan-400 dark:text-sky-700'>
-            Self-verifiable Light-Client
+            {t['lightClient']}
           </div>
-          <div>
-            Light-Client technology to verify all cross-chain transactions with
-            definite and unambiguous results
-          </div>
+          <div>{t['lightClient.text']}</div>
         </SectionCard>
         <SectionCard>
           <div className='mb-2 text-center font-bold text-cyan-400 dark:text-sky-700'>
-            Advance ZK Technology
+            {t['ZK']}
           </div>
-          <div>
-            Zero-Knowledge technolgy to optimize and speed up verification
-            process and reduce transaction costs
-          </div>
+          <div>{t['ZK.text']}</div>
         </SectionCard>
         <SectionCard>
           <div className='mb-2 text-center font-bold text-cyan-400 dark:text-sky-700'>
-            Comprehensive SDKs
+            {t['SDK']}
           </div>
-          <div>
-            MAPO Omnichain Service (MOS) and SDKs to offer built-in
-            interoperability features for omnichain applications
-          </div>
+          <div>{t['SDK.text']}</div>
         </SectionCard>
       </div>
     </div>

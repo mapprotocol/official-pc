@@ -1,116 +1,98 @@
 import { Menu, Transition } from '@headlessui/react';
 import { Fragment } from 'react';
 import Toggle from '@/components/layout/ThemeToggle';
+import { useRouter } from 'next/router';
+import TEXT from '../../i18n';
 
 import UnderlineLink from '../links/UnderlineLink';
 
-const community = [
-  {
-    href: 'https://forum.maplabs.io/latest',
-    name: 'Forum',
-  },
-  {
-    href: 'https://newspace.idavoll.network/project-staking-detail/MAPProtocol',
-    name: 'DAO',
-  },
-];
-const grants = [
-  {
-    href: 'https://forum.maplabs.io/t/map-omnichain-builder-grants-program/3980',
-    name: 'Builder Grant',
-  },
-  {
-    href: 'https://forum.maplabs.io/t/about-the-academy-category/3989',
-    name: 'Research Grant',
-  },
-  {
-    href: 'https://forum.maplabs.io/t/map-community-contributor-grants-program/3988',
-    name: 'Community Grant',
-  },
-];
-const MainLinks = [
-  {
-    href: 'https://swap.hiveswap.io/#/swap',
-    name: 'Hiveswap',
-  },
-  // {
-  //   href: 'https://about.playverse.center/',
-  //   name: 'Playverse',
-  // },
-  {
-    // href: 'https://www.barternetwork.io/',
-    href: '',
-    name: 'Butter Network(coming soon)',
-  },
-  // {
-  //   href: '',
-  //   name: 'Barter Bridge (beta)',
-  // },
-  {
-    href: 'https://befiwallet.io/',
-    name: 'BeFi Wallet',
-  },
-];
-
-const links = [
-  { href: '/stake', name: 'Stake 🔥' },
-  // { href: 'https://docs.maplabs.io/develop', name: 'Build' },
-  // {
-  //   href: 'https://coinmarketcap.com/currencies/map-protocol/markets/',
-  //   name: 'Get $MAP',
-  // },
-  { href: 'https://mapscan.io/', name: 'Explorer' },
-];
-const ecosystem = [
-  {
-    href: 'https://docsend.com/view/3ugtsz5mut39juc6',
-    name: 'Introduction',
-  },
-  {
-    href: 'https://files.maplabs.io/pdf/mapprotocol_Litebook_en.pdf',
-    name: 'Litebook',
-  },
-  { href: 'https://docs.mapprotocol.io', name: 'Docs' },
-  { href: 'https://github.com/mapprotocol', name: 'Github' },
-  { href: '/brand', name: 'Brands' },
-  // {
-  //   href: 'https://forum.maplabs.io/latest',
-  //   name: 'Forum',
-  // },
-  // { href: 'https://docs.maplabs.io/develop', name: 'Build' },
-];
-
-const SocialLinks = [
-  {
-    href: 'https://github.com/mapprotocol/awesome-map#articles',
-    name: 'Blog',
-  },
-  {
-    href: 'https://github.com/mapprotocol/awesome-map#amas',
-    name: 'AMAs',
-  },
-  // {
-  //   href: 'https://github.com/mapprotocol/awesome-map#presentations',
-  //   name: 'Presentations',
-  // },
-];
-
-const Others = [
-  {
-    href: 'https://etherscan.io/token/0x9e976f211daea0d652912ab99b0dc21a7fd728e4',
-    name: 'ERC20',
-  },
-  {
-    href: 'https://bscscan.com/address/0x8105ECe4ce08B6B6449539A5db23e23b973DfA8f',
-    name: 'BSC',
-  },
-  {
-    href: 'https://polygonscan.com/address/0xBAbceE78586d3e9E80E0d69601A17f983663Ba6a',
-    name: 'Polygon',
-  },
-];
-
 export default function Example() {
+  const { locale } = useRouter();
+  // @ts-ignore
+  const t = TEXT[locale];
+
+  const community = [
+    {
+      href: 'https://forum.maplabs.io/latest',
+      name: t['footer.forum'],
+    },
+    {
+      href: 'https://newspace.idavoll.network/project-staking-detail/MAPProtocol',
+      name: t['footer.dao'],
+    },
+  ];
+  const grants = [
+    {
+      href: 'https://forum.maplabs.io/t/map-omnichain-builder-grants-program/3980',
+      name: t['footer.builderGrants'],
+    },
+    {
+      href: 'https://forum.maplabs.io/t/about-the-academy-category/3989',
+      name: t['footer.researchGrants'],
+    },
+    {
+      href: 'https://forum.maplabs.io/t/map-community-contributor-grants-program/3988',
+      name: t['footer.communityGrants'],
+    },
+  ];
+  const MainLinks = [
+    {
+      href: 'https://swap.hiveswap.io/#/swap',
+      name: t['footer.hiveswap'],
+    },
+    {
+      href: '',
+      name: t['footer.butter'],
+    },
+    {
+      href: 'https://befiwallet.io/',
+      name: t['footer.befi'],
+    },
+  ];
+
+  const links = [
+    { href: '/stake', name: t['stake'] },
+    { href: 'https://mapscan.io/', name: t['explorer'] },
+  ];
+  const ecosystem = [
+    {
+      href: 'https://docsend.com/view/3ugtsz5mut39juc6',
+      name: t['introduction'],
+    },
+    {
+      href: 'https://files.maplabs.io/pdf/mapprotocol_Litebook_en.pdf',
+      name: t['litebook'],
+    },
+    { href: 'https://docs.mapprotocol.io', name: t['docs'] },
+    { href: 'https://github.com/mapprotocol', name: t['github'] },
+    { href: '/brand', name: t['brands'] },
+  ];
+
+  const SocialLinks = [
+    {
+      href: 'https://github.com/mapprotocol/awesome-map#articles',
+      name: t['blog'],
+    },
+    {
+      href: 'https://github.com/mapprotocol/awesome-map#amas',
+      name: t['amas'],
+    },
+  ];
+
+  const Others = [
+    {
+      href: 'https://etherscan.io/token/0x9e976f211daea0d652912ab99b0dc21a7fd728e4',
+      name: 'ERC20',
+    },
+    {
+      href: 'https://bscscan.com/address/0x8105ECe4ce08B6B6449539A5db23e23b973DfA8f',
+      name: 'BSC',
+    },
+    {
+      href: 'https://polygonscan.com/address/0xBAbceE78586d3e9E80E0d69601A17f983663Ba6a',
+      name: 'Polygon',
+    },
+  ];
   return (
     <Menu as='li' className='relative z-50 inline-block text-left text-white'>
       <div>

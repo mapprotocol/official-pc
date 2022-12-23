@@ -1,30 +1,36 @@
 import { Menu, Transition } from '@headlessui/react';
 import { ChevronDownIcon } from '@heroicons/react/20/solid';
 import { Fragment } from 'react';
+import { useRouter } from 'next/router';
+import TEXT from '../../i18n';
 
 import UnderlineLink from '../links/UnderlineLink';
 
-const MainLinks = [
-  {
-    href: 'https://forum.maplabs.io/t/map-omnichain-builder-grants-program/3980',
-    name: 'Builder Grant',
-  },
-  {
-    href: 'https://forum.maplabs.io/t/about-the-academy-category/3989',
-    name: 'Research Grant',
-  },
-  {
-    href: 'https://forum.maplabs.io/t/map-community-contributor-grants-program/3988',
-    name: 'Community Grant',
-  },
-];
-
 export default function Example() {
+  const { locale } = useRouter();
+  // @ts-ignore
+  const t = TEXT[locale];
+
+  const MainLinks = [
+    {
+      href: 'https://forum.maplabs.io/t/map-omnichain-builder-grants-program/3980',
+      name: t['footer.builderGrants'],
+    },
+    {
+      href: 'https://forum.maplabs.io/t/about-the-academy-category/3989',
+      name: t['footer.researchGrants'],
+    },
+    {
+      href: 'https://forum.maplabs.io/t/map-community-contributor-grants-program/3988',
+      name: t['footer.communityGrants'],
+    },
+  ];
+
   return (
     <Menu as='li' className='relative inline-block text-left text-white'>
       <div>
         <Menu.Button className='inline-flex w-full items-center justify-center rounded-md bg-opacity-20 px-2 py-2 text-xs font-medium text-white hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75'>
-          Grants
+          {t['grants']}
           <ChevronDownIcon
             className='ml-2 -mr-1 h-5 w-5 text-violet-200 hover:text-violet-100'
             aria-hidden='true'

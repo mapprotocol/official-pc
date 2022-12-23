@@ -1,39 +1,37 @@
 import { Menu, Transition } from '@headlessui/react';
 import { ChevronDownIcon } from '@heroicons/react/20/solid';
 import { Fragment } from 'react';
+import { useRouter } from 'next/router';
+import TEXT from '../../i18n';
 
 import UnderlineLink from '../links/UnderlineLink';
 
-const MainLinks = [
-  {
-    href: 'https://swap.hiveswap.io/#/swap',
-    name: 'Hiveswap',
-  },
-  // {
-  //   href: 'https://www.barternetwork.io/',
-  //   name: 'Barternetwork',
-  // },
-  // {
-  //   href: '',
-  //   name: 'Barter Bridge (beta)',
-  // },
-  {
-    // href: 'https://www.barternetwork.io/',
-    href: '',
-    name: 'Butter Network(coming soon)',
-  },
-  {
-    href: 'https://befiwallet.io/',
-    name: 'BeFi Wallet',
-  },
-];
-
 export default function Example() {
+  const { locale } = useRouter();
+  // @ts-ignore
+  const t = TEXT[locale];
+
+  const MainLinks = [
+    {
+      href: 'https://swap.hiveswap.io/#/swap',
+      name: t['footer.hiveswap'],
+    },
+    {
+      // href: 'https://www.barternetwork.io/',
+      href: '',
+      name: t['footer.butter'],
+    },
+    {
+      href: 'https://befiwallet.io/',
+      name: t['footer.befi'],
+    },
+  ];
+
   return (
     <Menu as='li' className='relative inline-block text-left text-white'>
       <div>
         <Menu.Button className='inline-flex w-full items-center justify-center rounded-md bg-opacity-20 px-2 py-2 text-xs font-medium text-white hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75'>
-          Ecosystem
+          {t['ecosystem']}
           <ChevronDownIcon
             className='ml-2 -mr-1 h-5 w-5 text-violet-200 hover:text-violet-100'
             aria-hidden='true'

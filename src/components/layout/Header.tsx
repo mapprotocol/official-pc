@@ -1,6 +1,8 @@
 import { Layout } from 'antd';
 import Image from 'next/image';
 import * as React from 'react';
+import { useRouter } from 'next/router';
+import TEXT from '../../i18n';
 
 import Link from '@/components/links/Link';
 const { Header } = Layout;
@@ -13,17 +15,16 @@ import Community from './Header.community';
 import Grants from './Header.grants';
 import Ecosystem from './Header.ecosystem';
 
-const links = [
-  // {
-  //   href: '/purchase',
-  //   label: 'Get $MAP',
-  // },
-  // { href: 'https://forum.maplabs.io/latest', label: 'Forum' },
-  { href: 'https://mapscan.io/', label: 'Explorer' },
-  { href: '/stake', label: 'Stake 🔥' },
-];
-
 export default function MainHeader() {
+  const { locale } = useRouter();
+  // @ts-ignore
+  const t = TEXT[locale];
+
+  const links = [
+    { href: 'https://mapscan.io/', label: t['explorer'] },
+    { href: '/stake', label: t['stake'] },
+  ];
+
   return (
     <Header
       className='bg-bg'

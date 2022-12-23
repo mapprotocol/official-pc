@@ -1,4 +1,6 @@
 import { Typography } from 'antd';
+import { useRouter } from 'next/router';
+import TEXT from '../i18n';
 import Image from 'next/image';
 
 import Link from '@/components/links/Link';
@@ -7,6 +9,10 @@ import Stake from '~/map/stake.svg';
 // const { Title } = Typography;
 
 const HeroTitle = () => {
+  const { locale } = useRouter();
+  // @ts-ignore
+  const t = TEXT[locale];
+
   return (
     <div className=''>
       <div className='mx-auto flex h-screen content-center items-center justify-center text-center font-primary'>
