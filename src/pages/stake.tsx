@@ -139,24 +139,48 @@ export default function HomePage() {
         <div className='mx-auto mt-10 flex justify-center rounded text-center font-primary text-white dark:text-black'>
           <div className='hidden flex-col gap-10 dark:flex lg:flex-row'>
             <Link href='https://staking.maplabs.io'>
-              <Image width='200' height='50' src={'/stake/1_light.png'}></Image>
+              <Image
+                width='200'
+                height='50'
+                src={`/stake/${locale}/1_light.png`}
+              ></Image>
             </Link>
             <Link href='https://maposcan.io/validators'>
-              <Image width='200' height='50' src={'/stake/2_light.png'}></Image>
+              <Image
+                width='200'
+                height='50'
+                src={`/stake/${locale}/2_light.png`}
+              ></Image>
             </Link>
             <Link href='https://docs.mapprotocol.io/run/howtobecomeanewvalidator'>
-              <Image width='200' height='50' src={'/stake/3_light.png'}></Image>
+              <Image
+                width='200'
+                height='50'
+                src={`/stake/${locale}/3_light.png`}
+              ></Image>
             </Link>
           </div>
           <div className='flex flex-col gap-10  dark:hidden lg:flex-row'>
             <Link href='https://staking.maplabs.io'>
-              <Image width='200' height='50' src={'/stake/1_dark.png'}></Image>
+              <Image
+                width='200'
+                height='50'
+                src={`/stake/${locale}/1_dark.png`}
+              ></Image>
             </Link>
             <Link href='https://maposcan.io/validators'>
-              <Image width='200' height='50' src={'/stake/2_dark.png'}></Image>
+              <Image
+                width='200'
+                height='50'
+                src={`/stake/${locale}/2_dark.png`}
+              ></Image>
             </Link>
             <Link href='https://docs.mapprotocol.io/run/howtobecomeanewvalidator'>
-              <Image width='200' height='50' src={'/stake/3_dark.png'}></Image>
+              <Image
+                width='200'
+                height='50'
+                src={`/stake/${locale}/3_dark.png`}
+              ></Image>
             </Link>
           </div>
         </div>

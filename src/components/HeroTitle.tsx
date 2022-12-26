@@ -17,14 +17,11 @@ const HeroTitle = () => {
     <div className=''>
       <div className='mx-auto flex h-screen content-center items-center justify-center text-center font-primary'>
         <div className='text-gray-300 dark:text-black lg:w-[700px]'>
-          <h1 className='font-bold lg:leading-relaxed'>
-            Empower Web3 Apps to Thrive
-            <br />
-            in the Omnichain Future
+          <h1 className='mx[45px] font-bold lg:leading-relaxed'>
+            {t['firstPageMainTitle']}
           </h1>
           <div className='my-4 text-xl font-bold leading-loose lg:text-2xl'>
-            With the MAP Protocol’s Provably Secure and Most Composable
-            Omnichain Infrastructure
+            {t['firstPageSubTitle']}
           </div>
           <div className='mt-24 hidden flex-wrap dark:flex'>
             <Link
@@ -33,7 +30,7 @@ const HeroTitle = () => {
             >
               <Image
                 className=''
-                src='/map-light/litepaper_light.png'
+                src={`/map-light/${locale}/litepaper_light.png`}
                 width='200'
                 height='50'
                 alt=''
@@ -46,7 +43,7 @@ const HeroTitle = () => {
             >
               <Image
                 className=''
-                src='/map-light/stake now.png'
+                src={`/map-light/${locale}/stake now.png`}
                 width='200'
                 height='50'
                 alt=''
@@ -59,7 +56,7 @@ const HeroTitle = () => {
             >
               <Image
                 className=''
-                src='/map-light/sdks_light.png'
+                src={`/map-light/${locale}/sdks_light.png`}
                 width='200'
                 height='50'
                 alt=''
@@ -73,7 +70,7 @@ const HeroTitle = () => {
             >
               <Image
                 className=''
-                src='/map-light/litepaper_dark.png'
+                src={`/map-light/${locale}/litepaper_dark.png`}
                 width='200'
                 height='50'
                 alt=''
@@ -85,7 +82,7 @@ const HeroTitle = () => {
             >
               <Image
                 className=''
-                src='/map-light/stake_dark.png'
+                src={`/map-light/${locale}/stake_dark.png`}
                 width='220'
                 height='80'
                 alt=''
@@ -97,7 +94,7 @@ const HeroTitle = () => {
             >
               <Image
                 className=''
-                src='/map-light/sdks_dark.png'
+                src={`/map-light/${locale}/sdks_dark.png`}
                 width='200'
                 height='50'
                 alt=''

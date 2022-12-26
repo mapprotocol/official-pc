@@ -14,10 +14,10 @@ const Introduction = () => {
     <div className='layout flex min-h-[500px] flex-col gap-x-6 py-20 text-gray-300 dark:text-black lg:flex-row'>
       <div className='mb-10 flex-1'>
         <div className='text-cyan-400 dark:text-sky-700 '>
-          What is MAP Protocol{' '}
+          {t['introductionMainTitle']}{' '}
         </div>
         <h2 style={{ fontFamily: 'BigerOver' }} className='mt-6'>
-          The Provably Secure Omnichain Layer of Web3
+          {t['introductionSubTitle']}
         </h2>
       </div>
       <div className='flex-1 font-primary'>

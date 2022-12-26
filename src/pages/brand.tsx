@@ -1,29 +1,30 @@
 import Image from 'next/image';
+import { useRouter } from 'next/router';
+import TEXT from '../i18n';
 
 import Layout from '@/components/layout/Layout';
 import Seo from '@/components/Seo';
 
 const Brand = () => {
+  const { locale } = useRouter();
+  // @ts-ignore
+  const t = TEXT[locale];
+
   return (
     <Layout>
       {/* <Seo templateTitle='Home' /> */}
       <Seo />
       <div className='home-container px-4 py-32 font-primary'>
         <div className='logo-title text-gray-300 dark:text-black'>
-          <span>MAP Protocol Logo</span>
-          <span style={{ maxWidth: '713px' }}>
-            The MAP Protocol logo is displayed in the official colors and usage
-            patterns. Do not place the logo on top of other objects and leave a
-            reasonable amount of margin around the outside so the logo is
-            clearly visible.
-          </span>
+          <span>{t['brandsTitle']}</span>
+          <span style={{ maxWidth: '713px' }}>{t['brandsSubTitle']}</span>
 
           <a
             style={{ color: '#000', background: '#42fcfb' }}
             className='flex flex-col items-center justify-center dark:hidden'
             href='https://files.maplabs.io/bigfiles/MapProtocolLogo.zip'
           >
-            Download Logos
+            {t['brandsDownloadBtn']}
           </a>
           <a
             style={{
@@ -34,7 +35,7 @@ const Brand = () => {
             className='hidden flex-col items-center justify-center dark:flex'
             href='https://files.maplabs.io/bigfiles/MapProtocolLogo.zip'
           >
-            Download Logos
+            {t['brandsDownloadBtn']}
           </a>
         </div>
 
@@ -298,13 +299,8 @@ const Brand = () => {
         </div>
 
         <div className='logo-title logo-title-two mt-12 text-gray-300 dark:text-black'>
-          <span>MAP Protocol Badges</span>
-          <span>
-            Projects using MAP Protocol should display this badge on their pages
-            and apps.
-            <br />
-            Here you can download the badge in PNG format.
-          </span>
+          <span>{t['brandsBridgeTitle']}</span>
+          <span>{t['brandsBridgeSubTitle']}</span>
         </div>
 
         <div className='logo-content'>
