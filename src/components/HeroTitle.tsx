@@ -13,6 +13,19 @@ const HeroTitle = () => {
   // @ts-ignore
   const t = TEXT[locale];
 
+  const getLitebook = () => {
+    switch (locale) {
+      case 'en-US':
+        return 'https://files.maplabs.io/pdf/mapprotocol_Litebook_en.pdf';
+      case 'zh-CN':
+        return 'https://files.maplabs.io/pdf/mapprotocol_Litebook_cn.pdf';
+      case 'ko-KR':
+        return 'https://files.maplabs.io/pdf/mapprotocol_Litebook_kr.pdf';
+      default:
+        return 'https://files.maplabs.io/pdf/mapprotocol_Litebook_en.pdf';
+    }
+  };
+
   return (
     <div className=''>
       <div className='mx-auto flex h-screen content-center items-center justify-center text-center font-primary'>
@@ -25,7 +38,7 @@ const HeroTitle = () => {
           </div>
           <div className='mt-24 hidden flex-wrap dark:flex'>
             <Link
-              href='https://files.maplabs.io/pdf/mapprotocol_Litebook_en.pdf'
+              href={getLitebook()}
               className='hover:pointer mx-auto text-[10rem] transition-all duration-100 hover:scale-125 lg:text-[15rem]'
             >
               <Image
@@ -65,7 +78,7 @@ const HeroTitle = () => {
           </div>
           <div className='mt-24 flex flex-wrap dark:flex dark:hidden'>
             <Link
-              href='https://files.maplabs.io/pdf/mapprotocol_Litebook_en.pdf'
+              href={getLitebook()}
               className='hover:pointer mx-auto flex items-center text-[10rem] transition-all duration-100 hover:scale-125 lg:text-[15rem]'
             >
               <Image
