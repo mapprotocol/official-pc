@@ -60,7 +60,7 @@ const StakeStats = ({ data }: { data: StakeData | null }) => {
       <div className='stats flex w-[100%] flex-col bg-white shadow lg:inline-grid'>
         <Value
           index={0}
-          data={{ title: 'Genesis Token supply', value: data?.supply }}
+          data={{ title: 'Circulating Supply', value: data?.supply }}
         />
         <Value
           index={1}
