@@ -18,11 +18,24 @@ export default function Header() {
   // @ts-ignore
   const t = TEXT[locale];
 
+  const getLitebook = (lang: any) => {
+    switch (lang) {
+      case 'en-US':
+        return 'https://files.maplabs.io/pdf/mapprotocol_Litebook_en.pdf';
+      case 'zh-CN':
+        return 'https://files.maplabs.io/pdf/mapprotocol_Litebook_cn.pdf';
+      case 'ko-KR':
+        return 'https://files.maplabs.io/pdf/mapprotocol_Litebook_kr.pdf';
+      default:
+        return 'https://files.maplabs.io/pdf/mapprotocol_Litebook_en.pdf';
+    }
+  };
+
   const Build = [
     { href: 'https://docs.mapprotocol.io', label: t['footer.docs'] },
     { href: 'https://github.com/mapprotocol', label: t['footer.github'] },
     {
-      href: 'https://files.maplabs.io/pdf/mapprotocol_whitepaper_en.pdf',
+      href: getLitebook(locale),
       label: t['footer.whitepaper'],
     },
   ];
