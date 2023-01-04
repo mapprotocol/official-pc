@@ -11,9 +11,21 @@ export default function Example() {
   // @ts-ignore
   const t = TEXT[locale];
 
+  const getPitchDeckUrl = (lang: any) => {
+    switch (lang) {
+      case 'en-US':
+        return 'https://docsend.com/view/uw7q2ky5j5z4q7fx';
+      case 'zh-CN':
+        return 'https://docsend.com/view/zce45pu6dwnac4xn';
+      case 'ko-KR':
+      default:
+        return 'https://docsend.com/view/uw7q2ky5j5z4q7fx';
+    }
+  };
+
   const MainLinks = [
     {
-      href: 'https://docsend.com/view/uw7q2ky5j5z4q7fx',
+      href: getPitchDeckUrl(locale),
       name: t['introduction'],
     },
     {

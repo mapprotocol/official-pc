@@ -14,7 +14,7 @@ import Resources from './Header.resources';
 import Community from './Header.community';
 import Grants from './Header.grants';
 import Ecosystem from './Header.ecosystem';
-// import Flags from './Header.Flags';
+import Flags from './Header.Flags';
 
 export default function MainHeader() {
   const { locale } = useRouter();
@@ -62,12 +62,12 @@ export default function MainHeader() {
             ))}
 
             <Resources />
-            {/* <Flags /> */}
+            <Flags />
             <Toggle />
           </ul>
         </div>
-        <div className='navbar-end font-primary lg:hidden'>
-          {/* <Flags /> */}
+        <div className='navbar-end flex gap-x-[8px] font-primary lg:hidden'>
+          <Flags />
           <HeaderMobile />
         </div>
       </div>
