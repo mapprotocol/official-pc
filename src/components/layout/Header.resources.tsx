@@ -23,13 +23,26 @@ export default function Example() {
     }
   };
 
+  const getLitebook = (lang: any) => {
+    switch (lang) {
+      case 'en-US':
+        return 'https://files.maplabs.io/pdf/mapprotocol_Litebook_en.pdf';
+      case 'zh-CN':
+        return 'https://files.maplabs.io/pdf/mapprotocol_Litebook_cn.pdf';
+      case 'ko-KR':
+        return 'https://files.maplabs.io/pdf/mapprotocol_Litebook_kr.pdf';
+      default:
+        return 'https://files.maplabs.io/pdf/mapprotocol_Litebook_en.pdf';
+    }
+  };
+
   const MainLinks = [
     {
       href: getPitchDeckUrl(locale),
       name: t['introduction'],
     },
     {
-      href: 'https://files.maplabs.io/pdf/mapprotocol_Litebook_en.pdf',
+      href: getLitebook(locale),
       name: t['litebook'],
     },
     { href: 'https://docs.mapprotocol.io', name: t['docs'] },
