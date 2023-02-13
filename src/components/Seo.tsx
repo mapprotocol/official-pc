@@ -3,11 +3,12 @@ import { useRouter } from 'next/router';
 
 // !STARTERCONF Change these default meta
 const defaultMeta = {
-  title: 'Secure Omnichain Layer for Web3 & dApps - Map Protocol.',
+  title: '100% Nakamoto Style Omnichain Layer for Web3 dApps',
   siteName:
     'Build omnichain dApps in simple steps. Let cryptocurrency, NFT, and data flow around all chains securely and seamlessly at minimum cost.',
   description:
-    'Build omnichain dApps in simple steps. Let cryptocurrency, NFT, and data flow around all chains securely and seamlessly.',
+    // 'Build omnichain dApps in simple steps. Let cryptocurrency, NFT, and data flow around all chains securely and seamlessly.',
+    'MAP Protocol is the omnichain layer for Web3. 100% Nakamoto Style cross-chain communication built on Light-client & ZK technology with zero privileged roles.',
   url: 'https://maplab.io',
   type: 'website',
   robots: 'follow, index',

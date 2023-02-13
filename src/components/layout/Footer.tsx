@@ -45,7 +45,7 @@ export default function Header() {
       label: t['footer.forum'],
     },
     {
-      href: 'https://newspace.idavoll.network/project-staking-detail/MAPProtocol',
+      href: 'https://staking.mapprotocol.io/#/governance',
       label: t['footer.dao'],
     },
   ];

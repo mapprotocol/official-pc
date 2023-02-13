@@ -34,7 +34,9 @@ const HeroTitle = () => {
             {t['firstPageMainTitle']}
           </h1>
           <div className='my-4 text-xl font-bold leading-loose lg:text-2xl'>
-            {t['firstPageSubTitle']}
+            {t['firstPageSubTitle1']}
+            <br />
+            {t['firstPageSubTitle2']}
           </div>
           <div className='mt-24 hidden flex-wrap dark:flex'>
             <Link
