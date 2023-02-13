@@ -23,11 +23,11 @@ const Introduction = () => {
       <div className='flex-1 font-primary'>
         <div className=''>{t['introductionP1']}</div>
         <div className='mt-6'>
-          {t['introductionP2.before']}
+          {t['introductionP2.before'] + ' '}
           <b className='text-cyan-400 dark:text-sky-700'>
-            {t['introductionP2.lightClient']}
+            {t['introductionP2.lightClient'] + ' '}
           </b>
-          {t['introductionP2.and']}
+          {t['introductionP2.and'] + ' '}
           <b className='text-cyan-400 dark:text-sky-700'>
             {t['introductionP2.zeroKnowledge']}
           </b>{' '}
